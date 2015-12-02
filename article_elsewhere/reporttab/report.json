@@ -1,0 +1,33 @@
+{
+  "tests" : [ {
+    "name" : "Browserstack test For Article (Elsewhere on the Web)  Apple iPad Air 8.3  ",
+    "startedAt" : 1448883213494,
+    "endedAt" : 1448883300779,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 57,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 57
+    },
+    "testId" : "1-browserstack-test-for-article-elsewhere-on-the-web-apple-ipad-air-8.3-",
+    "groups" : [ "tablet", "AppleiPadAir8.3" ],
+    "failed" : false,
+    "duration" : 87285
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web)  Android Google Nexus 7  ",
+    "startedAt" : 1448883300779,
+    "endedAt" : 1448883597024,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 41,
+      "errors" : 8,
+      "warnings" : 0,
+      "total" : 49
+    },
+    "testId" : "2-browserstack-test-for-article-elsewhere-on-the-web-android-google-nexus-7-",
+    "groups" : [ "tablet", "AndroidGoogleNexus7" ],
+    "failed" : true,
+    "duration" : 296245
+  } ]
+}

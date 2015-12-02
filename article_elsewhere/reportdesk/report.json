@@ -1,0 +1,198 @@
+{
+  "tests" : [ {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 10 IE11 1366x768",
+    "startedAt" : 1448887074947,
+    "endedAt" : 1448887201158,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "1-browserstack-test-for-article-elsewhere-on-the-web-windows-10-ie11-1366x768",
+    "failed" : false,
+    "duration" : 126211,
+    "groups" : [ "desktop", "windows10IE11" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 10 Chrome 42 1366x768",
+    "startedAt" : 1448887201158,
+    "endedAt" : 1448887288806,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "2-browserstack-test-for-article-elsewhere-on-the-web-windows-10-chrome-42-1366x768",
+    "failed" : false,
+    "duration" : 87648,
+    "groups" : [ "desktop", "windows10chrome42" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 10 Firefox 37 1366x768",
+    "startedAt" : 1448887288806,
+    "endedAt" : 1448887374983,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "3-browserstack-test-for-article-elsewhere-on-the-web-windows-10-firefox-37-1366x768",
+    "failed" : false,
+    "duration" : 86177,
+    "groups" : [ "desktop", "windows10ff37" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 8.1 IE11 1366x768",
+    "startedAt" : 1448887374983,
+    "endedAt" : 1448887534726,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "4-browserstack-test-for-article-elsewhere-on-the-web-windows-8.1-ie11-1366x768",
+    "failed" : false,
+    "duration" : 159743,
+    "groups" : [ "desktop", "windows8.1IE11" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 8.1 Chrome 42 1366x768",
+    "startedAt" : 1448887534726,
+    "endedAt" : 1448887661806,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "5-browserstack-test-for-article-elsewhere-on-the-web-windows-8.1-chrome-42-1366x768",
+    "failed" : false,
+    "duration" : 127080,
+    "groups" : [ "desktop", "windows8.1chrome42" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 8.1 Firefox 37 1366x768",
+    "startedAt" : 1448887661806,
+    "endedAt" : 1448887793338,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "6-browserstack-test-for-article-elsewhere-on-the-web-windows-8.1-firefox-37-1366x768",
+    "failed" : false,
+    "duration" : 131532,
+    "groups" : [ "desktop", "windows8.1ff37" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 7 IE11 1366x768",
+    "startedAt" : 1448887793338,
+    "endedAt" : 1448887871366,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "7-browserstack-test-for-article-elsewhere-on-the-web-windows-7-ie11-1366x768",
+    "failed" : false,
+    "duration" : 78028,
+    "groups" : [ "desktop", "windows7IE11" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 7 IE 10 1366x768",
+    "startedAt" : 1448887871366,
+    "endedAt" : 1448887953962,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "8-browserstack-test-for-article-elsewhere-on-the-web-windows-7-ie-10-1366x768",
+    "failed" : false,
+    "duration" : 82596,
+    "groups" : [ "desktop", "windows7ie10" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 7 IE9 1366x768",
+    "startedAt" : 1448887953962,
+    "endedAt" : 1448888024712,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "9-browserstack-test-for-article-elsewhere-on-the-web-windows-7-ie9-1366x768",
+    "failed" : false,
+    "duration" : 70750,
+    "groups" : [ "desktop", "windows7IE9" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 7 Chrome 42 1366x768",
+    "startedAt" : 1448888024712,
+    "endedAt" : 1448888076397,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "10-browserstack-test-for-article-elsewhere-on-the-web-windows-7-chrome-42-1366x768",
+    "failed" : false,
+    "duration" : 51685,
+    "groups" : [ "desktop", "windows7chrome42" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) windows 7 Firefox 37 1366x768",
+    "startedAt" : 1448888076397,
+    "endedAt" : 1448888173602,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "11-browserstack-test-for-article-elsewhere-on-the-web-windows-7-firefox-37-1366x768",
+    "failed" : false,
+    "duration" : 97205,
+    "groups" : [ "desktop", "windows7ff37" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web) Apple OS X Yosemite  Safari  8 1366x768",
+    "startedAt" : 1448888173602,
+    "endedAt" : 1448888235999,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "12-browserstack-test-for-article-elsewhere-on-the-web-apple-os-x-yosemite-safari-8-1366x768",
+    "failed" : false,
+    "duration" : 62397,
+    "groups" : [ "desktop", "appleOSXYosemitesafari8" ]
+  }, {
+    "name" : "Browserstack test For Article (Elsewhere on the Web)  Apple OS X Yosemite Chrome 46 1366x768",
+    "startedAt" : 1448888236000,
+    "endedAt" : 1448888304231,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "13-browserstack-test-for-article-elsewhere-on-the-web-apple-os-x-yosemite-chrome-46-1366x768",
+    "failed" : false,
+    "duration" : 68231,
+    "groups" : [ "desktop", "appleOSXYosemitechrome46" ]
+  } ]
+}
