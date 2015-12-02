@@ -1,0 +1,48 @@
+{
+  "tests" : [ {
+    "name" : "Article (Elsewhere on the Web) on windows 8.1 IE11 1366x768",
+    "startedAt" : 1449064972672,
+    "endedAt" : 1449065127759,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "1-article-elsewhere-on-the-web-on-windows-8.1-ie11-1366x768",
+    "groups" : [ "Windows8.1" ],
+    "failed" : false,
+    "duration" : 155087
+  }, {
+    "name" : "Article (Elsewhere on the Web) on windows 8.1 Chrome 42 1366x768",
+    "startedAt" : 1449065127759,
+    "endedAt" : 1449065310585,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "2-article-elsewhere-on-the-web-on-windows-8.1-chrome-42-1366x768",
+    "groups" : [ "Windows8.1" ],
+    "failed" : false,
+    "duration" : 182826
+  }, {
+    "name" : "Article (Elsewhere on the Web) on windows 8.1 Firefox 37 1366x768",
+    "startedAt" : 1449065310585,
+    "endedAt" : 1449065453719,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 61,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "3-article-elsewhere-on-the-web-on-windows-8.1-firefox-37-1366x768",
+    "groups" : [ "Windows8.1" ],
+    "failed" : false,
+    "duration" : 143134
+  } ]
+}
