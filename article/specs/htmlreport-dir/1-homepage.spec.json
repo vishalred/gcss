@@ -1,0 +1,27 @@
+{
+  "testId" : "1-homepage.spec",
+  "name" : "homepage.spec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  homepage.spec --url http://debugme.in/ --size 1366x768 --htmlreport htmlreport-dir",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: homepage.spec included tags: ",
+          "status" : "info",
+          "time" : 1446547664201,
+          "sections" : [ ],
+          "objects" : { },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1446547662492,
+        "type" : "node"
+      } ],
+      "time" : 1446547642302,
+      "type" : "node"
+    } ]
+  }
+}
