@@ -1,0 +1,28 @@
+{
+  "testId" : "1-main.gspec",
+  "name" : "main.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  main.gspec --url http://debugme.in/ --size 1366x768 --htmlreport reports --include desktop",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: main.gspec included tags: desktop",
+          "status" : "info",
+          "time" : 1446548450121,
+          "includedTags" : [ "desktop" ],
+          "sections" : [ ],
+          "objects" : { },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1446548448385,
+        "type" : "node"
+      } ],
+      "time" : 1446548434026,
+      "type" : "node"
+    } ]
+  }
+}

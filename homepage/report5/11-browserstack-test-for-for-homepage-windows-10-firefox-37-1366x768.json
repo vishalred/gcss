@@ -1,0 +1,668 @@
+{
+  "testId" : "11-browserstack-test-for-for-homepage-windows-10-firefox-37-1366x768",
+  "name" : "browserstack test for For homepage windows 10 Firefox 37 1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/main.gspec included tags: windows10ff37136x768",
+      "status" : "info",
+      "time" : 1447843399597,
+      "includedTags" : [ "windows10ff37136x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 308
+            },
+            "name" : "height 101px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 309
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 311
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 314
+            },
+            "name" : "height 46px",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 315
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 316
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 320
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "view-home-page-slider",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 324
+            },
+            "name" : "width 790px",
+            "highlight" : [ "view-home-page-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 325
+            },
+            "name" : "height 358px",
+            "highlight" : [ "view-home-page-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 326
+            },
+            "name" : "below headerdiv 26px",
+            "highlight" : [ "view-home-page-slider", "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 327
+            },
+            "name" : "near block-klaviyo-lists-1-klaviyo 80px left",
+            "highlight" : [ "view-home-page-slider", "block-klaviyo-lists-1-klaviyo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 328
+            },
+            "name" : "above block-views-home-feature-images-block 20px",
+            "highlight" : [ "view-home-page-slider", "block-views-home-feature-images-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 329
+            },
+            "name" : "inside main-container 0px top, 0px left, 40px right",
+            "highlight" : [ "view-home-page-slider", "main-container" ]
+          } ]
+        }, {
+          "name" : "block-views-home-feature-images-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 332
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-views-home-feature-images-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 334
+            },
+            "name" : "below view-home-page-slider 20px",
+            "highlight" : [ "block-views-home-feature-images-block", "view-home-page-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 335
+            },
+            "name" : "inside main-container  0px left, 40px right",
+            "highlight" : [ "block-views-home-feature-images-block", "main-container" ]
+          } ]
+        }, {
+          "name" : "block-views-home-page-api-news-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 338
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 340
+            },
+            "name" : "below block-views-home-feature-images-block 0px",
+            "highlight" : [ "block-views-home-page-api-news-block", "block-views-home-feature-images-block" ]
+          } ]
+        }, {
+          "name" : "view-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 343
+            },
+            "name" : "width 790px",
+            "highlight" : [ "view-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 344
+            },
+            "name" : "height 24px",
+            "highlight" : [ "view-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 345
+            },
+            "name" : "inside block-views-home-page-api-news-block 50px top, 0px left, 0px right",
+            "highlight" : [ "view-header", "block-views-home-page-api-news-block" ]
+          } ]
+        }, {
+          "name" : "api-new-row-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 348
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 350
+            },
+            "name" : "inside block-views-home-page-api-news-block 79px top, 0px left, 0px right",
+            "highlight" : [ "api-new-row-1", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 351
+            },
+            "name" : "below view-header 5px",
+            "highlight" : [ "api-new-row-1", "view-header" ]
+          } ]
+        }, {
+          "name" : "api-new-row-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 354
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 356
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-2", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 357
+            },
+            "name" : "below api-new-row-1 0px",
+            "highlight" : [ "api-new-row-2", "api-new-row-1" ]
+          } ]
+        }, {
+          "name" : "api-new-row-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 360
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 362
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-3", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 363
+            },
+            "name" : "below api-new-row-2 0px",
+            "highlight" : [ "api-new-row-3", "api-new-row-2" ]
+          } ]
+        }, {
+          "name" : "api-new-row-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 366
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 368
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-4", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 369
+            },
+            "name" : "below api-new-row-3 0px",
+            "highlight" : [ "api-new-row-4", "api-new-row-3" ]
+          } ]
+        }, {
+          "name" : "api-new-row-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 372
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 374
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-5", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 375
+            },
+            "name" : "below api-new-row-4 0px",
+            "highlight" : [ "api-new-row-5", "api-new-row-4" ]
+          } ]
+        }, {
+          "name" : "api-new-row-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 378
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 380
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-6", "block-views-home-page-api-news-block" ]
+          } ]
+        }, {
+          "name" : "api-new-row-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 384
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 386
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-7", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 387
+            },
+            "name" : "below api-new-row-6 0px",
+            "highlight" : [ "api-new-row-7", "api-new-row-6" ]
+          } ]
+        }, {
+          "name" : "api-new-row-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 390
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 392
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-8", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 393
+            },
+            "name" : "below api-new-row-7 1px",
+            "highlight" : [ "api-new-row-8", "api-new-row-7" ]
+          } ]
+        }, {
+          "name" : "api-new-row-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 396
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-9" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 398
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-9", "block-views-home-page-api-news-block" ]
+          } ]
+        }, {
+          "name" : "api-new-row-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 402
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-10" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 404
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-10", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 405
+            },
+            "name" : "below api-new-row-9 0px",
+            "highlight" : [ "api-new-row-10", "api-new-row-9" ]
+          } ]
+        }, {
+          "name" : "block-klaviyo-lists-1-klaviyo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 408
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-klaviyo-lists-1-klaviyo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 410
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-klaviyo-lists-1-klaviyo", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-42",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 413
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-42" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 415
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-block-42", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "quicktabs-right_sidebar_api_client",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 418
+            },
+            "name" : "width 300px",
+            "highlight" : [ "quicktabs-right_sidebar_api_client" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 420
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "quicktabs-right_sidebar_api_client", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-35",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 423
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-35" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 425
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-block-35", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-views-right-side-users-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 428
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 429
+            },
+            "name" : "height 275px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 430
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 433
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 435
+            },
+            "name" : "near main-container 40px right",
+            "highlight" : [ "region-sidebar-second", "main-container" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/main.gspec",
+              "lineNumber" : 438
+            },
+            "name" : "width 1335px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "block-block-35" : {
+          "area" : [ 953, 174, 300, 297 ]
+        },
+        "api-new-row-1" : {
+          "area" : [ 83, 868, 790, 282 ]
+        },
+        "api-new-row-2" : {
+          "area" : [ 83, 1150, 790, 219 ]
+        },
+        "quicktabs-right_sidebar_api_client" : {
+          "area" : [ 953, 1415, 300, 489 ]
+        },
+        "footer" : {
+          "area" : [ 0, 3515, 1335, 279 ]
+        },
+        "api-new-row-10" : {
+          "area" : [ 83, 3011, 790, 255 ]
+        },
+        "block-views-right-side-users-block" : {
+          "area" : [ 953, 2357, 300, 275 ]
+        },
+        "headerdiv" : {
+          "area" : [ 83, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 83, 174, 830, 3210 ]
+        },
+        "block-views-home-feature-images-block" : {
+          "area" : [ 83, 552, 790, 237 ]
+        },
+        "view-header" : {
+          "area" : [ 83, 839, 790, 24 ]
+        },
+        "api-new-row-7" : {
+          "area" : [ 83, 2281, 790, 255 ]
+        },
+        "header" : {
+          "area" : [ 83, 0, 1170, 101 ]
+        },
+        "view-home-page-slider" : {
+          "area" : [ 83, 174, 790, 358 ]
+        },
+        "api-new-row-8" : {
+          "area" : [ 83, 2537, 790, 255 ]
+        },
+        "api-new-row-9" : {
+          "area" : [ 83, 2792, 790, 219 ]
+        },
+        "api-new-row-3" : {
+          "area" : [ 83, 1369, 790, 219 ]
+        },
+        "block-block-42" : {
+          "area" : [ 953, 2062, 300, 265 ]
+        },
+        "block-klaviyo-lists-1-klaviyo" : {
+          "area" : [ 953, 501, 300, 215 ]
+        },
+        "api-new-row-4" : {
+          "area" : [ 83, 1588, 790, 219 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 953, 174, 300, 2808 ]
+        },
+        "block-views-home-page-api-news-block" : {
+          "area" : [ 83, 789, 790, 2555 ]
+        },
+        "api-new-row-5" : {
+          "area" : [ 83, 1807, 790, 255 ]
+        },
+        "api-new-row-6" : {
+          "area" : [ 83, 2062, 790, 219 ]
+        }
+      },
+      "screenshot" : "layout-11-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
