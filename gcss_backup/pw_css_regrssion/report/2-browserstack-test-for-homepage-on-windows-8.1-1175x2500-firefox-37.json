@@ -1,0 +1,892 @@
+{
+  "testId" : "2-browserstack-test-for-homepage-on-windows-8.1-1175x2500-firefox-37",
+  "name" : "browserstack test for homepage on Windows 8.1 1175x2500 Firefox 37",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: spec/main.spec included tags: desktopff1175x2500",
+      "status" : "error",
+      "time" : 1435659523238,
+      "includedTags" : [ "desktopff1175x2500" ],
+      "sections" : [ {
+        "name" : "desktopff1175x2500",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 766
+            },
+            "name" : "width:1144px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 767
+            },
+            "name" : "height:90 px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 768
+            },
+            "name" : "image: file dumps/homepage/objects/header.png",
+            "errors" : [ "Element does not look like \"spec/dumps/homepage/objects/header.png\". There are 8997 mismatching pixels but max allowed is 0" ],
+            "highlight" : [ "header" ],
+            "imageComparison" : {
+              "actualImage" : "layout-9-header-actual.png",
+              "expectedImage" : "layout-10-header-expected.png",
+              "comparisonMapImage" : "layout-11-header-map.png"
+            }
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 771
+            },
+            "name" : "width:1144px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 772
+            },
+            "name" : "height:316px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 773
+            },
+            "name" : "image: file dumps/homepage/objects/footer.png",
+            "errors" : [ "Element does not look like \"spec/dumps/homepage/objects/footer.png\". There are 44354 mismatching pixels but max allowed is 0" ],
+            "highlight" : [ "footer" ],
+            "imageComparison" : {
+              "actualImage" : "layout-12-footer-actual.png",
+              "expectedImage" : "layout-13-footer-expected.png",
+              "comparisonMapImage" : "layout-14-footer-map.png"
+            }
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 774
+            },
+            "name" : "below: col-sm-12 56px",
+            "highlight" : [ "footer", "col-sm-12" ]
+          } ]
+        }, {
+          "name" : "rowm",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 777
+            },
+            "name" : "width:985 px",
+            "highlight" : [ "rowm" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 778
+            },
+            "name" : "height:2131px",
+            "highlight" : [ "rowm" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 779
+            },
+            "name" : "inside: mainc 0px left,0px right,118px top,0px bottom",
+            "highlight" : [ "rowm", "mainc" ]
+          } ]
+        }, {
+          "name" : "block-views-home-page-slider-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 782
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "block-views-home-page-slider-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 783
+            },
+            "name" : "height:276 px",
+            "highlight" : [ "block-views-home-page-slider-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 784
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,0px top,1855px bottom",
+            "highlight" : [ "block-views-home-page-slider-block", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 785
+            },
+            "name" : "below:header 28px",
+            "highlight" : [ "block-views-home-page-slider-block", "header" ]
+          } ]
+        }, {
+          "name" : "block-menu-menu-trending-menu",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 788
+            },
+            "name" : "width:636 px",
+            "highlight" : [ "block-menu-menu-trending-menu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 789
+            },
+            "name" : "height:59 px",
+            "highlight" : [ "block-menu-menu-trending-menu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 790
+            },
+            "name" : "inside: col-sm-12 12px left,9px right,276px top,1796px bottom",
+            "highlight" : [ "block-menu-menu-trending-menu", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 791
+            },
+            "name" : "below:block-views-home-page-slider-block 0px",
+            "highlight" : [ "block-menu-menu-trending-menu", "block-views-home-page-slider-block" ]
+          } ]
+        }, {
+          "name" : "view-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 794
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "view-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 795
+            },
+            "name" : "height:20 px",
+            "highlight" : [ "view-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 796
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,343px top,1768px bottom",
+            "highlight" : [ "view-header", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 797
+            },
+            "name" : "below:block-menu-menu-trending-menu 8px",
+            "highlight" : [ "view-header", "block-menu-menu-trending-menu" ]
+          } ]
+        }, {
+          "name" : "views-row-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 800
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 801
+            },
+            "name" : "height:153px",
+            "highlight" : [ "views-row-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 802
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,373px top,1605px bottom",
+            "highlight" : [ "views-row-1", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 803
+            },
+            "name" : "below:view-header 10px",
+            "highlight" : [ "views-row-1", "view-header" ]
+          } ]
+        }, {
+          "name" : "views-row-1-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 806
+            },
+            "name" : "text is:Deep Learning has applications in many fields. In this example, it is put to use across three APIs to predict what music genre an album is based on the cover artwork.",
+            "highlight" : [ "views-row-1-text" ]
+          } ]
+        }, {
+          "name" : "views-row-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 809
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 810
+            },
+            "name" : "height:135px",
+            "highlight" : [ "views-row-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 811
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,526px top,1470px bottom",
+            "highlight" : [ "views-row-2", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 812
+            },
+            "name" : "below:views-row-1 0px",
+            "highlight" : [ "views-row-2", "views-row-1" ]
+          } ]
+        }, {
+          "name" : "views-row-2-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 815
+            },
+            "name" : "text is:Enterprise APIs are becoming ever-more popular as their applications and implementations diversify. Here we look at 6 qualities that most successful enterprise APIs possess.",
+            "highlight" : [ "views-row-2-text" ]
+          } ]
+        }, {
+          "name" : "views-row-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 818
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 819
+            },
+            "name" : "height:182px",
+            "highlight" : [ "views-row-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 820
+            },
+            "name" : "inside: col-sm-12 12px left,36px right, 661px top,1288px bottom",
+            "highlight" : [ "views-row-3", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 821
+            },
+            "name" : "below:views-row-2 0px",
+            "highlight" : [ "views-row-3", "views-row-2" ]
+          } ]
+        }, {
+          "name" : "views-row-3-txt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 824
+            },
+            "name" : "text is:Genius has announced the release of its first public API which allows developers to incorporate the platform’s annotation functionality into websites and third-party applications.",
+            "highlight" : [ "views-row-3-txt" ]
+          } ]
+        }, {
+          "name" : "views-row-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 827
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 828
+            },
+            "name" : "height:126px",
+            "highlight" : [ "views-row-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 829
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,843px top,1162px bottom",
+            "highlight" : [ "views-row-4", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 830
+            },
+            "name" : "below:views-row-3 0px",
+            "highlight" : [ "views-row-4", "views-row-3" ]
+          } ]
+        }, {
+          "name" : "views-row-4-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 833
+            },
+            "name" : "text is:We've added 6 APIs to the directory today in Jobs, Customer Service, and Notifications categories, among others. Also new are several SDKs for use with the GitLab API.",
+            "highlight" : [ "views-row-4-text" ]
+          } ]
+        }, {
+          "name" : "views-row-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 836
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 837
+            },
+            "name" : "height:116 px",
+            "highlight" : [ "views-row-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 838
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,969px top,1046px bottom",
+            "highlight" : [ "views-row-5", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 839
+            },
+            "name" : "below:views-row-4 0px",
+            "highlight" : [ "views-row-5", "views-row-4" ]
+          } ]
+        }, {
+          "name" : "views-row-5-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 842
+            },
+            "name" : "text is:With common issues involving ignorance, interruptions, managers and other people’s work, this list of 19 developer frustrations covers every angle.",
+            "highlight" : [ "views-row-5-text" ]
+          } ]
+        }, {
+          "name" : "views-row-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 845
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 846
+            },
+            "name" : "height:182px",
+            "highlight" : [ "views-row-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 847
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,1085px top,864px bottom",
+            "highlight" : [ "views-row-6", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 848
+            },
+            "name" : "below:views-row-5 0px",
+            "highlight" : [ "views-row-6", "views-row-5" ]
+          } ]
+        }, {
+          "name" : "views-row-6-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 851
+            },
+            "name" : "text is:Attendify releases Open API with external source syncing capability, reducing business overhead associated with creating and managing event apps.",
+            "highlight" : [ "views-row-6-text" ]
+          } ]
+        }, {
+          "name" : "views-row-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 854
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 855
+            },
+            "name" : "height:182px",
+            "highlight" : [ "views-row-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 856
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,1267px top,682px bottom",
+            "highlight" : [ "views-row-7", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 857
+            },
+            "name" : "below:views-row-6 0px",
+            "highlight" : [ "views-row-7", "views-row-6" ]
+          } ]
+        }, {
+          "name" : "views-row-7-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 860
+            },
+            "name" : "text is:Speed up the process of retrieving photos for geolocating by applying the Wikimapia API and Python scripts as laid out step-by-step in this entry-level tutorial.",
+            "highlight" : [ "views-row-7-text" ]
+          } ]
+        }, {
+          "name" : "views-row-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 863
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 864
+            },
+            "name" : "height:192px",
+            "highlight" : [ "views-row-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 865
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,1449px top,490px bottom",
+            "highlight" : [ "views-row-8", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 866
+            },
+            "name" : "below:views-row-7 0px",
+            "highlight" : [ "views-row-8", "views-row-7" ]
+          } ]
+        }, {
+          "name" : "views-row-8-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 869
+            },
+            "name" : "text is:Speed up the process of retrieving photos for geolocating by applying the Wikimapia API and Python scripts as laid out step-by-step in this entry-level tutorial.",
+            "highlight" : [ "views-row-8-text" ]
+          } ]
+        }, {
+          "name" : "views-row-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 872
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-9" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 873
+            },
+            "name" : "height:189px",
+            "highlight" : [ "views-row-9" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 874
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,1641px top,301px bottom",
+            "highlight" : [ "views-row-9", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 875
+            },
+            "name" : "below:views-row-8 0px",
+            "highlight" : [ "views-row-9", "views-row-8" ]
+          } ]
+        }, {
+          "name" : "views-row-9-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 878
+            },
+            "name" : "text is:Twitter confirmed it revoked Politwoops' API access. Twitter concluded Politwoops' API use violates Twitter's developer agreement, but Politwoops thinks there is more to it.",
+            "highlight" : [ "views-row-9-text" ]
+          } ]
+        }, {
+          "name" : "views-row-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 881
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "views-row-10" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 882
+            },
+            "name" : "height:182px",
+            "highlight" : [ "views-row-10" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 883
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,1830px top,119px bottom",
+            "highlight" : [ "views-row-10", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 884
+            },
+            "name" : "below:views-row-9 0px",
+            "highlight" : [ "views-row-10", "views-row-9" ]
+          } ]
+        }, {
+          "name" : "views-row-10-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 887
+            },
+            "name" : "text is:Speed up the process of retrieving photos for geolocating by applying the Wikimapia API and Python scripts as laid out step-by-step in this entry-level tutorial.",
+            "highlight" : [ "views-row-10-text" ]
+          } ]
+        }, {
+          "name" : "col-sm-12",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 890
+            },
+            "name" : "width:657 px",
+            "highlight" : [ "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 891
+            },
+            "name" : "height:2131px",
+            "highlight" : [ "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 892
+            },
+            "name" : "near: col-sm-12 -657px right, -2131px top",
+            "highlight" : [ "col-sm-12", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 893
+            },
+            "name" : "inside partly : white-bg  1970px left",
+            "highlight" : [ "col-sm-12", "white-bg" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 894
+            },
+            "name" : "inside:rowm 0px left,328px right,0px top,0px bottom",
+            "highlight" : [ "col-sm-12", "rowm" ]
+          } ]
+        }, {
+          "name" : "footer-more",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 897
+            },
+            "name" : "width:609 px",
+            "highlight" : [ "footer-more" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 898
+            },
+            "name" : "height:31px",
+            "highlight" : [ "footer-more" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 899
+            },
+            "name" : "inside: col-sm-12 12px left,36px right,2052px top,48px bottom",
+            "highlight" : [ "footer-more", "col-sm-12" ]
+          } ]
+        }, {
+          "name" : "footer-more-a",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 902
+            },
+            "name" : "width: 99px",
+            "highlight" : [ "footer-more-a" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 903
+            },
+            "name" : "height: 31px",
+            "highlight" : [ "footer-more-a" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 904
+            },
+            "name" : "text is:View More",
+            "highlight" : [ "footer-more-a" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 905
+            },
+            "name" : "css font-size is: 12px",
+            "highlight" : [ "footer-more-a" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 906
+            },
+            "name" : "css font-family contains:Open Sans",
+            "highlight" : [ "footer-more-a" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "views-row-8-text" : {
+          "area" : [ 92, 1446, 609, 57 ]
+        },
+        "block-views-home-page-slider-block" : {
+          "area" : [ 92, 118, 609, 276 ]
+        },
+        "views-row-2-text" : {
+          "area" : [ 92, 678, 609, 57 ]
+        },
+        "views-row-3-txt" : {
+          "area" : [ 92, 840, 609, 57 ]
+        },
+        "views-row-6-text" : {
+          "area" : [ 92, 1264, 609, 57 ]
+        },
+        "views-row-4" : {
+          "area" : [ 92, 961, 609, 126 ]
+        },
+        "views-row-5-text" : {
+          "area" : [ 92, 1121, 609, 38 ]
+        },
+        "views-row-5" : {
+          "area" : [ 92, 1087, 609, 116 ]
+        },
+        "views-row-2" : {
+          "area" : [ 92, 644, 609, 135 ]
+        },
+        "views-row-3" : {
+          "area" : [ 92, 779, 609, 182 ]
+        },
+        "views-row-8" : {
+          "area" : [ 92, 1567, 609, 192 ]
+        },
+        "views-row-9" : {
+          "area" : [ 92, 1759, 609, 189 ]
+        },
+        "views-row-10" : {
+          "area" : [ 92, 1948, 609, 182 ]
+        },
+        "views-row-6" : {
+          "area" : [ 92, 1203, 609, 182 ]
+        },
+        "footer-more-a" : {
+          "area" : [ 346, 2170, 99, 31 ]
+        },
+        "views-row-7" : {
+          "area" : [ 92, 1385, 609, 182 ]
+        },
+        "mainc" : {
+          "area" : [ 80, 0, 985, 2249 ]
+        },
+        "views-row-7-text" : {
+          "area" : [ 92, 1446, 609, 57 ]
+        },
+        "white-bg" : {
+          "area" : [ -1890, 0, 2618, 2249 ]
+        },
+        "view-header" : {
+          "area" : [ 92, 461, 609, 20 ]
+        },
+        "views-row-1-text" : {
+          "area" : [ 92, 552, 609, 38 ]
+        },
+        "rowm" : {
+          "area" : [ 80, 118, 985, 2131 ]
+        },
+        "views-row-1" : {
+          "area" : [ 92, 491, 609, 153 ]
+        },
+        "views-row-9-text" : {
+          "area" : [ 92, 1847, 609, 57 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 1144, 90 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2305, 1144, 316 ]
+        },
+        "views-row-10-text" : {
+          "area" : [ 92, 1446, 609, 57 ]
+        },
+        "col-sm-12" : {
+          "area" : [ 80, 118, 657, 2131 ]
+        },
+        "views-row-4-text" : {
+          "area" : [ 92, 995, 609, 38 ]
+        },
+        "block-menu-menu-trending-menu" : {
+          "area" : [ 92, 394, 636, 59 ]
+        },
+        "footer-more" : {
+          "area" : [ 92, 2170, 609, 31 ]
+        }
+      },
+      "screenshot" : "layout-8-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

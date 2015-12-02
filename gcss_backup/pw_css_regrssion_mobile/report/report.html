@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <link rel="stylesheet" type="text/css" href="tablesorter.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="tablesorter.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "tests" : [ {
+    "name" : "browserstack test for homepage on iPhone 5 landscape",
+    "startedAt" : 1435237970518,
+    "endedAt" : 1435237991309,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-browserstack-test-for-homepage-on-iphone-5-landscape",
+    "groups" : [ ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped net.mindengine.galen.parser.FileSyntaxException: Such constraint does not exist: @ samsunganroid44portrait\n    in main.spec:332 (<cmd>#95)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped net.mindengine.galen.parser.FileSyntaxException: Such constraint does not exist: @ samsunganroid44portrait\n    in main.spec:332 (<cmd>#95)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__18._c_checkLayout_5(<cmd>:95)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20._c_anonymous_1(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js:16)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20.call(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:283)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.access$000(JavaAdapter.java:15)\n\tat org.mozilla.javascript.JavaAdapter$1.run(JavaAdapter.java:586)\n\tat org.mozilla.javascript.Context.call(Context.java:489)\n\tat org.mozilla.javascript.ContextFactory.call(ContextFactory.java:504)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:583)\n\tat adapter1.execute(<adapter>)\n\tat net.mindengine.galen.TestRunnable.runTest(TestRunnable.java:68)\n\tat net.mindengine.galen.TestRunnable.run(TestRunnable.java:94)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: net.mindengine.galen.parser.FileSyntaxException: Such constraint does not exist: @ samsunganroid44portrait\n    in main.spec:332\n\tat net.mindengine.galen.specs.reader.page.PageSpecReader.read(PageSpecReader.java:118)\n\tat net.mindengine.galen.specs.reader.page.PageSpecReader.read(PageSpecReader.java:92)\n\tat net.mindengine.galen.api.Galen.checkLayout(Galen.java:62)\n\tat net.mindengine.galen.javascript.GalenJsApi.checkLayout(GalenJsApi.java:76)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 31 more\nCaused by: net.mindengine.galen.parser.SyntaxException: Such constraint does not exist: @ samsunganroid44portrait\n\tat net.mindengine.galen.specs.reader.SpecReader.findMatchingSpec(SpecReader.java:538)\n\tat net.mindengine.galen.specs.reader.SpecReader.readSpecWithParams(SpecReader.java:527)\n\tat net.mindengine.galen.specs.reader.SpecReader.read(SpecReader.java:517)\n\tat net.mindengine.galen.specs.reader.page.StateDoingSection.readSpec(StateDoingSection.java:87)\n\tat net.mindengine.galen.specs.reader.page.StateDoingSection.processSpecForSimpleObject(StateDoingSection.java:167)\n\tat net.mindengine.galen.specs.reader.page.StateDoingSection.process(StateDoingSection.java:117)\n\tat net.mindengine.galen.specs.reader.page.PageSpecLineProcessor.processLine(PageSpecLineProcessor.java:81)\n\tat net.mindengine.galen.specs.reader.page.PageSpecReader.read(PageSpecReader.java:112)\n\t... 39 more\n",
+    "duration" : 20791
+  }, {
+    "name" : "browserstack test for homepage on iPhone 5 portrait ",
+    "startedAt" : 1435237991310,
+    "endedAt" : 1435238036953,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "2-browserstack-test-for-homepage-on-iphone-5-portrait-",
+    "groups" : [ ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped net.mindengine.galen.parser.FileSyntaxException: Such constraint does not exist: @ samsunganroid44portrait\n    in main.spec:332 (<cmd>#95)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped net.mindengine.galen.parser.FileSyntaxException: Such constraint does not exist: @ samsunganroid44portrait\n    in main.spec:332 (<cmd>#95)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__18._c_checkLayout_5(<cmd>:95)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20._c_anonymous_2(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js:34)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20.call(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:283)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat net.mindengine.galen.TestRunnable.runTest(TestRunnable.java:68)\n\tat net.mindengine.galen.TestRunnable.run(TestRunnable.java:94)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: net.mindengine.galen.parser.FileSyntaxException: Such constraint does not exist: @ samsunganroid44portrait\n    in main.spec:332\n\tat net.mindengine.galen.specs.reader.page.PageSpecReader.read(PageSpecReader.java:118)\n\tat net.mindengine.galen.specs.reader.page.PageSpecReader.read(PageSpecReader.java:92)\n\tat net.mindengine.galen.api.Galen.checkLayout(Galen.java:62)\n\tat net.mindengine.galen.javascript.GalenJsApi.checkLayout(GalenJsApi.java:76)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 27 more\nCaused by: net.mindengine.galen.parser.SyntaxException: Such constraint does not exist: @ samsunganroid44portrait\n\tat net.mindengine.galen.specs.reader.SpecReader.findMatchingSpec(SpecReader.java:538)\n\tat net.mindengine.galen.specs.reader.SpecReader.readSpecWithParams(SpecReader.java:527)\n\tat net.mindengine.galen.specs.reader.SpecReader.read(SpecReader.java:517)\n\tat net.mindengine.galen.specs.reader.page.StateDoingSection.readSpec(StateDoingSection.java:87)\n\tat net.mindengine.galen.specs.reader.page.StateDoingSection.processSpecForSimpleObject(StateDoingSection.java:167)\n\tat net.mindengine.galen.specs.reader.page.StateDoingSection.process(StateDoingSection.java:117)\n\tat net.mindengine.galen.specs.reader.page.PageSpecLineProcessor.processLine(PageSpecLineProcessor.java:81)\n\tat net.mindengine.galen.specs.reader.page.PageSpecReader.read(PageSpecReader.java:112)\n\t... 35 more\n",
+    "duration" : 45643
+  }, {
+    "name" : "browserstack test for homepage on android Samsung Galaxy S5 ",
+    "startedAt" : 1435238036953,
+    "endedAt" : 1435238038073,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "3-browserstack-test-for-homepage-on-android-samsung-galaxy-s5-",
+    "groups" : [ ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.11 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver (<cmd>#54)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.11 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver (<cmd>#54)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__18._c_createGridDriver_4(<cmd>:54)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20._c_anonymous_3(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js:40)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20.call(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:283)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat net.mindengine.galen.TestRunnable.runTest(TestRunnable.java:68)\n\tat net.mindengine.galen.TestRunnable.run(TestRunnable.java:94)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.11 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\n\tat net.mindengine.galen.browser.SeleniumGridBrowserFactory.openBrowser(SeleniumGridBrowserFactory.java:70)\n\tat net.mindengine.galen.utils.GalenUtils.createGridDriver(GalenUtils.java:272)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 27 more\nCaused by: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.11 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:408)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)\n\tat net.mindengine.galen.browser.SeleniumGridBrowserFactory.openBrowser(SeleniumGridBrowserFactory.java:65)\n\t... 33 more\n",
+    "duration" : 1120
+  }, {
+    "name" : "browserstack test for homepage on android Samsung Galaxy S5 ",
+    "startedAt" : 1435238038073,
+    "endedAt" : 1435238039437,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "4-browserstack-test-for-homepage-on-android-samsung-galaxy-s5-",
+    "groups" : [ ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.36 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver (<cmd>#54)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.36 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver (<cmd>#54)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__18._c_createGridDriver_4(<cmd>:54)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20._c_anonymous_4(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js:59)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20.call(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:283)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat net.mindengine.galen.TestRunnable.runTest(TestRunnable.java:68)\n\tat net.mindengine.galen.TestRunnable.run(TestRunnable.java:94)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.36 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\n\tat net.mindengine.galen.browser.SeleniumGridBrowserFactory.openBrowser(SeleniumGridBrowserFactory.java:70)\n\tat net.mindengine.galen.utils.GalenUtils.createGridDriver(GalenUtils.java:272)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 27 more\nCaused by: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.36 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:408)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)\n\tat net.mindengine.galen.browser.SeleniumGridBrowserFactory.openBrowser(SeleniumGridBrowserFactory.java:65)\n\t... 33 more\n",
+    "duration" : 1364
+  }, {
+    "name" : "browserstack test for homepage on android Samsung Galaxy S5 ",
+    "startedAt" : 1435238039437,
+    "endedAt" : 1435238061768,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "5-browserstack-test-for-homepage-on-android-samsung-galaxy-s5-",
+    "groups" : [ ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22.32 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver (<cmd>#54)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22.32 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver (<cmd>#54)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__18._c_createGridDriver_4(<cmd>:54)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20._c_anonymous_5(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js:78)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20.call(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:283)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat net.mindengine.galen.TestRunnable.runTest(TestRunnable.java:68)\n\tat net.mindengine.galen.TestRunnable.run(TestRunnable.java:94)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22.32 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\n\tat net.mindengine.galen.browser.SeleniumGridBrowserFactory.openBrowser(SeleniumGridBrowserFactory.java:70)\n\tat net.mindengine.galen.utils.GalenUtils.createGridDriver(GalenUtils.java:272)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 27 more\nCaused by: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22.32 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:408)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)\n\tat net.mindengine.galen.browser.SeleniumGridBrowserFactory.openBrowser(SeleniumGridBrowserFactory.java:65)\n\t... 33 more\n",
+    "duration" : 22331
+  }, {
+    "name" : "browserstack test for homepage on android Samsung Galaxy S5 ",
+    "startedAt" : 1435238061768,
+    "endedAt" : 1435238062801,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "6-browserstack-test-for-homepage-on-android-samsung-galaxy-s5-",
+    "groups" : [ ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.03 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver (<cmd>#54)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.03 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver (<cmd>#54)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__18._c_createGridDriver_4(<cmd>:54)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20._c_anonymous_6(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js:97)\n\tat org.mozilla.javascript.gen._home_vishal_Dropbox_sites_gcss_pw_css_regrssion_mobile_main_config_js_20.call(/home/vishal/Dropbox/sites/gcss/pw_css_regrssion_mobile/main_config.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:283)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat net.mindengine.galen.TestRunnable.runTest(TestRunnable.java:68)\n\tat net.mindengine.galen.TestRunnable.run(TestRunnable.java:94)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.03 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\n\tat net.mindengine.galen.browser.SeleniumGridBrowserFactory.openBrowser(SeleniumGridBrowserFactory.java:70)\n\tat net.mindengine.galen.utils.GalenUtils.createGridDriver(GalenUtils.java:272)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:483)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 27 more\nCaused by: org.openqa.selenium.WebDriverException: 2 sessions are currently being used. Please upgrade to add more parallel sessions. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 1.03 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'vishal-ThinkPad-Edge-E530', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-37-generic', java.version: '1.8.0_31'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:408)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)\n\tat net.mindengine.galen.browser.SeleniumGridBrowserFactory.openBrowser(SeleniumGridBrowserFactory.java:65)\n\t... 33 more\n",
+    "duration" : 1033
+  } ]
+};
+
+        </script>
+        <script>
+            $(function () {
+                var galenReport = createGalenTestOverview();
+                galenReport.renderTestsTable("tests-table", reportData);
+                galenReport.renderGroupsTable("groups-table", reportData);
+
+                window.onhashchange = function () {
+                    galenReport.handleHash(window.location.hash.substr(1));
+                };
+
+                galenReport.handleHash(window.location.hash.substr(1));
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <div class="tests-overview">
+            <h2>Galen Test Report</h2>
+            <div class="tabs">
+                <a class="tab tab-tests" href="#tests">Tests</a>
+                <a class="tab tab-groups" href="#groups">Groups</a>
+            </div>
+            <div id="tests-table">
+            </div>
+            <div id="groups-table">
+            </div>
+
+            <script id="tests-table-tpl" type="text/x-handlebars-template">
+                <table class="tests tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Test</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Warnings</th>
+                            <th>Total</th>
+                            <th>Groups</th>
+                            <th>Started</th>
+                            <th>Duration</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each tests}}
+                        <tr data-groups="{{groups}}">
+                            <td class="suite-link">
+                                <a href="{{testId}}.html">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{statistic.passed}}</td>
+                            <td class="status failed">{{statistic.errors}}</td>
+                            <td class="status warnings">{{statistic.warnings}}</td>
+                            <td class="status total">{{statistic.total}}</td>
+                            <td class="tags">{{formatGroupsPretty groups}}</td>
+                            <td class="time">{{formatDateTime startedAt}}</td>
+                            <td class="time">{{formatDurationHumanReadable duration}}</td>
+                            <td class="progressbar">
+                                {{renderProgressBar statistic}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+            <script id="groups-table-tpl" type="text/x-handlebars-template">
+                <table class="groups tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Tests</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td class="group-link">
+                                <a href="#tests|grouped|{{name}}">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{passed}}</td>
+                            <td class="status failed">{{failed}}</td>
+                            <td class="status total">{{tests}}</td>
+                            <td class="progressbar">
+                                {{renderGroupsProgressBar this}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+        </div>
+    </body>
+</html>

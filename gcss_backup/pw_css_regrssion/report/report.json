@@ -1,0 +1,228 @@
+{
+  "tests" : [ {
+    "name" : "browserstack test for homepage on Windows 8.1 1175x2500 Chrome 42",
+    "startedAt" : 1436119834400,
+    "endedAt" : 1436119886998,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 46,
+      "errors" : 39,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "1-browserstack-test-for-homepage-on-windows-8.1-1175x2500-chrome-42",
+    "groups" : [ ],
+    "duration" : 52598,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 640x2500 IE 11",
+    "startedAt" : 1436119886998,
+    "endedAt" : 1436119945938,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 46,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "2-browserstack-test-for-homepage-on-windows-8.1-640x2500-ie-11",
+    "groups" : [ ],
+    "duration" : 58940,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 991x2500 Chrome 41",
+    "startedAt" : 1436119945938,
+    "endedAt" : 1436119993226,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 45,
+      "errors" : 40,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "3-browserstack-test-for-homepage-on-windows-8.1-991x2500-chrome-41",
+    "groups" : [ ],
+    "duration" : 47288,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 1175x2500 Chrome 41",
+    "startedAt" : 1436119993226,
+    "endedAt" : 1436120041199,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 46,
+      "errors" : 39,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "4-browserstack-test-for-homepage-on-windows-8.1-1175x2500-chrome-41",
+    "groups" : [ ],
+    "duration" : 47973,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 1176x2500 IE 11",
+    "startedAt" : 1436120041199,
+    "endedAt" : 1436120107926,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 43,
+      "errors" : 42,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "5-browserstack-test-for-homepage-on-windows-8.1-1176x2500-ie-11",
+    "groups" : [ ],
+    "duration" : 66727,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 640x2500 Chrome 41",
+    "startedAt" : 1436120107926,
+    "endedAt" : 1436120157908,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 40,
+      "errors" : 45,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "6-browserstack-test-for-homepage-on-windows-8.1-640x2500-chrome-41",
+    "groups" : [ ],
+    "duration" : 49982,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 640x2500 Chrome 42",
+    "startedAt" : 1436120157909,
+    "endedAt" : 1436120207599,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 40,
+      "errors" : 45,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "7-browserstack-test-for-homepage-on-windows-8.1-640x2500-chrome-42",
+    "groups" : [ ],
+    "duration" : 49690,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 991x2500 Firefox 37",
+    "startedAt" : 1436120207599,
+    "endedAt" : 1436120273493,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 43,
+      "errors" : 42,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "8-browserstack-test-for-homepage-on-windows-8.1-991x2500-firefox-37",
+    "groups" : [ ],
+    "duration" : 65894,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 640x2500 Firefox 37",
+    "startedAt" : 1436120273493,
+    "endedAt" : 1436120330358,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 40,
+      "errors" : 45,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "9-browserstack-test-for-homepage-on-windows-8.1-640x2500-firefox-37",
+    "groups" : [ ],
+    "duration" : 56865,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 1175x2500 Firefox 37",
+    "startedAt" : 1436120330358,
+    "endedAt" : 1436120385166,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 46,
+      "errors" : 39,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "10-browserstack-test-for-homepage-on-windows-8.1-1175x2500-firefox-37",
+    "groups" : [ ],
+    "duration" : 54808,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 1175x2500 IE 11",
+    "startedAt" : 1436120385167,
+    "endedAt" : 1436120452377,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 44,
+      "errors" : 43,
+      "warnings" : 0,
+      "total" : 87
+    },
+    "testId" : "11-browserstack-test-for-homepage-on-windows-8.1-1175x2500-ie-11",
+    "groups" : [ ],
+    "duration" : 67210,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 991x2500 Chrome 42",
+    "startedAt" : 1436120452377,
+    "endedAt" : 1436120500494,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 44,
+      "errors" : 41,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "12-browserstack-test-for-homepage-on-windows-8.1-991x2500-chrome-42",
+    "groups" : [ ],
+    "duration" : 48117,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 1176x2500 Chrome 42",
+    "startedAt" : 1436120500494,
+    "endedAt" : 1436120546958,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 46,
+      "errors" : 39,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "13-browserstack-test-for-homepage-on-windows-8.1-1176x2500-chrome-42",
+    "groups" : [ ],
+    "duration" : 46464,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 991x2500 IE 11",
+    "startedAt" : 1436120546958,
+    "endedAt" : 1436120631498,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 43,
+      "errors" : 42,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "14-browserstack-test-for-homepage-on-windows-8.1-991x2500-ie-11",
+    "groups" : [ ],
+    "duration" : 84540,
+    "failed" : true
+  }, {
+    "name" : "browserstack test for homepage on Windows 8.1 1176x2500 Firefox 37",
+    "startedAt" : 1436120631498,
+    "endedAt" : 1436120698848,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 47,
+      "errors" : 38,
+      "warnings" : 0,
+      "total" : 85
+    },
+    "testId" : "15-browserstack-test-for-homepage-on-windows-8.1-1176x2500-firefox-37",
+    "groups" : [ ],
+    "duration" : 67350,
+    "failed" : true
+  } ]
+}

@@ -1,0 +1,1122 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "3-browserstack-test-for-homepage-on-windows-8.1-991x2500-chrome-41",
+  "name" : "browserstack test for homepage on Windows 8.1 991x2500 Chrome 41",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: spec/main.spec included tags: desktopch41991x2500",
+      "status" : "error",
+      "time" : 1436119991791,
+      "includedTags" : [ "desktopch41991x2500" ],
+      "sections" : [ {
+        "name" : "desktopch41991x2500",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1926
+            },
+            "name" : "width:958px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1927
+            },
+            "name" : "height:50px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1928
+            },
+            "name" : "image: file dumps/homepage/objects/header.png",
+            "errors" : [ "Element does not look like \"spec/dumps/homepage/objects/header.png\". There are 30342 mismatching pixels but max allowed is 0" ],
+            "highlight" : [ "header" ],
+            "imageComparison" : {
+              "actualImage" : "layout-13-header-actual.png",
+              "expectedImage" : "layout-14-header-expected.png",
+              "comparisonMapImage" : "layout-15-header-map.png"
+            }
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1931
+            },
+            "name" : "width:958px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1932
+            },
+            "name" : "height:537px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1933
+            },
+            "name" : "image: file dumps/homepage/objects/footer.png",
+            "errors" : [ "java.lang.RuntimeException: The page element is located outside of the screenshot. (Element {x: 0, y: 4209, w: 958, h: 537}, Screenshot {w: 975, h: 1003})" ],
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1934
+            },
+            "name" : "below: col-sm-12 954px",
+            "errors" : [ "\"footer\" is 1921px below \"col-sm-12\" instead of 954px" ],
+            "highlight" : [ "footer", "col-sm-12" ]
+          } ]
+        }, {
+          "name" : "rowm",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1937
+            },
+            "name" : "width:929px",
+            "highlight" : [ "rowm" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1938
+            },
+            "name" : "height:3192px",
+            "errors" : [ "\"rowm\" height is 4001px instead of 3192px" ],
+            "highlight" : [ "rowm" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1939
+            },
+            "name" : "inside: mainc 0px left,1px right,10px top,0px bottom",
+            "highlight" : [ "rowm", "mainc" ]
+          } ]
+        }, {
+          "name" : "block-views-home-page-slider-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1942
+            },
+            "name" : "width:911px",
+            "highlight" : [ "block-views-home-page-slider-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1943
+            },
+            "name" : "height:413px",
+            "highlight" : [ "block-views-home-page-slider-block" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1944
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,0px top,1881px bottom",
+            "errors" : [ "\"block-views-home-page-slider-block\" is 1796px bottom instead of 1881px" ],
+            "highlight" : [ "block-views-home-page-slider-block", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1945
+            },
+            "name" : "below:header 29px",
+            "highlight" : [ "block-views-home-page-slider-block", "header" ]
+          } ]
+        }, {
+          "name" : "block-menu-menu-trending-menu",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1948
+            },
+            "name" : "width:636 px",
+            "errors" : [ "\"block-menu-menu-trending-menu\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1949
+            },
+            "name" : "height:59 px",
+            "errors" : [ "\"block-menu-menu-trending-menu\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1950
+            },
+            "name" : "inside: col-sm-12 12px left,9px right,276px top,1981px bottom",
+            "errors" : [ "\"block-menu-menu-trending-menu\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1951
+            },
+            "name" : "below:block-views-home-page-slider-block 0px",
+            "errors" : [ "\"block-menu-menu-trending-menu\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "view-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1954
+            },
+            "name" : "width:911px",
+            "highlight" : [ "view-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1955
+            },
+            "name" : "height:20 px",
+            "highlight" : [ "view-header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1956
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,428px top,1846px bottom",
+            "errors" : [ "\"view-header\" is 1761px bottom instead of 1846px" ],
+            "highlight" : [ "view-header", "col-sm-12" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1957
+            },
+            "name" : "below:block-menu-menu-trending-menu 8px",
+            "errors" : [ "\"block-menu-menu-trending-menu\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "views-row-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1960
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-1" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1961
+            },
+            "name" : "height:124px",
+            "errors" : [ "\"views-row-1\" height is 209px instead of 124px" ],
+            "highlight" : [ "views-row-1" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1962
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,458px top,1712px bottom",
+            "errors" : [ "\"views-row-1\" is 1542px bottom instead of 1712px" ],
+            "highlight" : [ "views-row-1", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1963
+            },
+            "name" : "below:view-header 10px",
+            "highlight" : [ "views-row-1", "view-header" ]
+          } ]
+        }, {
+          "name" : "views-row-1-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1966
+            },
+            "name" : "text is:Deep Learning has applications in many fields. In this example, it is put to use across three APIs to predict what music genre an album is based on the cover artwork.",
+            "errors" : [ "\"views-row-1-text\" text is \"Extends Cloud application portfolio in a way aimed attracting support from developers and systems integrators via REST APIs and JavaScript support\" but should be \"Deep Learning has applications in many fields. In this example, it is put to use across three APIs to predict what music genre an album is based on the cover artwork.\"" ],
+            "highlight" : [ "views-row-1-text" ]
+          } ]
+        }, {
+          "name" : "views-row-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1969
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1970
+            },
+            "name" : "height:124px",
+            "highlight" : [ "views-row-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1971
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,582px top,1588px bottom",
+            "errors" : [ "\"views-row-2\" is 667px top instead of 582px, is 1418px bottom instead of 1588px" ],
+            "highlight" : [ "views-row-2", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1972
+            },
+            "name" : "below:views-row-1 0px",
+            "highlight" : [ "views-row-2", "views-row-1" ]
+          } ]
+        }, {
+          "name" : "views-row-2-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1975
+            },
+            "name" : "text is:Enterprise APIs are becoming ever-more popular as their applications and implementations diversify. Here we look at 6 qualities that most successful enterprise APIs possess.",
+            "errors" : [ "\"views-row-2-text\" text is \"Five APIs have been added to the ProgrammableWeb directory today in Bots, Education, Music, Printing and Email categories. Here is a quick summary of what is new in the directory.\" but should be \"Enterprise APIs are becoming ever-more popular as their applications and implementations diversify. Here we look at 6 qualities that most successful enterprise APIs possess.\"" ],
+            "highlight" : [ "views-row-2-text" ]
+          } ]
+        }, {
+          "name" : "views-row-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1978
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1979
+            },
+            "name" : "height:209px",
+            "highlight" : [ "views-row-3" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1980
+            },
+            "name" : "inside: col-sm-12 9px left,9px right, 706px top,1379px bottom",
+            "errors" : [ "\"views-row-3\" is 791px top instead of 706px, is 1209px bottom instead of 1379px" ],
+            "highlight" : [ "views-row-3", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1981
+            },
+            "name" : "below:views-row-2 0px",
+            "highlight" : [ "views-row-3", "views-row-2" ]
+          } ]
+        }, {
+          "name" : "views-row-3-txt",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1984
+            },
+            "name" : "text is:Genius has announced the release of its first public API which allows developers to incorporate the platform’s annotation functionality into websites and third-party applications.",
+            "errors" : [ "\"views-row-3-txt\" text is \"Telegram has launched a Bot API and platform. The new API greatly enhances the ability to create and propagate the use of bots within the Telegram apps environment.\" but should be \"Genius has announced the release of its first public API which allows developers to incorporate the platform’s annotation functionality into websites and third-party applications.\"" ],
+            "highlight" : [ "views-row-3-txt" ]
+          } ]
+        }, {
+          "name" : "views-row-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1987
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-4" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1988
+            },
+            "name" : "height:124px",
+            "errors" : [ "\"views-row-4\" height is 209px instead of 124px" ],
+            "highlight" : [ "views-row-4" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1989
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,915px top,1255px bottom",
+            "errors" : [ "\"views-row-4\" is 1000px top instead of 915px, is 1000px bottom instead of 1255px" ],
+            "highlight" : [ "views-row-4", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1990
+            },
+            "name" : "below:views-row-3 0px",
+            "highlight" : [ "views-row-4", "views-row-3" ]
+          } ]
+        }, {
+          "name" : "views-row-4-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1993
+            },
+            "name" : "text is:We've added 6 APIs to the directory today in Jobs, Customer Service, and Notifications categories, among others. Also new are several SDKs for use with the GitLab API.",
+            "errors" : [ "\"views-row-4-text\" text is \"The Cloud Security Alliance (CSA) initiative, led by CipherCloud, Deloitte, Infosys, Intel and SAP, promises to create open API specification for data protection and security.\" but should be \"We've added 6 APIs to the directory today in Jobs, Customer Service, and Notifications categories, among others. Also new are several SDKs for use with the GitLab API.\"" ],
+            "highlight" : [ "views-row-4-text" ]
+          } ]
+        }, {
+          "name" : "views-row-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1996
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1997
+            },
+            "name" : "height:124px",
+            "highlight" : [ "views-row-5" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1998
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,1039px top,1131px bottom",
+            "errors" : [ "\"views-row-5\" is 1209px top instead of 1039px, is 876px bottom instead of 1131px" ],
+            "highlight" : [ "views-row-5", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 1999
+            },
+            "name" : "below:views-row-4 0px",
+            "highlight" : [ "views-row-5", "views-row-4" ]
+          } ]
+        }, {
+          "name" : "views-row-5-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2002
+            },
+            "name" : "text is:With common issues involving ignorance, interruptions, managers and other people’s work, this list of 19 developer frustrations covers every angle.",
+            "errors" : [ "\"views-row-5-text\" text is \"In a decision that could potentially stifle innovation, the Supreme Court has officially declined to hear Google's appeal in the case of Oracle vs. Google.\" but should be \"With common issues involving ignorance, interruptions, managers and other people’s work, this list of 19 developer frustrations covers every angle.\"" ],
+            "highlight" : [ "views-row-5-text" ]
+          } ]
+        }, {
+          "name" : "views-row-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2005
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-6" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2006
+            },
+            "name" : "height:209px",
+            "errors" : [ "\"views-row-6\" height is 124px instead of 209px" ],
+            "highlight" : [ "views-row-6" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2007
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,1163px top,922px bottom",
+            "errors" : [ "\"views-row-6\" is 1333px top instead of 1163px, is 752px bottom instead of 922px" ],
+            "highlight" : [ "views-row-6", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2008
+            },
+            "name" : "below:views-row-5 0px",
+            "highlight" : [ "views-row-6", "views-row-5" ]
+          } ]
+        }, {
+          "name" : "views-row-6-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2011
+            },
+            "name" : "text is:Attendify releases Open API with external source syncing capability, reducing business overhead associated with creating and managing event apps.",
+            "errors" : [ "\"views-row-6-text\" text is \"In just 18 months, back-end service provider Playblazer has grown its user base to 23 million game players, who have generated over 2.3 billion API calls on Azure.\" but should be \"Attendify releases Open API with external source syncing capability, reducing business overhead associated with creating and managing event apps.\"" ],
+            "highlight" : [ "views-row-6-text" ]
+          } ]
+        }, {
+          "name" : "views-row-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2014
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-7" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2015
+            },
+            "name" : "height:209px",
+            "errors" : [ "\"views-row-7\" height is 124px instead of 209px" ],
+            "highlight" : [ "views-row-7" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2016
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,1372px top,713px bottom",
+            "errors" : [ "\"views-row-7\" is 1457px top instead of 1372px, is 628px bottom instead of 713px" ],
+            "highlight" : [ "views-row-7", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2017
+            },
+            "name" : "below:views-row-6 0px",
+            "highlight" : [ "views-row-7", "views-row-6" ]
+          } ]
+        }, {
+          "name" : "views-row-7-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2020
+            },
+            "name" : "text is:Speed up the process of retrieving photos for geolocating by applying the Wikimapia API and Python scripts as laid out step-by-step in this entry-level tutorial.",
+            "errors" : [ "\"views-row-7-text\" text is \"MSDN’s Channel 9 recently implemented the Azure Machine Learning Algorithm API for video recommendations, with an implementation update that runs weekly to keep the model current.\" but should be \"Speed up the process of retrieving photos for geolocating by applying the Wikimapia API and Python scripts as laid out step-by-step in this entry-level tutorial.\"" ],
+            "highlight" : [ "views-row-7-text" ]
+          } ]
+        }, {
+          "name" : "views-row-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2023
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2024
+            },
+            "name" : "height:209px",
+            "highlight" : [ "views-row-8" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2025
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,1581px top,504px bottom",
+            "errors" : [ "\"views-row-8\" is 419px bottom instead of 504px" ],
+            "highlight" : [ "views-row-8", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2026
+            },
+            "name" : "below:views-row-7 0px",
+            "highlight" : [ "views-row-8", "views-row-7" ]
+          } ]
+        }, {
+          "name" : "views-row-8-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2029
+            },
+            "name" : "text is:Speed up the process of retrieving photos for geolocating by applying the Wikimapia API and Python scripts as laid out step-by-step in this entry-level tutorial.",
+            "errors" : [ "\"views-row-8-text\" text is \"MSDN’s Channel 9 recently implemented the Azure Machine Learning Algorithm API for video recommendations, with an implementation update that runs weekly to keep the model current.\" but should be \"Speed up the process of retrieving photos for geolocating by applying the Wikimapia API and Python scripts as laid out step-by-step in this entry-level tutorial.\"" ],
+            "highlight" : [ "views-row-8-text" ]
+          } ]
+        }, {
+          "name" : "views-row-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2032
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-9" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2033
+            },
+            "name" : "height:209px",
+            "errors" : [ "\"views-row-9\" height is 124px instead of 209px" ],
+            "highlight" : [ "views-row-9" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2034
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,1790px top,295px bottom",
+            "highlight" : [ "views-row-9", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2035
+            },
+            "name" : "below:views-row-8 0px",
+            "highlight" : [ "views-row-9", "views-row-8" ]
+          } ]
+        }, {
+          "name" : "views-row-9-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2038
+            },
+            "name" : "text is:Twitter confirmed it revoked Politwoops' API access. Twitter concluded Politwoops' API use violates Twitter's developer agreement, but Politwoops thinks there is more to it.",
+            "errors" : [ "\"views-row-9-text\" text is \"We've added 6 APIs to ProgrammableWeb today in Recognition and Mapping categories, among others. Client libraries for Bit.ly and Groupon have also been added to the directory.\" but should be \"Twitter confirmed it revoked Politwoops' API access. Twitter concluded Politwoops' API use violates Twitter's developer agreement, but Politwoops thinks there is more to it.\"" ],
+            "highlight" : [ "views-row-9-text" ]
+          } ]
+        }, {
+          "name" : "views-row-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2041
+            },
+            "name" : "width:911px",
+            "highlight" : [ "views-row-10" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2042
+            },
+            "name" : "height:209px",
+            "highlight" : [ "views-row-10" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2043
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,1999px top,86px bottom",
+            "errors" : [ "\"views-row-10\" is 1914px top instead of 1999px" ],
+            "highlight" : [ "views-row-10", "col-sm-12" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2044
+            },
+            "name" : "below:views-row-9 0px",
+            "highlight" : [ "views-row-10", "views-row-9" ]
+          } ]
+        }, {
+          "name" : "views-row-10-text",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2047
+            },
+            "name" : "text is:Speed up the process of retrieving photos for geolocating by applying the Wikimapia API and Python scripts as laid out step-by-step in this entry-level tutorial.",
+            "errors" : [ "\"views-row-10-text\" text is \"MSDN’s Channel 9 recently implemented the Azure Machine Learning Algorithm API for video recommendations, with an implementation update that runs weekly to keep the model current.\" but should be \"Speed up the process of retrieving photos for geolocating by applying the Wikimapia API and Python scripts as laid out step-by-step in this entry-level tutorial.\"" ],
+            "highlight" : [ "views-row-10-text" ]
+          } ]
+        }, {
+          "name" : "col-sm-12",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2050
+            },
+            "name" : "width:929px",
+            "highlight" : [ "col-sm-12" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2051
+            },
+            "name" : "height:2294px",
+            "errors" : [ "\"col-sm-12\" height is 2209px instead of 2294px" ],
+            "highlight" : [ "col-sm-12" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2052
+            },
+            "name" : "near: col-sm-12 -929px right, -2294px top",
+            "errors" : [ "\"col-sm-12\" is -2209px top instead of -2294px" ],
+            "highlight" : [ "col-sm-12", "col-sm-12" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2053
+            },
+            "name" : "inside partly : white-bg  1970px left",
+            "errors" : [ "\"white-bg\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2054
+            },
+            "name" : "inside:rowm 0px left,0px right,0px top,898px bottom",
+            "errors" : [ "\"col-sm-12\" is 1792px bottom instead of 898px" ],
+            "highlight" : [ "col-sm-12", "rowm" ]
+          } ]
+        }, {
+          "name" : "footer-more",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2057
+            },
+            "name" : "width:911px",
+            "highlight" : [ "footer-more" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2058
+            },
+            "name" : "height:31px",
+            "highlight" : [ "footer-more" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2059
+            },
+            "name" : "inside: col-sm-12 9px left,9px right,2218px top,45px bottom",
+            "errors" : [ "\"footer-more\" is 2133px top instead of 2218px" ],
+            "highlight" : [ "footer-more", "col-sm-12" ]
+          } ]
+        }, {
+          "name" : "footer-more-a",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2062
+            },
+            "name" : "width: 99px",
+            "highlight" : [ "footer-more-a" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2063
+            },
+            "name" : "height: 31px",
+            "highlight" : [ "footer-more-a" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2064
+            },
+            "name" : "text is:View More",
+            "highlight" : [ "footer-more-a" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2065
+            },
+            "name" : "css font-size is: 12px",
+            "highlight" : [ "footer-more-a" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "spec/main.spec",
+              "lineNumber" : 2066
+            },
+            "name" : "css font-family contains:Open Sans",
+            "highlight" : [ "footer-more-a" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "views-row-8" : {
+          "area" : [ 23, 1660, 911, 209 ]
+        },
+        "views-row-9" : {
+          "area" : [ 23, 1869, 911, 124 ]
+        },
+        "views-row-6" : {
+          "area" : [ 23, 1412, 911, 124 ]
+        },
+        "views-row-10" : {
+          "area" : [ 23, 1993, 911, 209 ]
+        },
+        "views-row-7" : {
+          "area" : [ 23, 1536, 911, 124 ]
+        },
+        "views-row-4" : {
+          "area" : [ 23, 1079, 911, 209 ]
+        },
+        "footer" : {
+          "area" : [ 0, 4209, 958, 537 ]
+        },
+        "views-row-5" : {
+          "area" : [ 23, 1288, 911, 124 ]
+        },
+        "views-row-2" : {
+          "area" : [ 23, 746, 911, 124 ]
+        },
+        "views-row-3" : {
+          "area" : [ 23, 870, 911, 209 ]
+        },
+        "views-row-6-text" : {
+          "area" : [ 23, 1446, 911, 38 ]
+        },
+        "views-row-9-text" : {
+          "area" : [ 23, 1903, 911, 38 ]
+        },
+        "block-views-home-page-slider-block" : {
+          "area" : [ 23, 79, 911, 413 ]
+        },
+        "views-row-2-text" : {
+          "area" : [ 23, 780, 911, 38 ]
+        },
+        "views-row-3-txt" : {
+          "area" : [ 23, 904, 911, 38 ]
+        },
+        "view-header" : {
+          "area" : [ 23, 507, 911, 20 ]
+        },
+        "views-row-10-text" : {
+          "area" : [ 23, 1570, 911, 38 ]
+        },
+        "views-row-8-text" : {
+          "area" : [ 23, 1570, 911, 38 ]
+        },
+        "views-row-5-text" : {
+          "area" : [ 23, 1322, 911, 38 ]
+        },
+        "rowm" : {
+          "area" : [ 14, 79, 929, 4001 ]
+        },
+        "views-row-7-text" : {
+          "area" : [ 23, 1570, 911, 38 ]
+        },
+        "mainc" : {
+          "area" : [ 14, 69, 930, 4011 ]
+        },
+        "footer-more-a" : {
+          "area" : [ 429, 2212, 99, 31 ]
+        },
+        "col-sm-12" : {
+          "area" : [ 14, 79, 929, 2209 ]
+        },
+        "views-row-1-text" : {
+          "area" : [ 23, 571, 911, 38 ]
+        },
+        "views-row-4-text" : {
+          "area" : [ 23, 1113, 911, 38 ]
+        },
+        "footer-more" : {
+          "area" : [ 23, 2212, 911, 31 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 958, 50 ]
+        },
+        "views-row-1" : {
+          "area" : [ 23, 537, 911, 209 ]
+        }
+      },
+      "screenshot" : "layout-12-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">INFO</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" data-screenshot="{{screenshot}}">
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#" 
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link" 
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                            </ul>
+                        </div>
+                    </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                    {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                <img src="{{screenshot}}"/>
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; border-color: {{color}};">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{@key}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison">
+                <h5>Actual</h5>
+                <img src="{{actual}}"/>
+
+                <h5>Expected</h5>
+                <img src="{{expected}}"/>
+
+                <h5>Comparison map</h5>
+                <img src="{{map}}"/>
+            </div>
+        </script>
+
+
+        <div id="menu">
+            <ul>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>browserstack test for homepage on Windows 8.1 991x2500 Chrome 41</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>
