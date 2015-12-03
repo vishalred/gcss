@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: OSXYosemite_Safari_8_1366x768",
       "status" : "info",
-      "time" : 1449127965199,
+      "time" : 1449136327408,
       "includedTags" : [ "OSXYosemite_Safari_8_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -615,7 +615,7 @@
       } ],
       "objects" : {
         "block-block-25" : {
-          "area" : [ 968, 2225, 300, 296 ]
+          "area" : [ 968, 2200, 300, 321 ]
         },
         "author-comment" : {
           "area" : [ 228, 1327, 635, 50 ]
@@ -633,7 +633,7 @@
           "area" : [ 98, 1899, 790, 22 ]
         },
         "adzerk-top-mrec" : {
-          "area" : [ 968, 939, 300, 625 ]
+          "area" : [ 968, 939, 300, 600 ]
         },
         "original-article-content" : {
           "area" : [ 98, 1139, 790, 133 ]
@@ -678,7 +678,7 @@
           "area" : [ 98, 1469, 790, 452 ]
         },
         "ad-title-sidebar-bottom" : {
-          "area" : [ 968, 2225, 300, 10 ]
+          "area" : [ 968, 2200, 300, 10 ]
         },
         "about-author" : {
           "area" : [ 98, 1302, 790, 137 ]
@@ -693,7 +693,7 @@
           "area" : [ 968, 923, 300, 10 ]
         },
         "block-views-right-side-users-block" : {
-          "area" : [ 968, 1920, 300, 275 ]
+          "area" : [ 968, 1895, 300, 275 ]
         },
         "adzerk-top-leaderboard" : {
           "area" : [ 83, 169, 1200, 90 ]
@@ -711,7 +711,7 @@
           "area" : [ 988, 424, 260, 125 ]
         },
         "adzerk-bottom-mrec" : {
-          "area" : [ 968, 2241, 300, 250 ]
+          "area" : [ 968, 2216, 300, 275 ]
         },
         "header" : {
           "area" : [ 98, 0, 1170, 101 ]
@@ -723,13 +723,13 @@
           "area" : [ 98, 1578, 790, 260 ]
         },
         "block-block-42" : {
-          "area" : [ 968, 1625, 300, 265 ]
+          "area" : [ 968, 1600, 300, 265 ]
         },
         "region-sidebar-second" : {
           "area" : [ 968, 305, 300, 2216 ]
         },
         "block-block-21" : {
-          "area" : [ 968, 923, 300, 672 ]
+          "area" : [ 968, 923, 300, 647 ]
         }
       },
       "screenshot" : "layout-12-screenshot.png",

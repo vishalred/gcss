@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: SamsungGalaxyS5_android_360x640",
       "status" : "info",
-      "time" : 1449128643634,
+      "time" : 1449137033663,
       "includedTags" : [ "SamsungGalaxyS5_android_360x640" ],
       "sections" : [ {
         "name" : "Mainsection",

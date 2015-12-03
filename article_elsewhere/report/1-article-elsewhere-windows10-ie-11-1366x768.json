@@ -1,12 +1,12 @@
 {
-  "testId" : "8-article-elsewhere-page-on-windows-7-ie-10-1366x768",
-  "name" : "Article_Elsewhere_Page on windows 7 IE 10 1366x768",
+  "testId" : "1-article-elsewhere-windows10-ie-11-1366x768",
+  "name" : "Article_Elsewhere_Windows10_IE_11_1366x768",
   "report" : {
     "nodes" : [ {
-      "name" : "Check layout: specs/new.gspec included tags: windows7ie10_1366x768",
+      "name" : "Check layout: specs/new.gspec included tags: Windows10_IE_11_1366x768",
       "status" : "info",
-      "time" : 1449121216596,
-      "includedTags" : [ "windows7ie10_1366x768" ],
+      "time" : 1449135162768,
+      "includedTags" : [ "Windows10_IE_11_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
         "objects" : [ {
@@ -15,7 +15,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 63
+              "lineNumber" : 65
             },
             "name" : "width ~ 86% of screen/width",
             "highlight" : [ "header" ]
@@ -23,7 +23,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 65
+              "lineNumber" : 67
             },
             "name" : "above navigation 1px",
             "highlight" : [ "header", "navigation" ]
@@ -34,7 +34,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 69
+              "lineNumber" : 71
             },
             "name" : "width ~ 86% of screen/width",
             "highlight" : [ "navigation" ]
@@ -42,7 +42,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 70
+              "lineNumber" : 72
             },
             "name" : "below header 1px",
             "highlight" : [ "navigation", "header" ]
@@ -53,7 +53,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 74
+              "lineNumber" : 76
             },
             "name" : "below navigation 1px",
             "highlight" : [ "top-ad-wrapper", "navigation" ]
@@ -64,7 +64,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 77
+              "lineNumber" : 79
             },
             "name" : "inside top-ad-wrapper 75px left, 75px right, 20px top, 21px bottom",
             "highlight" : [ "adzerk-top-leaderboard", "top-ad-wrapper" ]
@@ -75,7 +75,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 80
+              "lineNumber" : 82
             },
             "name" : "width 830px",
             "highlight" : [ "main-container" ]
@@ -86,7 +86,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 84
+              "lineNumber" : 86
             },
             "name" : "width 790px",
             "highlight" : [ "node-article-profile" ]
@@ -97,7 +97,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 87
+              "lineNumber" : 89
             },
             "name" : "width 790px",
             "highlight" : [ "article-head" ]
@@ -108,7 +108,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 91
+              "lineNumber" : 93
             },
             "name" : "width 790px",
             "highlight" : [ "article_header" ]
@@ -116,7 +116,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 92
+              "lineNumber" : 94
             },
             "name" : "height 43px",
             "highlight" : [ "article_header" ]
@@ -124,7 +124,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 93
+              "lineNumber" : 95
             },
             "name" : "inside article-head 0px left, 0px top",
             "highlight" : [ "article_header", "article-head" ]
@@ -135,7 +135,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 96
+              "lineNumber" : 98
             },
             "name" : "width ~ 274px",
             "highlight" : [ "article_footer" ]
@@ -143,7 +143,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 97
+              "lineNumber" : 99
             },
             "name" : "inside article-head 0px left, 63px top",
             "highlight" : [ "article_footer", "article-head" ]
@@ -154,7 +154,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 100
+              "lineNumber" : 102
             },
             "name" : "width 790px",
             "highlight" : [ "node-social-media" ]
@@ -162,7 +162,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 101
+              "lineNumber" : 103
             },
             "name" : "inside article-head 0px left, 144px top",
             "highlight" : [ "node-social-media", "article-head" ]
@@ -173,7 +173,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 104
+              "lineNumber" : 106
             },
             "name" : "below article-head 30px",
             "highlight" : [ "field-name-field-article-body", "article-head" ]
@@ -184,7 +184,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 107
+              "lineNumber" : 109
             },
             "name" : "width 790px",
             "highlight" : [ "original-article-content" ]
@@ -192,7 +192,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 108
+              "lineNumber" : 110
             },
             "name" : "below field-name-field-article-body 50px",
             "highlight" : [ "original-article-content", "field-name-field-article-body" ]
@@ -203,7 +203,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 110
+              "lineNumber" : 112
             },
             "name" : "below original-article-content 29px",
             "highlight" : [ "about-author", "original-article-content" ]
@@ -214,7 +214,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 113
+              "lineNumber" : 115
             },
             "name" : "inside about-author 130px left, 25px top",
             "highlight" : [ "author-comment", "about-author" ]
@@ -225,7 +225,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 116
+              "lineNumber" : 118
             },
             "name" : "below about-author 30px",
             "highlight" : [ "related-wrapper", "about-author" ]
@@ -236,7 +236,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 119
+              "lineNumber" : 121
             },
             "name" : "height 24px",
             "highlight" : [ "related-section-title" ]
@@ -244,7 +244,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 120
+              "lineNumber" : 122
             },
             "name" : "inside related-wrapper 0px left, 45px top",
             "highlight" : [ "related-section-title", "related-wrapper" ]
@@ -255,7 +255,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 123
+              "lineNumber" : 125
             },
             "name" : "width 790px",
             "highlight" : [ "related-term" ]
@@ -263,7 +263,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 124
+              "lineNumber" : 126
             },
             "name" : "inside related-wrapper 0px left, 109px top",
             "highlight" : [ "related-term", "related-wrapper" ]
@@ -274,7 +274,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 127
+              "lineNumber" : 129
             },
             "name" : "inside related-wrapper 0px left, 432px top",
             "highlight" : [ "related-terms", "related-wrapper" ]
@@ -285,7 +285,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 130
+              "lineNumber" : 132
             },
             "name" : "below related-wrapper 119px",
             "highlight" : [ "comment-form", "related-wrapper" ]
@@ -296,7 +296,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 133
+              "lineNumber" : 135
             },
             "name" : "height 24px",
             "highlight" : [ "coments-title" ]
@@ -307,7 +307,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 136
+              "lineNumber" : 138
             },
             "name" : "inside comment-form 0px top",
             "highlight" : [ "comment-wrapper", "comment-form" ]
@@ -318,7 +318,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 139
+              "lineNumber" : 141
             },
             "name" : "height 45px",
             "highlight" : [ "post_comment" ]
@@ -329,7 +329,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 142
+              "lineNumber" : 144
             },
             "name" : "inside bottom-ad-wrapper 75px left, 75px right, 21px top, 20px bottom",
             "highlight" : [ "adzerk-bottom-leaderboard", "bottom-ad-wrapper" ]
@@ -340,7 +340,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 145
+              "lineNumber" : 147
             },
             "name" : "width 300px",
             "highlight" : [ "region-sidebar-second" ]
@@ -348,7 +348,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 146
+              "lineNumber" : 148
             },
             "name" : "near main-container 40px right",
             "highlight" : [ "region-sidebar-second", "main-container" ]
@@ -359,7 +359,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 149
+              "lineNumber" : 151
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "block-block-38", "region-sidebar-second" ]
@@ -370,7 +370,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 152
+              "lineNumber" : 154
             },
             "name" : "width 300px",
             "highlight" : [ "block-title-apiu" ]
@@ -378,7 +378,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 153
+              "lineNumber" : 155
             },
             "name" : "height 60px",
             "highlight" : [ "block-title-apiu" ]
@@ -386,7 +386,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 154
+              "lineNumber" : 156
             },
             "name" : "inside block-block-38 0px left",
             "highlight" : [ "block-title-apiu", "block-block-38" ]
@@ -397,7 +397,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 157
+              "lineNumber" : 159
             },
             "name" : "width 300px",
             "highlight" : [ "apiu-wrapper" ]
@@ -405,7 +405,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 158
+              "lineNumber" : 160
             },
             "name" : "inside block-block-38 0px left",
             "highlight" : [ "apiu-wrapper", "block-block-38" ]
@@ -416,7 +416,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 161
+              "lineNumber" : 163
             },
             "name" : "width 260px",
             "highlight" : [ "apiu-cat" ]
@@ -424,7 +424,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 162
+              "lineNumber" : 164
             },
             "name" : "inside apiu-wrapper 20px left, 24px top",
             "highlight" : [ "apiu-cat", "apiu-wrapper" ]
@@ -435,7 +435,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 165
+              "lineNumber" : 167
             },
             "name" : "width 260px",
             "highlight" : [ "primary-cat" ]
@@ -443,7 +443,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 166
+              "lineNumber" : 168
             },
             "name" : "inside apiu-wrapper 20px left, 59px top",
             "highlight" : [ "primary-cat", "apiu-wrapper" ]
@@ -454,7 +454,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 170
+              "lineNumber" : 172
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "block-block-21", "region-sidebar-second" ]
@@ -462,7 +462,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 171
+              "lineNumber" : 173
             },
             "name" : "near block-block-38 29px bottom",
             "highlight" : [ "block-block-21", "block-block-38" ]
@@ -473,7 +473,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 174
+              "lineNumber" : 176
             },
             "name" : "height 10px",
             "highlight" : [ "ad-title-sidebar-top" ]
@@ -481,7 +481,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 175
+              "lineNumber" : 177
             },
             "name" : "inside block-block-21 0px left, 0px top",
             "highlight" : [ "ad-title-sidebar-top", "block-block-21" ]
@@ -492,7 +492,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 178
+              "lineNumber" : 180
             },
             "name" : "width 300px",
             "highlight" : [ "adzerk-top-mrec" ]
@@ -500,7 +500,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 179
+              "lineNumber" : 181
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "adzerk-top-mrec", "region-sidebar-second" ]
@@ -511,7 +511,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 182
+              "lineNumber" : 184
             },
             "name" : "width 300px",
             "highlight" : [ "block-block-42" ]
@@ -519,7 +519,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 183
+              "lineNumber" : 185
             },
             "name" : "inside region-sidebar-second 0px left right",
             "highlight" : [ "block-block-42", "region-sidebar-second" ]
@@ -530,7 +530,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 186
+              "lineNumber" : 188
             },
             "name" : "width 300px",
             "highlight" : [ "block-views-right-side-users-block" ]
@@ -538,7 +538,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 187
+              "lineNumber" : 189
             },
             "name" : "inside region-sidebar-second 0px left right",
             "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
@@ -549,7 +549,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 190
+              "lineNumber" : 192
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "block-block-25", "region-sidebar-second" ]
@@ -557,7 +557,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 191
+              "lineNumber" : 193
             },
             "name" : "near block-views-right-side-users-block 30px bottom",
             "highlight" : [ "block-block-25", "block-views-right-side-users-block" ]
@@ -568,7 +568,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 194
+              "lineNumber" : 196
             },
             "name" : "height 10px",
             "highlight" : [ "ad-title-sidebar-bottom" ]
@@ -576,7 +576,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 195
+              "lineNumber" : 197
             },
             "name" : "inside block-block-25 0px left, 0px top",
             "highlight" : [ "ad-title-sidebar-bottom", "block-block-25" ]
@@ -587,7 +587,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 198
+              "lineNumber" : 200
             },
             "name" : "width 300px",
             "highlight" : [ "adzerk-bottom-mrec" ]
@@ -595,7 +595,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 199
+              "lineNumber" : 201
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "adzerk-bottom-mrec", "region-sidebar-second" ]
@@ -606,7 +606,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 203
+              "lineNumber" : 205
             },
             "name" : "width 1350px",
             "highlight" : [ "footer" ]
@@ -627,7 +627,7 @@
           "area" : [ 90, 305, 790, 2077 ]
         },
         "footer" : {
-          "area" : [ 0, 2735, 1350, 279 ]
+          "area" : [ 0, 2672, 1350, 279 ]
         },
         "related-terms" : {
           "area" : [ 90, 1904, 790, 22 ]
@@ -672,7 +672,7 @@
           "area" : [ 90, 368, 273, 51 ]
         },
         "bottom-ad-wrapper" : {
-          "area" : [ 0, 2541, 1350, 194 ]
+          "area" : [ 0, 2541, 1350, 131 ]
         },
         "related-wrapper" : {
           "area" : [ 90, 1472, 790, 454 ]
@@ -684,7 +684,7 @@
           "area" : [ 90, 1303, 790, 139 ]
         },
         "adzerk-bottom-leaderboard" : {
-          "area" : [ 75, 2562, 1200, 153 ]
+          "area" : [ 75, 2562, 1200, 90 ]
         },
         "block-block-38" : {
           "area" : [ 960, 305, 300, 595 ]
@@ -732,7 +732,7 @@
           "area" : [ 960, 929, 300, 652 ]
         }
       },
-      "screenshot" : "layout-8-screenshot.png",
+      "screenshot" : "layout-1-screenshot.png",
       "type" : "layout"
     } ]
   }

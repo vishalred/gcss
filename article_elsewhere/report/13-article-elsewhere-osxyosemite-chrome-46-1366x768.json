@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: OSXYosemite_Chrome_46_1366x768",
       "status" : "info",
-      "time" : 1449128058660,
+      "time" : 1449136413952,
       "includedTags" : [ "OSXYosemite_Chrome_46_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -627,7 +627,7 @@
           "area" : [ 98, 305, 790, 2071 ]
         },
         "footer" : {
-          "area" : [ 0, 2707, 1366, 278 ]
+          "area" : [ 0, 2712, 1366, 278 ]
         },
         "related-terms" : {
           "area" : [ 98, 1899, 790, 22 ]
@@ -672,7 +672,7 @@
           "area" : [ 98, 368, 274, 50 ]
         },
         "bottom-ad-wrapper" : {
-          "area" : [ 0, 2576, 1366, 131 ]
+          "area" : [ 0, 2576, 1366, 136 ]
         },
         "related-wrapper" : {
           "area" : [ 98, 1469, 790, 452 ]
@@ -684,7 +684,7 @@
           "area" : [ 98, 1302, 790, 137 ]
         },
         "adzerk-bottom-leaderboard" : {
-          "area" : [ 83, 2597, 1200, 90 ]
+          "area" : [ 83, 2597, 1200, 95 ]
         },
         "block-block-38" : {
           "area" : [ 968, 305, 300, 588 ]
