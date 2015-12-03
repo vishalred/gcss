@@ -1,0 +1,16 @@
+{
+  "testId" : "9-article-elsewhere-windows7-ie9-1366x768",
+  "name" : "Article_Elsewhere_Windows7_IE9_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_IE9_1366x768",
+      "status" : "info",
+      "time" : 1449127709425,
+      "includedTags" : [ "Windows7_IE9_1366x768" ],
+      "sections" : [ ],
+      "objects" : { },
+      "screenshot" : "layout-9-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

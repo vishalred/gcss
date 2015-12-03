@@ -14,8 +14,9 @@ var key = "http://taher9:Gafe4n66LWkfXrJfLFcv@hub.browserstack.com/wd/hub";
 
 var testName = "Article_Elsewhere";
 
+// Test Group for Desktop Devices
 
-grouped([testName.concat("_Windows10_1366x768")], function () {
+grouped([testName.concat("_Desktop_1366x768")], function () {
 
     test(testName.concat("_Windows10_IE_11_1366x768"), function () {
 
@@ -83,11 +84,6 @@ grouped([testName.concat("_Windows10_1366x768")], function () {
 
     });
 
-});
-
-
-grouped([testName.concat("_Windows8.1_1366x768")], function () {
-
     test(testName.concat("_Windows8.1_IE_11_1366x768"), function () {
 
         var driver = createGridDriver(key, {
@@ -153,11 +149,6 @@ grouped([testName.concat("_Windows8.1_1366x768")], function () {
         driver.quit();
 
     });
-
-});
-
-
-grouped([testName.concat("_Windows7_1366x768")], function () {
 
     test(testName.concat("_Windows7_IE_11_1366x768"), function () {
 
@@ -269,11 +260,6 @@ grouped([testName.concat("_Windows7_1366x768")], function () {
 
     });
 
-});
-
-
-grouped([testName.concat("_AppleOSXYosemite_1366x768")], function () {
-
     test(testName.concat("_OSXYosemite_Safari_8_1366x768"), function () {
 
         var driver = createGridDriver(key, {
@@ -317,9 +303,12 @@ grouped([testName.concat("_AppleOSXYosemite_1366x768")], function () {
 
     });
 
+
 });
 
-grouped([testName.concat("_AppleIOS")], function () {
+// Test Group for Tablet Devices
+
+grouped([testName.concat("_Tablet_768x1024)")], function () {
 
     test(testName.concat("_iPadAir_iPad_768x1024"), function () {
 
@@ -336,6 +325,50 @@ grouped([testName.concat("_AppleIOS")], function () {
 
         driver.get(path);
         checkLayout(driver, "specs/new.gspec", ["iPadAir_iPad_768x1024"]);
+        driver.quit();
+
+    });
+
+    test(testName.concat("_GoogleNexus7_android_768x1024"), function () {
+
+        var driver = createGridDriver(key, {
+            browserName: "android",
+            desiredCapabilities: {
+                platform: 'ANDROID',
+                device: 'Google Nexus 7',
+                browserName: 'android'
+
+
+            }
+        });
+
+        driver.get(path);
+        checkLayout(driver, "specs/new.gspec", ["GoogleNexus7_android_768x1024"]);
+        driver.quit();
+
+    });
+
+});
+
+// Test Group for Mobile Devices
+
+grouped([testName.concat("_Mobile")], function () {
+
+    test(testName.concat("_SamsungGalaxyS5_android_360x640"), function () {
+
+        var driver = createGridDriver(key, {
+            browserName: "android",
+            desiredCapabilities: {
+                platform: 'ANDROID',
+                device: 'Samsung Galaxy S5',
+                browserName: 'android'
+
+
+            }
+        });
+
+        driver.get(path);
+        checkLayout(driver, "specs/new.gspec", ["SamsungGalaxyS5_android_360x640"]);
         driver.quit();
 
     });
@@ -359,50 +392,3 @@ grouped([testName.concat("_AppleIOS")], function () {
     });
 
 });
-
-grouped([testName.concat("_Android")], function () {
-
-    test(testName.concat("_GoogleNexus7_android_768x1024"), function () {
-
-        var driver = createGridDriver(key, {
-            browserName: "android",
-            desiredCapabilities: {
-                platform: 'ANDROID',
-                device: 'Google Nexus 7',
-                browserName: 'android'
-
-
-            }
-        });
-
-        driver.get(path);
-        checkLayout(driver, "specs/new.gspec", ["GoogleNexus7_android_768x1024"]);
-        driver.quit();
-
-    });
-
-
-    test(testName.concat("_SamsungGalaxyS5_android_360x640"), function () {
-
-        var driver = createGridDriver(key, {
-            browserName: "android",
-            desiredCapabilities: {
-                platform: 'ANDROID',
-                device: 'Samsung Galaxy S5',
-                browserName: 'android'
-
-
-            }
-        });
-
-        driver.get(path);
-        checkLayout(driver, "specs/new.gspec", ["SamsungGalaxyS5_android_360x640"]);
-        driver.quit();
-
-    });
-
-});
-
-
-
-

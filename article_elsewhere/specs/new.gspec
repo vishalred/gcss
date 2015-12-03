@@ -2,6 +2,8 @@
     header        xpath        //*[@id="navbar"]/div
     navigation     xpath        //*[@id="top-menus-wrapper"]/div[1]
 
+    header-mobile xpath /html/body/div[2]
+
     top-ad-wrapper css .top-ad-wrapper
     adzerk-top-leaderboard id adzerk-top-leaderboard
 
@@ -56,7 +58,7 @@
 
 = Mainsection =
 
-    @on windows10IE11_1366x768, windows8.1IE11_1366x768
+    @on Windows10_IE_11_1366x768, Windows8.1_IE_11_1366x768, Windows7_IE_11_1366x768, Windows7_IE_10_1366x768
 
         header:
               #height 101px
@@ -202,7 +204,7 @@
         footer:
               width 1350px
 
-    @on windows10chrome42_1366x768, windows8.1chrome42_1366x768
+    @on Windows10_Chrome_42_1366x768, Windows8.1_Chrome_42_1366x768
 
         header:
               #height 101px
@@ -348,7 +350,7 @@
         footer:
               width 1333px
 
-    @on windows10ff37_1366x768, windows8.1ff37_1366x768
+    @on Windows10_Firefox_37_1366x768, Windows8.1_Firefox_37_1366x768
 
         header:
               #height 101px
@@ -495,886 +497,7 @@
               width 1335px
 
 
-
-
-    @on windows8.1IE10
-
-        header:
-              #height 101px
-              width ~ 86% of screen/width
-              #image: file
-              above navigation 1px
-
-        navigation:
-              #height 46px
-              width ~ 86% of screen/width
-              below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
-
-        top-ad-wrapper:
-              below navigation 1px
-
-        adzerk-top-leaderboard:
-              inside top-ad-wrapper 75px left, 75px right, 20px top, 21px bottom
-
-        main-container:
-              width 830px
-              #height 3164px
-
-        node-article-profile:
-              width 790px
-
-        article-head:
-              width 790px
-
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 144px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 29px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 432px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
-              height 24px
-
-        comment-wrapper:
-              inside comment-form 0px top
-
-        post_comment:
-              height 45px
-
-        adzerk-bottom-leaderboard:
-              inside bottom-ad-wrapper 75px left, 75px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
-
-        block-block-38:
-              inside region-sidebar-second 0px left
-
-        block-title-apiu:
-              width 300px
-              height 60px
-              inside block-block-38 0px left
-
-        apiu-wrapper:
-              width 300px
-              inside block-block-38 0px left
-
-        apiu-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 24px top
-
-        primary-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 59px top
-
-
-        block-block-21:
-              inside region-sidebar-second 0px left
-              near block-block-38 29px bottom
-
-        ad-title-sidebar-top:
-              height 10px
-              inside block-block-21 0px left, 0px top
-
-        adzerk-top-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-        block-block-42:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-views-right-side-users-block:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-block-25:
-              inside region-sidebar-second 0px left
-              near block-views-right-side-users-block 30px bottom
-
-        ad-title-sidebar-bottom:
-              height 10px
-              inside block-block-25 0px left, 0px top
-
-        adzerk-bottom-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-
-        footer:
-              width 1350px
-
-    @on windows8.1IE9
-        header:
-              #height 101px
-              width ~ 86% of screen/width
-              #image: file
-              above navigation 1px
-
-        navigation:
-              #height 46px
-              width ~ 86% of screen/width
-              below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
-
-        top-ad-wrapper:
-              below navigation 1px
-
-        adzerk-top-leaderboard:
-              inside top-ad-wrapper 75px left, 75px right, 20px top, 21px bottom
-
-        main-container:
-              width 830px
-              #height 3164px
-
-        node-article-profile:
-              width 790px
-
-        article-head:
-              width 790px
-
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 144px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 29px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 432px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
-              height 24px
-
-        comment-wrapper:
-              inside comment-form 0px top
-
-        post_comment:
-              height 45px
-
-        adzerk-bottom-leaderboard:
-              inside bottom-ad-wrapper 75px left, 75px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
-
-        block-block-38:
-              inside region-sidebar-second 0px left
-
-        block-title-apiu:
-              width 300px
-              height 60px
-              inside block-block-38 0px left
-
-        apiu-wrapper:
-              width 300px
-              inside block-block-38 0px left
-
-        apiu-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 24px top
-
-        primary-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 59px top
-
-
-        block-block-21:
-              inside region-sidebar-second 0px left
-              near block-block-38 29px bottom
-
-        ad-title-sidebar-top:
-              height 10px
-              inside block-block-21 0px left, 0px top
-
-        adzerk-top-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-        block-block-42:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-views-right-side-users-block:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-block-25:
-              inside region-sidebar-second 0px left
-              near block-views-right-side-users-block 30px bottom
-
-        ad-title-sidebar-bottom:
-              height 10px
-              inside block-block-25 0px left, 0px top
-
-        adzerk-bottom-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-
-        footer:
-              width 1350px
-
-    @on windows8.1chrome42
-
-        header:
-              #height 101px
-              width ~ 86% of screen/width
-              #image: file
-              above navigation 1px
-
-        navigation:
-              #height 46px
-              width ~ 86% of screen/width
-              below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
-
-        top-ad-wrapper:
-              below navigation 1px
-
-        adzerk-top-leaderboard:
-              inside top-ad-wrapper 66px left, 67px right, 20px top, 21px bottom
-
-        main-container:
-              width 830px
-              #height 3164px
-
-        node-article-profile:
-              width 790px
-
-        article-head:
-              width 790px
-
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 143px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 30px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 430px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
-              height 24px
-
-        comment-wrapper:
-              inside comment-form 0px top
-
-        post_comment:
-              height 45px
-
-        adzerk-bottom-leaderboard:
-              inside bottom-ad-wrapper 66px left, 67px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
-
-        block-block-38:
-              inside region-sidebar-second 0px left
-
-        block-title-apiu:
-              width 300px
-              height 60px
-              inside block-block-38 0px left
-
-        apiu-wrapper:
-              width 300px
-              inside block-block-38 0px left
-
-        apiu-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 24px top
-
-        primary-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 59px top
-
-
-        block-block-21:
-              inside region-sidebar-second 0px left
-              near block-block-38 30px bottom
-
-        ad-title-sidebar-top:
-              height 10px
-              inside block-block-21 0px left, 0px top
-
-        adzerk-top-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-        block-block-42:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-views-right-side-users-block:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-block-25:
-              inside region-sidebar-second 0px left
-              near block-views-right-side-users-block 30px bottom
-
-        ad-title-sidebar-bottom:
-              height 10px
-              inside block-block-25 0px left, 0px top
-
-        adzerk-bottom-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-
-        footer:
-              width 1333px
-
-
-    @on windows8.1ff37
-
-        header:
-              #height 101px
-              width ~ 86% of screen/width
-              #image: file
-              above navigation 1px
-
-        navigation:
-              #height 46px
-              width ~ 86% of screen/width
-              below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
-
-        top-ad-wrapper:
-              below navigation 1px
-
-        adzerk-top-leaderboard:
-              inside top-ad-wrapper 68px left, 67px right, 20px top, 21px bottom
-
-        main-container:
-              width 830px
-              #height 3164px
-
-        node-article-profile:
-              width 790px
-
-        article-head:
-              width 790px
-
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 284px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 144px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 30px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 431px top
-
-        comment-form:
-              below related-wrapper 118px
-
-        coments-title:
-              height 24px
-
-        comment-wrapper:
-              inside comment-form 0px top
-
-        post_comment:
-              height 45px
-
-        adzerk-bottom-leaderboard:
-              inside bottom-ad-wrapper 68px left, 67px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
-
-        block-block-38:
-              inside region-sidebar-second 0px left
-
-        block-title-apiu:
-              width 300px
-              height 60px
-              inside block-block-38 0px left
-
-        apiu-wrapper:
-              width 300px
-              inside block-block-38 0px left
-
-        apiu-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 24px top
-
-        primary-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 59px top
-
-
-        block-block-21:
-              inside region-sidebar-second 0px left
-              near block-block-38 30px bottom
-
-        ad-title-sidebar-top:
-              height 10px
-              inside block-block-21 0px left, 0px top
-
-        adzerk-top-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-        block-block-42:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-views-right-side-users-block:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-block-25:
-              inside region-sidebar-second 0px left
-              near block-views-right-side-users-block 30px bottom
-
-        ad-title-sidebar-bottom:
-              height 10px
-              inside block-block-25 0px left, 0px top
-
-        adzerk-bottom-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-
-        footer:
-              width 1335px
-
-    @on windows7IE11
-
-        header:
-              #height 101px
-              width ~ 86% of screen/width
-              #image: file
-              above navigation 1px
-
-        navigation:
-              #height 46px
-              width ~ 86% of screen/width
-              below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
-
-        top-ad-wrapper:
-              below navigation 1px
-
-        adzerk-top-leaderboard:
-              inside top-ad-wrapper 75px left, 75px right, 20px top, 21px bottom
-
-        main-container:
-              width 830px
-              #height 3164px
-
-        node-article-profile:
-              width 790px
-
-        article-head:
-              width 790px
-
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 144px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 29px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 432px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
-              height 24px
-
-        comment-wrapper:
-              inside comment-form 0px top
-
-        post_comment:
-              height 45px
-
-        adzerk-bottom-leaderboard:
-              inside bottom-ad-wrapper 75px left, 75px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
-
-        block-block-38:
-              inside region-sidebar-second 0px left
-
-        block-title-apiu:
-              width 300px
-              height 60px
-              inside block-block-38 0px left
-
-        apiu-wrapper:
-              width 300px
-              inside block-block-38 0px left
-
-        apiu-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 24px top
-
-        primary-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 59px top
-
-
-        block-block-21:
-              inside region-sidebar-second 0px left
-              near block-block-38 29px bottom
-
-        ad-title-sidebar-top:
-              height 10px
-              inside block-block-21 0px left, 0px top
-
-        adzerk-top-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-        block-block-42:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-views-right-side-users-block:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-block-25:
-              inside region-sidebar-second 0px left
-              near block-views-right-side-users-block 30px bottom
-
-        ad-title-sidebar-bottom:
-              height 10px
-              inside block-block-25 0px left, 0px top
-
-        adzerk-bottom-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-
-        footer:
-              width 1350px
-
-    @on windows7ie10
-
-        header:
-              #height 101px
-              width ~ 86% of screen/width
-              #image: file
-              above navigation 1px
-
-        navigation:
-              #height 46px
-              width ~ 86% of screen/width
-              below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
-
-        top-ad-wrapper:
-              below navigation 1px
-
-        adzerk-top-leaderboard:
-              inside top-ad-wrapper 75px left, 75px right, 20px top, 21px bottom
-
-        main-container:
-              width 830px
-              #height 3164px
-
-        node-article-profile:
-              width 790px
-
-        article-head:
-              width 790px
-
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 144px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 29px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 432px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
-              height 24px
-
-        comment-wrapper:
-              inside comment-form 0px top
-
-        post_comment:
-              height 45px
-
-        adzerk-bottom-leaderboard:
-              inside bottom-ad-wrapper 75px left, 75px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
-
-        block-block-38:
-              inside region-sidebar-second 0px left
-
-        block-title-apiu:
-              width 300px
-              height 60px
-              inside block-block-38 0px left
-
-        apiu-wrapper:
-              width 300px
-              inside block-block-38 0px left
-
-        apiu-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 24px top
-
-        primary-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 59px top
-
-
-        block-block-21:
-              inside region-sidebar-second 0px left
-              near block-block-38 29px bottom
-
-        ad-title-sidebar-top:
-              height 10px
-              inside block-block-21 0px left, 0px top
-
-        adzerk-top-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-        block-block-42:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-views-right-side-users-block:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-block-25:
-              inside region-sidebar-second 0px left
-              near block-views-right-side-users-block 30px bottom
-
-        ad-title-sidebar-bottom:
-              height 10px
-              inside block-block-25 0px left, 0px top
-
-        adzerk-bottom-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-
-        footer:
-              width 1350px
-
-
-    @on windows7IE9
+    @on Windows7_IE_9_1366x768
 
         header:
               #height 101px
@@ -1520,7 +643,7 @@
         footer:
               width 1333px
 
-    @on windows7chrome42
+    @on Windows7_Chrome_42_1366x768
 
         header:
               #height 101px
@@ -1667,7 +790,7 @@
               width 1339px
 
 
-    @on windows7ff37
+    @on Windows7_Firefox_37_1366x768
 
         header:
               #height 101px
@@ -1813,152 +936,7 @@
         footer:
               width 1333px
 
-    @on appleOSXYosemitesafari8
-
-        header:
-              #height 101px
-              width ~ 86% of screen/width
-              #image: file
-              above navigation 1px
-
-        navigation:
-              #height 46px
-              width ~ 86% of screen/width
-              below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
-
-        top-ad-wrapper:
-              below navigation 1px
-
-        adzerk-top-leaderboard:
-              inside top-ad-wrapper 83px left, 83px right, 20px top, 21px bottom
-
-        main-container:
-              width 830px
-              #height 3164px
-
-        node-article-profile:
-              width 790px
-
-        article-head:
-              width 790px
-
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 143px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 30px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 430px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
-              height 24px
-
-        comment-wrapper:
-              inside comment-form 0px top
-
-        post_comment:
-              height 45px
-
-        adzerk-bottom-leaderboard:
-              inside bottom-ad-wrapper 83px left, 83px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
-
-        block-block-38:
-              inside region-sidebar-second 0px left
-
-        block-title-apiu:
-              width 300px
-              height 60px
-              inside block-block-38 0px left
-
-        apiu-wrapper:
-              width 300px
-              inside block-block-38 0px left
-
-        apiu-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 24px top
-
-        primary-cat:
-              width 260px
-              inside apiu-wrapper 20px left, 59px top
-
-
-        block-block-21:
-              inside region-sidebar-second 0px left
-              near block-block-38 30px bottom
-
-        ad-title-sidebar-top:
-              height 10px
-              inside block-block-21 0px left, 0px top
-
-        adzerk-top-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-        block-block-42:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-views-right-side-users-block:
-              width 300px
-              inside region-sidebar-second 0px left right
-
-        block-block-25:
-              inside region-sidebar-second 0px left
-              near block-views-right-side-users-block 30px bottom
-
-        ad-title-sidebar-bottom:
-              height 10px
-              inside block-block-25 0px left, 0px top
-
-        adzerk-bottom-mrec:
-              width 300px
-              inside region-sidebar-second 0px left
-
-        footer:
-              width 1366px
-
-    @on appleOSXYosemitechrome46
+    @on OSXYosemite_Safari_8_1366x768, OSXYosemite_Chrome_46_1366x768
 
         header:
               #height 101px
@@ -2104,7 +1082,7 @@
               width 1366px
 
 
-    @on AppleiPadAir8.3
+    @on iPadAir_iPad_768x1024
 
         header:
               #height 101px
@@ -2241,7 +1219,7 @@
         footer:
               width 768px
 
-    @on AndroidGoogleNexus7
+    @on GoogleNexus7_android_768x1024
 
         header:
               #height 101px
@@ -2364,21 +1342,11 @@
         footer:
               width 776px
 
-    @on AndroidGalaxys5
+    @on SamsungGalaxyS5_android_360x640
 
-        header:
-              #height 101px
+        header-mobile:
+              height 48px
               width ~ 100% of screen/width
-              #image: file
-              #above navigation 1px
-
-        navigation:
-              #height 46px
-              #width ~ 100% of screen/width
-              #below header 1px
-
-        top-ad-wrapper:
-              #below navigation 1px
 
         adzerk-top-leaderboard:
               inside top-ad-wrapper 20px left, 20px right, 67px top, 21px bottom
@@ -2487,126 +1455,114 @@
               width 360px
 
 
-    @on Iphone5
+    @on iPhone5_iPhone_320x568
 
-        header:
-              #height 101px
-              width ~ 100% of screen/width
-              #image: file
-              #above navigation 1px
+            header-mobile:
+                  height 48px
+                  width ~ 100% of screen/width
 
-        navigation:
-              #height 46px
-              #width ~ 100% of screen/width
-              #below header 1px
+            adzerk-top-leaderboard:
+                  inside top-ad-wrapper 20px left, 20px right, 67px top, 21px bottom
 
-        top-ad-wrapper:
-              #below navigation 1px
+            main-container:
+                  width 320px
+                  #height 3164px
 
-        adzerk-top-leaderboard:
-              inside top-ad-wrapper 20px left, 20px right, 67px top, 21px bottom
+            node-article-profile:
+                  width 280px
 
-        main-container:
-              width 320px
-              #height 3164px
-
-        node-article-profile:
-              width 280px
-
-        article-head:
-              width 280px
+            article-head:
+                  width 280px
 
 
-        article_header:
-              width 280px
-              height 66px
-              inside article-head 0px left, 0px top
+            article_header:
+                  width 280px
+                  height 66px
+                  inside article-head 0px left, 0px top
 
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 86px top
+            article_footer:
+                  width ~ 274px
+                  inside article-head 0px left, 86px top
 
-        node-social-media:
-              width 280px
-              inside article-head 0px left, 167px top
+            node-social-media:
+                  width 280px
+                  inside article-head 0px left, 167px top
 
-        field-name-field-article-body:
-              below article-head 30px
+            field-name-field-article-body:
+                  below article-head 30px
 
-        original-article-content:
-              width 280px
-              #below field-name-field-article-body 50px
+            original-article-content:
+                  width 280px
+                  #below field-name-field-article-body 50px
 
-        related-section-title:
-              height 24px
+            related-section-title:
+                  height 24px
 
-        related-term:
-              width 280px
+            related-term:
+                  width 280px
 
-        coments-title:
-              height 24px
+            coments-title:
+                  height 24px
 
-        comment-wrapper:
-              inside comment-form 0px top
+            comment-wrapper:
+                  inside comment-form 0px top
 
-        post_comment:
-              height 45px
+            post_comment:
+                  height 45px
 
-        region-sidebar-second:
-              width 320px
-              near main-container 25px bottom
+            region-sidebar-second:
+                  width 320px
+                  near main-container 25px bottom
 
-        block-block-38:
-              inside region-sidebar-second 20px left
+            block-block-38:
+                  inside region-sidebar-second 20px left
 
-        block-title-apiu:
-              width 280px
-              height 60px
-              inside block-block-38 0px left
+            block-title-apiu:
+                  width 280px
+                  height 60px
+                  inside block-block-38 0px left
 
-        apiu-wrapper:
-              width 280px
-              inside block-block-38 0px left
+            apiu-wrapper:
+                  width 280px
+                  inside block-block-38 0px left
 
-        apiu-cat:
-              width 240px
-              inside apiu-wrapper 20px left, 24px top
+            apiu-cat:
+                  width 240px
+                  inside apiu-wrapper 20px left, 24px top
 
-        primary-cat:
-              width 240px
-              inside apiu-wrapper 20px left, 59px top
-
-
-        block-block-21:
-              inside region-sidebar-second 20px left
-              near block-block-38 30px bottom
-
-        ad-title-sidebar-top:
-              height 10px
-
-        adzerk-top-mrec:
-              width 280px
-              inside region-sidebar-second 20px left
-
-        block-block-42:
-              width 280px
-              inside region-sidebar-second 20px left right
-
-        block-views-right-side-users-block:
-              width 280px
-              inside region-sidebar-second 20px left right
-
-        block-block-25:
-              inside region-sidebar-second 20px left
-
-        ad-title-sidebar-bottom:
-              height 10px
-
-        adzerk-bottom-mrec:
-              width 280px
-              inside region-sidebar-second 20px left
-
-        footer:
-              width 320px
+            primary-cat:
+                  width 240px
+                  inside apiu-wrapper 20px left, 59px top
 
 
+            block-block-21:
+                  inside region-sidebar-second 20px left
+                  near block-block-38 30px bottom
+
+            ad-title-sidebar-top:
+                  height 10px
+
+            adzerk-top-mrec:
+                  width 280px
+                  inside region-sidebar-second 20px left
+
+            block-block-42:
+                  width 280px
+                  inside region-sidebar-second 20px left right
+
+            block-views-right-side-users-block:
+                  width 280px
+                  inside region-sidebar-second 20px left right
+
+            block-block-25:
+                  inside region-sidebar-second 20px left
+
+            ad-title-sidebar-bottom:
+                  height 10px
+
+            adzerk-bottom-mrec:
+                  width 280px
+                  inside region-sidebar-second 20px left
+
+            footer:
+                  width 320px
