@@ -1280,7 +1280,7 @@
               height 24px
 
         comment-wrapper:
-              inside comment-form 377px top
+              inside partly comment-form 377px top
 
         post_comment:
               height 45px
@@ -1290,7 +1290,7 @@
               near main-container 21px right
 
         block-block-38:
-              inside region-sidebar-second 0px left
+              inside partly region-sidebar-second 0px left
 
         block-title-apiu:
               width 245px
@@ -1311,7 +1311,7 @@
 
 
         block-block-21:
-              inside region-sidebar-second 0px left
+              inside partly region-sidebar-second 0px left
               near block-block-38 30px bottom
 
         ad-title-sidebar-top:
@@ -1319,25 +1319,25 @@
 
         adzerk-top-mrec:
               width 245px
-              inside region-sidebar-second 0px left
+              inside partly region-sidebar-second 0px left
 
         block-block-42:
               width 245px
-              inside region-sidebar-second 0px left right
+              inside partly region-sidebar-second 0px left right
 
         block-views-right-side-users-block:
               width 245px
-              inside region-sidebar-second 0px left right
+              inside partly region-sidebar-second 0px left right
 
         block-block-25:
-              inside region-sidebar-second 0px left
+              inside partly region-sidebar-second 0px left
 
         ad-title-sidebar-bottom:
               height 10px
 
         adzerk-bottom-mrec:
               width 245px
-              inside region-sidebar-second 0px left
+              inside partly region-sidebar-second 0px left
 
         footer:
               width 776px
