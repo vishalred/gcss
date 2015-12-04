@@ -1,0 +1,367 @@
+git <html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <link rel="stylesheet" type="text/css" href="tablesorter.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="tablesorter.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "tests" : [ {
+    "name" : "Article_Windows10_IE_11_1366x768",
+    "startedAt" : 1449229743840,
+    "endedAt" : 1449229870978,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 39
+    },
+    "testId" : "1-article-windows10-ie-11-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 127138
+  }, {
+    "name" : "Article_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1449229870978,
+    "endedAt" : 1449230034800,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "2-article-windows10-chrome-42-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 163822
+  }, {
+    "name" : "Article_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1449230034800,
+    "endedAt" : 1449230104316,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "3-article-windows10-firefox-37-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 69516
+  }, {
+    "name" : "Article_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1449230104316,
+    "endedAt" : 1449230314853,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "4-article-windows8.1-ie-11-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 210537
+  }, {
+    "name" : "Article_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1449230314854,
+    "endedAt" : 1449230412683,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "5-article-windows8.1-chrome-42-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 97829
+  }, {
+    "name" : "Article_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1449230412683,
+    "endedAt" : 1449230499102,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "6-article-windows8.1-firefox-37-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 86419
+  }, {
+    "name" : "Article_Windows7_IE_11_1366x768",
+    "startedAt" : 1449230499103,
+    "endedAt" : 1449230604985,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "7-article-windows7-ie-11-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 105882
+  }, {
+    "name" : "Article_Windows7_IE_10_1366x768",
+    "startedAt" : 1449230604986,
+    "endedAt" : 1449230686343,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "8-article-windows7-ie-10-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 81357
+  }, {
+    "name" : "Article_Windows7_IE_9_1366x768",
+    "startedAt" : 1449230686343,
+    "endedAt" : 1449230749457,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 32,
+      "errors" : 6,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "9-article-windows7-ie-9-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 63114
+  }, {
+    "name" : "Article_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1449230749457,
+    "endedAt" : 1449230818513,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 37,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "10-article-windows7-chrome-42-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 69056
+  }, {
+    "name" : "Article_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1449230818513,
+    "endedAt" : 1449230869507,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "11-article-windows7-firefox-37-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 50994
+  }, {
+    "name" : "Article_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1449230869507,
+    "endedAt" : 1449230933949,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "12-article-osxyosemite-safari-8-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 64442
+  }, {
+    "name" : "Article_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1449230933949,
+    "endedAt" : 1449231009572,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "13-article-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "Article_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 75623
+  }, {
+    "name" : "Article_iPadAir_iPad_768x1024",
+    "startedAt" : 1449231009572,
+    "endedAt" : 1449231128802,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "14-article-ipadair-ipad-768x1024",
+    "groups" : [ "Article_Tablet_768x1024" ],
+    "failed" : false,
+    "duration" : 119230
+  }, {
+    "name" : "Article_GoogleNexus7_android_768x1024",
+    "startedAt" : 1449231128802,
+    "endedAt" : 1449231433825,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 33,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 33
+    },
+    "testId" : "15-article-googlenexus7-android-768x1024",
+    "groups" : [ "Article_Tablet_768x1024" ],
+    "failed" : false,
+    "duration" : 305023
+  }, {
+    "name" : "Article_SamsungGalaxyS5_android_360x640",
+    "startedAt" : 1449231433825,
+    "endedAt" : 1449231626519,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 0
+    },
+    "testId" : "16-article-samsunggalaxys5-android-360x640",
+    "groups" : [ "Article_Mobile" ],
+    "failed" : false,
+    "duration" : 192694
+  }, {
+    "name" : "Article_iPhone5_iPhone_320x568",
+    "startedAt" : 1449231626520,
+    "endedAt" : 1449231910514,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "17-article-iphone5-iphone-320x568",
+    "groups" : [ "Article_Mobile" ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped org.openqa.selenium.WebDriverException: Unable to communicate to node (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 259.65 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Nishants-MacBook-Pro.local', ip: '192.168.1.10', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{webStorageEnabled=true, locationContextEnabled=true, browserName=iPhone, takesScreenshot=true, javascriptEnabled=true, databaseEnabled=true, version=6.0, platform=MAC}]\nSession ID: 31697e9634e473cefdd17b3d48d3f8f70dafdf1a (/Users/nishantkumar/Documents/galenv2/gcss/article/test/page.test.js#388)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped org.openqa.selenium.WebDriverException: Unable to communicate to node (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 259.65 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Nishants-MacBook-Pro.local', ip: '192.168.1.10', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{webStorageEnabled=true, locationContextEnabled=true, browserName=iPhone, takesScreenshot=true, javascriptEnabled=true, databaseEnabled=true, version=6.0, platform=MAC}]\nSession ID: 31697e9634e473cefdd17b3d48d3f8f70dafdf1a (/Users/nishantkumar/Documents/galenv2/gcss/article/test/page.test.js#388)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._Users_nishantkumar_Documents_galenv2_gcss_article_test_page_test_js_20._c_anonymous_20(/Users/nishantkumar/Documents/galenv2/gcss/article/test/page.test.js:388)\n\tat org.mozilla.javascript.gen._Users_nishantkumar_Documents_galenv2_gcss_article_test_page_test_js_20.call(/Users/nishantkumar/Documents/galenv2/gcss/article/test/page.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.openqa.selenium.WebDriverException: Unable to communicate to node (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 259.65 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Nishants-MacBook-Pro.local', ip: '192.168.1.10', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{webStorageEnabled=true, locationContextEnabled=true, browserName=iPhone, takesScreenshot=true, javascriptEnabled=true, databaseEnabled=true, version=6.0, platform=MAC}]\nSession ID: 31697e9634e473cefdd17b3d48d3f8f70dafdf1a\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:306)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:191)\n\tat org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$6bec5a27.get(<generated>)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 24 more\n",
+    "duration" : 283994
+  } ]
+};
+
+        </script>
+        <script>
+            $(function () {
+                var galenReport = createGalenTestOverview();
+                galenReport.renderTestsTable("tests-table", reportData);
+                galenReport.renderGroupsTable("groups-table", reportData);
+
+                window.onhashchange = function () {
+                    galenReport.handleHash(window.location.hash.substr(1));
+                };
+
+                galenReport.handleHash(window.location.hash.substr(1));
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <div class="tests-overview">
+            <h2>Galen Test Report</h2>
+            <div class="tabs">
+                <a class="tab tab-tests" href="#tests">Tests</a>
+                <a class="tab tab-groups" href="#groups">Groups</a>
+            </div>
+            <div id="tests-table">
+            </div>
+            <div id="groups-table">
+            </div>
+
+            <script id="tests-table-tpl" type="text/x-handlebars-template">
+                <table class="tests tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Test</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Warnings</th>
+                            <th>Total</th>
+                            <th>Groups</th>
+                            <th>Started</th>
+                            <th>Duration</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each tests}}
+                        <tr data-groups="{{groups}}">
+                            <td class="suite-link">
+                                <a href="{{testId}}.html">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{statistic.passed}}</td>
+                            <td class="status failed">{{statistic.errors}}</td>
+                            <td class="status warnings">{{statistic.warnings}}</td>
+                            <td class="status total">{{statistic.total}}</td>
+                            <td class="tags">{{formatGroupsPretty groups}}</td>
+                            <td class="time">{{formatDateTime startedAt}}</td>
+                            <td class="time">{{formatDurationHumanReadable duration}}</td>
+                            <td class="progressbar">
+                                {{renderProgressBar statistic}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+            <script id="groups-table-tpl" type="text/x-handlebars-template">
+                <table class="groups tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Tests</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td class="group-link">
+                                <a href="#tests|grouped|{{name}}">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{passed}}</td>
+                            <td class="status failed">{{failed}}</td>
+                            <td class="status total">{{tests}}</td>
+                            <td class="progressbar">
+                                {{renderGroupsProgressBar this}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+        </div>
+    </body>
+</html>

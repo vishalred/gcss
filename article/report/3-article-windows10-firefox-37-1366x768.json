@@ -1,0 +1,420 @@
+{
+  "testId" : "3-article-windows10-firefox-37-1366x768",
+  "name" : "Article_Windows10_Firefox_37_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows10_Firefox_37_1366x768",
+      "status" : "info",
+      "time" : 1449230098582,
+      "includedTags" : [ "Windows10_Firefox_37_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 186
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 188
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 192
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 193
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "node-article-profile",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 197
+            },
+            "name" : "width 790px",
+            "highlight" : [ "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "adzerk-top-leaderboard",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 200
+            },
+            "name" : "width 1200px",
+            "highlight" : [ "adzerk-top-leaderboard" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 201
+            },
+            "name" : "height 90px",
+            "highlight" : [ "adzerk-top-leaderboard" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 202
+            },
+            "name" : "below headerdiv 21px",
+            "highlight" : [ "adzerk-top-leaderboard", "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 203
+            },
+            "name" : "above node-article-profile 46px",
+            "highlight" : [ "adzerk-top-leaderboard", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "article-head",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 206
+            },
+            "name" : "width 790px",
+            "highlight" : [ "article-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 207
+            },
+            "name" : "inside node-article-profile 0px left right",
+            "highlight" : [ "article-head", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "node-social-media",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 210
+            },
+            "name" : "width 790px",
+            "highlight" : [ "node-social-media" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 211
+            },
+            "name" : "inside node-article-profile 0px left right",
+            "highlight" : [ "node-social-media", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "submit",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 214
+            },
+            "name" : "inside article-head 0px left",
+            "highlight" : [ "submit", "article-head" ]
+          } ]
+        }, {
+          "name" : "field-item",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 217
+            },
+            "name" : "height 781px",
+            "highlight" : [ "field-item" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 218
+            },
+            "name" : "width 790px",
+            "highlight" : [ "field-item" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 219
+            },
+            "name" : "inside node-article-profile 0px left right",
+            "highlight" : [ "field-item", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "original-article-content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 222
+            },
+            "name" : "height 134px",
+            "highlight" : [ "original-article-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 223
+            },
+            "name" : "width 790px",
+            "highlight" : [ "original-article-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 224
+            },
+            "name" : "inside node-article-profile 0px left",
+            "highlight" : [ "original-article-content", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "about-author",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 227
+            },
+            "name" : "height 216px",
+            "highlight" : [ "about-author" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 228
+            },
+            "name" : "width 790px",
+            "highlight" : [ "about-author" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 229
+            },
+            "name" : "inside node-article-profile 0px left",
+            "highlight" : [ "about-author", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "section-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 232
+            },
+            "name" : "height 24px",
+            "highlight" : [ "section-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 233
+            },
+            "name" : "width  790px",
+            "highlight" : [ "section-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 234
+            },
+            "name" : "inside node-article-profile 0px left",
+            "highlight" : [ "section-title", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "related-term",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 238
+            },
+            "name" : "width  790px",
+            "highlight" : [ "related-term" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 239
+            },
+            "name" : "inside node-article-profile 0px left",
+            "highlight" : [ "related-term", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "related-terms",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 242
+            },
+            "name" : "height 54px",
+            "highlight" : [ "related-terms" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 243
+            },
+            "name" : "width 790px",
+            "highlight" : [ "related-terms" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 244
+            },
+            "name" : "inside node-article-profile 0px left",
+            "highlight" : [ "related-terms", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "coments-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 247
+            },
+            "name" : "height 24px",
+            "highlight" : [ "coments-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 248
+            },
+            "name" : "width 790px",
+            "highlight" : [ "coments-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 249
+            },
+            "name" : "inside node-article-profile 0px left",
+            "highlight" : [ "coments-title", "node-article-profile" ]
+          } ]
+        }, {
+          "name" : "comment-body-add-more-wrapper",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 252
+            },
+            "name" : "height 274px",
+            "highlight" : [ "comment-body-add-more-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 253
+            },
+            "name" : "width 790px",
+            "highlight" : [ "comment-body-add-more-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 254
+            },
+            "name" : "below coments-title",
+            "highlight" : [ "comment-body-add-more-wrapper", "coments-title" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 257
+            },
+            "name" : "width 1335px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "about-author" : {
+          "area" : [ 83, 1514, 790, 216 ]
+        },
+        "submit" : {
+          "area" : [ 83, 368, 355, 51 ]
+        },
+        "node-article-profile" : {
+          "area" : [ 83, 305, 790, 2376 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2856, 1335, 279 ]
+        },
+        "related-terms" : {
+          "area" : [ 83, 2169, 790, 54 ]
+        },
+        "original-article-content" : {
+          "area" : [ 83, 1350, 790, 134 ]
+        },
+        "headerdiv" : {
+          "area" : [ 83, 102, 1170, 46 ]
+        },
+        "adzerk-top-leaderboard" : {
+          "area" : [ 68, 169, 1200, 90 ]
+        },
+        "article-head" : {
+          "area" : [ 83, 305, 790, 184 ]
+        },
+        "coments-title" : {
+          "area" : [ 83, 2278, 790, 24 ]
+        },
+        "comment-body-add-more-wrapper" : {
+          "area" : [ 83, 2342, 790, 274 ]
+        },
+        "header" : {
+          "area" : [ 83, 0, 1170, 101 ]
+        },
+        "node-social-media" : {
+          "area" : [ 83, 449, 790, 40 ]
+        },
+        "field-item" : {
+          "area" : [ 83, 519, 790, 781 ]
+        },
+        "section-title" : {
+          "area" : [ 83, 1804, 790, 24 ]
+        },
+        "related-term" : {
+          "area" : [ 83, 1868, 790, 239 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
