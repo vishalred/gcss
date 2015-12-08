@@ -14,21 +14,21 @@ var key = "http://taher9:Gafe4n66LWkfXrJfLFcv@hub.browserstack.com/wd/hub";
 
 var testName = "Category_Term";
 
-test(testName.concat("_iPadAir_iPad_768x1024"), function () {
+
+test(testName.concat("_iPhone5_iPhone_320x568"), function () {
 
     var driver = createGridDriver(key, {
-        browserName: "iPad",
+        browserName: "iPhone",
         desiredCapabilities: {
             platform: 'MAC',
-            device: 'iPad Air',
-            browserName: 'iPad'
-
+            device: 'iPhone 5',
+            browserName: 'iPhone'
 
         }
     });
 
     driver.get(path);
-    checkLayout(driver, "specs/new.gspec", ["iPadAir_iPad_768x1024"]);
+    checkLayout(driver, "specs/new.gspec", ["iPhone5_iPhone_320x568"]);
     driver.quit();
 
 });
