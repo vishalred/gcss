@@ -14,25 +14,24 @@ var key = "http://taher9:Gafe4n66LWkfXrJfLFcv@hub.browserstack.com/wd/hub";
 
 var testName = "Category_Term";
 
-
-test(testName.concat("_Windows10_IE_11_1366x768"), function () {
+test(testName.concat("_iPadAir_iPad_768x1024"), function () {
 
     var driver = createGridDriver(key, {
-        browser: "IE",
+        browserName: "iPad",
         desiredCapabilities: {
-            os: 'Windows',
-            os_version: '10',
-            browser: 'IE',
-            browser_version: '11.0',
-            resolution: '2048x1536'//resoultion is desktop’s screen resolution
+            platform: 'MAC',
+            device: 'iPad Air',
+            browserName: 'iPad'
+
 
         }
     });
-    // Resizing the window to 1366 X 768
-    resize(driver, "1366x768");//browser resize
 
     driver.get(path);
-    checkLayout(driver, "specs/new.gspec", ["Windows10_IE_11_1366x768"]);
+    checkLayout(driver, "specs/new.gspec", ["iPadAir_iPad_768x1024"]);
     driver.quit();
 
 });
+
+
+

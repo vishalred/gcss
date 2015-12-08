@@ -1,0 +1,305 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <link rel="stylesheet" type="text/css" href="tablesorter.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="tablesorter.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "tests" : [ {
+    "name" : "Category_Term_Windows10_IE_11_1366x768",
+    "startedAt" : 1449553144501,
+    "endedAt" : 1449553316924,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "1-category-term-windows10-ie-11-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 172423
+  }, {
+    "name" : "Category_Term_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1449553316924,
+    "endedAt" : 1449553462452,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "2-category-term-windows10-chrome-42-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 145528
+  }, {
+    "name" : "Category_Term_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1449553462452,
+    "endedAt" : 1449553583391,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "3-category-term-windows10-firefox-37-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 120939
+  }, {
+    "name" : "Category_Term_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1449553583391,
+    "endedAt" : 1449553842001,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "4-category-term-windows8.1-ie-11-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 258610
+  }, {
+    "name" : "Category_Term_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1449553842001,
+    "endedAt" : 1449553981394,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "5-category-term-windows8.1-chrome-42-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 139393
+  }, {
+    "name" : "Category_Term_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1449553981394,
+    "endedAt" : 1449554116779,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 114,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "6-category-term-windows8.1-firefox-37-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 135385
+  }, {
+    "name" : "Category_Term_Windows7_IE_11_1366x768",
+    "startedAt" : 1449554116780,
+    "endedAt" : 1449554259348,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "7-category-term-windows7-ie-11-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 142568
+  }, {
+    "name" : "Category_Term_Windows7_IE_10_1366x768",
+    "startedAt" : 1449554259348,
+    "endedAt" : 1449554380553,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "8-category-term-windows7-ie-10-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 121205
+  }, {
+    "name" : "Category_Term_Windows7_IE_9_1366x768",
+    "startedAt" : 1449554380553,
+    "endedAt" : 1449554481626,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 112,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 112
+    },
+    "testId" : "9-category-term-windows7-ie-9-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 101073
+  }, {
+    "name" : "Category_Term_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1449554481626,
+    "endedAt" : 1449554588846,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "10-category-term-windows7-chrome-42-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 107220
+  }, {
+    "name" : "Category_Term_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1449554588846,
+    "endedAt" : 1449554727902,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "11-category-term-windows7-firefox-37-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 139056
+  }, {
+    "name" : "Category_Term_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1449554727902,
+    "endedAt" : 1449554844616,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "12-category-term-osxyosemite-safari-8-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 116714
+  }, {
+    "name" : "Category_Term_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1449554844616,
+    "endedAt" : 1449554946079,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "13-category-term-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 101463
+  } ]
+};
+
+        </script>
+        <script>
+            $(function () {
+                var galenReport = createGalenTestOverview();
+                galenReport.renderTestsTable("tests-table", reportData);
+                galenReport.renderGroupsTable("groups-table", reportData);
+
+                window.onhashchange = function () {
+                    galenReport.handleHash(window.location.hash.substr(1));
+                };
+
+                galenReport.handleHash(window.location.hash.substr(1));
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <div class="tests-overview">
+            <h2>Galen Test Report</h2>
+            <div class="tabs">
+                <a class="tab tab-tests" href="#tests">Tests</a>
+                <a class="tab tab-groups" href="#groups">Groups</a>
+            </div>
+            <div id="tests-table">
+            </div>
+            <div id="groups-table">
+            </div>
+
+            <script id="tests-table-tpl" type="text/x-handlebars-template">
+                <table class="tests tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Test</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Warnings</th>
+                            <th>Total</th>
+                            <th>Groups</th>
+                            <th>Started</th>
+                            <th>Duration</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each tests}}
+                        <tr data-groups="{{groups}}">
+                            <td class="suite-link">
+                                <a href="{{testId}}.html">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{statistic.passed}}</td>
+                            <td class="status failed">{{statistic.errors}}</td>
+                            <td class="status warnings">{{statistic.warnings}}</td>
+                            <td class="status total">{{statistic.total}}</td>
+                            <td class="tags">{{formatGroupsPretty groups}}</td>
+                            <td class="time">{{formatDateTime startedAt}}</td>
+                            <td class="time">{{formatDurationHumanReadable duration}}</td>
+                            <td class="progressbar">
+                                {{renderProgressBar statistic}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+            <script id="groups-table-tpl" type="text/x-handlebars-template">
+                <table class="groups tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Tests</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td class="group-link">
+                                <a href="#tests|grouped|{{name}}">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{passed}}</td>
+                            <td class="status failed">{{failed}}</td>
+                            <td class="status total">{{tests}}</td>
+                            <td class="progressbar">
+                                {{renderGroupsProgressBar this}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+        </div>
+    </body>
+</html>

@@ -7,13 +7,57 @@
     top-ad-wrapper css .top-ad-wrapper
     adzerk-top-leaderboard id adzerk-top-leaderboard
 
+    main-container css .main-container
+
+    content-section xpath /html/body/div[5]/div[1]/section
+
     # Individual sections object definition starts here
 
-    main-container //*[@id="term-category"]
+    term-category-container xpath //*[@id="term-category"]
 
     node-header css .node-header
 
+    node-track xpath //*[@id="node-track"]/a
+
+    myTab id myTab
+
+    term-news css #term-category #summary #term-news
+        block-title css .block-title
+        view-link css .block-title .view-all
+        article-title css h2
+        text css .text
+        botttom-article-left css .botttom-article-left
+
+    term-apis css #term-category #summary #term-apis
+        block-title css .block-title
+        view-link css .block-title .view-all
+        table css table
+
+    term-all-apis css #term-category #summary #term-all-apis
+        block-title css .block-title
+        view-link css .block-title .view-all
+        table css table
+
+    term-all-mashups css #term-category #summary #term-all-mashups
+        block-title css .block-title
+        view-link css .block-title .view-all
+        table css table
+
+    developers css #term-category #summary #developers
+        block-title css .block-title
+        view-content css .view-content
+        views-field-picture css .views-field-picture
+        view-footer css .view-footer a
+
+    followers css #term-category #summary #followers
+        block-title css .block-title
+        view-content css .view-content
+        views-field-picture css .views-field-picture
+        view-footer css .view-footer a
+
     # Individual sections object definition ends here
+
+    region-sidebar-second css .region-sidebar-second
 
     bottom-ad-wrapper css .bottom-ad-wrapper
     adzerk-bottom-leaderboard id adzerk-bottom-leaderboard
@@ -39,23 +83,17 @@
     view-header css #block-views-home-page-api-news-block .view-header
     footer xpath /html/body/footer
 
-    region-sidebar-second css .region-sidebar-second
-
 = Mainsection =
 
     @on Windows10_IE_11_1366x768, Windows8.1_IE_11_1366x768, Windows7_IE_11_1366x768, Windows7_IE_10_1366x768
 
         header:
-              #height 101px
               width ~ 86% of screen/width
-              #image: file
               above navigation 1px
 
         navigation:
-              #height 46px
               width ~ 86% of screen/width
               below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
 
         top-ad-wrapper:
               below navigation 1px
@@ -63,20 +101,171 @@
         adzerk-top-leaderboard:
               inside top-ad-wrapper 75px left, 75px right, 20px top, 21px bottom
 
-        # Individual sections object definition starts here
-
         main-container:
+              width 1170px
+
+        content-section:
+              width 830px
+
+        # Individual sections specs starts here
+
+        term-category-container:
               width 790px
 
         node-header:
               below top-ad-wrapper 25px
               height 40px
 
-        region-sidebar-second:
-              width 300px
-              near main-container 80px right
+        node-track:
+              below node-header 24px
+              width 790px
+              height 56px
 
-        # Individual sections object definition ends here
+        myTab:
+              below node-track 50px
+              width 790px
+              height 48px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
+              width 790px
+
+        term-news.block-title:
+              height 24px
+
+        term-news.view-link:
+              inside term-news 1px right
+              below term-news.block-title
+              height 24px
+
+        term-news.article-title:
+              width 790px
+              height 36px
+
+        term-news.text:
+              width 790px
+              height 79px
+
+        term-news.botttom-article-left:
+              below term-news.text 16px
+
+        term-news.block-title, term-news.view-link, term-news.article-title, term-news.text, term-news.botttom-article-left:
+              inside term-news
+
+        # term-apis
+
+        term-apis:
+              below term-news 70px
+              width 790px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside term-apis 1px right
+              height 24px
+
+        term-apis.table:
+              width 790px
+
+        term-apis.block-title, term-apis.view-link, term-apis.table:
+              inside term-apis
+
+        # term-all-apis
+
+        term-all-apis:
+              below term-apis 55px
+              width 790px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside term-all-apis 1px right
+              height 24px
+
+        term-all-apis.table:
+              width 790px
+
+        term-all-apis.block-title, term-all-apis.view-link, term-all-apis.table:
+              inside term-all-apis
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              below term-all-apis 55px
+              width 790px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 790px
+
+        term-all-mashups.block-title, term-all-mashups.view-link, term-all-mashups.table:
+              inside term-all-mashups
+
+        # developers
+
+        developers:
+              below term-all-mashups 55px
+              width 790px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 15px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 56px
+              below developers.view-content 15px
+
+        developers.block-title, developers.view-content, developers.views-field-picture:
+              inside developers
+
+        # followers
+
+        followers:
+              below developers.view-footer 35px
+              width 790px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 56px
+              below followers.view-content 15px
+
+        followers.block-title, followers.view-content, followers.views-field-picture:
+              inside followers
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
 
         adzerk-bottom-leaderboard:
               inside bottom-ad-wrapper 75px left, 75px right, 21px top, 20px bottom
@@ -140,17 +329,14 @@
 
     @on Windows10_Chrome_42_1366x768, Windows8.1_Chrome_42_1366x768
 
+
         header:
-              #height 101px
               width ~ 86% of screen/width
-              #image: file
               above navigation 1px
 
         navigation:
-              #height 46px
               width ~ 86% of screen/width
               below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
 
         top-ad-wrapper:
               below navigation 1px
@@ -159,73 +345,173 @@
               inside top-ad-wrapper 66px left, 67px right, 20px top, 21px bottom
 
         main-container:
+              width 1170px
+
+        content-section:
               width 830px
-              #height 3164px
 
-        node-article-profile:
+        # Individual sections specs starts here
+
+        term-category-container:
               width 790px
 
-        article-head:
+        node-header:
+              below top-ad-wrapper 25px
+              height 39px
+
+        node-track:
+              below node-header 25px
+              width 790px
+              height 55px
+
+        myTab:
+              below node-track 50px
+              width 790px
+              height 48px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
               width 790px
 
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 143px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 30px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 430px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
+        term-news.block-title:
               height 24px
 
-        comment-wrapper:
-              inside comment-form 0px top
+        term-news.view-link:
+              inside term-news 0px right
+              below term-news.block-title
+              height 24px
 
-        post_comment:
-              height 45px
+        term-news.article-title:
+              width 790px
+              height 36px
+
+        term-news.text:
+              width 790px
+              height 78px
+
+        term-news.botttom-article-left:
+              below term-news.text 15px
+
+        term-news.block-title, term-news.view-link, term-news.article-title, term-news.text, term-news.botttom-article-left:
+              inside term-news
+
+        # term-apis
+
+        term-apis:
+              below term-news 70px
+              width 790px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside term-apis 0px right
+              height 24px
+
+        term-apis.table:
+              width 790px
+
+        term-apis.block-title, term-apis.view-link, term-apis.table:
+              inside term-apis
+
+        # term-all-apis
+
+        term-all-apis:
+              below term-apis 55px
+              width 790px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside term-all-apis 0px right
+              height 24px
+
+        term-all-apis.table:
+              width 790px
+
+        term-all-apis.block-title, term-all-apis.view-link, term-all-apis.table:
+              inside term-all-apis
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              below term-all-apis 55px
+              width 790px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 790px
+
+        term-all-mashups.block-title, term-all-mashups.view-link, term-all-mashups.table:
+              inside term-all-mashups
+
+        # developers
+
+        developers:
+              below term-all-mashups 55px
+              width 790px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 15px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 55px
+              below developers.view-content 15px
+
+        developers.block-title, developers.view-content, developers.views-field-picture:
+              inside developers
+
+        # followers
+
+        followers:
+              below developers.view-footer 35px
+              width 790px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 55px
+              below followers.view-content 15px
+
+        followers.block-title, followers.view-content, followers.views-field-picture:
+              inside followers
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
 
         adzerk-bottom-leaderboard:
               inside bottom-ad-wrapper 66px left, 67px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
 
         block-block-38:
               inside region-sidebar-second 0px left
@@ -286,17 +572,14 @@
 
     @on Windows10_Firefox_37_1366x768, Windows8.1_Firefox_37_1366x768
 
+
         header:
-              #height 101px
               width ~ 86% of screen/width
-              #image: file
               above navigation 1px
 
         navigation:
-              #height 46px
               width ~ 86% of screen/width
               below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
 
         top-ad-wrapper:
               below navigation 1px
@@ -305,73 +588,415 @@
               inside top-ad-wrapper 68px left, 67px right, 20px top, 21px bottom
 
         main-container:
+              width 1170px
+
+        content-section:
               width 830px
-              #height 3164px
 
-        node-article-profile:
+        # Individual sections specs starts here
+
+        term-category-container:
               width 790px
 
-        article-head:
+        node-header:
+              below top-ad-wrapper 25px
+              height 40px
+
+        node-track:
+              below node-header 25px
+              width 790px
+              height 56px
+
+        myTab:
+              below node-track 49px
+              width 790px
+              height 48px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
               width 790px
 
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 284px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 144px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 30px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 431px top
-
-        comment-form:
-              below related-wrapper 118px
-
-        coments-title:
+        term-news.block-title:
               height 24px
 
-        comment-wrapper:
-              inside comment-form 0px top
+        term-news.view-link:
+              inside term-news 0px right
+              below term-news.block-title
+              height 24px
 
-        post_comment:
-              height 45px
+        term-news.article-title:
+              width 790px
+              height 36px
+
+        term-news.text:
+              width 790px
+              height 79px
+
+        term-news.botttom-article-left:
+              below term-news.text 15px
+
+        term-news.block-title, term-news.view-link, term-news.article-title, term-news.text, term-news.botttom-article-left:
+              inside term-news
+
+        # term-apis
+
+        term-apis:
+              below term-news 70px
+              width 790px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside term-apis 0px right
+              height 24px
+
+        term-apis.table:
+              width 790px
+
+        term-apis.block-title, term-apis.view-link, term-apis.table:
+              inside term-apis
+
+        # term-all-apis
+
+        term-all-apis:
+              below term-apis 55px
+              width 790px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside term-all-apis 0px right
+              height 24px
+
+        term-all-apis.table:
+              width 790px
+
+        term-all-apis.block-title, term-all-apis.view-link, term-all-apis.table:
+              inside term-all-apis
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              below term-all-apis 55px
+              width 790px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 790px
+
+        term-all-mashups.block-title, term-all-mashups.view-link, term-all-mashups.table:
+              inside term-all-mashups
+
+        # developers
+
+        developers:
+              below term-all-mashups 55px
+              width 790px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 15px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 56px
+              below developers.view-content 15px
+
+        developers.block-title, developers.view-content, developers.views-field-picture:
+              inside developers
+
+        # followers
+
+        followers:
+              below developers.view-footer 35px
+              width 790px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 56px
+              below followers.view-content 15px
+
+        followers.block-title, followers.view-content, followers.views-field-picture:
+              inside followers
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
 
         adzerk-bottom-leaderboard:
               inside bottom-ad-wrapper 68px left, 67px right, 21px top, 20px bottom
 
-        region-sidebar-second:
+        block-block-38:
+              inside region-sidebar-second 0px left
+
+        block-title-apiu:
               width 300px
-              near main-container 40px right
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 300px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside region-sidebar-second 0px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top:
+              height 10px
+              inside block-block-21 0px left, 0px top
+
+        adzerk-top-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+        block-block-42:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-views-right-side-users-block:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-block-25:
+              inside partly region-sidebar-second 0px left
+              near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              inside block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+
+        footer:
+              width 1335px
+
+    @on OSXYosemite_Safari_8_1366x768, OSXYosemite_Chrome_46_1366x768
+
+        header:
+              width ~ 86% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 86% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 83px left, 83px right, 20px top, 21px bottom
+
+        main-container:
+              width 1170px
+
+        content-section:
+              width 830px
+
+        # Individual sections specs starts here
+
+        term-category-container:
+              width 790px
+
+        node-header:
+              below top-ad-wrapper 25px
+              height 39px
+
+        node-track:
+              below node-header 25px
+              width 790px
+              height 55px
+
+        myTab:
+              below node-track 50px
+              width 790px
+              height 48px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
+              width 790px
+
+        term-news.block-title:
+              height 24px
+
+        term-news.view-link:
+              inside term-news ~1px right
+              below term-news.block-title
+              height 24px
+
+        term-news.article-title:
+              width 790px
+              height 36px
+
+        term-news.text:
+              width 790px
+              height 78px
+
+        term-news.botttom-article-left:
+              below term-news.text 15px
+
+        term-news.block-title, term-news.view-link, term-news.article-title, term-news.text, term-news.botttom-article-left:
+              inside term-news
+
+        # term-apis
+
+        term-apis:
+              below term-news 70px
+              width 790px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside term-apis ~1px right
+              height 24px
+
+        term-apis.table:
+              width 790px
+
+        term-apis.block-title, term-apis.view-link, term-apis.table:
+              inside term-apis
+
+        # term-all-apis
+
+        term-all-apis:
+              below term-apis 55px
+              width 790px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside term-all-apis ~1px right
+              height 24px
+
+        term-all-apis.table:
+              width 790px
+
+        term-all-apis.block-title, term-all-apis.view-link, term-all-apis.table:
+              inside term-all-apis
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              below term-all-apis 55px
+              width 790px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 790px
+
+        term-all-mashups.block-title, term-all-mashups.view-link, term-all-mashups.table:
+              inside term-all-mashups
+
+        # developers
+
+        developers:
+              below term-all-mashups 55px
+              width 790px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 15px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 55px
+              below developers.view-content 15px
+
+        developers.block-title, developers.view-content, developers.views-field-picture:
+              inside developers
+
+        # followers
+
+        followers:
+              below developers.view-footer 35px
+              width 790px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 55px
+              below followers.view-content 15px
+
+        followers.block-title, followers.view-content, followers.views-field-picture:
+              inside followers
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
+
+        adzerk-bottom-leaderboard:
+              inside bottom-ad-wrapper 83px left, 83px right, 21px top, 20px bottom
 
         block-block-38:
               inside region-sidebar-second 0px left
@@ -428,22 +1053,17 @@
 
 
         footer:
-              width 1335px
-
+              width 1366px
 
     @on Windows7_IE_9_1366x768
 
         header:
-              #height 101px
               width ~ 86% of screen/width
-              #image: file
               above navigation 1px
 
         navigation:
-              #height 46px
               width ~ 86% of screen/width
               below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
 
         top-ad-wrapper:
               below navigation 1px
@@ -452,73 +1072,170 @@
               inside top-ad-wrapper 67px left, 66px right, 20px top, 21px bottom
 
         main-container:
+              width 1170px
+
+        content-section:
               width 830px
-              #height 3164px
 
-        node-article-profile:
+        # Individual sections specs starts here
+
+        term-category-container:
               width 790px
 
-        article-head:
+        node-header:
+              below top-ad-wrapper 25px
+              height 40px
+
+        node-track:
+              below node-header 25px
+              width 790px
+              height 56px
+
+        myTab:
+              below node-track 49px
+              width 790px
+              height 48px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
               width 790px
 
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 144px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 30px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 432px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
+        term-news.block-title:
               height 24px
 
-        comment-wrapper:
-              inside comment-form 0px top
+        term-news.view-link:
+              inside term-news 1px right
+              below term-news.block-title
+              height 24px
 
-        post_comment:
-              height 45px
+        term-news.article-title:
+              width 790px
+              height 36px
+
+        term-news.text:
+              width 790px
+              height 79px
+
+        term-news.botttom-article-left:
+              below term-news.text 15px
+
+        term-news.block-title, term-news.view-link, term-news.article-title, term-news.text, term-news.botttom-article-left:
+              inside term-news
+
+        # term-apis
+
+        term-apis:
+              below term-news 70px
+              width 790px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside term-apis 1px right
+              height 24px
+
+        term-apis.table:
+              width 790px
+
+        term-apis.block-title, term-apis.view-link, term-apis.table:
+              inside term-apis
+
+        # term-all-apis
+
+        term-all-apis:
+              below term-apis 55px
+              width 790px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside term-all-apis 1px right
+              height 24px
+
+        term-all-apis.table:
+              width 790px
+
+        term-all-apis.block-title, term-all-apis.view-link, term-all-apis.table:
+              inside term-all-apis
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              below term-all-apis 55px
+              width 790px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 790px
+
+        term-all-mashups.block-title, term-all-mashups.view-link, term-all-mashups.table:
+              inside term-all-mashups
+
+        # developers
+
+        developers:
+              below term-all-mashups 55px
+              width 790px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 16px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 56px
+              below developers.view-content 15px
+
+        # followers
+
+        followers:
+              below developers.view-footer 34px
+              width 790px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 56px
+              below followers.view-content 15px
+
+        followers.block-title, followers.view-content, followers.views-field-picture:
+              inside followers
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
 
         adzerk-bottom-leaderboard:
               inside bottom-ad-wrapper 67px left, 66px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
 
         block-block-38:
               inside region-sidebar-second 0px left
@@ -577,19 +1294,17 @@
         footer:
               width 1333px
 
+
     @on Windows7_Chrome_42_1366x768
 
+
         header:
-              #height 101px
               width ~ 86% of screen/width
-              #image: file
               above navigation 1px
 
         navigation:
-              #height 46px
               width ~ 86% of screen/width
               below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
 
         top-ad-wrapper:
               below navigation 1px
@@ -598,73 +1313,173 @@
               inside top-ad-wrapper 69px left, 70px right, 20px top, 21px bottom
 
         main-container:
+              width 1170px
+
+        content-section:
               width 830px
-              #height 3164px
 
-        node-article-profile:
+        # Individual sections specs starts here
+
+        term-category-container:
               width 790px
 
-        article-head:
+        node-header:
+              below top-ad-wrapper 25px
+              height 39px
+
+        node-track:
+              below node-header 25px
+              width 790px
+              height 55px
+
+        myTab:
+              below node-track 50px
+              width 790px
+              height 48px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
               width 790px
 
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 284px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 143px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 30px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 430px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
+        term-news.block-title:
               height 24px
 
-        comment-wrapper:
-              inside comment-form 0px top
+        term-news.view-link:
+              inside term-news 0px right
+              below term-news.block-title
+              height 24px
 
-        post_comment:
-              height 45px
+        term-news.article-title:
+              width 790px
+              height 36px
+
+        term-news.text:
+              width 790px
+              height 78px
+
+        term-news.botttom-article-left:
+              below term-news.text 15px
+
+        term-news.block-title, term-news.view-link, term-news.article-title, term-news.text, term-news.botttom-article-left:
+              inside term-news
+
+        # term-apis
+
+        term-apis:
+              below term-news 70px
+              width 790px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside term-apis 0px right
+              height 24px
+
+        term-apis.table:
+              width 790px
+
+        term-apis.block-title, term-apis.view-link, term-apis.table:
+              inside term-apis
+
+        # term-all-apis
+
+        term-all-apis:
+              below term-apis 55px
+              width 790px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside term-all-apis 0px right
+              height 24px
+
+        term-all-apis.table:
+              width 790px
+
+        term-all-apis.block-title, term-all-apis.view-link, term-all-apis.table:
+              inside term-all-apis
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              below term-all-apis 55px
+              width 790px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 790px
+
+        term-all-mashups.block-title, term-all-mashups.view-link, term-all-mashups.table:
+              inside term-all-mashups
+
+        # developers
+
+        developers:
+              below term-all-mashups 55px
+              width 790px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 15px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 55px
+              below developers.view-content 15px
+
+        developers.block-title, developers.view-content, developers.views-field-picture:
+              inside developers
+
+        # followers
+
+        followers:
+              below developers.view-footer 35px
+              width 790px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 55px
+              below followers.view-content 15px
+
+        followers.block-title, followers.view-content, followers.views-field-picture:
+              inside followers
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
 
         adzerk-bottom-leaderboard:
               inside bottom-ad-wrapper 69px left, 70px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
 
         block-block-38:
               inside region-sidebar-second 0px left
@@ -723,20 +1538,15 @@
         footer:
               width 1339px
 
-
     @on Windows7_Firefox_37_1366x768
 
         header:
-              #height 101px
               width ~ 86% of screen/width
-              #image: file
               above navigation 1px
 
         navigation:
-              #height 46px
               width ~ 86% of screen/width
               below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
 
         top-ad-wrapper:
               below navigation 1px
@@ -745,73 +1555,173 @@
               inside top-ad-wrapper 67px left, 66px right, 20px top, 21px bottom
 
         main-container:
+              width 1170px
+
+        content-section:
               width 830px
-              #height 3164px
 
-        node-article-profile:
+        # Individual sections specs starts here
+
+        term-category-container:
               width 790px
 
-        article-head:
+        node-header:
+              below top-ad-wrapper 25px
+              height 40px
+
+        node-track:
+              below node-header 25px
+              width 790px
+              height 56px
+
+        myTab:
+              below node-track 49px
+              width 790px
+              height 48px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
               width 790px
 
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 284px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 144px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 30px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 431px top
-
-        comment-form:
-              below related-wrapper 118px
-
-        coments-title:
+        term-news.block-title:
               height 24px
 
-        comment-wrapper:
-              inside comment-form 0px top
+        term-news.view-link:
+              inside term-news 0px right
+              below term-news.block-title
+              height 24px
 
-        post_comment:
-              height 45px
+        term-news.article-title:
+              width 790px
+              height 36px
+
+        term-news.text:
+              width 790px
+              height 79px
+
+        term-news.botttom-article-left:
+              below term-news.text 15px
+
+        term-news.block-title, term-news.view-link, term-news.article-title, term-news.text, term-news.botttom-article-left:
+              inside term-news
+
+        # term-apis
+
+        term-apis:
+              below term-news 70px
+              width 790px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside term-apis 0px right
+              height 24px
+
+        term-apis.table:
+              width 790px
+
+        term-apis.block-title, term-apis.view-link, term-apis.table:
+              inside term-apis
+
+        # term-all-apis
+
+        term-all-apis:
+              below term-apis 55px
+              width 790px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside term-all-apis 0px right
+              height 24px
+
+        term-all-apis.table:
+              width 790px
+
+        term-all-apis.block-title, term-all-apis.view-link, term-all-apis.table:
+              inside term-all-apis
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              below term-all-apis 55px
+              width 790px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 790px
+
+        term-all-mashups.block-title, term-all-mashups.view-link, term-all-mashups.table:
+              inside term-all-mashups
+
+        # developers
+
+        developers:
+              below term-all-mashups 55px
+              width 790px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 15px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 56px
+              below developers.view-content 15px
+
+        developers.block-title, developers.view-content, developers.views-field-picture:
+              inside developers
+
+        # followers
+
+        followers:
+              below developers.view-footer 35px
+              width 790px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 56px
+              below followers.view-content 15px
+
+        followers.block-title, followers.view-content, followers.views-field-picture:
+              inside followers
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
 
         adzerk-bottom-leaderboard:
               inside bottom-ad-wrapper 67px left, 66px right, 21px top, 20px bottom
-
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
 
         block-block-38:
               inside region-sidebar-second 0px left
@@ -855,7 +1765,7 @@
               inside region-sidebar-second 0px left right
 
         block-block-25:
-              width 300px
+              inside region-sidebar-second 0px left
               near block-views-right-side-users-block 30px bottom
 
         ad-title-sidebar-bottom:
@@ -870,19 +1780,16 @@
         footer:
               width 1333px
 
-    @on OSXYosemite_Safari_8_1366x768, OSXYosemite_Chrome_46_1366x768
+
+    @on iPadAir_iPad_768x1024
 
         header:
-              #height 101px
               width ~ 86% of screen/width
-              #image: file
               above navigation 1px
 
         navigation:
-              #height 46px
               width ~ 86% of screen/width
               below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
 
         top-ad-wrapper:
               below navigation 1px
@@ -891,74 +1798,174 @@
               inside top-ad-wrapper 83px left, 83px right, 20px top, 21px bottom
 
         main-container:
+              width 1170px
+
+        content-section:
               width 830px
-              #height 3164px
 
-        node-article-profile:
+        # Individual sections specs starts here
+
+        term-category-container:
               width 790px
 
-        article-head:
+        node-header:
+              below top-ad-wrapper 25px
+              height 39px
+
+        node-track:
+              below node-header 25px
+              width 790px
+              height 55px
+
+        myTab:
+              below node-track 50px
+              width 790px
+              height 48px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
               width 790px
 
-
-        article_header:
-              width 790px
-              height 43px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 63px top
-
-        node-social-media:
-              width 790px
-              inside article-head 0px left, 143px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 790px
-              below field-name-field-article-body 50px
-        about-author:
-              below original-article-content 30px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 790px
-              inside related-wrapper 0px left, 109px top
-
-        related-terms:
-              inside related-wrapper 0px left, 430px top
-
-        comment-form:
-              below related-wrapper 119px
-
-        coments-title:
+        term-news.block-title:
               height 24px
 
-        comment-wrapper:
-              inside comment-form 0px top
+        term-news.view-link:
+              inside term-news ~1px right
+              below term-news.block-title
+              height 24px
 
-        post_comment:
-              height 45px
+        term-news.article-title:
+              width 790px
+              height 36px
+
+        term-news.text:
+              width 790px
+              height 78px
+
+        term-news.botttom-article-left:
+              below term-news.text 15px
+
+        term-news.block-title, term-news.view-link, term-news.article-title, term-news.text, term-news.botttom-article-left:
+              inside term-news
+
+        # term-apis
+
+        term-apis:
+              below term-news 70px
+              width 790px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside term-apis ~1px right
+              height 24px
+
+        term-apis.table:
+              width 790px
+
+        term-apis.block-title, term-apis.view-link, term-apis.table:
+              inside term-apis
+
+        # term-all-apis
+
+        term-all-apis:
+              below term-apis 55px
+              width 790px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside term-all-apis ~1px right
+              height 24px
+
+        term-all-apis.table:
+              width 790px
+
+        term-all-apis.block-title, term-all-apis.view-link, term-all-apis.table:
+              inside term-all-apis
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              below term-all-apis 55px
+              width 790px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 790px
+
+        term-all-mashups.block-title, term-all-mashups.view-link, term-all-mashups.table:
+              inside term-all-mashups
+
+        # developers
+
+        developers:
+              below term-all-mashups 55px
+              width 790px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 15px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 55px
+              below developers.view-content 15px
+
+        developers.block-title, developers.view-content, developers.views-field-picture:
+              inside developers
+
+        # followers
+
+        followers:
+              below developers.view-footer 35px
+              width 790px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 55px
+              below followers.view-content 15px
+
+        followers.block-title, followers.view-content, followers.views-field-picture:
+              inside followers
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
 
         adzerk-bottom-leaderboard:
               inside bottom-ad-wrapper 83px left, 83px right, 21px top, 20px bottom
 
-        region-sidebar-second:
-              width 300px
-              near main-container 40px right
-
         block-block-38:
               inside region-sidebar-second 0px left
 
@@ -1011,147 +2018,10 @@
         adzerk-bottom-mrec:
               width 300px
               inside region-sidebar-second 0px left
+
 
         footer:
               width 1366px
-
-
-    @on iPadAir_iPad_768x1024
-
-        header:
-              #height 101px
-              width ~ 100% of screen/width
-              #image: file
-              above navigation 1px
-
-        navigation:
-              #height 46px
-              width ~ 100% of screen/width
-              below header 1px
-              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
-
-        top-ad-wrapper:
-              below navigation 1px
-
-        adzerk-top-leaderboard:
-              inside top-ad-wrapper 20px left, 20px right, 67px top, 21px bottom
-
-        main-container:
-              width 485px
-              #height 3164px
-
-        node-article-profile:
-              width 445px
-
-        article-head:
-              width 445px
-
-
-        article_header:
-              width 445px
-              height 86px
-              inside article-head 0px left, 0px top
-
-        article_footer:
-              width ~ 274px
-              inside article-head 0px left, 106px top
-
-        node-social-media:
-              width 445px
-              inside article-head 0px left, 186px top
-
-        field-name-field-article-body:
-              below article-head 30px
-
-        original-article-content:
-              width 445px
-              #below field-name-field-article-body 50px
-
-        about-author:
-              below original-article-content 10px
-
-        author-comment:
-              inside about-author 130px left, 25px top
-
-        related-wrapper:
-              below about-author 30px
-
-        related-section-title:
-              height 24px
-              inside related-wrapper 0px left, 45px top
-
-        related-term:
-              width 445px
-              inside related-wrapper 0px left, 109px top
-
-        coments-title:
-              height 24px
-
-        comment-wrapper:
-              inside comment-form 0px top
-
-        post_comment:
-              height 45px
-
-        region-sidebar-second:
-              width 242px
-              near main-container 0px right
-
-        block-block-38:
-              inside region-sidebar-second 20px left
-
-        block-title-apiu:
-              width 202px
-              height 60px
-              inside block-block-38 0px left
-
-        apiu-wrapper:
-              width 202px
-              inside block-block-38 0px left
-
-        apiu-cat:
-              width 162px
-              inside apiu-wrapper 20px left, 24px top
-
-        primary-cat:
-              width 162px
-              inside apiu-wrapper 20px left, 59px top
-
-
-        block-block-21:
-              inside region-sidebar-second 20px left
-              near block-block-38 30px bottom
-
-        ad-title-sidebar-top:
-              height 10px
-              inside block-block-21 0px left, 0px top
-
-        adzerk-top-mrec:
-              width 202px
-              inside region-sidebar-second 20px left
-
-        block-block-42:
-              width 202px
-              inside region-sidebar-second 20px left right
-
-        block-views-right-side-users-block:
-              width 202px
-              inside region-sidebar-second 20px left right
-
-        block-block-25:
-              inside region-sidebar-second 20px left
-              near block-views-right-side-users-block 30px bottom
-
-        ad-title-sidebar-bottom:
-              height 10px
-              inside block-block-25 0px left, 0px top
-
-        adzerk-bottom-mrec:
-              width 202px
-              inside region-sidebar-second 20px left
-
-        footer:
-              width 768px
 
     @on GoogleNexus7_android_768x1024
 
