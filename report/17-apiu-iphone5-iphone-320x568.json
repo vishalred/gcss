@@ -1,0 +1,270 @@
+{
+  "testId" : "17-apiu-iphone5-iphone-320x568",
+  "name" : "Apiu_iPhone5_iPhone_320x568",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: iPhone5_iPhone_320x568",
+      "status" : "info",
+      "time" : 1449570307955,
+      "includedTags" : [ "iPhone5_iPhone_320x568" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header-mobile",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1072
+            },
+            "name" : "width ~ 100% of screen/width",
+            "highlight" : [ "header-mobile" ]
+          } ]
+        }, {
+          "name" : "apiu-head",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1077
+            },
+            "name" : "height 182px",
+            "highlight" : [ "apiu-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1078
+            },
+            "name" : "width 320px",
+            "highlight" : [ "apiu-head" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1083
+            },
+            "name" : "width 320px",
+            "highlight" : [ "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1084
+            },
+            "name" : "below apiu-head 0px",
+            "highlight" : [ "main-container", "apiu-head" ]
+          } ]
+        }, {
+          "name" : "block-views-api-university-categories-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1088
+            },
+            "name" : "width 280px",
+            "highlight" : [ "block-views-api-university-categories-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1089
+            },
+            "name" : "inside partly main-container 20px left ,20px right",
+            "highlight" : [ "block-views-api-university-categories-block", "main-container" ]
+          } ]
+        }, {
+          "name" : "block-views-developer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1093
+            },
+            "name" : "width 280px",
+            "highlight" : [ "block-views-developer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1094
+            },
+            "name" : "inside partly main-container 20px left,20px right",
+            "highlight" : [ "block-views-developer", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1095
+            },
+            "name" : "below block-views-api-university-categories-block ~30px",
+            "highlight" : [ "block-views-developer", "block-views-api-university-categories-block" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1099
+            },
+            "name" : "width 320px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-views-executive",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1103
+            },
+            "name" : "width 280px",
+            "highlight" : [ "block-views-executive" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1104
+            },
+            "name" : "inside partly region-sidebar-second 20px right left",
+            "highlight" : [ "block-views-executive", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-37",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1108
+            },
+            "name" : "width 280px",
+            "highlight" : [ "block-block-37" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1109
+            },
+            "name" : "inside partly region-sidebar-second 20px right left",
+            "highlight" : [ "block-block-37", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-42",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1113
+            },
+            "name" : "height 265px",
+            "highlight" : [ "block-block-42" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1114
+            },
+            "name" : "width 280px",
+            "highlight" : [ "block-block-42" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1115
+            },
+            "name" : "inside region-sidebar-second 20px right left",
+            "highlight" : [ "block-block-42", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-views-right-side-users-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1119
+            },
+            "name" : "height 274px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1120
+            },
+            "name" : "width 280px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1121
+            },
+            "name" : "inside partly region-sidebar-second 20px right left",
+            "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1125
+            },
+            "name" : "height 697px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1126
+            },
+            "name" : "width ~ 100% of screen/width",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "block-views-developer" : {
+          "area" : [ 20, 958, 280, 645 ]
+        },
+        "header-mobile" : {
+          "area" : [ 0, -1, 320, 47 ]
+        },
+        "apiu-head" : {
+          "area" : [ 0, 0, 320, 182 ]
+        },
+        "footer" : {
+          "area" : [ 0, 3650, 320, 697 ]
+        },
+        "block-block-37" : {
+          "area" : [ 20, 2207, 280, 814 ]
+        },
+        "block-views-executive" : {
+          "area" : [ 20, 1663, 280, 514 ]
+        },
+        "block-views-right-side-users-block" : {
+          "area" : [ 20, 3346, 280, 274 ]
+        },
+        "block-views-api-university-categories-block" : {
+          "area" : [ 20, 217, 280, 711 ]
+        },
+        "block-block-42" : {
+          "area" : [ 20, 3051, 280, 265 ]
+        },
+        "main-container" : {
+          "area" : [ 0, 182, 320, 3468 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 0, 1663, 320, 1957 ]
+        }
+      },
+      "screenshot" : "layout-17-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

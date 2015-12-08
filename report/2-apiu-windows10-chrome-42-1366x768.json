@@ -1,0 +1,332 @@
+{
+  "testId" : "2-apiu-windows10-chrome-42-1366x768",
+  "name" : "Apiu_Windows10_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows10_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1449569231693,
+      "includedTags" : [ "Windows10_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 85
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 87
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 91
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 92
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "apiu-head",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 96
+            },
+            "name" : "height 210px",
+            "highlight" : [ "apiu-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 97
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "apiu-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 98
+            },
+            "name" : "below headerdiv 0px",
+            "highlight" : [ "apiu-head", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 102
+            },
+            "name" : "width 1170px",
+            "highlight" : [ "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "below apiu-head 0px",
+            "highlight" : [ "main-container", "apiu-head" ]
+          } ]
+        }, {
+          "name" : "block-views-api-university-categories-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 107
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-views-api-university-categories-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 108
+            },
+            "name" : "inside partly main-container 0px left ,380px right",
+            "highlight" : [ "block-views-api-university-categories-block", "main-container" ]
+          } ]
+        }, {
+          "name" : "block-views-developer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 112
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-views-developer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "inside partly main-container 0px left,380px right",
+            "highlight" : [ "block-views-developer", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 114
+            },
+            "name" : "below block-views-api-university-categories-block ~50px",
+            "highlight" : [ "block-views-developer", "block-views-api-university-categories-block" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 118
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-views-executive",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 122
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-views-executive" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 123
+            },
+            "name" : "inside region-sidebar-second 0px right left",
+            "highlight" : [ "block-views-executive", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-37",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 127
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-37" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 128
+            },
+            "name" : "inside region-sidebar-second 0px right left",
+            "highlight" : [ "block-block-37", "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 129
+            },
+            "name" : "below block-views-executive 30px",
+            "highlight" : [ "block-block-37", "block-views-executive" ]
+          } ]
+        }, {
+          "name" : "block-block-42",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 132
+            },
+            "name" : "height 265px",
+            "highlight" : [ "block-block-42" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 133
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-42" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 134
+            },
+            "name" : "inside region-sidebar-second 0px right left",
+            "highlight" : [ "block-block-42", "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 135
+            },
+            "name" : "below block-block-37 30px",
+            "highlight" : [ "block-block-42", "block-block-37" ]
+          } ]
+        }, {
+          "name" : "block-views-right-side-users-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 138
+            },
+            "name" : "height 274px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 139
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 140
+            },
+            "name" : "inside region-sidebar-second 0px right left",
+            "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 141
+            },
+            "name" : "below block-block-42 30px",
+            "highlight" : [ "block-views-right-side-users-block", "block-block-42" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 144
+            },
+            "name" : "height 278px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 145
+            },
+            "name" : "width ~ 100% of screen/width",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "block-views-developer" : {
+          "area" : [ 81, 792, 790, 297 ]
+        },
+        "apiu-head" : {
+          "area" : [ 0, 148, 1333, 210 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2373, 1333, 278 ]
+        },
+        "block-block-37" : {
+          "area" : [ 951, 941, 300, 803 ]
+        },
+        "block-views-executive" : {
+          "area" : [ 951, 398, 300, 513 ]
+        },
+        "header" : {
+          "area" : [ 81, 0, 1170, 101 ]
+        },
+        "block-views-right-side-users-block" : {
+          "area" : [ 951, 2069, 300, 274 ]
+        },
+        "block-views-api-university-categories-block" : {
+          "area" : [ 81, 423, 790, 319 ]
+        },
+        "block-block-42" : {
+          "area" : [ 951, 1774, 300, 265 ]
+        },
+        "headerdiv" : {
+          "area" : [ 81, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 81, 358, 1170, 2015 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 951, 398, 300, 1945 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

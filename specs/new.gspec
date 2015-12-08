@@ -1,0 +1,1126 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    footer css footer
+    apiu-head   xpath   /html/body/div[4]
+    main-container  css  .main-container
+    block-views-api-university-categories-block id block-views-api-university-categories-block
+    block-views-developer  id block-views-9dbc6eefc463869c946a5ac36577602d
+    region-sidebar-second css .region-sidebar-second
+    block-views-executive  id block-views-0866b242a6802d5fdf7c6a5a527df0da
+    block-block-37 id block-block-37
+    block-block-42  id block-block-42
+    block-views-right-side-users-block  id block-views-right-side-users-block
+
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1350px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 1948px
+              width 300px
+
+        block-views-executive:
+              #height 533px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              height 806px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 29px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 279px
+              width ~ 100% of screen/width
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1333px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 1944px
+              width 300px
+
+        block-views-executive:
+              #height 533px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 802px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 30px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 278px
+              width ~ 100% of screen/width
+
+    @on Windows10_Firefox_37_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1335px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 1987px
+              width 300px
+
+        block-views-executive:
+              #height 533px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 30px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 279px
+              width ~ 100% of screen/width
+
+    @on Windows8.1_IE_11_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1350px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 533px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 29px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 279px
+              width ~ 100% of screen/width
+
+    @on Windows8.1_Chrome_42_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1333px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 513px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 30px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 278px
+              width ~ 100% of screen/width
+
+    @on Windows8.1_Firefox_37_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1335px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 533px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 30px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 279px
+              width ~ 100% of screen/width
+
+    @on Windows7_IE_11_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1350px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 513px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 29px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 279px
+              width ~ 100% of screen/width
+
+    @on Windows7_IE_10_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1350px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 513px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 29px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 279px
+              width ~ 100% of screen/width
+
+    @on Windows7_IE_9_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1333px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 513px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 30px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 279px
+              width ~ 100% of screen/width
+
+    @on Windows7_Chrome_42_1366x768
+
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1339px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 533px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 30px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 278px
+              width ~ 100% of screen/width
+
+    @on Windows7_Firefox_37_1366x768
+
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1333px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 533px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 30px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 279px
+              width ~ 100% of screen/width
+
+    @on OSXYosemite_Safari_8_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1366px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 533px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 30px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 278px
+              width ~ 100% of screen/width
+
+
+    @on OSXYosemite_Chrome_46_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 1366px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 1170px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left ,380px right
+
+        block-views-developer:
+              #height 299px
+              width 790px
+              inside partly main-container 0px left,380px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 300px
+
+        block-views-executive:
+              #height 533px
+              width 300px
+              inside region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-views-executive 30px
+
+        block-block-42:
+              height 265px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-37 30px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 300px
+              inside region-sidebar-second 0px right left
+              below block-block-42 30px
+
+        footer:
+              height 278px
+              width ~ 100% of screen/width
+
+    @on iPadAir_iPad_768x1024
+
+        header:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 100% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 768px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 768px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 445px
+              inside partly main-container 40px left ,283px right
+
+        block-views-developer:
+              #height 299px
+              width 445px
+              inside partly main-container 40px left,283px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 242px
+
+        block-views-executive:
+              #height 533px
+              width 202px
+              inside region-sidebar-second 20px right left
+
+        block-block-37:
+              #height 845px
+              width 202px
+              inside partly region-sidebar-second 20px right left
+             # below block-views-executive 30px
+
+        block-block-42:
+              height 289px
+              width 202px
+              inside region-sidebar-second 20px right left
+              below block-block-37 31px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 202px
+              inside partly region-sidebar-second 20px right left
+              #below block-block-42 20px
+
+        footer:
+              height 298px
+              width ~ 100% of screen/width
+
+    @on GoogleNexus7_android_768x1024
+
+        header:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 100% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        apiu-head:
+              height 210px
+              width 776px
+              below headerdiv 0px
+
+        main-container:
+              #height 2078px
+              width 776px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 430px
+              inside partly main-container 40px left ,306px right
+
+        block-views-developer:
+              #height 299px
+              width 430px
+              inside partly main-container 40px left,306px right
+              below block-views-api-university-categories-block ~50px
+
+        region-sidebar-second:
+              #height 2007px
+              width 245px
+
+        block-views-executive:
+              #height 533px
+              width 245px
+              inside partly region-sidebar-second 0px right left
+
+        block-block-37:
+              #height 845px
+              width 245px
+              inside partly region-sidebar-second 0px right left
+             # below block-views-executive 0px
+
+        block-block-42:
+              height 265px
+              width 245px
+              inside region-sidebar-second 0px right left
+              #below block-block-37 0px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 245px
+              inside partly region-sidebar-second 0px right left
+              #below block-block-42 0px
+
+        footer:
+              height 298px
+              width ~ 100% of screen/width
+
+    @on SamsungGalaxyS5_android_360x640
+
+
+        header-mobile:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              #above headerdiv 1px
+
+        apiu-head:
+              height 224px
+              width 360px
+              #below header-mobile 0px
+
+        main-container:
+              #height 2078px
+              width 360px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 320px
+              inside partly main-container 20px left ,20px right
+
+        block-views-developer:
+              #height 299px
+              width 320px
+              inside partly main-container 20px left,20px right
+              below block-views-api-university-categories-block ~30px
+
+        region-sidebar-second:
+              #height 2007px
+              width 360px
+
+        block-views-executive:
+              #height 533px
+              width 320px
+              inside partly region-sidebar-second 20px right left
+
+        block-block-37:
+              #height 845px
+              width 320px
+              inside partly region-sidebar-second 20px right left
+             # below block-views-executive 0px
+
+        block-block-42:
+              height 265px
+              width 320px
+              inside region-sidebar-second 20px right left
+              #below block-block-37 0px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 320px
+              inside partly region-sidebar-second 20px right left
+              #below block-block-42 0px
+
+        footer:
+              height 697px
+              width ~ 100% of screen/width
+
+    @on iPhone5_iPhone_320x568
+
+        header-mobile:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              #above headerdiv 1px
+
+        apiu-head:
+              height 182px
+              width 320px
+              #below header-mobile 0px
+
+        main-container:
+              #height 2078px
+              width 320px
+              below apiu-head 0px
+
+        block-views-api-university-categories-block:
+              #height 299px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        block-views-developer:
+              #height 299px
+              width 280px
+              inside partly main-container 20px left,20px right
+              below block-views-api-university-categories-block ~30px
+
+        region-sidebar-second:
+              #height 2007px
+              width 320px
+
+        block-views-executive:
+              #height 533px
+              width 280px
+              inside partly region-sidebar-second 20px right left
+
+        block-block-37:
+              #height 845px
+              width 280px
+              inside partly region-sidebar-second 20px right left
+             # below block-views-executive 0px
+
+        block-block-42:
+              height 265px
+              width 280px
+              inside region-sidebar-second 20px right left
+              #below block-block-37 0px
+
+        block-views-right-side-users-block:
+              height 274px
+              width 280px
+              inside partly region-sidebar-second 20px right left
+              #below block-block-42 0px
+
+        footer:
+              height 697px
+              width ~ 100% of screen/width
