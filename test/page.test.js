@@ -12,7 +12,7 @@ var key = "http://nishantkumar7:FfjHEzFuTokze1hXpspr@hub.browserstack.com/wd/hub
 
 // Test Page Name
 
-var testName = "Article_Listing";
+var testName = "How_to";
 
 // Test Group for Desktop Devices
 
