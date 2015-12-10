@@ -1,0 +1,15 @@
+{
+  "testId" : "16-article-listing-samsunggalaxys5-android-360x640",
+  "name" : "Article_Listing_SamsungGalaxyS5_android_360x640",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: SamsungGalaxyS5_android_360x640",
+      "status" : "info",
+      "time" : 1449656927896,
+      "includedTags" : [ "SamsungGalaxyS5_android_360x640" ],
+      "sections" : [ ],
+      "objects" : { },
+      "type" : "layout"
+    } ]
+  }
+}
