@@ -1,0 +1,443 @@
+{
+  "testId" : "3-mashup-listing-windows10-firefox-37-1366x768",
+  "name" : "Mashup_Listing_Windows10_Firefox_37_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows10_Firefox_37_1366x768",
+      "status" : "error",
+      "time" : 1450077266956,
+      "includedTags" : [ "Windows10_Firefox_37_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 188
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 190
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 194
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 195
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "azk16406",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 199
+            },
+            "name" : "height 90px",
+            "highlight" : [ "azk16406" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 200
+            },
+            "name" : "width 1200px",
+            "highlight" : [ "azk16406" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 201
+            },
+            "name" : "below headerdiv 21px",
+            "highlight" : [ "azk16406", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 204
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-system-main",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 207
+            },
+            "name" : "height 2187px",
+            "highlight" : [ "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 208
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-form-mashup",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 211
+            },
+            "name" : "height 225px",
+            "highlight" : [ "search-form-mashup" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 212
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-form-mashup" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 213
+            },
+            "name" : "inside block-system-main 0px left",
+            "highlight" : [ "search-form-mashup", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-input",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 216
+            },
+            "name" : "height 90px",
+            "highlight" : [ "search-input" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 217
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-input" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 218
+            },
+            "name" : "inside search-form-mashup 0px left",
+            "highlight" : [ "search-input", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "serach-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 221
+            },
+            "name" : "height 40px",
+            "highlight" : [ "serach-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 222
+            },
+            "name" : "width 790px",
+            "highlight" : [ "serach-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 223
+            },
+            "name" : "inside search-form-mashup 0px left",
+            "highlight" : [ "serach-header", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "search-mashup-catogary",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 226
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-mashup-catogary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 227
+            },
+            "name" : "width ~253px",
+            "highlight" : [ "search-mashup-catogary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 228
+            },
+            "name" : "inside search-form-mashup 0px left",
+            "highlight" : [ "search-mashup-catogary", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "search-mashup-group",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 231
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-mashup-group" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 232
+            },
+            "name" : "width ~253px",
+            "highlight" : [ "search-mashup-group" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 233
+            },
+            "name" : "inside search-form-mashup 267px left",
+            "highlight" : [ "search-mashup-group", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "search-mashup-checkbox",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 236
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-mashup-checkbox" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 237
+            },
+            "name" : "width ~157px",
+            "highlight" : [ "search-mashup-checkbox" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 238
+            },
+            "name" : "inside search-form-mashup 98px right",
+            "highlight" : [ "search-mashup-checkbox", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "table-containt-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 241
+            },
+            "name" : "height 51px",
+            "highlight" : [ "table-containt-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 242
+            },
+            "name" : "width 790px",
+            "highlight" : [ "table-containt-header" ]
+          } ]
+        }, {
+          "name" : "table-cinataint-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 245
+            },
+            "name" : "height 71px",
+            "highlight" : [ "table-cinataint-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 246
+            },
+            "name" : "width  790px",
+            "highlight" : [ "table-cinataint-1" ]
+          } ]
+        }, {
+          "name" : "table-cinataint-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 249
+            },
+            "name" : "height 71px",
+            "highlight" : [ "table-cinataint-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 250
+            },
+            "name" : "width  790px",
+            "highlight" : [ "table-cinataint-2" ]
+          } ]
+        }, {
+          "name" : "table-cinataint-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 253
+            },
+            "name" : "height 71px",
+            "highlight" : [ "table-cinataint-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 254
+            },
+            "name" : "width  790px",
+            "highlight" : [ "table-cinataint-3" ]
+          } ]
+        }, {
+          "name" : "bottom_ad",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 258
+            },
+            "name" : "width 1200px",
+            "highlight" : [ "bottom_ad" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 259
+            },
+            "name" : "below block-system-main 111px",
+            "errors" : [ "\"bottom_ad\" is 67px below \"block-system-main\" instead of 111px" ],
+            "highlight" : [ "bottom_ad", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 262
+            },
+            "name" : "height 279px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 263
+            },
+            "name" : "width 1335px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "block-system-main" : {
+          "area" : [ 83, 305, 790, 2187 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2673, 1335, 279 ]
+        },
+        "table-cinataint-3" : {
+          "area" : [ 83, 652, 790, 71 ]
+        },
+        "serach-header" : {
+          "area" : [ 83, 305, 790, 40 ]
+        },
+        "headerdiv" : {
+          "area" : [ 83, 102, 1170, 46 ]
+        },
+        "azk16406" : {
+          "area" : [ 68, 169, 1200, 90 ]
+        },
+        "search-mashup-group" : {
+          "area" : [ 350, 470, 253, 45 ]
+        },
+        "search-input" : {
+          "area" : [ 83, 370, 790, 90 ]
+        },
+        "search-mashup-checkbox" : {
+          "area" : [ 618, 470, 157, 45 ]
+        },
+        "search-mashup-catogary" : {
+          "area" : [ 83, 470, 253, 45 ]
+        },
+        "table-containt-header" : {
+          "area" : [ 83, 530, 790, 51 ]
+        },
+        "table-cinataint-2" : {
+          "area" : [ 83, 581, 790, 71 ]
+        },
+        "header" : {
+          "area" : [ 83, 0, 1170, 101 ]
+        },
+        "table-cinataint-1" : {
+          "area" : [ 83, 581, 790, 71 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 953, 305, 300, 2203 ]
+        },
+        "bottom_ad" : {
+          "area" : [ 68, 2559, 1200, 95 ]
+        },
+        "search-form-mashup" : {
+          "area" : [ 83, 305, 790, 225 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
