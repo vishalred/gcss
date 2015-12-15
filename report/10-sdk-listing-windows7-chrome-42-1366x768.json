@@ -1,0 +1,850 @@
+{
+  "testId" : "10-sdk-listing-windows7-chrome-42-1366x768",
+  "name" : "Sdk_Listing_Windows7_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1450173461861,
+      "includedTags" : [ "Windows7_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1323
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1325
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1329
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1330
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "main-containt-section",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1334
+            },
+            "name" : "height 2342px",
+            "highlight" : [ "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1335
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1336
+            },
+            "name" : "below headerdiv 157px",
+            "highlight" : [ "main-containt-section", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "azk16406",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1339
+            },
+            "name" : "height 90px",
+            "highlight" : [ "azk16406" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1340
+            },
+            "name" : "width 1200px",
+            "highlight" : [ "azk16406" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1341
+            },
+            "name" : "below headerdiv 21px",
+            "highlight" : [ "azk16406", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "page-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1344
+            },
+            "name" : "height 39px",
+            "highlight" : [ "page-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1345
+            },
+            "name" : "width 830px",
+            "highlight" : [ "page-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1346
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "page-header", "main-containt-section" ]
+          } ]
+        }, {
+          "name" : "form-framework-library",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1349
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-framework-library" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1350
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-framework-library" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1351
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "form-framework-library", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1352
+            },
+            "name" : "below page-header 35px",
+            "highlight" : [ "form-framework-library", "page-header" ]
+          } ]
+        }, {
+          "name" : "form-field-type-taxonomy-term-reference",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1355
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-field-type-taxonomy-term-reference" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1356
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-type-taxonomy-term-reference" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1357
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "form-field-type-taxonomy-term-reference", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1358
+            },
+            "name" : "below form-framework-library 20px",
+            "highlight" : [ "form-field-type-taxonomy-term-reference", "form-framework-library" ]
+          } ]
+        }, {
+          "name" : "form-field-type-link-field",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1361
+            },
+            "name" : "height 75px",
+            "highlight" : [ "form-field-type-link-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1362
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-type-link-field" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1363
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "form-field-type-link-field", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1364
+            },
+            "name" : "below form-field-type-taxonomy-term-reference 20px",
+            "highlight" : [ "form-field-type-link-field", "form-field-type-taxonomy-term-reference" ]
+          } ]
+        }, {
+          "name" : "form-edit-field-resource-repository",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1367
+            },
+            "name" : "height 75px",
+            "highlight" : [ "form-edit-field-resource-repository" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1368
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-edit-field-resource-repository" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1369
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "form-edit-field-resource-repository", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1370
+            },
+            "name" : "below form-field-type-link-field 20px",
+            "highlight" : [ "form-edit-field-resource-repository", "form-field-type-link-field" ]
+          } ]
+        }, {
+          "name" : "form-field-type-list-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1373
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-field-type-list-text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1374
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-type-list-text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1375
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "form-field-type-list-text", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1376
+            },
+            "name" : "below form-edit-field-resource-repository 20px",
+            "highlight" : [ "form-field-type-list-text", "form-edit-field-resource-repository" ]
+          } ]
+        }, {
+          "name" : "form-field-type-entityreference",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1379
+            },
+            "name" : "height 196px",
+            "highlight" : [ "form-field-type-entityreference" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1380
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-type-entityreference" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1381
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "form-field-type-entityreference", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1382
+            },
+            "name" : "below form-field-type-list-text 20px",
+            "highlight" : [ "form-field-type-entityreference", "form-field-type-list-text" ]
+          } ]
+        }, {
+          "name" : "list-field-type-taxonomy-term-reference",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1385
+            },
+            "name" : "height 70px",
+            "highlight" : [ "list-field-type-taxonomy-term-reference" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1386
+            },
+            "name" : "width 790px",
+            "highlight" : [ "list-field-type-taxonomy-term-reference" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1387
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "list-field-type-taxonomy-term-reference", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1388
+            },
+            "name" : "below form-field-type-entityreference 20px",
+            "highlight" : [ "list-field-type-taxonomy-term-reference", "form-field-type-entityreference" ]
+          } ]
+        }, {
+          "name" : "list-edit-field-article-primary-category",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1391
+            },
+            "name" : "height 70px",
+            "highlight" : [ "list-edit-field-article-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1392
+            },
+            "name" : "width 790px",
+            "highlight" : [ "list-edit-field-article-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1393
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "list-edit-field-article-primary-category", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1394
+            },
+            "name" : "below list-field-type-taxonomy-term-reference 20px",
+            "highlight" : [ "list-edit-field-article-primary-category", "list-field-type-taxonomy-term-reference" ]
+          } ]
+        }, {
+          "name" : "form-edit-field-article-secondary-category",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1397
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-edit-field-article-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1398
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-edit-field-article-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1399
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "form-edit-field-article-secondary-category", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1400
+            },
+            "name" : "below list-edit-field-article-primary-category 20px",
+            "highlight" : [ "form-edit-field-article-secondary-category", "list-edit-field-article-primary-category" ]
+          } ]
+        }, {
+          "name" : "summary",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1403
+            },
+            "name" : "height 124px",
+            "highlight" : [ "summary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1404
+            },
+            "name" : "width 790px",
+            "highlight" : [ "summary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1405
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "summary", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1406
+            },
+            "name" : "below form-edit-field-article-secondary-category 20px",
+            "highlight" : [ "summary", "form-edit-field-article-secondary-category" ]
+          } ]
+        }, {
+          "name" : "framework-library-description",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1409
+            },
+            "name" : "height 124px",
+            "highlight" : [ "framework-library-description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1410
+            },
+            "name" : "width 790px",
+            "highlight" : [ "framework-library-description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1411
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "framework-library-description", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1412
+            },
+            "name" : "below summary 20px",
+            "highlight" : [ "framework-library-description", "summary" ]
+          } ]
+        }, {
+          "name" : "framework-image-upload",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1415
+            },
+            "name" : "height 164px",
+            "highlight" : [ "framework-image-upload" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1416
+            },
+            "name" : "width 790px",
+            "highlight" : [ "framework-image-upload" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1417
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "framework-image-upload", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1418
+            },
+            "name" : "below framework-library-description 20px",
+            "highlight" : [ "framework-image-upload", "framework-library-description" ]
+          } ]
+        }, {
+          "name" : "check-box-yours",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1421
+            },
+            "name" : "height 21px",
+            "highlight" : [ "check-box-yours" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1422
+            },
+            "name" : "width 790px",
+            "highlight" : [ "check-box-yours" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1423
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "check-box-yours", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1424
+            },
+            "name" : "below framework-image-upload 20px",
+            "highlight" : [ "check-box-yours", "framework-image-upload" ]
+          } ]
+        }, {
+          "name" : "sign-up-form",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1427
+            },
+            "name" : "height 664px",
+            "highlight" : [ "sign-up-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1428
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sign-up-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1429
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "sign-up-form", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1430
+            },
+            "name" : "below check-box-yours 20px",
+            "highlight" : [ "sign-up-form", "check-box-yours" ]
+          } ]
+        }, {
+          "name" : "sign-up-form-username",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1433
+            },
+            "name" : "height 70px",
+            "highlight" : [ "sign-up-form-username" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1434
+            },
+            "name" : "width 758px",
+            "highlight" : [ "sign-up-form-username" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1435
+            },
+            "name" : "inside sign-up-form 16px left",
+            "highlight" : [ "sign-up-form-username", "sign-up-form" ]
+          } ]
+        }, {
+          "name" : "sign-up-form-email",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1438
+            },
+            "name" : "height 109px",
+            "highlight" : [ "sign-up-form-email" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1439
+            },
+            "name" : "width 758px",
+            "highlight" : [ "sign-up-form-email" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1440
+            },
+            "name" : "inside sign-up-form 16px left",
+            "highlight" : [ "sign-up-form-email", "sign-up-form" ]
+          } ]
+        }, {
+          "name" : "sign-up-form-password",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1443
+            },
+            "name" : "height 160px",
+            "highlight" : [ "sign-up-form-password" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1444
+            },
+            "name" : "width 758px",
+            "highlight" : [ "sign-up-form-password" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1445
+            },
+            "name" : "inside sign-up-form 16px left",
+            "highlight" : [ "sign-up-form-password", "sign-up-form" ]
+          } ]
+        }, {
+          "name" : "save-signup-button",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1449
+            },
+            "name" : "height 45px",
+            "highlight" : [ "save-signup-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1450
+            },
+            "name" : "width 790px",
+            "highlight" : [ "save-signup-button" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1451
+            },
+            "name" : "inside main-containt-section 0px left",
+            "highlight" : [ "save-signup-button", "main-containt-section" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1452
+            },
+            "name" : "below sign-up-form 20px",
+            "highlight" : [ "save-signup-button", "sign-up-form" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1455
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1458
+            },
+            "name" : "height 278px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1459
+            },
+            "name" : "width 1339px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "form-edit-field-resource-repository" : {
+          "area" : [ 84, 654, 790, 75 ]
+        },
+        "framework-library-description" : {
+          "area" : [ 84, 1469, 790, 124 ]
+        },
+        "sign-up-form" : {
+          "area" : [ 84, 1838, 790, 664 ]
+        },
+        "sign-up-form-username" : {
+          "area" : [ 100, 1896, 758, 70 ]
+        },
+        "main-containt-section" : {
+          "area" : [ 84, 305, 830, 2342 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2783, 1339, 278 ]
+        },
+        "framework-image-upload" : {
+          "area" : [ 84, 1613, 790, 164 ]
+        },
+        "sign-up-form-email" : {
+          "area" : [ 100, 1986, 758, 109 ]
+        },
+        "form-field-type-list-text" : {
+          "area" : [ 84, 749, 790, 70 ]
+        },
+        "azk16406" : {
+          "area" : [ 69, 169, 1200, 90 ]
+        },
+        "form-field-type-link-field" : {
+          "area" : [ 84, 559, 790, 75 ]
+        },
+        "list-field-type-taxonomy-term-reference" : {
+          "area" : [ 84, 1055, 790, 70 ]
+        },
+        "check-box-yours" : {
+          "area" : [ 84, 1797, 790, 21 ]
+        },
+        "sign-up-form-password" : {
+          "area" : [ 100, 2115, 758, 160 ]
+        },
+        "summary" : {
+          "area" : [ 84, 1325, 790, 124 ]
+        },
+        "page-header" : {
+          "area" : [ 84, 305, 830, 39 ]
+        },
+        "form-field-type-taxonomy-term-reference" : {
+          "area" : [ 84, 469, 790, 70 ]
+        },
+        "save-signup-button" : {
+          "area" : [ 84, 2522, 790, 45 ]
+        },
+        "list-edit-field-article-primary-category" : {
+          "area" : [ 84, 1145, 790, 70 ]
+        },
+        "headerdiv" : {
+          "area" : [ 84, 102, 1170, 46 ]
+        },
+        "form-framework-library" : {
+          "area" : [ 84, 379, 790, 70 ]
+        },
+        "form-field-type-entityreference" : {
+          "area" : [ 84, 839, 790, 196 ]
+        },
+        "header" : {
+          "area" : [ 84, 0, 1170, 101 ]
+        },
+        "form-edit-field-article-secondary-category" : {
+          "area" : [ 84, 1235, 790, 70 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 954, 305, 300, 2222 ]
+        }
+      },
+      "screenshot" : "layout-10-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,2165 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    azk16406  id azk16406
+    region-sidebar-second css  .region-sidebar-second
+
+    main-containt-section xpath  /html/body/div[5]/div[1]/section
+    page-header  css  .page-header
+    form-framework-library  css  #block-system-main .form-type-textfield
+    form-field-type-taxonomy-term-reference  css  #block-system-main .field-type-taxonomy-term-reference
+    form-field-type-link-field  css  #block-system-main .field-type-link-field
+    form-edit-field-resource-repository  xpath //*[@id="edit-field-resource-repository"]
+    form-field-type-list-text  css  #block-system-main  .field-type-list-text
+    form-field-type-entityreference css  #block-system-main  .field-type-entityreference
+    list-field-type-taxonomy-term-reference  xpath  //*[@id="edit-field-article-related-languages"]
+    list-edit-field-article-primary-category  xpath  //*[@id="edit-field-article-primary-category"]
+    form-edit-field-article-secondary-category xpath  //*[@id="edit-field-article-secondary-category"]
+    summary  css #body-add-more-wrapper .form-type-textarea
+    framework-library-description  xpath //*[@id="body-add-more-wrapper"]/div[2]
+    framework-image-upload xpath  //*[@id="edit-field-resource-image"]
+    check-box-yours xpath //*[@id="edit-field-resource-yours"]
+    sign-up-form css #block-system-main .node-form .panel
+    sign-up-form-username  xpath //*[@id="edit-account"]/div[1]
+    sign-up-form-email xpath  //*[@id="edit-account"]/div[2]
+    sign-up-form-password css  #edit-account .form-type-password-confirm
+
+
+    save-signup-button  xpath //*[@id="edit-actions"]
+
+    bottom_ad   id   adzerk-bottom-leaderboard
+    footer css footer
+
+
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2345px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 40px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 34px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 22px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 665px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 21px
+
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2342px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 39px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 35px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 21px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 664px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 20px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2340px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 40px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 35px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 22px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 660px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 19px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 21px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 279px
+              width 1335px
+
+
+    @on Windows8.1_IE_11_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2345px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 40px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 34px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 22px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 665px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 21px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 279px
+              width 1350px
+
+
+    @on Windows8.1_Chrome_42_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2342px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 39px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 35px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 21px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 664px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 20px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 278px
+              width 1333px
+
+
+    @on Windows8.1_Firefox_37_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2340px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 40px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 35px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 22px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 660px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 19px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 21px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 279px
+              width 1335px
+
+
+    @on Windows7_IE_11_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2345px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 40px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 34px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 22px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 665px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 21px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 279px
+              width 1350px
+
+
+    @on Windows7_IE_10_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2345px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 40px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 34px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 22px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 665px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 21px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_9_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2345px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 40px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 35px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 22px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 665px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 20px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 279px
+              width 1333px
+
+
+    @on Windows7_Chrome_42_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2342px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 39px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 35px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 21px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 664px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 20px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 278px
+              width 1339px
+
+
+    @on Windows7_Firefox_37_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2340px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 40px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 35px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 22px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 660px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 19px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 21px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 279px
+              width 1333px
+
+
+    @on OSXYosemite_Safari_8_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2342px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 39px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 35px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 21px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 664px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 20px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 278px
+              width 1366px
+
+
+    @on OSXYosemite_Chrome_46_1366x768
+
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2342px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        page-header:
+              height 39px
+              width 830px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below page-header 35px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-containt-section 0px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 790px
+              inside main-containt-section 0px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 21px
+              width 790px
+              inside main-containt-section 0px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 664px
+              width 790px
+              inside main-containt-section 0px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 109px
+              width 758px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 160px
+              width 758px
+              inside sign-up-form 16px left
+
+
+        save-signup-button:
+             height 45px
+             width 790px
+             inside main-containt-section 0px left
+             below sign-up-form 20px
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 278px
+              width 1366px
+
+
+    @on iPadAir_iPad_768x1024
+
+        header:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 100% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             height 2514px
+             width 485px
+             below headerdiv 134px
+
+        azk16406:
+              height 20px
+              width 728px
+              below headerdiv 68px
+
+        page-header:
+              height 78px
+              width 485px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 445px
+              inside main-containt-section 20px left
+              below page-header 55px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 445px
+              inside main-containt-section 20px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 445px
+              inside main-containt-section 20px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 445px
+              inside main-containt-section 20px left
+              below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 445px
+              inside main-containt-section 20px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 445px
+              inside main-containt-section 20px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 445px
+              inside partly main-containt-section 20px left
+              #below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 445px
+              inside partly main-containt-section 20px left
+              below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 445px
+              inside partly main-containt-section 20px left
+              below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 445px
+              inside partly main-containt-section 20px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 445px
+              inside main-containt-section 20px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 445px
+              inside main-containt-section 20px left
+              below framework-library-description 20px
+
+        check-box-yours:
+              height 21px
+              width 445px
+              inside main-containt-section 20px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 777px
+              width 472px
+              inside partly main-containt-section 20px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 440px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 143px
+              width 440px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 239px
+              width 440px
+              inside partly sign-up-form 16px left
+
+        save-signup-button:
+             height 45px
+             width 445px
+             inside main-containt-section 20px left
+            # below sign-up-form 20px
+
+        region-sidebar-second:
+              width 242px
+
+        footer:
+              height 298px
+              width 768px
+
+    @on iPhone5_iPhone_320x568
+
+        header-mobile:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+
+
+        main-containt-section:
+             height 2578px
+             width 320px
+             #below headerdiv 134px
+
+        azk16406:
+              height 20px
+              width 280px
+              below header-mobile 20px
+
+        page-header:
+              height 60px
+              width 320px
+              inside main-containt-section 0px left
+
+        form-framework-library:
+              height 70px
+              width 280px
+              inside main-containt-section 20px left
+              below page-header 55px
+
+        form-field-type-taxonomy-term-reference:
+              height 70px
+              width 280px
+              inside main-containt-section 20px left
+              below form-framework-library 20px
+
+        form-field-type-link-field:
+              height 75px
+              width 280px
+              inside main-containt-section 20px left
+              below form-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-resource-repository:
+              height 75px
+              width 280px
+              inside partly main-containt-section 20px left
+              #below form-field-type-link-field 20px
+
+        form-field-type-list-text:
+              height 70px
+              width 280px
+              inside partly main-containt-section 20px left
+              below form-edit-field-resource-repository 20px
+
+        form-field-type-entityreference:
+              height 196px
+              width 280px
+              inside main-containt-section 20px left
+              below form-field-type-list-text 20px
+
+        list-field-type-taxonomy-term-reference:
+              height 70px
+              width 280px
+              inside partly main-containt-section 20px left
+              #below form-field-type-entityreference 20px
+
+        list-edit-field-article-primary-category:
+              height 70px
+              width 280px
+              inside partly main-containt-section 20px left
+              #below list-field-type-taxonomy-term-reference 20px
+
+        form-edit-field-article-secondary-category:
+              height 70px
+              width 280px
+              inside partly main-containt-section 20px left
+              #below list-edit-field-article-primary-category 20px
+
+        summary:
+              height 124px
+              width 280px
+              inside partly main-containt-section 20px left
+              below form-edit-field-article-secondary-category 20px
+
+        framework-library-description:
+              height 124px
+              width 280px
+              inside main-containt-section 20px left
+              below summary 20px
+
+        framework-image-upload:
+              height 164px
+              width 280px
+              inside partly main-containt-section 20px left
+              #below framework-library-description 20px
+
+        check-box-yours:
+              height 22px
+              width 280px
+              inside main-containt-section 20px left
+              below framework-image-upload 20px
+
+        sign-up-form:
+              height 858px
+              width 282px
+              inside partly main-containt-section 20px left
+              below check-box-yours 20px
+
+        sign-up-form-username:
+              height 70px
+              width 250px
+              inside sign-up-form 16px left
+
+        sign-up-form-email:
+              height 177px
+              width 250px
+              inside sign-up-form 16px left
+
+        sign-up-form-password:
+              height 264px
+              width 250px
+              inside partly sign-up-form 16px left
+
+        save-signup-button:
+             height 45px
+             width 280px
+             inside partly main-containt-section 20px left
+            # below sign-up-form 20px
+
+        region-sidebar-second:
+              width 320px
+
+        footer:
+              height 697px
+              width 320px
