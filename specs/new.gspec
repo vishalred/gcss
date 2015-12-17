@@ -1,0 +1,2658 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    navigation     xpath        //*[@id="top-menus-wrapper"]/div[1]
+
+    header-mobile xpath /html/body/div[2]
+
+    top-ad-wrapper css .top-ad-wrapper
+    adzerk-top-leaderboard id adzerk-top-leaderboard
+
+    main-container css .main-container
+
+    content-section xpath /html/body/div[5]/div[1]/section
+
+    # Individual sections object definition starts here
+
+    breadcrumb css .breadcrumb
+
+    node_header css .node-api header
+
+    profile-top-left css div.profile-top.col-sm-12.col-md-4.col-lg-4
+        field-type-image css .field-type-image
+        node-track css #node-track a
+        node-social-media css .node-social-media
+
+    profile-top-right css div.profile-top.col-sm-12.col-md-8.col-lg-8
+        node-header css .node-header
+        botttom-article css .botttom-article
+        intro css .intro
+
+    myTab id myTab
+
+    tabs-content css #myTabContent #tabs-content
+        block-title css .block-title
+        field css .field
+            label css label
+            span css span
+
+    api_followers css #myTabContent #block-views-api-followers-row-top
+        block-title css .block-title
+        view-api-followers css .view-api-followers
+            view-header css .view-header a
+            view-content css .view-content
+            view-footer css .view-footer a
+
+    api_developers css #myTabContent #block-views-api-developers-row-top
+        block-title css .block-title
+        view-api-developers css .view-api-developers
+            view-header css .view-header a
+            view-content css .view-content
+            view-footer css .view-footer a
+
+    api_mashups css #myTabContent #block-views-api-mashups-new-list-top
+        block-title css .block-title
+        view-api-mashups css .view-api-mashups-new
+            view-header css .view-header a
+            view-content css .view-content
+            view-footer css .view-footer a
+
+    api_news css #myTabContent #block-views-api-news-block
+        block-title css .block-title
+        view-api-news css .view-api-news
+            view-header css .view-header a
+            view-content css .view-content
+
+    related_apis css #myTabContent #block-views-related-apis-block
+        block-title css .block-title
+        view-related-apis css .view-related-apis
+            view-header css .view-header a
+            view-content css .view-content
+                table css table
+
+    # Individual sections object definition ends here
+
+    region-sidebar-second css .region-sidebar-second
+
+    bottom-ad-wrapper css .bottom-ad-wrapper
+    adzerk-bottom-leaderboard id adzerk-bottom-leaderboard
+
+    block-block-38 id block-block-38
+    block-title-apiu xpath //*[@id="block-block-38"]/div[1]
+    apiu-wrapper css .apiu-wrapper
+    apiu-cat css .apiu-cat
+    primary-cat css .primary-cat
+    block-block-21 id block-block-21
+    ad-title-sidebar-top xpath //*[@id="block-block-21"]/div[1]
+    adzerk-top-mrec id adzerk-top-mrec
+
+    block-block-42    id  block-block-42
+
+    block-views-right-side-users-block id block-views-right-side-users-block
+
+    block-block-25 id block-block-25
+    ad-title-sidebar-bottom xpath //*[@id="block-block-25"]/div[1]
+    adzerk-bottom-mrec id adzerk-bottom-mrec
+
+    block-views-home-feature-images-block id block-views-home-feature-images-block
+    view-header css #block-views-home-page-api-news-block .view-header
+    footer xpath /html/body/footer
+
+= Mainsection =
+
+    @on Windows10_IE_11_1366x768, Windows8.1_IE_11_1366x768, Windows7_IE_11_1366x768, Windows7_IE_10_1366x768
+
+        header:
+              width ~ 86% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 86% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 75px left, 75px right, 20px top, 21px bottom
+
+        main-container:
+              width 1170px
+
+        = Page Content =
+
+            content-section:
+                  width 830px
+
+            # Individual sections specs starts here
+
+            breadcrumb:
+                  width 830px
+                  height 20px
+
+            = API Profile Header =
+
+                profile-top-left:
+                      below breadcrumb 25px
+                      width ~264px
+
+                profile-top-left.node-track:
+                      below profile-top-left.field-type-image 25px
+
+                profile-top-left.node-social-media:
+                      below profile-top-left.node-track 24px
+
+                profile-top-left.field-type-image, profile-top-left.node-track, profile-top-left.node-social-media:
+                      width ~234px
+
+                profile-top-right:
+                      below breadcrumb 25px
+                      width ~527px
+
+                profile-top-right.node-header:
+                      height 32px
+
+                profile-top-right.botttom-article:
+                      below profile-top-right.node-header 15px
+
+                profile-top-right.intro:
+                      below profile-top-right.botttom-article 14px
+
+                profile-top-right.node-header, profile-top-right.botttom-article, profile-top-right.intro:
+                      inside profile-top-right
+
+            = API Specs =
+
+                myTab:
+                      below node_header 49px
+                      height 48px
+                      width 790px
+
+                tabs-content:
+                      width 790px
+
+                tabs-content.block-title:
+                      height 24px
+                      width 790px
+                      below myTab 35px
+
+                tabs-content.field:
+                      width 790px
+                      height 37px
+
+                tabs-content.field.label:
+                      width 240px
+                      height 20px
+
+                tabs-content.field.span:
+                      width ~514px
+                      height 20px
+
+            = API Followers =
+
+                api_followers:
+                       width 790px
+
+                api_followers.block-title:
+                        inside api_followers 35px top
+                        height 24px
+
+                api_followers.view-api-followers:
+                        height 70px
+
+                api_followers.view-api-followers.view-header:
+                        inside api_followers.view-api-followers 0px right
+
+                api_followers.view-api-followers.view-content:
+                        height 50px
+
+                api_followers.view-api-followers.view-footer:
+                        below api_followers.view-api-followers.view-content 15px
+                        height 56px
+                        width ~173px
+
+            = API Developers =
+
+                api_developers:
+                       width 790px
+
+                api_developers.block-title:
+                        inside api_developers 35px top
+                        height 24px
+
+                api_developers.view-api-developers:
+                        height 70px
+
+                api_developers.view-api-developers.view-header:
+                        inside api_developers.view-api-developers 0px right
+
+                api_developers.view-api-developers.view-content:
+                        height 50px
+
+                api_developers.view-api-developers.view-footer:
+                        below api_developers.view-api-developers.view-content 15px
+                        height 56px
+                        width ~162px
+
+            = API Mashups =
+
+                api_mashups:
+                       width 790px
+
+                api_mashups.block-title:
+                        inside api_mashups 35px top
+                        height 24px
+
+                api_mashups.view-api-mashups.view-header:
+                        inside api_mashups.view-api-mashups 0px right
+
+                api_mashups.view-api-mashups.view-footer:
+                        below api_mashups.view-api-mashups.view-content 15px
+                        height 56px
+                        width ~162px
+
+            = API News =
+
+                api_news:
+                       width 790px
+
+                api_news.block-title:
+                        inside api_news 35px top
+                        height 24px
+
+                api_news.view-api-news.view-header:
+                        inside api_news.view-api-news 0px right
+
+            = Related APIS =
+
+                related_apis:
+                       width 790px
+
+                related_apis.block-title:
+                        inside related_apis 35px top
+                        height 24px
+
+                related_apis.view-related-apis.view-header:
+                        inside related_apis.view-related-apis 0px right
+
+                related_apis.view-related-apis.view-content.table:
+                        width 790px
+
+
+            # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
+
+        adzerk-bottom-leaderboard:
+              inside bottom-ad-wrapper 75px left, 75px right, 21px top, 20px bottom
+
+        block-block-38:
+              inside region-sidebar-second 0px left
+
+        block-title-apiu:
+              width 300px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 300px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside region-sidebar-second 0px left
+              near block-block-38 ~30px bottom
+
+        ad-title-sidebar-top:
+              height 10px
+              inside block-block-21 0px left, 0px top
+
+        adzerk-top-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+        block-block-42:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-views-right-side-users-block:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-block-25:
+              inside region-sidebar-second 0px left
+              near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              inside block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+
+        footer:
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768, Windows8.1_Chrome_42_1366x768
+
+
+        header:
+              width ~ 86% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 86% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 66px left, 67px right, 20px top, 21px bottom
+
+        main-container:
+              width 1170px
+
+        = Page Content =
+
+            content-section:
+                  width 830px
+
+            # Individual sections specs starts here
+
+            breadcrumb:
+                  width 830px
+                  height 20px
+
+            = API Profile Header =
+
+                profile-top-left:
+                      below breadcrumb 25px
+                      width ~264px
+
+                profile-top-left.node-track:
+                      below profile-top-left.field-type-image 25px
+
+                profile-top-left.node-social-media:
+                      below profile-top-left.node-track 25px
+
+                profile-top-left.field-type-image, profile-top-left.node-track, profile-top-left.node-social-media:
+                      width ~234px
+
+                profile-top-right:
+                      below breadcrumb 25px
+                      width ~527px
+
+                profile-top-right.node-header:
+                      height 32px
+
+                profile-top-right.botttom-article:
+                      below profile-top-right.node-header 15px
+
+                profile-top-right.intro:
+                      below profile-top-right.botttom-article 15px
+
+                profile-top-right.node-header, profile-top-right.botttom-article, profile-top-right.intro:
+                      inside profile-top-right
+
+            = API Specs =
+
+                myTab:
+                      below node_header 50px
+                      height 48px
+                      width 790px
+
+                tabs-content:
+                      width 790px
+
+                tabs-content.block-title:
+                      height 24px
+                      width 790px
+                      below myTab 35px
+
+                tabs-content.field:
+                      width 790px
+                      height 37px
+
+                tabs-content.field.label:
+                      width 240px
+                      height 20px
+
+                tabs-content.field.span:
+                      width ~514px
+                      height 20px
+
+            = API Followers =
+
+                api_followers:
+                       width 790px
+
+                api_followers.block-title:
+                        inside api_followers 35px top
+                        height 24px
+
+                api_followers.view-api-followers:
+                        height 70px
+
+                api_followers.view-api-followers.view-header:
+                        inside api_followers.view-api-followers 0px right
+
+                api_followers.view-api-followers.view-content:
+                        height 50px
+
+                api_followers.view-api-followers.view-footer:
+                        below api_followers.view-api-followers.view-content 15px
+                        height 55px
+                        width ~173px
+
+            = API Developers =
+
+                api_developers:
+                       width 790px
+
+                api_developers.block-title:
+                        inside api_developers 35px top
+                        height 24px
+
+                api_developers.view-api-developers:
+                        height 70px
+
+                api_developers.view-api-developers.view-header:
+                        inside api_developers.view-api-developers 0px right
+
+                api_developers.view-api-developers.view-content:
+                        height 50px
+
+                api_developers.view-api-developers.view-footer:
+                        below api_developers.view-api-developers.view-content 15px
+                        height 55px
+                        width ~162px
+
+            = API Mashups =
+
+                api_mashups:
+                       width 790px
+
+                api_mashups.block-title:
+                        inside api_mashups 35px top
+                        height 24px
+
+                api_mashups.view-api-mashups.view-header:
+                        inside api_mashups.view-api-mashups 0px right
+
+                api_mashups.view-api-mashups.view-footer:
+                        below api_mashups.view-api-mashups.view-content 15px
+                        height 55px
+                        width ~162px
+
+            = API News =
+
+                api_news:
+                       width 790px
+
+                api_news.block-title:
+                        inside api_news 35px top
+                        height 24px
+
+                api_news.view-api-news.view-header:
+                        inside api_news.view-api-news 0px right
+
+            = Related APIS =
+
+                related_apis:
+                       width 790px
+
+                related_apis.block-title:
+                        inside related_apis 35px top
+                        height 24px
+
+                related_apis.view-related-apis.view-header:
+                        inside related_apis.view-related-apis 0px right
+
+                related_apis.view-related-apis.view-content.table:
+                        width 790px
+
+
+            # Individual sections specs ends here
+
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
+
+        adzerk-bottom-leaderboard:
+              inside bottom-ad-wrapper 66px left, 67px right, 21px top, 20px bottom
+
+        block-block-38:
+              inside region-sidebar-second 0px left
+
+        block-title-apiu:
+              width 300px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 300px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside region-sidebar-second 0px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top:
+              height 10px
+              inside block-block-21 0px left, 0px top
+
+        adzerk-top-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+        block-block-42:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-views-right-side-users-block:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-block-25:
+              inside region-sidebar-second 0px left
+              near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              inside block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+
+        footer:
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768, Windows8.1_Firefox_37_1366x768
+
+
+        header:
+              width ~ 86% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 86% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 68px left, 67px right, 20px top, 21px bottom
+
+        main-container:
+              width 1170px
+
+        = Page Content =
+
+            content-section:
+                  width 830px
+
+            # Individual sections specs starts here
+
+            breadcrumb:
+                  width 830px
+                  height 20px
+
+            = API Profile Header =
+
+                profile-top-left:
+                      below breadcrumb 25px
+                      width ~264px
+
+                profile-top-left.node-track:
+                      below profile-top-left.field-type-image 25px
+
+                profile-top-left.node-social-media:
+                      below profile-top-left.node-track 25px
+
+                profile-top-left.field-type-image, profile-top-left.node-track, profile-top-left.node-social-media:
+                      width ~234px
+
+                profile-top-right:
+                      below breadcrumb 25px
+                      width ~527px
+
+                profile-top-right.node-header:
+                      height 32px
+
+                profile-top-right.botttom-article:
+                      below profile-top-right.node-header 15px
+
+                profile-top-right.intro:
+                      below profile-top-right.botttom-article 15px
+
+                profile-top-right.node-header, profile-top-right.botttom-article, profile-top-right.intro:
+                      inside profile-top-right
+
+            = API Specs =
+
+                myTab:
+                      below node_header 50px
+                      height 48px
+                      width 790px
+
+                tabs-content:
+                      width 790px
+
+                tabs-content.block-title:
+                      height 24px
+                      width 790px
+                      below myTab 35px
+
+                tabs-content.field:
+                      width 790px
+                      height 37px
+
+                tabs-content.field.label:
+                      width 240px
+                      height 20px
+
+                tabs-content.field.span:
+                      width ~514px
+                      height 20px
+
+            = API Followers =
+
+                api_followers:
+                       width 790px
+
+                api_followers.block-title:
+                        inside api_followers 35px top
+                        height 24px
+
+                api_followers.view-api-followers:
+                        height 70px
+
+                api_followers.view-api-followers.view-header:
+                        inside api_followers.view-api-followers 0px right
+
+                api_followers.view-api-followers.view-content:
+                        height 50px
+
+                api_followers.view-api-followers.view-footer:
+                        below api_followers.view-api-followers.view-content 15px
+                        height 56px
+                        width ~173px
+
+            = API Developers =
+
+                api_developers:
+                       width 790px
+
+                api_developers.block-title:
+                        inside api_developers 35px top
+                        height 24px
+
+                api_developers.view-api-developers:
+                        height 70px
+
+                api_developers.view-api-developers.view-header:
+                        inside api_developers.view-api-developers 0px right
+
+                api_developers.view-api-developers.view-content:
+                        height 50px
+
+                api_developers.view-api-developers.view-footer:
+                        below api_developers.view-api-developers.view-content 15px
+                        height 56px
+                        width ~162px
+
+            = API Mashups =
+
+                api_mashups:
+                       width 790px
+
+                api_mashups.block-title:
+                        inside api_mashups 35px top
+                        height 24px
+
+                api_mashups.view-api-mashups.view-header:
+                        inside api_mashups.view-api-mashups 0px right
+
+                api_mashups.view-api-mashups.view-footer:
+                        below api_mashups.view-api-mashups.view-content 15px
+                        height 56px
+                        width ~162px
+
+            = API News =
+
+                api_news:
+                       width 790px
+
+                api_news.block-title:
+                        inside api_news 35px top
+                        height 24px
+
+                api_news.view-api-news.view-header:
+                        inside api_news.view-api-news 0px right
+
+            = Related APIS =
+
+                related_apis:
+                       width 790px
+
+                related_apis.block-title:
+                        inside related_apis 35px top
+                        height 24px
+
+                related_apis.view-related-apis.view-header:
+                        inside related_apis.view-related-apis 0px right
+
+                related_apis.view-related-apis.view-content.table:
+                        width 790px
+
+
+            # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
+
+        adzerk-bottom-leaderboard:
+              inside bottom-ad-wrapper 68px left, 67px right, 21px top, 20px bottom
+
+        block-block-38:
+              inside region-sidebar-second 0px left
+
+        block-title-apiu:
+              width 300px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 300px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside region-sidebar-second 0px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top:
+              height 10px
+              inside block-block-21 0px left, 0px top
+
+        adzerk-top-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+        block-block-42:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-views-right-side-users-block:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-block-25:
+              inside partly region-sidebar-second 0px left
+              near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              inside block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+
+        footer:
+              width 1335px
+
+    @on OSXYosemite_Safari_8_1366x768, OSXYosemite_Chrome_46_1366x768
+
+        header:
+              width ~ 86% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 86% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 83px left, 83px right, 20px top, 21px bottom
+
+        main-container:
+              width 1170px
+
+        = Page Content =
+
+            content-section:
+                  width 830px
+
+            # Individual sections specs starts here
+
+            breadcrumb:
+                  width 830px
+                  height 20px
+
+            = API Profile Header =
+
+                profile-top-left:
+                      below breadcrumb 25px
+                      width ~264px
+
+                profile-top-left.node-track:
+                      below profile-top-left.field-type-image 25px
+
+                profile-top-left.node-social-media:
+                      below profile-top-left.node-track 25px
+
+                profile-top-left.field-type-image, profile-top-left.node-track, profile-top-left.node-social-media:
+                      width ~234px
+
+                profile-top-right:
+                      below breadcrumb 25px
+                      width ~527px
+
+                profile-top-right.node-header:
+                      height 32px
+
+                profile-top-right.botttom-article:
+                      below profile-top-right.node-header 15px
+
+                profile-top-right.intro:
+                      below profile-top-right.botttom-article 15px
+
+                profile-top-right.node-header, profile-top-right.botttom-article, profile-top-right.intro:
+                      inside profile-top-right
+
+            = API Specs =
+
+                myTab:
+                      below node_header 50px
+                      height 48px
+                      width 790px
+
+                tabs-content:
+                      width 790px
+
+                tabs-content.block-title:
+                      height 24px
+                      width 790px
+                      below myTab 35px
+
+                tabs-content.field:
+                      width 790px
+                      height 37px
+
+                tabs-content.field.label:
+                      width 240px
+                      height 20px
+
+                tabs-content.field.span:
+                      width ~514px
+                      height 20px
+
+            = API Followers =
+
+                api_followers:
+                       width 790px
+
+                api_followers.block-title:
+                        inside api_followers 35px top
+                        height 24px
+
+                api_followers.view-api-followers:
+                        height 70px
+
+                api_followers.view-api-followers.view-header:
+                        inside api_followers.view-api-followers 0px right
+
+                api_followers.view-api-followers.view-content:
+                        height 50px
+
+                api_followers.view-api-followers.view-footer:
+                        below api_followers.view-api-followers.view-content 15px
+                        height 55px
+                        width ~173px
+
+            = API Developers =
+
+                api_developers:
+                       width 790px
+
+                api_developers.block-title:
+                        inside api_developers 35px top
+                        height 24px
+
+                api_developers.view-api-developers:
+                        height 70px
+
+                api_developers.view-api-developers.view-header:
+                        inside api_developers.view-api-developers 0px right
+
+                api_developers.view-api-developers.view-content:
+                        height 50px
+
+                api_developers.view-api-developers.view-footer:
+                        below api_developers.view-api-developers.view-content 15px
+                        height 55px
+                        width ~162px
+
+            = API Mashups =
+
+                api_mashups:
+                       width 790px
+
+                api_mashups.block-title:
+                        inside api_mashups 35px top
+                        height 24px
+
+                api_mashups.view-api-mashups.view-header:
+                        inside api_mashups.view-api-mashups 0px right
+
+                api_mashups.view-api-mashups.view-footer:
+                        below api_mashups.view-api-mashups.view-content 15px
+                        height 55px
+                        width ~162px
+
+            = API News =
+
+                api_news:
+                       width 790px
+
+                api_news.block-title:
+                        inside api_news 35px top
+                        height 24px
+
+                api_news.view-api-news.view-header:
+                        inside api_news.view-api-news 0px right
+
+            = Related APIS =
+
+                related_apis:
+                       width 790px
+
+                related_apis.block-title:
+                        inside related_apis 35px top
+                        height 24px
+
+                related_apis.view-related-apis.view-header:
+                        inside related_apis.view-related-apis 0px right
+
+                related_apis.view-related-apis.view-content.table:
+                        width 790px
+
+
+            # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
+
+        adzerk-bottom-leaderboard:
+              inside bottom-ad-wrapper 83px left, 83px right, 21px top, 20px bottom
+
+        block-block-38:
+              inside region-sidebar-second 0px left
+
+        block-title-apiu:
+              width 300px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 300px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside region-sidebar-second 0px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top:
+              height 10px
+              inside block-block-21 0px left, 0px top
+
+        adzerk-top-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+        block-block-42:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-views-right-side-users-block:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-block-25:
+              inside region-sidebar-second 0px left
+              near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              inside block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+
+        footer:
+              width 1366px
+
+    @on Windows7_IE_9_1366x768
+
+        header:
+              width ~ 86% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 86% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 67px left, 66px right, 20px top, 21px bottom
+
+        main-container:
+              width 1170px
+
+        = Page Content =
+
+            content-section:
+                  width 830px
+
+            # Individual sections specs starts here
+
+            breadcrumb:
+                  width 830px
+                  height 20px
+
+            = API Profile Header =
+
+                profile-top-left:
+                      below breadcrumb 25px
+                      width ~264px
+
+                profile-top-left.node-track:
+                      below profile-top-left.field-type-image 25px
+
+                profile-top-left.node-social-media:
+                      below profile-top-left.node-track 25px
+
+                profile-top-left.field-type-image, profile-top-left.node-track, profile-top-left.node-social-media:
+                      width ~234px
+
+                profile-top-right:
+                      below breadcrumb 25px
+                      width ~527px
+
+                profile-top-right.node-header:
+                      height 32px
+
+                profile-top-right.botttom-article:
+                      below profile-top-right.node-header 15px
+
+                profile-top-right.intro:
+                      below profile-top-right.botttom-article 15px
+
+                profile-top-right.node-header, profile-top-right.botttom-article, profile-top-right.intro:
+                      inside profile-top-right
+
+            = API Specs =
+
+                myTab:
+                      below node_header 50px
+                      height 48px
+                      width 790px
+
+                tabs-content:
+                      width 790px
+
+                tabs-content.block-title:
+                      height 24px
+                      width 790px
+                      below myTab 35px
+
+                tabs-content.field:
+                      width 790px
+                      height 37px
+
+                tabs-content.field.label:
+                      width 240px
+                      height 20px
+
+                tabs-content.field.span:
+                      width ~514px
+                      height 20px
+
+            = API Followers =
+
+                api_followers:
+                       width 790px
+
+                api_followers.block-title:
+                        inside api_followers 35px top
+                        height 24px
+
+                api_followers.view-api-followers:
+                        height 70px
+
+                api_followers.view-api-followers.view-header:
+                        inside api_followers.view-api-followers 0px right
+
+                api_followers.view-api-followers.view-content:
+                        height 50px
+
+                api_followers.view-api-followers.view-footer:
+                        below api_followers.view-api-followers.view-content 15px
+                        height 56px
+                        width ~173px
+
+            = API Developers =
+
+                api_developers:
+                       width 790px
+
+                api_developers.block-title:
+                        inside api_developers 35px top
+                        height 24px
+
+                api_developers.view-api-developers:
+                        height 70px
+
+                api_developers.view-api-developers.view-header:
+                        inside api_developers.view-api-developers 0px right
+
+                api_developers.view-api-developers.view-content:
+                        height 50px
+
+                api_developers.view-api-developers.view-footer:
+                        below api_developers.view-api-developers.view-content 15px
+                        height 56px
+                        width ~162px
+
+            = API Mashups =
+
+                api_mashups:
+                       width 790px
+
+                api_mashups.block-title:
+                        inside api_mashups 35px top
+                        height 24px
+
+                api_mashups.view-api-mashups.view-header:
+                        inside api_mashups.view-api-mashups 0px right
+
+                api_mashups.view-api-mashups.view-footer:
+                        below api_mashups.view-api-mashups.view-content 15px
+                        height 56px
+                        width ~162px
+
+            = API News =
+
+                api_news:
+                       width 790px
+
+                api_news.block-title:
+                        inside api_news 35px top
+                        height 24px
+
+                api_news.view-api-news.view-header:
+                        inside api_news.view-api-news 0px right
+
+            = Related APIS =
+
+                related_apis:
+                       width 790px
+
+                related_apis.block-title:
+                        inside related_apis 35px top
+                        height 24px
+
+                related_apis.view-related-apis.view-header:
+                        inside related_apis.view-related-apis 0px right
+
+                related_apis.view-related-apis.view-content.table:
+                        width 790px
+
+
+            # Individual sections specs ends here
+
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
+
+        adzerk-bottom-leaderboard:
+              inside bottom-ad-wrapper 67px left, 66px right, 21px top, 20px bottom
+
+        block-block-38:
+              inside region-sidebar-second 0px left
+
+        block-title-apiu:
+              width 300px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 300px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside region-sidebar-second 0px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top:
+              height 10px
+              inside block-block-21 0px left, 0px top
+
+        adzerk-top-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+        block-block-42:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-views-right-side-users-block:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-block-25:
+              inside region-sidebar-second 0px left
+              near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              inside block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+
+        footer:
+              width 1333px
+
+
+    @on Windows7_Chrome_42_1366x768
+
+
+        header:
+              width ~ 86% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 86% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 69px left, 70px right, 20px top, 21px bottom
+
+        main-container:
+              width 1170px
+
+        = Page Content =
+
+            content-section:
+                  width 830px
+
+            # Individual sections specs starts here
+
+            breadcrumb:
+                  width 830px
+                  height 20px
+
+            = API Profile Header =
+
+                profile-top-left:
+                      below breadcrumb 25px
+                      width ~264px
+
+                profile-top-left.node-track:
+                      below profile-top-left.field-type-image 25px
+
+                profile-top-left.node-social-media:
+                      below profile-top-left.node-track 25px
+
+                profile-top-left.field-type-image, profile-top-left.node-track, profile-top-left.node-social-media:
+                      width ~234px
+
+                profile-top-right:
+                      below breadcrumb 25px
+                      width ~527px
+
+                profile-top-right.node-header:
+                      height 32px
+
+                profile-top-right.botttom-article:
+                      below profile-top-right.node-header 15px
+
+                profile-top-right.intro:
+                      below profile-top-right.botttom-article 15px
+
+                profile-top-right.node-header, profile-top-right.botttom-article, profile-top-right.intro:
+                      inside profile-top-right
+
+            = API Specs =
+
+                myTab:
+                      below node_header 50px
+                      height 48px
+                      width 790px
+
+                tabs-content:
+                      width 790px
+
+                tabs-content.block-title:
+                      height 24px
+                      width 790px
+                      below myTab 35px
+
+                tabs-content.field:
+                      width 790px
+                      height 37px
+
+                tabs-content.field.label:
+                      width 240px
+                      height 20px
+
+                tabs-content.field.span:
+                      width ~514px
+                      height 20px
+
+            = API Followers =
+
+                api_followers:
+                       width 790px
+
+                api_followers.block-title:
+                        inside api_followers 35px top
+                        height 24px
+
+                api_followers.view-api-followers:
+                        height 70px
+
+                api_followers.view-api-followers.view-header:
+                        inside api_followers.view-api-followers 0px right
+
+                api_followers.view-api-followers.view-content:
+                        height 50px
+
+                api_followers.view-api-followers.view-footer:
+                        below api_followers.view-api-followers.view-content 15px
+                        height 55px
+                        width ~173px
+
+            = API Developers =
+
+                api_developers:
+                       width 790px
+
+                api_developers.block-title:
+                        inside api_developers 35px top
+                        height 24px
+
+                api_developers.view-api-developers:
+                        height 70px
+
+                api_developers.view-api-developers.view-header:
+                        inside api_developers.view-api-developers 0px right
+
+                api_developers.view-api-developers.view-content:
+                        height 50px
+
+                api_developers.view-api-developers.view-footer:
+                        below api_developers.view-api-developers.view-content 15px
+                        height 55px
+                        width ~162px
+
+            = API Mashups =
+
+                api_mashups:
+                       width 790px
+
+                api_mashups.block-title:
+                        inside api_mashups 35px top
+                        height 24px
+
+                api_mashups.view-api-mashups.view-header:
+                        inside api_mashups.view-api-mashups 0px right
+
+                api_mashups.view-api-mashups.view-footer:
+                        below api_mashups.view-api-mashups.view-content 15px
+                        height 55px
+                        width ~162px
+
+            = API News =
+
+                api_news:
+                       width 790px
+
+                api_news.block-title:
+                        inside api_news 35px top
+                        height 24px
+
+                api_news.view-api-news.view-header:
+                        inside api_news.view-api-news 0px right
+
+            = Related APIS =
+
+                related_apis:
+                       width 790px
+
+                related_apis.block-title:
+                        inside related_apis 35px top
+                        height 24px
+
+                related_apis.view-related-apis.view-header:
+                        inside related_apis.view-related-apis 0px right
+
+                related_apis.view-related-apis.view-content.table:
+                        width 790px
+
+
+            # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
+
+        adzerk-bottom-leaderboard:
+              inside bottom-ad-wrapper 69px left, 70px right, 21px top, 20px bottom
+
+        block-block-38:
+              inside region-sidebar-second 0px left
+
+        block-title-apiu:
+              width 300px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 300px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside region-sidebar-second 0px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top:
+              height 10px
+              inside block-block-21 0px left, 0px top
+
+        adzerk-top-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+        block-block-42:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-views-right-side-users-block:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-block-25:
+              inside region-sidebar-second 0px left
+              near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              inside block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+
+        footer:
+              width 1339px
+
+    @on Windows7_Firefox_37_1366x768
+
+        header:
+              width ~ 86% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 86% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 67px left, 66px right, 20px top, 21px bottom
+
+        main-container:
+              width 1170px
+
+        = Page Content =
+
+            content-section:
+                  width 830px
+
+            # Individual sections specs starts here
+
+            breadcrumb:
+                  width 830px
+                  height 20px
+
+            = API Profile Header =
+
+                profile-top-left:
+                      below breadcrumb 25px
+                      width ~264px
+
+                profile-top-left.node-track:
+                      below profile-top-left.field-type-image 25px
+
+                profile-top-left.node-social-media:
+                      below profile-top-left.node-track 25px
+
+                profile-top-left.field-type-image, profile-top-left.node-track, profile-top-left.node-social-media:
+                      width ~234px
+
+                profile-top-right:
+                      below breadcrumb 25px
+                      width ~527px
+
+                profile-top-right.node-header:
+                      height 32px
+
+                profile-top-right.botttom-article:
+                      below profile-top-right.node-header 15px
+
+                profile-top-right.intro:
+                      below profile-top-right.botttom-article 15px
+
+                profile-top-right.node-header, profile-top-right.botttom-article, profile-top-right.intro:
+                      inside profile-top-right
+
+            = API Specs =
+
+                myTab:
+                      below node_header 50px
+                      height 48px
+                      width 790px
+
+                tabs-content:
+                      width 790px
+
+                tabs-content.block-title:
+                      height 24px
+                      width 790px
+                      below myTab 35px
+
+                tabs-content.field:
+                      width 790px
+                      height 37px
+
+                tabs-content.field.label:
+                      width 240px
+                      height 20px
+
+                tabs-content.field.span:
+                      width ~514px
+                      height 20px
+
+            = API Followers =
+
+                api_followers:
+                       width 790px
+
+                api_followers.block-title:
+                        inside api_followers 35px top
+                        height 24px
+
+                api_followers.view-api-followers:
+                        height 70px
+
+                api_followers.view-api-followers.view-header:
+                        inside api_followers.view-api-followers 0px right
+
+                api_followers.view-api-followers.view-content:
+                        height 50px
+
+                api_followers.view-api-followers.view-footer:
+                        below api_followers.view-api-followers.view-content 15px
+                        height 56px
+                        width ~173px
+
+            = API Developers =
+
+                api_developers:
+                       width 790px
+
+                api_developers.block-title:
+                        inside api_developers 35px top
+                        height 24px
+
+                api_developers.view-api-developers:
+                        height 70px
+
+                api_developers.view-api-developers.view-header:
+                        inside api_developers.view-api-developers 0px right
+
+                api_developers.view-api-developers.view-content:
+                        height 50px
+
+                api_developers.view-api-developers.view-footer:
+                        below api_developers.view-api-developers.view-content 15px
+                        height 56px
+                        width ~162px
+
+            = API Mashups =
+
+                api_mashups:
+                       width 790px
+
+                api_mashups.block-title:
+                        inside api_mashups 35px top
+                        height 24px
+
+                api_mashups.view-api-mashups.view-header:
+                        inside api_mashups.view-api-mashups 0px right
+
+                api_mashups.view-api-mashups.view-footer:
+                        below api_mashups.view-api-mashups.view-content 15px
+                        height 56px
+                        width ~162px
+
+            = API News =
+
+                api_news:
+                       width 790px
+
+                api_news.block-title:
+                        inside api_news 35px top
+                        height 24px
+
+                api_news.view-api-news.view-header:
+                        inside api_news.view-api-news 0px right
+
+            = Related APIS =
+
+                related_apis:
+                       width 790px
+
+                related_apis.block-title:
+                        inside related_apis 35px top
+                        height 24px
+
+                related_apis.view-related-apis.view-header:
+                        inside related_apis.view-related-apis 0px right
+
+                related_apis.view-related-apis.view-content.table:
+                        width 790px
+
+
+            # Individual sections specs ends here
+
+
+        region-sidebar-second:
+              inside main-container
+              width 300px
+              near content-section 40px right
+
+        adzerk-bottom-leaderboard:
+              inside bottom-ad-wrapper 67px left, 66px right, 21px top, 20px bottom
+
+        block-block-38:
+              inside region-sidebar-second 0px left
+
+        block-title-apiu:
+              width 300px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 300px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 260px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside region-sidebar-second 0px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top:
+              height 10px
+              inside block-block-21 0px left, 0px top
+
+        adzerk-top-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+        block-block-42:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-views-right-side-users-block:
+              width 300px
+              inside region-sidebar-second 0px left right
+
+        block-block-25:
+              inside region-sidebar-second 0px left
+              near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              inside block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 300px
+              inside region-sidebar-second 0px left
+
+
+        footer:
+              width 1333px
+
+
+    @on iPadAir_iPad_768x1024
+
+        header:
+              width ~ 100% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 100% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 20px left, 20px right, 67px top, 21px bottom
+
+        main-container:
+              width 768px
+
+        content-section:
+              width 485px
+
+        # Individual sections specs starts here
+
+        term-category-container:
+              width 445px
+
+        node-header:
+              below top-ad-wrapper 45px
+              height 39px
+
+        node-track:
+              below node-header 25px
+              width 445px
+              height 55px
+
+        myTab:
+              below node-track 50px
+              width 445px
+              height 106px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
+              width 445px
+
+        term-news.block-title:
+              height 24px
+
+        term-news.view-link:
+              inside term-news ~1px right
+              below term-news.block-title
+              height 24px
+
+        term-news.article-title:
+              width 445px
+              height 72px
+
+        term-news.text:
+              width 445px
+              height 156px
+
+        term-news.botttom-article-left:
+              below term-news.text 15px
+
+        term-news.block-title, term-news.view-link, term-news.article-title, term-news.text, term-news.botttom-article-left:
+              inside term-news
+
+        # term-apis
+
+        term-apis:
+              width 445px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside term-apis ~1px right
+              height 24px
+
+        term-apis.table:
+              width 445px
+
+        term-apis.block-title, term-apis.view-link, term-apis.table:
+              inside term-apis
+
+        # term-all-apis
+
+        term-all-apis:
+              width 445px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside term-all-apis ~1px right
+              height 24px
+
+        term-all-apis.table:
+              width 445px
+
+        term-all-apis.block-title, term-all-apis.view-link, term-all-apis.table:
+              inside term-all-apis
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              width 445px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 445px
+
+        term-all-mashups.block-title, term-all-mashups.view-link, term-all-mashups.table:
+              inside term-all-mashups
+
+        # developers
+
+        developers:
+              width 445px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 15px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 55px
+              below developers.view-content 15px
+
+        # followers
+
+        followers:
+              below developers.view-footer 35px
+              width 445px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 55px
+              below followers.view-content 15px
+
+        followers.block-title, followers.view-content, followers.views-field-picture:
+              inside followers
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside partly main-container
+              width 242px
+              near content-section 0px right
+
+        block-block-38:
+              inside region-sidebar-second 20px left
+
+        block-title-apiu:
+              width 202px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 202px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 162px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 162px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside region-sidebar-second 20px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top, adzerk-top-mrec:
+              width 202px
+              inside region-sidebar-second 20px left
+
+        block-block-42, block-views-right-side-users-block:
+              width 202px
+              inside region-sidebar-second 20px left right
+
+        block-block-25:
+              inside region-sidebar-second 20px left
+              near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              inside block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 202px
+              inside region-sidebar-second 20px left
+
+
+        footer:
+              width 768px
+
+    @on GoogleNexus7_android_768x1024
+
+        header:
+              width ~ 100% of screen/width
+              above navigation 1px
+
+        navigation:
+              width ~ 100% of screen/width
+              below header 1px
+
+        top-ad-wrapper:
+              below navigation 1px
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 0px left, 0px right, 20px top, 21px bottom
+
+        main-container:
+              width 776px
+
+        content-section:
+              width 490px
+
+        # Individual sections specs starts here
+
+        term-category-container:
+              width 430px
+
+        node-header:
+              height 39px
+
+        node-track:
+              below node-header 25px
+              width 430px
+              height 55px
+
+        myTab:
+              below node-track 50px
+              width 430px
+              height 106px
+
+        #term-news
+
+        term-news:
+              below myTab 35px
+              width 430px
+
+        term-news.block-title:
+              height 24px
+
+        term-news.view-link:
+              inside partly term-news ~1px right
+              below term-news.block-title
+              height 24px
+
+        term-news.article-title:
+              width 430px
+              height 72px
+
+        term-news.text:
+              width 430px
+              height 156px
+
+        term-news.botttom-article-left:
+              below term-news.text 15px
+
+        # term-apis
+
+        term-apis:
+              width 430px
+
+        term-apis.block-title:
+              height 26px
+
+        term-apis.view-link:
+              inside partly term-apis ~1px right
+              height 24px
+
+        term-apis.table:
+              width 430px
+
+        # term-all-apis
+
+        term-all-apis:
+              width 430px
+
+        term-all-apis.block-title:
+              height 24px
+
+        term-all-apis.view-link:
+              inside partly term-all-apis ~1px right
+              height 24px
+
+        term-all-apis.table:
+              width 430px
+
+
+
+        # term-all-mashups
+
+        term-all-mashups:
+              width 430px
+
+        term-all-mashups.block-title:
+              height 24px
+
+        term-all-mashups.view-link:
+              inside partly term-all-mashups ~1px right
+              height 24px
+
+        term-all-mashups.table:
+              width 430px
+
+        # developers
+
+        developers:
+              width 430px
+
+        developers.block-title:
+              height 26px
+
+        developers.view-content:
+              height 50px
+              below developers.block-title 15px
+
+        developers.views-field-picture:
+              height 50px
+              width 50px
+
+        developers.view-footer:
+              height 55px
+              below developers.view-content 15px
+
+        # followers
+
+        followers:
+              width 430px
+
+        followers.block-title:
+              height 26px
+
+        followers.view-content:
+              height 50px
+              below followers.block-title 15px
+
+        followers.views-field-picture:
+              height 50px
+              width 50px
+
+        followers.view-footer:
+              height 55px
+              below followers.view-content 15px
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside partly main-container
+              width 245px
+              near content-section 1px right
+
+        block-block-38:
+              inside partly region-sidebar-second 0px left
+
+        block-title-apiu:
+              width 245px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 245px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 205px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 205px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside partly region-sidebar-second 0px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top, adzerk-top-mrec:
+              width 245px
+              inside partly region-sidebar-second 0px left
+
+        block-block-42, block-views-right-side-users-block:
+              width 245px
+              inside partly region-sidebar-second 0px left right
+
+        block-block-25:
+              inside partly region-sidebar-second 0px left
+              #near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              #inside partly block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 245px
+              inside partly region-sidebar-second 0px left
+
+
+        footer:
+              width 776px
+
+    @on SamsungGalaxyS5_android_360x640
+
+        header-mobile:
+              height 48px
+              width ~ 100% of screen/width
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 20px left, 20px right, 67px top, 21px bottom
+
+        main-container:
+              width 360px
+
+        content-section:
+              width 360px
+
+        # Individual sections specs starts here
+
+        term-category-container:
+              width 320px
+
+        node-header:
+              height 30px
+
+        node-track:
+              below node-header 25px
+              width 320px
+              height 55px
+
+        myTab-mobile:
+              below node-track 50px
+              width 320px
+
+        #term-news-mobile
+
+        term-news-mobile:
+              width 288px
+
+        term-news-mobile.block-title:
+              height 20px
+
+        term-news-mobile.view-link:
+              inside partly term-news-mobile ~1px right
+              height 20px
+
+        term-news-mobile.article-title:
+              width 288px
+              height 111px
+
+        term-news-mobile.text:
+              width 288px
+              height 234px
+
+        term-news-mobile.botttom-article-left:
+              below term-news-mobile.text 15px
+
+        # term-apis-mobile
+
+        term-apis-mobile:
+              width 288px
+
+        term-apis-mobile.block-title:
+              height 20px
+
+        term-apis-mobile.view-link:
+              inside partly term-apis-mobile ~1px right
+              height 20px
+
+        term-apis-mobile.table:
+              width 288px
+
+        # term-all-apis-mobile
+
+        term-all-apis-mobile:
+              width 288px
+
+        term-all-apis-mobile.block-title:
+              height 20px
+
+        term-all-apis-mobile.view-link:
+              inside partly term-all-apis-mobile ~1px right
+              height 20px
+
+        term-all-apis-mobile.table:
+              width 288px
+
+
+
+        # term-all-mashups-mobile
+
+        term-all-mashups-mobile:
+              width 288px
+
+        term-all-mashups-mobile.block-title:
+              height 20px
+
+        term-all-mashups-mobile.view-link:
+              inside partly term-all-mashups-mobile ~1px right
+              height 20px
+
+        term-all-mashups-mobile.table:
+              width 288px
+
+        # developers-mobile
+
+        developers-mobile:
+              width 288px
+
+        developers-mobile.block-title:
+              height 20px
+
+        developers-mobile.view-content:
+              height 81px
+              below developers-mobile.block-title 0px
+
+        developers-mobile.views-field-picture:
+              height 50px
+              width 288px
+
+        developers-mobile.view-footer:
+              height 55px
+              below developers-mobile.view-content 35px
+
+        # followers-mobile
+
+        followers-mobile:
+              width 288px
+
+        followers-mobile.block-title:
+              height 20px
+
+        followers-mobile.view-content:
+              height 250px
+              below followers-mobile.block-title 0px
+
+        followers-mobile.views-field-picture:
+              height 50px
+              width 288px
+
+        followers-mobile.view-footer:
+              height 55px
+              below followers-mobile.view-content 0px
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside partly main-container
+              width 360px
+
+        block-block-38:
+              inside partly region-sidebar-second 20px left
+
+        block-title-apiu:
+              width 320px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 320px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 280px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 280px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside partly region-sidebar-second 20px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top, adzerk-top-mrec:
+              width 320px
+              inside partly region-sidebar-second 20px left
+
+        block-block-42, block-views-right-side-users-block:
+              width 320px
+              inside partly region-sidebar-second 20px left right
+
+        block-block-25:
+              inside partly region-sidebar-second 20px left
+              #near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              #inside partly block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 320px
+              inside partly region-sidebar-second 20px left
+
+
+        footer:
+              width 360px
+
+
+
+    @on iPhone5_iPhone_320x568
+
+        header-mobile:
+              height 48px
+              width ~ 100% of screen/width
+
+        adzerk-top-leaderboard:
+              inside top-ad-wrapper 20px left, 20px right, 67px top, 21px bottom
+
+        main-container:
+              width 360px
+
+        content-section:
+              width 360px
+
+        # Individual sections specs starts here
+
+        term-category-container:
+              width 320px
+
+        node-header:
+              height 30px
+
+        node-track:
+              below node-header 25px
+              width 320px
+              height 55px
+
+        myTab-mobile:
+              below node-track 50px
+              width 320px
+
+        #term-news-mobile
+
+        term-news-mobile:
+              width 288px
+
+        term-news-mobile.block-title:
+              height 20px
+
+        term-news-mobile.view-link:
+              inside partly term-news-mobile ~1px right
+              height 20px
+
+        term-news-mobile.article-title:
+              width 288px
+              height 111px
+
+        term-news-mobile.text:
+              width 288px
+              height 234px
+
+        term-news-mobile.botttom-article-left:
+              below term-news-mobile.text 15px
+
+        # term-apis-mobile
+
+        term-apis-mobile:
+              width 288px
+
+        term-apis-mobile.block-title:
+              height 20px
+
+        term-apis-mobile.view-link:
+              inside partly term-apis-mobile ~1px right
+              height 20px
+
+        term-apis-mobile.table:
+              width 288px
+
+        # term-all-apis-mobile
+
+        term-all-apis-mobile:
+              width 288px
+
+        term-all-apis-mobile.block-title:
+              height 20px
+
+        term-all-apis-mobile.view-link:
+              inside partly term-all-apis-mobile ~1px right
+              height 20px
+
+        term-all-apis-mobile.table:
+              width 288px
+
+
+
+        # term-all-mashups-mobile
+
+        term-all-mashups-mobile:
+              width 288px
+
+        term-all-mashups-mobile.block-title:
+              height 20px
+
+        term-all-mashups-mobile.view-link:
+              inside partly term-all-mashups-mobile ~1px right
+              height 20px
+
+        term-all-mashups-mobile.table:
+              width 288px
+
+        # developers-mobile
+
+        developers-mobile:
+              width 288px
+
+        developers-mobile.block-title:
+              height 20px
+
+        developers-mobile.view-content:
+              height 81px
+              below developers-mobile.block-title 0px
+
+        developers-mobile.views-field-picture:
+              height 50px
+              width 288px
+
+        developers-mobile.view-footer:
+              height 55px
+              below developers-mobile.view-content 35px
+
+        # followers-mobile
+
+        followers-mobile:
+              width 288px
+
+        followers-mobile.block-title:
+              height 20px
+
+        followers-mobile.view-content:
+              height 250px
+              below followers-mobile.block-title 0px
+
+        followers-mobile.views-field-picture:
+              height 50px
+              width 288px
+
+        followers-mobile.view-footer:
+              height 55px
+              below followers-mobile.view-content 0px
+
+        # Individual sections specs ends here
+
+        region-sidebar-second:
+              inside partly main-container
+              width 360px
+
+        block-block-38:
+              inside partly region-sidebar-second 20px left
+
+        block-title-apiu:
+              width 320px
+              height 60px
+              inside block-block-38 0px left
+
+        apiu-wrapper:
+              width 320px
+              inside block-block-38 0px left
+
+        apiu-cat:
+              width 280px
+              inside apiu-wrapper 20px left, 24px top
+
+        primary-cat:
+              width 280px
+              inside apiu-wrapper 20px left, 59px top
+
+
+        block-block-21:
+              inside partly region-sidebar-second 20px left
+              near block-block-38 30px bottom
+
+        ad-title-sidebar-top, adzerk-top-mrec:
+              width 320px
+              inside partly region-sidebar-second 20px left
+
+        block-block-42, block-views-right-side-users-block:
+              width 320px
+              inside partly region-sidebar-second 20px left right
+
+        block-block-25:
+              inside partly region-sidebar-second 20px left
+              #near block-views-right-side-users-block 30px bottom
+
+        ad-title-sidebar-bottom:
+              height 10px
+              #inside partly block-block-25 0px left, 0px top
+
+        adzerk-bottom-mrec:
+              width 320px
+              inside partly region-sidebar-second 20px left
+
+
+        footer:
+              width 360px
