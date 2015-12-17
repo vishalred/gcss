@@ -1,0 +1,1349 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    azk16406  id azk16406
+    region-sidebar-second css  .region-sidebar-second
+
+    search-form-api  id search-form-api
+    search-form-api-head  css #search-form-api .head
+    pw-search-api-form  id pw-search-api-form
+
+
+    main-containt-section xpath  /html/body/div[5]/div[1]/section
+    block-system-main id block-system-main
+    search-form-api id search-form-api
+    search-input  xpath  //*[@id="pw-search-api-form"]
+    serach-header css .head
+    search-api-catogary xpath //*[@id="search_control"]/div[2]
+    search-api-group  xpath  //*[@id="search_control"]/div[3]
+    search-api-checkbox  xpath  //*[@id="search_control"]/div[4]
+    table-containt-header  xpath //*[@id="block-system-main"]/article/div[7]/div[2]/table/thead
+    table-cinataint-1 css #block-system-main .views-row-first
+    table-cinataint-2 css #block-system-main .odd
+    table-cinataint-3 css #block-system-main .even
+
+    bottom_ad   id   adzerk-bottom-leaderboard
+    footer css footer
+
+
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-containt-section:
+             #height 11532px
+             width 830px
+             below headerdiv 157px
+
+        azk16406:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+        search-form-api:
+              height 225px
+              width 790px
+              inside main-containt-section 0px left,40px right
+
+        search-form-api-head:
+              height 40px
+              width 790px
+              inside search-form-api 0px left,0px right
+
+        pw-search-api-form:
+               height 90px
+               width 790px
+               inside search-form-api 0px left,0px right
+
+        block-system-main:
+              #height 11492px
+              width 790px
+
+        search-form-api:
+              height 225px
+              width 790px
+              inside block-system-main 0px left
+
+        search-input:
+               height 90px
+               width 790px
+               inside  block-system-main 0px left
+
+        search-api-catogary:
+               height 45px
+               width ~253px
+               inside  block-system-main 0px left
+
+        search-api-checkbox:
+               height 45px
+               width ~184px
+               inside  block-system-main 71px right
+
+        table-containt-header:
+              height 51px
+              width  790px
+              inside  block-system-main 0px left
+
+        table-cinataint-1:
+              height 111px
+              width  790px
+              inside  block-system-main 0px left
+
+        table-cinataint-2:
+              height 111px
+              width  790px
+              inside  block-system-main 0px left
+
+        table-cinataint-3:
+              height 111px
+              width  790px
+              inside  block-system-main 0px left
+
+        region-sidebar-second:
+              width 300px
+
+        footer:
+              height 279px
+              width 1350px
+
+
+    @on Windows10_Chrome_42_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11552px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 224px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 39px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11512px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~184px
+                       inside  block-system-main 70px right
+
+                table-containt-header:
+                      height 50px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 278px
+                      width 1333px
+
+
+
+    @on Windows10_Firefox_37_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11732px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 225px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 40px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11692px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~189px
+                       inside  block-system-main 66px right
+
+                table-containt-header:
+                      height 51px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      #height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      #height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      #height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 279px
+                      width 1335px
+
+
+
+    @on Windows8.1_IE_11_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11552px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 225px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 40px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11512px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~184px
+                       inside  block-system-main 71px right
+
+                table-containt-header:
+                      height 51px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 279px
+                      width 1350px
+
+
+
+    @on Windows8.1_Chrome_42_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11552px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 224px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 39px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11512px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~184px
+                       inside  block-system-main 70px right
+
+                table-containt-header:
+                      height 50px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 278px
+                      width 1333px
+
+
+
+    @on Windows8.1_Firefox_37_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11732px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 225px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 40px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11692px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~189px
+                       inside  block-system-main 66px right
+
+                table-containt-header:
+                      height 51px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      #height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      #height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      #height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 279px
+                      width 1335px
+
+
+
+    @on Windows7_IE_11_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11552px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 225px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 40px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11512px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~184px
+                       inside  block-system-main 71px right
+
+                table-containt-header:
+                      height 51px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 279px
+                      width 1350px
+
+
+    @on Windows7_IE_10_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11552px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 225px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 40px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11512px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~184px
+                       inside  block-system-main 71px right
+
+                table-containt-header:
+                      height 51px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 279px
+                      width 1350px
+
+
+
+    @on Windows7_IE_9_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11552px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 225px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 40px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11512px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~184px
+                       inside  block-system-main 71px right
+
+                table-containt-header:
+                      height 51px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 279px
+                      width 1333px
+
+
+
+    @on Windows7_Chrome_42_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11572px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 224px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 39px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11532px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~189px
+                       inside  block-system-main 65px right
+
+                table-containt-header:
+                      height 50px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 278px
+                      width 1339px
+
+
+
+    @on Windows7_Firefox_37_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11732px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 225px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 40px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11692px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~189px
+                       inside  block-system-main 66px right
+
+                table-containt-header:
+                      height 51px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      #height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      #height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      #height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 279px
+                      width 1333px
+
+
+
+    @on OSXYosemite_Safari_8_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11552px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 224px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 39px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11512px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~184px
+                       inside  block-system-main 72px right
+
+                table-containt-header:
+                      height 50px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 278px
+                      width 1366px
+
+
+
+    @on OSXYosemite_Chrome_46_1366x768
+
+                header:
+                      #height 101px
+                      width ~ 86% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 86% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     #height 11552px
+                     width 830px
+                     below headerdiv 157px
+
+                azk16406:
+                      height 90px
+                      width 1200px
+                      below headerdiv 21px
+
+                search-form-api:
+                      height 224px
+                      width 790px
+                      inside main-containt-section 0px left,40px right
+
+                search-form-api-head:
+                      height 39px
+                      width 790px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 790px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      #height 11512px
+                      width 790px
+
+
+                search-input:
+                       height 90px
+                       width 790px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~253px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~184px
+                       inside  block-system-main 71px right
+
+                table-containt-header:
+                      height 50px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 111px
+                      width  790px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 300px
+
+                footer:
+                      height 278px
+                      width 1366px
+
+
+
+    @on iPadAir_iPad_768x1024
+
+                header:
+                      #height 101px
+                      width ~ 100% of screen/width
+                      #image: file
+                      above headerdiv 1px
+
+                headerdiv:
+                      #height 46px
+                      width ~ 100% of screen/width
+                      below header 1px
+                      #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                main-containt-section:
+                     height 13576px
+                     width 485px
+                     below headerdiv 134px
+
+                azk16406:
+                      height 20px
+                      width 728px
+                      below headerdiv 68px
+
+                search-form-api:
+                      height 323px
+                      width 445px
+                      inside main-containt-section 20px left,20px right
+
+                search-form-api-head:
+                      height 78px
+                      width 445px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 90px
+                       width 445px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      height 13511px
+                      width 445px
+
+
+                search-input:
+                       height 90px
+                       width 445px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~200px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~183px
+                       inside  block-system-main 262px right
+
+                table-containt-header:
+                      height 50px
+                      width  445px
+                      inside  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 131px
+                      width  445px
+                      inside  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 131px
+                      width  445px
+                      inside  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 131px
+                      width  445px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 242px
+
+                footer:
+                      height 298px
+                      width 768px
+
+
+
+    @on iPhone5_iPhone_320x568
+
+
+                header-mobile:
+                    #height 101px
+                    width ~ 100% of screen/width
+                    #image: file
+
+
+                main-containt-section:
+                    height 6276px
+                    width 320px
+                    #below headerdiv 134px
+
+                azk16406:
+                    height 20px
+                    width 280px
+                    below header-mobile 20px
+
+                main-containt-section:
+                     height 6276px
+                     width 320px
+                     below header-mobile 61px
+
+
+                search-form-api:
+                      height 450px
+                      width 280px
+                      inside main-containt-section 20px left,20px right
+
+                search-form-api-head:
+                      height 90px
+                      width 280px
+                      inside search-form-api 0px left,0px right
+
+                pw-search-api-form:
+                       height 145px
+                       width 280px
+                       inside search-form-api 0px left,0px right
+
+                block-system-main:
+                      height 6236px
+                      width 280px
+
+
+                search-input:
+                       height 145px
+                       width 280px
+                       inside  block-system-main 0px left
+
+                search-api-catogary:
+                       height 45px
+                       width ~280px
+                       inside  block-system-main 0px left
+
+                search-api-checkbox:
+                       height 45px
+                       width ~184px
+                       inside partly block-system-main 96px right
+
+                table-containt-header:
+                      height 50px
+                      width  280px
+                      inside partly  block-system-main 0px left
+
+                table-cinataint-1:
+                      height 51px
+                      width  280px
+                      inside partly  block-system-main 0px left
+
+                table-cinataint-2:
+                      height 51px
+                      width  280px
+                      inside partly  block-system-main 0px left
+
+                table-cinataint-3:
+                      height 51px
+                      width  280px
+                      inside  block-system-main 0px left
+
+                region-sidebar-second:
+                      width 320px
+
+                footer:
+                      height 697px
+                      width 320px
