@@ -1,0 +1,1301 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "11--search-windows7-firefox-37-1366x768",
+  "name" : "/Search_Windows7_Firefox_37_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_Firefox_37_1366x768",
+      "status" : "info",
+      "time" : 1450428789024,
+      "includedTags" : [ "Windows7_Firefox_37_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1897
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1899
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1903
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1904
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "top_ad",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1908
+            },
+            "name" : "height 90px",
+            "highlight" : [ "top_ad" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1909
+            },
+            "name" : "width 1200px",
+            "highlight" : [ "top_ad" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1910
+            },
+            "name" : "below headerdiv 21px",
+            "highlight" : [ "top_ad", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1914
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-system-main",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1918
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1919
+            },
+            "name" : "below top_ad 46px",
+            "highlight" : [ "block-system-main", "top_ad" ]
+          } ]
+        }, {
+          "name" : "search-head",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1922
+            },
+            "name" : "height 40px",
+            "highlight" : [ "search-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1923
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1924
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "search-head", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-form",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1927
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1928
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1929
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "search-form", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1930
+            },
+            "name" : "below search-head 25px",
+            "highlight" : [ "search-form", "search-head" ]
+          } ]
+        }, {
+          "name" : "search-form-btn",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1933
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-form-btn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1934
+            },
+            "name" : "width 79px",
+            "highlight" : [ "search-form-btn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1935
+            },
+            "name" : "inside block-system-main 0px left , 711px right",
+            "highlight" : [ "search-form-btn", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1936
+            },
+            "name" : "below search-form 20px",
+            "highlight" : [ "search-form-btn", "search-form" ]
+          } ]
+        }, {
+          "name" : "search-form-summary",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1939
+            },
+            "name" : "height 48px",
+            "highlight" : [ "search-form-summary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1940
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-form-summary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1941
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-form-summary", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1942
+            },
+            "name" : "below search-form-btn 30px",
+            "highlight" : [ "search-form-summary", "search-form-btn" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1945
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1946
+            },
+            "name" : "width 92px",
+            "highlight" : [ "search-form-sumarry1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1947
+            },
+            "name" : "inside search-form-summary 0px left , 698px right",
+            "highlight" : [ "search-form-sumarry1", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1950
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1951
+            },
+            "name" : "width 118px",
+            "highlight" : [ "search-form-sumarry2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1952
+            },
+            "name" : "inside search-form-summary 96px left , 576px right",
+            "highlight" : [ "search-form-sumarry2", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1955
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1956
+            },
+            "name" : "width 116px",
+            "highlight" : [ "search-form-sumarry3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1957
+            },
+            "name" : "inside search-form-summary 218px left , 456px right",
+            "highlight" : [ "search-form-sumarry3", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1960
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1961
+            },
+            "name" : "width 139px",
+            "highlight" : [ "search-form-sumarry4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1962
+            },
+            "name" : "inside search-form-summary 338px left , 313px right",
+            "highlight" : [ "search-form-sumarry4", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1965
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1966
+            },
+            "name" : "width 127px",
+            "highlight" : [ "search-form-sumarry5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1967
+            },
+            "name" : "inside search-form-summary 481px left , 182px right",
+            "highlight" : [ "search-form-sumarry5", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1970
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1971
+            },
+            "name" : "width 129px",
+            "highlight" : [ "search-form-sumarry6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1972
+            },
+            "name" : "inside search-form-summary 612px left , 49px right",
+            "highlight" : [ "search-form-sumarry6", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-all-title-api",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1975
+            },
+            "name" : "height 25px",
+            "highlight" : [ "search-all-title-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1976
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-title-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1977
+            },
+            "name" : "below search-form-summary 70px",
+            "highlight" : [ "search-all-title-api", "search-form-summary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1978
+            },
+            "name" : "inside partly block-system-main 0px left ,0px right",
+            "highlight" : [ "search-all-title-api", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-title-view-all",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1981
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-title-view-all" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1982
+            },
+            "name" : "width ~50px",
+            "highlight" : [ "search-title-view-all" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1983
+            },
+            "name" : "inside partly search-all-title-api 0px right",
+            "highlight" : [ "search-title-view-all", "search-all-title-api" ]
+          } ]
+        }, {
+          "name" : "search-apis-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1986
+            },
+            "name" : "height 322px",
+            "highlight" : [ "search-apis-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1987
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-apis-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1988
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-apis-containt", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1989
+            },
+            "name" : "below search-all-title-api 66px",
+            "highlight" : [ "search-apis-containt", "search-all-title-api" ]
+          } ]
+        }, {
+          "name" : "search-all-title-article",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1992
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1993
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1994
+            },
+            "name" : "below search-apis-containt 55px",
+            "highlight" : [ "search-all-title-article", "search-apis-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1995
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-all-title-article", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-article-view-all",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1998
+            },
+            "name" : "height 24px",
+            "highlight" : [ "search-article-view-all" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1999
+            },
+            "name" : "width 52px",
+            "highlight" : [ "search-article-view-all" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2000
+            },
+            "name" : "inside partly search-all-title-article 0px right",
+            "highlight" : [ "search-article-view-all", "search-all-title-article" ]
+          } ]
+        }, {
+          "name" : "search-article-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2004
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-article-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2005
+            },
+            "name" : "below search-all-title-article 35px",
+            "highlight" : [ "search-article-containt", "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2006
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-article-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-article-containt1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2010
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-article-containt1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2011
+            },
+            "name" : "below search-all-title-article 35px",
+            "highlight" : [ "search-article-containt1", "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2012
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-article-containt1", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-article-containt2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2016
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-article-containt2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2017
+            },
+            "name" : "below search-all-title-article 292px",
+            "highlight" : [ "search-article-containt2", "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2018
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-article-containt2", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-article-containt3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2022
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-article-containt3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2024
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-article-containt3", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-all-title-howtos",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2027
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-title-howtos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2028
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-title-howtos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2030
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-all-title-howtos", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-howtos-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2034
+            },
+            "name" : "height 342px",
+            "highlight" : [ "search-howtos-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2035
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-howtos-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2036
+            },
+            "name" : "below search-all-title-howtos 35px",
+            "highlight" : [ "search-howtos-containt", "search-all-title-howtos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2037
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-howtos-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-all-tittle-framework",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2040
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-tittle-framework" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2041
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-tittle-framework" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2042
+            },
+            "name" : "below search-howtos-containt 55px",
+            "highlight" : [ "search-all-tittle-framework", "search-howtos-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2043
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "search-all-tittle-framework", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-framework-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2046
+            },
+            "name" : "height 282px",
+            "highlight" : [ "search-framework-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2047
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-framework-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2048
+            },
+            "name" : "below search-all-tittle-framework 35px",
+            "highlight" : [ "search-framework-containt", "search-all-tittle-framework" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2049
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-framework-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-all-tittle-mashup",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2052
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-tittle-mashup" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2053
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-tittle-mashup" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2054
+            },
+            "name" : "below search-framework-containt 55px",
+            "highlight" : [ "search-all-tittle-mashup", "search-framework-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2055
+            },
+            "name" : "inside block-system-main 0px left, 0px right",
+            "highlight" : [ "search-all-tittle-mashup", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-mashup-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2058
+            },
+            "name" : "height 322px",
+            "highlight" : [ "search-mashup-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2059
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-mashup-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2060
+            },
+            "name" : "below search-all-tittle-mashup 35px",
+            "highlight" : [ "search-mashup-containt", "search-all-tittle-mashup" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2061
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-mashup-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-all-tittle-members",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2064
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-tittle-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2065
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-tittle-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2066
+            },
+            "name" : "below search-mashup-containt 55px",
+            "highlight" : [ "search-all-tittle-members", "search-mashup-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2067
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-all-tittle-members", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-members-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2070
+            },
+            "name" : "height 372px",
+            "highlight" : [ "search-members-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2071
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-members-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2072
+            },
+            "name" : "below search-all-tittle-members 35px",
+            "highlight" : [ "search-members-containt", "search-all-tittle-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2073
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-members-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2076
+            },
+            "name" : "height 279px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 2077
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "search-article-view-all" : {
+          "area" : [ 820, 1128, 52, 24 ]
+        },
+        "footer" : {
+          "area" : [ 0, 4260, 1333, 279 ]
+        },
+        "search-all-title-article" : {
+          "area" : [ 82, 1096, 790, 56 ]
+        },
+        "top_ad" : {
+          "area" : [ 67, 169, 1200, 90 ]
+        },
+        "search-form-btn" : {
+          "area" : [ 82, 435, 79, 45 ]
+        },
+        "search-apis-containt" : {
+          "area" : [ 82, 719, 790, 322 ]
+        },
+        "search-title-view-all" : {
+          "area" : [ 821, 628, 51, 56 ]
+        },
+        "search-form" : {
+          "area" : [ 82, 370, 790, 45 ]
+        },
+        "search-howtos-containt" : {
+          "area" : [ 82, 2168, 790, 342 ]
+        },
+        "search-all-title-howtos" : {
+          "area" : [ 82, 2077, 790, 56 ]
+        },
+        "search-article-containt3" : {
+          "area" : [ 82, 1725, 790, 282 ]
+        },
+        "search-members-containt" : {
+          "area" : [ 82, 3552, 790, 372 ]
+        },
+        "search-article-containt2" : {
+          "area" : [ 82, 1444, 790, 282 ]
+        },
+        "search-all-tittle-mashup" : {
+          "area" : [ 82, 2993, 790, 56 ]
+        },
+        "search-article-containt1" : {
+          "area" : [ 82, 1187, 790, 257 ]
+        },
+        "search-mashup-containt" : {
+          "area" : [ 82, 3084, 790, 322 ]
+        },
+        "search-all-tittle-members" : {
+          "area" : [ 82, 3461, 790, 56 ]
+        },
+        "block-system-main" : {
+          "area" : [ 82, 305, 790, 3639 ]
+        },
+        "search-form-summary" : {
+          "area" : [ 82, 510, 790, 48 ]
+        },
+        "search-all-title-api" : {
+          "area" : [ 82, 628, 790, 25 ]
+        },
+        "headerdiv" : {
+          "area" : [ 82, 102, 1170, 46 ]
+        },
+        "search-all-tittle-framework" : {
+          "area" : [ 82, 2565, 790, 56 ]
+        },
+        "search-head" : {
+          "area" : [ 82, 305, 790, 40 ]
+        },
+        "search-framework-containt" : {
+          "area" : [ 82, 2656, 790, 282 ]
+        },
+        "search-article-containt" : {
+          "area" : [ 82, 1187, 790, 820 ]
+        },
+        "search-form-sumarry3" : {
+          "area" : [ 300, 510, 116, 48 ]
+        },
+        "header" : {
+          "area" : [ 82, 0, 1170, 101 ]
+        },
+        "search-form-sumarry4" : {
+          "area" : [ 420, 510, 139, 48 ]
+        },
+        "search-form-sumarry5" : {
+          "area" : [ 563, 510, 127, 48 ]
+        },
+        "search-form-sumarry6" : {
+          "area" : [ 694, 510, 129, 48 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 952, 305, 300, 2227 ]
+        },
+        "search-form-sumarry1" : {
+          "area" : [ 82, 510, 92, 48 ]
+        },
+        "search-form-sumarry2" : {
+          "area" : [ 178, 510, 118, 48 ]
+        }
+      },
+      "screenshot" : "layout-11-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" data-screenshot="{{screenshot}}">
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>/Search_Windows7_Firefox_37_1366x768</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,228 @@
+{
+  "tests" : [ {
+    "name" : "/Search_Windows10_IE_11_1366x768",
+    "startedAt" : 1450427797949,
+    "endedAt" : 1450427920781,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 105,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 105
+    },
+    "testId" : "1--search-windows10-ie-11-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 122832
+  }, {
+    "name" : "/Search_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1450427920781,
+    "endedAt" : 1450428015934,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 105,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 105
+    },
+    "testId" : "2--search-windows10-chrome-42-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 95153
+  }, {
+    "name" : "/Search_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1450428015934,
+    "endedAt" : 1450428094889,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 104,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 104
+    },
+    "testId" : "3--search-windows10-firefox-37-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 78955
+  }, {
+    "name" : "/Search_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1450428094889,
+    "endedAt" : 1450428226649,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 100,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 100
+    },
+    "testId" : "4--search-windows8.1-ie-11-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 131760
+  }, {
+    "name" : "/Search_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1450428226650,
+    "endedAt" : 1450428332224,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 105,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 106
+    },
+    "testId" : "5--search-windows8.1-chrome-42-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 105574
+  }, {
+    "name" : "/Search_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1450428332224,
+    "endedAt" : 1450428423464,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 105,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 105
+    },
+    "testId" : "6--search-windows8.1-firefox-37-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 91240
+  }, {
+    "name" : "/Search_Windows7_IE_11_1366x768",
+    "startedAt" : 1450428423464,
+    "endedAt" : 1450428503129,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 104,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 104
+    },
+    "testId" : "7--search-windows7-ie-11-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 79665
+  }, {
+    "name" : "/Search_Windows7_IE_10_1366x768",
+    "startedAt" : 1450428503129,
+    "endedAt" : 1450428578189,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 104,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 104
+    },
+    "testId" : "8--search-windows7-ie-10-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 75060
+  }, {
+    "name" : "/Search_Windows7_IE_9_1366x768",
+    "startedAt" : 1450428578189,
+    "endedAt" : 1450428648549,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 105,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 105
+    },
+    "testId" : "9--search-windows7-ie-9-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 70360
+  }, {
+    "name" : "/Search_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1450428648549,
+    "endedAt" : 1450428707528,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 106,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 106
+    },
+    "testId" : "10--search-windows7-chrome-42-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 58979
+  }, {
+    "name" : "/Search_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1450428707528,
+    "endedAt" : 1450428795942,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 105,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 105
+    },
+    "testId" : "11--search-windows7-firefox-37-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 88414
+  }, {
+    "name" : "/Search_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1450428795942,
+    "endedAt" : 1450428850656,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 105,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 105
+    },
+    "testId" : "12--search-osxyosemite-safari-8-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 54714
+  }, {
+    "name" : "/Search_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1450428850656,
+    "endedAt" : 1450428906026,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 105,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 105
+    },
+    "testId" : "13--search-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "/Search_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 55370
+  }, {
+    "name" : "/Search_iPadAir_iPad_768x1024",
+    "startedAt" : 1450428906026,
+    "endedAt" : 1450429017705,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 105,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 107
+    },
+    "testId" : "14--search-ipadair-ipad-768x1024",
+    "groups" : [ "/Search_Tablet_768x1024" ],
+    "failed" : true,
+    "duration" : 111679
+  }, {
+    "name" : "/Search_iPhone5_iPhone_320x568",
+    "startedAt" : 1450429017705,
+    "endedAt" : 1450429126928,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 100,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 100
+    },
+    "testId" : "15--search-iphone5-iphone-320x568",
+    "groups" : [ "/Search_Mobile" ],
+    "failed" : false,
+    "duration" : 109223
+  } ]
+}

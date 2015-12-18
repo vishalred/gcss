@@ -1,0 +1,2817 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    top_ad  id azk16406
+    region-sidebar-second css  .region-sidebar-second
+
+    block-system-main id block-system-main
+    search-head  css #search-form-all .right .head
+    search-form  css #search-form-all .right .form-type-textfield
+    search-form-btn css #search-form-all .right .btn
+    search-form-summary css .search-summary
+    search-form-sumarry1 xpath  //*[@id="node-nav"]/ul/li[1]
+    search-form-sumarry2 xpath  //*[@id="node-nav"]/ul/li[2]
+    search-form-sumarry3 xpath  //*[@id="node-nav"]/ul/li[3]
+    search-form-sumarry4 xpath  //*[@id="node-nav"]/ul/li[4]
+    search-form-sumarry5 xpath  //*[@id="node-nav"]/ul/li[5]
+    search-form-sumarry6 xpath  //*[@id="node-nav"]/ul/li[6]
+
+    search-all-title-api css  .fieldset-legend
+    search-title-view-all  xpath //*[@id="block-system-main"]/article/div[5]/fieldset[1]/legend/div
+    search-apis-containt  xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[1]/div[2]/div[2]/div[2]
+    search-article-view-all  xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[2]/legend/div/a
+    search-article-containt  xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[2]/div[2]
+    search-article-containt1 xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[2]/div[2]/div/div/div[1]
+    search-article-containt2 xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[2]/div[2]/div/div/div[2]
+    search-article-containt3 xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[2]/div[2]/div/div/div[3]
+    search-all-title-article  xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[2]/legend
+
+    search-all-title-howtos xpath //*[@id="block-system-main"]/article/div[5]/fieldset[3]/legend
+    search-howtos-view-all xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[3]/legend/span
+    search-howtos-containt  xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[3]/div[2]/div/div/table
+
+    search-all-tittle-framework  xpath //*[@id="block-system-main"]/article/div[5]/fieldset[4]/legend
+    search-framework-containt  xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[4]/div[2]/div
+
+    search-all-tittle-mashup  xpath //*[@id="block-system-main"]/article/div[5]/fieldset[5]/legend
+    search-mashup-containt  xpath  //*[@id="block-system-main"]/article/div[5]/fieldset[5]/div[2]
+
+    search-all-tittle-members  xpath //*[@id="block-system-main"]/article/div[5]/fieldset[6]/legend
+    search-members-containt   css #block-system-main .collapsible .members
+
+    bottom_ad   id   adzerk-bottom-leaderboard
+    footer css footer
+
+
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        top_ad:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3152px
+              width 790px
+              below top_ad 46px
+
+        search-head:
+              height 40px
+              width 790px
+              inside block-system-main 0px left , 0px right
+
+        search-form:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below search-head 24px
+
+        search-form-btn:
+              height 45px
+              width 78px
+              inside block-system-main 0px left , 712px right
+              below search-form 20px
+
+        search-form-summary:
+              height 48px
+              width 790px
+              inside block-system-main 0px left ,0px right
+              below search-form-btn 30px
+
+        search-form-sumarry1:
+              height ~48px
+              width 91px
+              inside search-form-summary 0px left , 699px right
+
+        search-form-sumarry2:
+              height ~48px
+              width 118px
+              inside search-form-summary 95px left , 577px right
+
+        search-form-sumarry3:
+              height ~48px
+              width 117px
+              inside search-form-summary 216px left , 457px right
+
+        search-form-sumarry4:
+              height ~48px
+              width 140px
+              inside search-form-summary 337px left , 313px right
+
+        search-form-sumarry5:
+              height ~48px
+              width 126px
+              inside search-form-summary 481px left , 183px right
+
+        search-form-sumarry6:
+              height ~48px
+              width 129px
+              inside search-form-summary 611px left , 50px right
+
+        search-all-title-api:
+              height 25px
+              width 790px
+              below search-form-summary 70px
+              inside block-system-main 0px left ,0px right
+
+        search-title-view-all:
+              height 56px
+              width ~50px
+              inside partly search-all-title-api 1px right
+
+        search-apis-containt:
+              height 322px
+              width 790px
+              inside block-system-main 0px left ,0px right
+              below search-all-title-api 66px
+
+        search-all-title-article:
+              height 56px
+              width 790px
+              below search-apis-containt 55px
+              inside block-system-main 0px left ,0px right
+
+        search-article-view-all:
+              height 24px
+              width 50px
+              inside search-all-title-article 1px right
+
+        search-article-containt:
+              #height 758px
+              width 790px
+              below search-all-title-article 35px
+              inside block-system-main 0px left,0px right
+
+        search-article-containt1:
+              #height 257px
+              width 790px
+              below search-all-title-article 35px
+              inside block-system-main 0px left,0px right
+
+        search-article-containt2:
+              #height 219px
+              width 790px
+              below search-all-title-article 292px
+              inside block-system-main 0px left,0px right
+
+        search-article-containt3:
+              #height 282px
+              width 790px
+              #below search-all-title-article 511px
+              inside block-system-main 0px left,0px right
+
+        search-all-title-howtos:
+              height 56px
+              width 790px
+              #below search-article-containt 70px
+              inside block-system-main 0px left ,0px right
+
+
+        search-howtos-containt:
+              height 382px
+              width 790px
+              below search-all-title-howtos 35px
+              inside block-system-main 0px left,0px right
+
+        search-all-tittle-framework:
+             height 56px
+             width 790px
+             below search-howtos-containt 55px
+             inside block-system-main 0px left , 0px right
+
+        search-framework-containt:
+             height 262px
+             width 790px
+             below search-all-tittle-framework 35px
+             inside block-system-main 0px left ,0px right
+
+        search-all-tittle-mashup:
+             height 56px
+             width 790px
+             below search-framework-containt 55px
+             inside block-system-main 0px left, 0px right
+
+        search-mashup-containt:
+             height 322px
+             width 790px
+             below search-all-tittle-mashup 35px
+             inside block-system-main 0px left ,0px right
+
+        search-all-tittle-members:
+             height 56px
+             width 790px
+             below search-mashup-containt 55px
+             inside block-system-main 0px left,0px right
+
+        search-members-containt:
+             height 372px
+             width 790px
+             below search-all-tittle-members 35px
+             inside block-system-main 0px left,0px right
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+         top_ad:
+               height 90px
+               width 1200px
+               below headerdiv 21px
+
+
+         region-sidebar-second:
+               width 300px
+
+         block-system-main:
+               #height 3152px
+               width 790px
+               below top_ad 46px
+
+         search-head:
+               height 39px
+               width 790px
+               inside block-system-main 0px left , 0px right
+
+         search-form:
+               height 45px
+               width 790px
+               inside block-system-main 0px left , 0px right
+               below search-head 25px
+
+         search-form-btn:
+               height 45px
+               width 78px
+               inside block-system-main 0px left , 712px right
+               below search-form 20px
+
+         search-form-summary:
+               height 48px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-form-btn 30px
+
+         search-form-sumarry1:
+               height ~48px
+               width 91px
+               inside search-form-summary 0px left , 699px right
+
+         search-form-sumarry2:
+               height ~48px
+               width 118px
+               inside search-form-summary 95px left , 577px right
+
+         search-form-sumarry3:
+               height ~48px
+               width ~117px
+               inside search-form-summary 217px left , ~456px right
+
+         search-form-sumarry4:
+               height ~48px
+               width 141px
+               inside search-form-summary ~338px left , ~311px right
+
+         search-form-sumarry5:
+               height ~48px
+               width ~126px
+               inside search-form-summary ~483px left , ~181px right
+
+         search-form-sumarry6:
+               height ~48px
+               width 129px
+               inside search-form-summary ~613px left , ~48px right
+
+         search-all-title-api:
+               height 25px
+               width 790px
+               below search-form-summary 35px
+               inside partly block-system-main 0px left ,0px right
+
+         search-title-view-all:
+               height 56px
+               width ~50px
+               inside partly search-all-title-api 0px right
+
+         search-apis-containt:
+               height 322px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-all-title-api 35px
+
+         search-all-title-article:
+               height 25px
+               width 790px
+               below search-apis-containt 20px
+               inside block-system-main 0px left ,0px right
+
+         search-article-view-all:
+               height 24px
+               width 50px
+               inside partly search-all-title-article 0px right
+
+         search-article-containt:
+               #height 812px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt1:
+               #height ~276px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt2:
+               #height ~239px
+               width 790px
+               below search-all-title-article 311px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt3:
+               #height 301px
+               width 790px
+               #below search-all-title-article 550px
+               inside block-system-main 0px left,0px right
+
+         search-all-title-howtos:
+               height 25px
+               width 790px
+               #below search-article-containt 35px
+               inside block-system-main 0px left ,0px right
+
+
+         search-howtos-containt:
+               height 342px
+               width 790px
+               below search-all-title-howtos 35px
+               inside block-system-main 0px left,0px right
+
+         search-all-tittle-framework:
+              height 25px
+              width 790px
+              below search-howtos-containt 20px
+              inside block-system-main 0px left , 0px right
+
+         search-framework-containt:
+              height 262px
+              width 790px
+              below search-all-tittle-framework 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-mashup:
+              height 25px
+              width 790px
+              below search-framework-containt 20px
+              inside block-system-main 0px left, 0px right
+
+         search-mashup-containt:
+              height 322px
+              width 790px
+              below search-all-tittle-mashup 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-members:
+              height 25px
+              width 790px
+              below search-mashup-containt 20px
+              inside block-system-main 0px left,0px right
+
+         search-members-containt:
+              height 372px
+              width 790px
+              below search-all-tittle-members 35px
+              inside block-system-main 0px left,0px right
+
+         footer:
+               height 278px
+               width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+         top_ad:
+               height 90px
+               width 1200px
+               below headerdiv 21px
+
+
+         region-sidebar-second:
+               width 300px
+
+         block-system-main:
+               #height 3152px
+               width 790px
+               below top_ad 46px
+
+         search-head:
+               height 40px
+               width 790px
+               inside block-system-main 0px left , 0px right
+
+         search-form:
+               height 45px
+               width 790px
+               inside block-system-main 0px left , 0px right
+               below search-head 25px
+
+         search-form-btn:
+               height 45px
+               width 79px
+               inside block-system-main 0px left , 711px right
+               below search-form 20px
+
+         search-form-summary:
+               height 48px
+               width 790px
+               inside block-system-main 0px left ,0px right
+
+         search-form-sumarry1:
+               height ~48px
+               width 92px
+               inside search-form-summary 0px left
+
+         search-form-sumarry2:
+               height ~48px
+               width 118px
+               inside search-form-summary 96px left
+
+         search-form-sumarry3:
+               height ~48px
+               width 116px
+               inside search-form-summary 218px left
+
+         search-form-sumarry4:
+               height ~48px
+               width 139px
+               inside search-form-summary 338px left
+
+         search-form-sumarry5:
+               height ~48px
+               width 127px
+               inside search-form-summary 481px left
+
+         search-form-sumarry6:
+               height ~48px
+               width 129px
+               inside search-form-summary 612px left
+
+         search-all-title-api:
+               height 25px
+               width 790px
+               below search-form-summary 70px
+               inside partly block-system-main 0px left ,0px right
+
+         search-title-view-all:
+               height 56px
+               width ~50px
+               inside partly search-all-title-api 0px right
+
+         search-apis-containt:
+               height 322px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-all-title-api 66px
+
+         search-all-title-article:
+               height 56px
+               width 790px
+               below search-apis-containt 55px
+               inside block-system-main 0px left ,0px right
+
+         search-article-view-all:
+               height 24px
+               width 52px
+               inside partly search-all-title-article 0px right
+
+         search-article-containt:
+               #height 758px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt1:
+               #height 257px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt2:
+               #height 219px
+               width 790px
+               below search-all-title-article 292px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt3:
+               #height 282px
+               width 790px
+               #below search-all-title-article 511px
+               inside block-system-main 0px left,0px right
+
+         search-all-title-howtos:
+               height 56px
+               width 790px
+               #below search-article-containt 69px
+               inside block-system-main 0px left ,0px right
+
+
+         search-howtos-containt:
+               height 342px
+               width 790px
+               below search-all-title-howtos 35px
+               inside block-system-main 0px left,0px right
+
+         search-all-tittle-framework:
+              height 56px
+              width 790px
+              below search-howtos-containt 55px
+              inside block-system-main 0px left , 0px right
+
+         search-framework-containt:
+              height 282px
+              width 790px
+              below search-all-tittle-framework 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-mashup:
+              height 56px
+              width 790px
+              below search-framework-containt 55px
+              inside block-system-main 0px left, 0px right
+
+         search-mashup-containt:
+              height 322px
+              width 790px
+              below search-all-tittle-mashup 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-members:
+              height 56px
+              width 790px
+              below search-mashup-containt 55px
+              inside block-system-main 0px left,0px right
+
+         search-members-containt:
+              height 372px
+              width 790px
+              below search-all-tittle-members 35px
+              inside block-system-main 0px left,0px right
+
+         footer:
+               height 279px
+               width 1335px
+
+    @on Windows8.1_IE_11_1366x768
+            header:
+                  #height 101px
+                  width ~ 86% of screen/width
+                  #image: file
+                  above headerdiv 1px
+
+            headerdiv:
+                  #height 46px
+                  width ~ 86% of screen/width
+                  below header 1px
+                  #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+            top_ad:
+                  height 90px
+                  width 1200px
+                  below headerdiv 21px
+
+
+            region-sidebar-second:
+                  width 300px
+
+            block-system-main:
+                  #height 3152px
+                  width 790px
+                  below top_ad 46px
+
+            search-head:
+                  height 40px
+                  width 790px
+                  inside block-system-main 0px left , 0px right
+
+            search-form:
+                  height 45px
+                  width 790px
+                  inside block-system-main 0px left , 0px right
+                  below search-head 24px
+
+            search-form-btn:
+                  height 45px
+                  width ~78px
+                  inside block-system-main 0px left , ~712px right
+                  below search-form 20px
+
+            search-form-summary:
+                  height 48px
+                  width 790px
+                  inside block-system-main 0px left ,0px right
+                  below search-form-btn 30px
+
+            search-form-sumarry1:
+                  height ~48px
+                  width ~91px
+                  #inside search-form-summary 0px left
+
+            search-form-sumarry2:
+                  height ~48px
+                  #width ~117px
+                  #inside search-form-summary ~95px left
+
+            search-form-sumarry3:
+                  height ~48px
+                  width ~116px
+                  #inside search-form-summary 210px left
+
+            search-form-sumarry4:
+                  height ~48px
+                  width 140px
+                  #inside search-form-summary 337px left
+
+            search-form-sumarry5:
+                  height ~48px
+                  width 126px
+                  #inside search-form-summary 481px left
+
+            search-form-sumarry6:
+                  height ~48px
+                  width 129px
+                  #inside search-form-summary 611px left
+
+            search-all-title-api:
+                  height 25px
+                  width 790px
+                  below search-form-summary 70px
+                  inside block-system-main 0px left
+
+            search-title-view-all:
+                  height 56px
+                  width ~50px
+                  inside partly search-all-title-api 1px right
+
+            search-apis-containt:
+                  height 322px
+                  width 790px
+                  inside block-system-main 0px left ,0px right
+                  below search-all-title-api 66px
+
+            search-all-title-article:
+                  height 56px
+                  width 790px
+                  below search-apis-containt 55px
+                  inside block-system-main 0px left ,0px right
+
+            search-article-view-all:
+                  height 24px
+                  width ~50px
+                  inside search-all-title-article 1px right
+
+            search-article-containt:
+                  #height 758px
+                  width 790px
+                  below search-all-title-article 35px
+                  inside block-system-main 0px left,0px right
+
+            search-article-containt1:
+                  height 257px
+                  width 790px
+                  below search-all-title-article 35px
+                  inside block-system-main 0px left,0px right
+
+            search-article-containt2:
+                  #height 219px
+                  width 790px
+                  below search-all-title-article 292px
+                  inside block-system-main 0px left,0px right,
+
+            search-article-containt3:
+                  height 282px
+                  width 790px
+                  #below search-all-title-article 511px
+                  inside block-system-main 0px left,0px right
+
+            search-all-title-howtos:
+                  height 56px
+                  width 790px
+                  #below search-article-containt 70px
+                  inside block-system-main 0px left ,0px right
+
+
+            search-howtos-containt:
+                  height 382px
+                  width 790px
+                  below search-all-title-howtos 35px
+                  inside block-system-main 0px left,0px right
+
+            search-all-tittle-framework:
+                 height 56px
+                 width 790px
+                 below search-howtos-containt 55px
+                 inside block-system-main 0px left , 0px right
+
+            search-framework-containt:
+                 height 262px
+                 width 790px
+                 below search-all-tittle-framework 35px
+                 inside block-system-main 0px left ,0px right
+
+            search-all-tittle-mashup:
+                 height 56px
+                 width 790px
+                 below search-framework-containt 55px
+                 inside block-system-main 0px left, 0px right
+
+            search-mashup-containt:
+                 height 322px
+                 width 790px
+                 below search-all-tittle-mashup 35px
+                 inside block-system-main 0px left ,0px right
+
+            search-all-tittle-members:
+                 height 56px
+                 width 790px
+                 below search-mashup-containt 55px
+                 inside block-system-main 0px left,0px right
+
+            search-members-containt:
+                 height 372px
+                 width 790px
+                 below search-all-tittle-members 35px
+                 inside block-system-main 0px left,0px right
+
+            footer:
+                  height 279px
+                  width 1350px
+
+    @on Windows8.1_Chrome_42_1366x768
+            header:
+                    #height 101px
+                    width ~ 86% of screen/width
+                    #image: file
+                    above headerdiv 1px
+
+            headerdiv:
+                    #height 46px
+                    width ~ 86% of screen/width
+                    below header 1px
+                    #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+            top_ad:
+                    height 90px
+                    width 1200px
+                    below headerdiv 21px
+
+
+            region-sidebar-second:
+                    width 300px
+
+            block-system-main:
+                    #height 3152px
+                    width 790px
+                    below top_ad 46px
+
+            search-head:
+                    height 39px
+                    width 790px
+                    inside block-system-main 0px left , 0px right
+
+            search-form:
+                    height 45px
+                    width 790px
+                    inside block-system-main 0px left , 0px right
+                    below search-head 25px
+
+            search-form-btn:
+                    height 45px
+                    width 78px
+                    inside block-system-main 0px left , 712px right
+                    below search-form 20px
+
+            search-form-summary:
+                    height 48px
+                    width 790px
+                    inside block-system-main 0px left ,0px right
+                    below search-form-btn 30px
+
+            search-form-sumarry1:
+                    height ~48px
+                    width 91px
+                    inside search-form-summary 0px left , 699px right
+
+            search-form-sumarry2:
+                    height ~48px
+                    width 118px
+                    inside search-form-summary 95px left , 577px right
+
+            search-form-sumarry3:
+                    height ~48px
+                    width ~117px
+                    inside search-form-summary 217px left , ~456px right
+
+            search-form-sumarry4:
+                    height ~48px
+                    width 141px
+                    inside search-form-summary ~338px left , ~311px right
+
+            search-form-sumarry5:
+                    height ~48px
+                    width ~126px
+                    inside search-form-summary ~483px left , ~181px right
+
+            search-form-sumarry6:
+                    height ~48px
+                    width 129px
+                    inside search-form-summary ~613px left , ~48px right
+
+            search-all-title-api:
+                    height 25px
+                    width 790px
+                    below search-form-summary 35px
+                    inside partly block-system-main 0px left ,0px right
+
+            search-title-view-all:
+                    height 56px
+                    width ~50px
+                    inside partly search-all-title-api 0px right
+
+            search-apis-containt:
+                    height 322px
+                    width 790px
+                    inside block-system-main 0px left ,0px right
+                    below search-all-title-api 35px
+
+            search-all-title-article:
+                    height 25px
+                    width 790px
+                    below search-apis-containt 20px
+                    inside block-system-main 0px left ,0px right
+
+            search-article-view-all:
+                    height 24px
+                    width 50px
+                    inside partly search-all-title-article 0px right
+
+            search-article-containt:
+                    #height 816px
+                    width 790px
+                    below search-all-title-article 35px
+                    inside block-system-main 0px left,0px right
+
+            search-article-containt1:
+                    #height 276px
+                    width 790px
+                    below search-all-title-article 35px
+                    inside block-system-main 0px left,0px right
+
+            search-article-containt2:
+                    #height 239px
+                    width 790px
+                    below search-all-title-article ~311px
+                    inside block-system-main 0px left,0px right
+
+            search-article-containt3:
+                    #height 301px
+                    width 790px
+                    #below search-all-title-article 550px
+                    inside block-system-main 0px left,0px right
+
+            search-all-title-howtos:
+                    height 25px
+                    width 790px
+                    below search-article-containt 35px
+                    inside block-system-main 0px left ,0px right
+
+
+            search-howtos-containt:
+                    height 342px
+                    width 790px
+                    below search-all-title-howtos 35px
+                    inside block-system-main 0px left,0px right
+
+            search-all-tittle-framework:
+                   height 25px
+                   width 790px
+                   below search-howtos-containt 20px
+                   inside block-system-main 0px left , 0px right
+
+            search-framework-containt:
+                   height 262px
+                   width 790px
+                   below search-all-tittle-framework 35px
+                   inside block-system-main 0px left ,0px right
+
+            search-all-tittle-mashup:
+                   height 25px
+                   width 790px
+                   below search-framework-containt 20px
+                   inside block-system-main 0px left, 0px right
+
+            search-mashup-containt:
+                   height 322px
+                   width 790px
+                   below search-all-tittle-mashup 35px
+                   inside block-system-main 0px left ,0px right
+
+            search-all-tittle-members:
+                   height 25px
+                   width 790px
+                   below search-mashup-containt 20px
+                   inside block-system-main 0px left,0px right
+
+            search-members-containt:
+                   height 372px
+                   width 790px
+                   below search-all-tittle-members 35px
+                   inside block-system-main 0px left,0px right
+
+            footer:
+                    height 278px
+                    width 1333px
+
+    @on Windows8.1_Firefox_37_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+         top_ad:
+               height 90px
+               width 1200px
+               below headerdiv 21px
+
+
+         region-sidebar-second:
+               width 300px
+
+         block-system-main:
+               #height 3152px
+               width 790px
+               below top_ad 46px
+
+         search-head:
+               height 40px
+               width 790px
+               inside block-system-main 0px left , 0px right
+
+         search-form:
+               height 45px
+               width 790px
+               inside block-system-main 0px left , 0px right
+               below search-head 25px
+
+         search-form-btn:
+               height 45px
+               width 79px
+               inside block-system-main 0px left , 711px right
+               below search-form 20px
+
+         search-form-summary:
+               height 48px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-form-btn 30px
+
+         search-form-sumarry1:
+               height ~48px
+               width 92px
+               inside search-form-summary 0px left , 698px right
+
+         search-form-sumarry2:
+               height ~48px
+               width 118px
+               inside search-form-summary 96px left , 576px right
+
+         search-form-sumarry3:
+               height ~48px
+               width 116px
+               inside search-form-summary 218px left , 456px right
+
+         search-form-sumarry4:
+               height ~48px
+               width 139px
+               inside search-form-summary 338px left , 313px right
+
+         search-form-sumarry5:
+               height ~48px
+               width 127px
+               inside search-form-summary 481px left , 182px right
+
+         search-form-sumarry6:
+               height ~48px
+               width 129px
+               inside search-form-summary 612px left , 49px right
+
+         search-all-title-api:
+               height 25px
+               width 790px
+               below search-form-summary 70px
+               inside partly block-system-main 0px left ,0px right
+
+         search-title-view-all:
+               height 56px
+               width ~50px
+               inside partly search-all-title-api 0px right
+
+         search-apis-containt:
+               height 322px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-all-title-api 66px
+
+         search-all-title-article:
+               height 56px
+               width 790px
+               below search-apis-containt 55px
+               inside block-system-main 0px left ,0px right
+
+         search-article-view-all:
+               height 24px
+               width 52px
+               inside partly search-all-title-article 0px right
+
+         search-article-containt:
+               #height 758px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt1:
+               #height 257px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt2:
+               #height 219px
+               width 790px
+               below search-all-title-article 292px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt3:
+               #height 282px
+               width 790px
+               #below search-all-title-article 511px
+               inside block-system-main 0px left,0px right
+
+         search-all-title-howtos:
+               height 56px
+               width 790px
+               #below search-article-containt 69px
+               inside block-system-main 0px left ,0px right
+
+
+         search-howtos-containt:
+               height 342px
+               width 790px
+               below search-all-title-howtos 35px
+               inside block-system-main 0px left,0px right
+
+         search-all-tittle-framework:
+              height 56px
+              width 790px
+              below search-howtos-containt 55px
+              inside block-system-main 0px left , 0px right
+         search-framework-containt:
+              height 282px
+              width 790px
+              below search-all-tittle-framework 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-mashup:
+              height 56px
+              width 790px
+              below search-framework-containt 55px
+              inside block-system-main 0px left, 0px right
+
+         search-mashup-containt:
+              height 322px
+              width 790px
+              below search-all-tittle-mashup 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-members:
+              height 56px
+              width 790px
+              below search-mashup-containt 55px
+              inside block-system-main 0px left,0px right
+
+         search-members-containt:
+              height 372px
+              width 790px
+              below search-all-tittle-members 35px
+              inside block-system-main 0px left,0px right
+
+         footer:
+               height 279px
+               width 1335px
+
+    @on Windows7_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        top_ad:
+              height 90px
+              width 1200px
+              below headerdiv 21px
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3152px
+              width 790px
+              below top_ad 46px
+
+        search-head:
+              height 40px
+              width 790px
+              inside block-system-main 0px left , 0px right
+
+        search-form:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+
+        search-form-btn:
+              height 45px
+              width 78px
+              inside block-system-main 0px left , 712px right
+              below search-form 20px
+
+        search-form-summary:
+              height 48px
+              width 790px
+              inside block-system-main 0px left ,0px right
+              below search-form-btn 30px
+
+        search-form-sumarry1:
+              height ~48px
+              width 91px
+              inside search-form-summary 0px left , 699px right
+
+        search-form-sumarry2:
+              height ~48px
+              width 118px
+              inside search-form-summary 95px left , 577px right
+
+        search-form-sumarry3:
+              height ~48px
+              width 117px
+              inside search-form-summary 216px left , 457px right
+
+        search-form-sumarry4:
+              height ~48px
+              width 140px
+              inside search-form-summary 337px left , 313px right
+
+        search-form-sumarry5:
+              height ~48px
+              width 126px
+              inside search-form-summary 481px left , 183px right
+
+        search-form-sumarry6:
+              height ~48px
+              width 129px
+              inside search-form-summary 611px left , 50px right
+
+        search-all-title-api:
+              height 25px
+              width 790px
+              below search-form-summary 70px
+              inside block-system-main 0px left ,0px right
+
+        search-title-view-all:
+              height 56px
+              width ~50px
+              inside partly search-all-title-api 1px right
+
+        search-apis-containt:
+              height 322px
+              width 790px
+              inside block-system-main 0px left ,0px right
+              below search-all-title-api 66px
+
+        search-all-title-article:
+              height 56px
+              width 790px
+              below search-apis-containt 55px
+              inside block-system-main 0px left ,0px right
+
+        search-article-view-all:
+              height 24px
+              width 50px
+              inside search-all-title-article 1px right
+
+        search-article-containt:
+              #height 758px
+              width 790px
+              below search-all-title-article 35px
+              inside block-system-main 0px left,0px right
+
+        search-article-containt1:
+              #height 257px
+              width 790px
+              below search-all-title-article 35px
+              inside block-system-main 0px left,0px right
+        search-article-containt2:
+              #height 219px
+              width 790px
+              below search-all-title-article 292px
+              inside block-system-main 0px left,0px right
+
+        search-article-containt3:
+              #height 282px
+              width 790px
+              #below search-all-title-article 511px
+              inside block-system-main 0px left,0px right
+
+        search-all-title-howtos:
+              height 56px
+              width 790px
+              #below search-article-containt 70px
+              inside block-system-main 0px left ,0px right
+
+
+        search-howtos-containt:
+              height 382px
+              width 790px
+              below search-all-title-howtos 35px
+              inside block-system-main 0px left,0px right
+
+        search-all-tittle-framework:
+             height 56px
+             width 790px
+             below search-howtos-containt 55px
+             inside block-system-main 0px left , 0px right
+
+        search-framework-containt:
+             height 262px
+             width 790px
+             below search-all-tittle-framework 35px
+             inside block-system-main 0px left ,0px right
+
+        search-all-tittle-mashup:
+             height 56px
+             width 790px
+             below search-framework-containt 55px
+             inside block-system-main 0px left, 0px right
+
+        search-mashup-containt:
+             height 322px
+             width 790px
+             below search-all-tittle-mashup 35px
+             inside block-system-main 0px left ,0px right
+
+        search-all-tittle-members:
+             height 56px
+             width 790px
+             below search-mashup-containt 55px
+             inside block-system-main 0px left,0px right
+
+        search-members-containt:
+             height 372px
+             width 790px
+             below search-all-tittle-members 35px
+             inside block-system-main 0px left,0px right
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_10_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+         top_ad:
+               height 90px
+               width 1200px
+               below headerdiv 21px
+
+
+         region-sidebar-second:
+               width 300px
+
+         block-system-main:
+               #height 3152px
+               width 790px
+               below top_ad 46px
+
+         search-head:
+               height 40px
+               width 790px
+               inside block-system-main 0px left , 0px right
+
+         search-form:
+               height 45px
+               width 790px
+               inside block-system-main 0px left , 0px right
+               below search-head 24px
+
+         search-form-btn:
+               height 45px
+               width 78px
+               inside block-system-main 0px left , 712px right
+               below search-form 20px
+
+         search-form-summary:
+               height 48px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-form-btn 30px
+
+         search-form-sumarry1:
+               height ~48px
+               width 91px
+               inside search-form-summary 0px left , 699px right
+
+         search-form-sumarry2:
+               height ~48px
+               width 118px
+               inside search-form-summary 95px left , 577px right
+
+         search-form-sumarry3:
+               height ~48px
+               width 117px
+               inside search-form-summary 216px left , 457px right
+
+         search-form-sumarry4:
+               height ~48px
+               width 140px
+               inside search-form-summary 337px left , 313px right
+
+         search-form-sumarry5:
+               height ~48px
+               width 126px
+               inside search-form-summary 481px left , 183px right
+
+         search-form-sumarry6:
+               height ~48px
+               width 129px
+               inside search-form-summary 611px left , 50px right
+
+         search-all-title-api:
+               height 25px
+               width 790px
+               below search-form-summary 70px
+               inside block-system-main 0px left ,0px right
+
+         search-title-view-all:
+               height 56px
+               width ~50px
+               inside partly search-all-title-api 1px right
+
+         search-apis-containt:
+               height 322px
+               width 790px
+               inside block-system-main 0px left ,0px right
+
+         search-all-title-article:
+               height 56px
+               width 790px
+               below search-apis-containt 55px
+               inside block-system-main 0px left ,0px right
+
+         search-article-view-all:
+               height 24px
+               width 50px
+               inside search-all-title-article 1px right
+
+         search-article-containt:
+               #height 758px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt1:
+               #height 257px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt2:
+               #height 219px
+               width 790px
+               below search-all-title-article 292px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt3:
+               #height 282px
+               width 790px
+               #below search-all-title-article 511px
+               inside block-system-main 0px left,0px right
+
+         search-all-title-howtos:
+               height 56px
+               width 790px
+               #below search-article-containt 70px
+               inside block-system-main 0px left ,0px right
+
+
+         search-howtos-containt:
+               height 382px
+               width 790px
+               below search-all-title-howtos 35px
+               inside block-system-main 0px left,0px right
+
+         search-all-tittle-framework:
+              height 56px
+              width 790px
+              below search-howtos-containt 55px
+              inside block-system-main 0px left , 0px right
+
+         search-framework-containt:
+              height 262px
+              width 790px
+              below search-all-tittle-framework 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-mashup:
+              height 56px
+              width 790px
+              below search-framework-containt 55px
+              inside block-system-main 0px left, 0px right
+
+         search-mashup-containt:
+              height 322px
+              width 790px
+              below search-all-tittle-mashup 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-members:
+              height 56px
+              width 790px
+              below search-mashup-containt 55px
+              inside block-system-main 0px left,0px right
+
+         search-members-containt:
+              height 372px
+              width 790px
+              below search-all-tittle-members 35px
+              inside block-system-main 0px left,0px right
+
+         footer:
+               height 279px
+               width 1350px
+
+    @on Windows7_IE_9_1366x768
+          header:
+                #height 101px
+                width ~ 86% of screen/width
+                #image: file
+                above headerdiv 1px
+
+          headerdiv:
+                #height 46px
+                width ~ 86% of screen/width
+                below header 1px
+                #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+          top_ad:
+                height 90px
+                width 1200px
+                below headerdiv 21px
+
+
+          region-sidebar-second:
+                width 300px
+
+          block-system-main:
+                #height 3152px
+                width 790px
+                below top_ad 46px
+
+          search-head:
+                height 40px
+                width 790px
+                inside block-system-main 0px left , 0px right
+
+          search-form:
+                height 45px
+                width 790px
+                inside block-system-main 0px left , 0px right
+                below search-head 25px
+
+          search-form-btn:
+                height 45px
+                width 78px
+                inside block-system-main 0px left , 712px right
+                below search-form 20px
+
+          search-form-summary:
+                height 48px
+                width 790px
+                inside block-system-main 0px left ,0px right
+                below search-form-btn 30px
+
+          search-form-sumarry1:
+                height ~48px
+                width 91px
+                inside search-form-summary 0px left
+
+          search-form-sumarry2:
+                height ~48px
+                width 118px
+                inside search-form-summary 95px left
+
+          search-form-sumarry3:
+                height ~48px
+                width 117px
+                inside search-form-summary 216px left
+
+          search-form-sumarry4:
+                height ~48px
+                width 140px
+                inside search-form-summary 337px left
+
+          search-form-sumarry5:
+                height ~48px
+                width 126px
+                inside search-form-summary 481px left
+
+          search-form-sumarry6:
+                height ~48px
+                width 129px
+                inside search-form-summary 611px left
+
+          search-all-title-api:
+                height 25px
+                width 790px
+                below search-form-summary 70px
+                inside block-system-main 0px left ,0px right
+
+          search-title-view-all:
+                height 56px
+                width ~50px
+                inside partly search-all-title-api 1px right
+
+          search-apis-containt:
+                height 322px
+                width 790px
+                inside block-system-main 0px left ,0px right
+                below search-all-title-api 66px
+
+          search-all-title-article:
+                height 56px
+                width 790px
+                below search-apis-containt 55px
+                inside block-system-main 0px left ,0px right
+
+          search-article-view-all:
+                height 24px
+                width 50px
+                inside search-all-title-article 1px right
+
+          search-article-containt:
+                #height 758px
+                width 790px
+                below search-all-title-article 35px
+                inside block-system-main 0px left,0px right
+
+          search-article-containt1:
+                #height 257px
+                width 790px
+                below search-all-title-article 35px
+                inside block-system-main 0px left,0px right
+
+          search-article-containt2:
+                #height 219px
+                width 790px
+                below search-all-title-article 292px
+                inside block-system-main 0px left,0px right
+
+          search-article-containt3:
+               # height 282px
+                width 790px
+                #below search-all-title-article 511px
+                inside block-system-main 0px left,0px right
+
+          search-all-title-howtos:
+                height 56px
+                width 790px
+                #below search-article-containt 69px
+                inside block-system-main 0px left ,0px right
+
+
+          search-howtos-containt:
+                height 382px
+                width 790px
+                below search-all-title-howtos 35px
+                inside block-system-main 0px left,0px right
+
+          search-all-tittle-framework:
+               height 56px
+               width 790px
+               below search-howtos-containt 55px
+               inside block-system-main 0px left , 0px right
+
+          search-framework-containt:
+               height 262px
+               width 790px
+               below search-all-tittle-framework 35px
+               inside block-system-main 0px left ,0px right
+
+          search-all-tittle-mashup:
+               height 56px
+               width 790px
+               below search-framework-containt 55px
+               inside block-system-main 0px left, 0px right
+
+          search-mashup-containt:
+               height 322px
+               width 790px
+               below search-all-tittle-mashup 35px
+               inside block-system-main 0px left ,0px right
+
+          search-all-tittle-members:
+               height 56px
+               width 790px
+               below search-mashup-containt 55px
+               inside block-system-main 0px left,0px right
+
+          search-members-containt:
+               height 372px
+               width 790px
+               below search-all-tittle-members 35px
+               inside block-system-main 0px left,0px right
+
+          footer:
+                height 279px
+                width 1333px
+
+    @on Windows7_Chrome_42_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+         top_ad:
+               height 90px
+               width 1200px
+               below headerdiv 21px
+
+
+         region-sidebar-second:
+               width 300px
+
+         block-system-main:
+               #height 3152px
+               width 790px
+               below top_ad 46px
+
+         search-head:
+               height 39px
+               width 790px
+               inside block-system-main 0px left , 0px right
+
+         search-form:
+               height 45px
+               width 790px
+               inside block-system-main 0px left , 0px right
+               below search-head 25px
+
+         search-form-btn:
+               height 45px
+               width ~78px
+               inside block-system-main 0px left , ~712px right
+               below search-form 20px
+
+         search-form-summary:
+               height 48px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-form-btn 30px
+
+         search-form-sumarry1:
+               height ~48px
+               width ~91px
+               inside search-form-summary 0px left
+
+         search-form-sumarry2:
+               height ~48px
+               width 118px
+               inside search-form-summary ~95px left
+
+         search-form-sumarry3:
+               height ~48px
+               width 116px
+               inside search-form-summary ~217px left
+
+         search-form-sumarry4:
+               height ~48px
+               width ~141px
+               inside search-form-summary ~337px left
+
+         search-form-sumarry5:
+               height ~48px
+               width 127px
+               inside search-form-summary 481px left
+
+         search-form-sumarry6:
+               height ~48px
+               width 129px
+               inside search-form-summary ~611px left
+
+         search-all-title-api:
+               height 25px
+               width 790px
+               below search-form-summary 35px
+               inside partly block-system-main 0px left ,0px right
+
+         search-title-view-all:
+               height 56px
+               width ~50px
+               inside partly search-all-title-api 0px right
+
+         search-apis-containt:
+               height 322px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-all-title-api 35px
+
+         search-all-title-article:
+               height 25px
+               width 790px
+               below search-apis-containt 20px
+               inside block-system-main 0px left ,0px right
+
+         search-article-view-all:
+               height 24px
+               width ~50px
+               inside partly search-all-title-article 0px right
+
+         search-article-containt:
+               #height 750px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt1:
+               #height 254px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt2:
+               #height 217px
+               width 790px
+               below search-all-title-article 289px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt3:
+               height 279px
+               width 790px
+               #below search-all-title-article 506px
+               inside block-system-main 0px left,0px right
+
+         search-all-title-howtos:
+               height 25px
+               width 790px
+               below search-article-containt 35px
+               inside block-system-main 0px left ,0px right
+
+
+         search-howtos-containt:
+               height 342px
+               width 790px
+               below search-all-title-howtos 35px
+               inside block-system-main 0px left,0px right
+
+         search-all-tittle-framework:
+              height 25px
+              width 790px
+              below search-howtos-containt 20px
+              inside block-system-main 0px left , 0px right
+
+         search-framework-containt:
+              #height ~262px
+              width 790px
+              below search-all-tittle-framework 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-mashup:
+              height 25px
+              width 790px
+              below search-framework-containt 20px
+              inside block-system-main 0px left, 0px right
+
+         search-mashup-containt:
+              height 322px
+              width 790px
+              below search-all-tittle-mashup 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-members:
+              height 25px
+              width 790px
+              below search-mashup-containt 20px
+              inside block-system-main 0px left,0px right
+
+         search-members-containt:
+              height 372px
+              width 790px
+              below search-all-tittle-members 35px
+              inside block-system-main 0px left,0px right
+
+         footer:
+               height 278px
+               width 1339px
+
+
+    @on Windows7_Firefox_37_1366x768
+          header:
+                #height 101px
+                width ~ 86% of screen/width
+                #image: file
+                above headerdiv 1px
+
+          headerdiv:
+                #height 46px
+                width ~ 86% of screen/width
+                below header 1px
+                #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+          top_ad:
+                height 90px
+                width 1200px
+                below headerdiv 21px
+
+
+          region-sidebar-second:
+                width 300px
+
+          block-system-main:
+                #height 3152px
+                width 790px
+                below top_ad 46px
+
+          search-head:
+                height 40px
+                width 790px
+                inside block-system-main 0px left , 0px right
+
+          search-form:
+                height 45px
+                width 790px
+                inside block-system-main 0px left , 0px right
+                below search-head 25px
+
+          search-form-btn:
+                height 45px
+                width 79px
+                inside block-system-main 0px left , 711px right
+                below search-form 20px
+
+          search-form-summary:
+                height 48px
+                width 790px
+                inside block-system-main 0px left ,0px right
+                below search-form-btn 30px
+
+          search-form-sumarry1:
+                height ~48px
+                width 92px
+                inside search-form-summary 0px left , 698px right
+
+          search-form-sumarry2:
+                height ~48px
+                width 118px
+                inside search-form-summary 96px left , 576px right
+
+          search-form-sumarry3:
+                height ~48px
+                width 116px
+                inside search-form-summary 218px left , 456px right
+
+          search-form-sumarry4:
+                height ~48px
+                width 139px
+                inside search-form-summary 338px left , 313px right
+
+          search-form-sumarry5:
+                height ~48px
+                width 127px
+                inside search-form-summary 481px left , 182px right
+
+          search-form-sumarry6:
+                height ~48px
+                width 129px
+                inside search-form-summary 612px left , 49px right
+
+          search-all-title-api:
+                height 25px
+                width 790px
+                below search-form-summary 70px
+                inside partly block-system-main 0px left ,0px right
+
+          search-title-view-all:
+                height 56px
+                width ~50px
+                inside partly search-all-title-api 0px right
+
+          search-apis-containt:
+                height 322px
+                width 790px
+                inside block-system-main 0px left ,0px right
+                below search-all-title-api 66px
+
+          search-all-title-article:
+                height 56px
+                width 790px
+                below search-apis-containt 55px
+                inside block-system-main 0px left ,0px right
+
+          search-article-view-all:
+                height 24px
+                width 52px
+                inside partly search-all-title-article 0px right
+
+          search-article-containt:
+                #height 758px
+                width 790px
+                below search-all-title-article 35px
+                inside block-system-main 0px left,0px right
+
+          search-article-containt1:
+                #height 257px
+                width 790px
+                below search-all-title-article 35px
+                inside block-system-main 0px left,0px right
+
+          search-article-containt2:
+                #height 219px
+                width 790px
+                below search-all-title-article 292px
+                inside block-system-main 0px left,0px right
+
+          search-article-containt3:
+                #height 282px
+                width 790px
+                #below search-all-title-article 511px
+                inside block-system-main 0px left,0px right
+
+          search-all-title-howtos:
+                height 56px
+                width 790px
+                #below search-article-containt 69px
+                inside block-system-main 0px left ,0px right
+
+
+          search-howtos-containt:
+                height 342px
+                width 790px
+                below search-all-title-howtos 35px
+                inside block-system-main 0px left,0px right
+
+          search-all-tittle-framework:
+               height 56px
+               width 790px
+               below search-howtos-containt 55px
+               inside block-system-main 0px left , 0px right
+
+          search-framework-containt:
+               height 282px
+               width 790px
+               below search-all-tittle-framework 35px
+               inside block-system-main 0px left ,0px right
+
+          search-all-tittle-mashup:
+               height 56px
+               width 790px
+               below search-framework-containt 55px
+               inside block-system-main 0px left, 0px right
+
+          search-mashup-containt:
+               height 322px
+               width 790px
+               below search-all-tittle-mashup 35px
+               inside block-system-main 0px left ,0px right
+
+          search-all-tittle-members:
+               height 56px
+               width 790px
+               below search-mashup-containt 55px
+               inside block-system-main 0px left,0px right
+
+          search-members-containt:
+               height 372px
+               width 790px
+               below search-all-tittle-members 35px
+               inside block-system-main 0px left,0px right
+
+          footer:
+                height 279px
+                width 1333px
+
+
+    @on OSXYosemite_Safari_8_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+         top_ad:
+               height 90px
+               width 1200px
+               below headerdiv 21px
+
+
+         region-sidebar-second:
+               width 300px
+
+         block-system-main:
+               #height 3152px
+               width 790px
+               below top_ad 46px
+
+         search-head:
+               height 39px
+               width 790px
+               inside block-system-main 0px left , 0px right
+
+         search-form:
+               height 45px
+               width 790px
+               inside block-system-main 0px left , 0px right
+               below search-head 25px
+
+         search-form-btn:
+               height 45px
+               width 78px
+               inside block-system-main 0px left , 712px right
+               below search-form 20px
+
+         search-form-summary:
+               height 48px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-form-btn 30px
+
+         search-form-sumarry1:
+               height ~48px
+               width 91px
+               inside search-form-summary 0px left
+
+         search-form-sumarry2:
+               height ~48px
+               width 118px
+               inside search-form-summary 95px left
+
+         search-form-sumarry3:
+               height ~48px
+               width 115px
+               inside search-form-summary 216px left
+
+         search-form-sumarry4:
+               height ~48px
+               width 140px
+               inside search-form-summary 336px left
+
+         search-form-sumarry5:
+               height ~48px
+               width 126px
+               inside search-form-summary 479px left
+
+         search-form-sumarry6:
+               height ~48px
+               width 128px
+               inside search-form-summary 609px left
+
+         search-all-title-api:
+               height 25px
+               width 790px
+               below search-form-summary 35px
+               inside partly block-system-main 0px left ,0px right
+
+         search-title-view-all:
+               height 56px
+               width ~50px
+               inside partly search-all-title-api 0px right
+
+         search-apis-containt:
+               height 322px
+               width 790px
+               inside block-system-main 0px left ,0px right
+               below search-all-title-api 35px
+
+         search-all-title-article:
+
+               height 25px
+               width 790px
+               below search-apis-containt 20px
+               inside block-system-main 0px left ,0px right
+
+         search-article-view-all:
+               height 24px
+               width 50px
+               inside partly search-all-title-article 0px right
+
+         search-article-containt:
+               #height 750px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt1:
+               #height 254px
+               width 790px
+               below search-all-title-article 35px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt2:
+               #height 217px
+               width 790px
+               below search-all-title-article 289px
+               inside block-system-main 0px left,0px right
+
+         search-article-containt3:
+               #height 279px
+               width 790px
+               #below search-all-title-article 506px
+               inside block-system-main 0px left,0px right
+
+         search-all-title-howtos:
+               height 25px
+               width 790px
+               #below search-article-containt 35px
+               inside block-system-main 0px left ,0px right
+
+
+         search-howtos-containt:
+               height 342px
+               width 790px
+               below search-all-title-howtos 35px
+               inside block-system-main 0px left,0px right
+
+         search-all-tittle-framework:
+              height 25px
+              width 790px
+              below search-howtos-containt 20px
+              inside block-system-main 0px left , 0px right
+
+         search-framework-containt:
+              height 262px
+              width 790px
+              below search-all-tittle-framework 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-mashup:
+              height 25px
+              width 790px
+              below search-framework-containt 20px
+              inside block-system-main 0px left, 0px right
+
+         search-mashup-containt:
+              height 322px
+              width 790px
+              below search-all-tittle-mashup 35px
+              inside block-system-main 0px left ,0px right
+
+         search-all-tittle-members:
+              height 25px
+              width 790px
+              below search-mashup-containt 20px
+              inside block-system-main 0px left,0px right
+
+         search-members-containt:
+              height 372px
+              width 790px
+              below search-all-tittle-members 35px
+              inside block-system-main 0px left,0px right
+
+         footer:
+               height 278px
+               width 1366px
+
+
+    @on OSXYosemite_Chrome_46_1366x768
+                  header:
+                        #height 101px
+                        width ~ 86% of screen/width
+                        #image: file
+                        above headerdiv 1px
+
+                  headerdiv:
+                        #height 46px
+                        width ~ 86% of screen/width
+                        below header 1px
+                        #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                  top_ad:
+                        height 90px
+                        width 1200px
+                        below headerdiv 21px
+
+
+                  region-sidebar-second:
+                        width 300px
+
+                  block-system-main:
+                        #height 3152px
+                        width 790px
+                        below top_ad 46px
+
+                  search-head:
+                        height 39px
+                        width 790px
+                        inside block-system-main 0px left , 0px right
+
+                  search-form:
+                        height 45px
+                        width 790px
+                        inside block-system-main 0px left , 0px right
+                        below search-head 25px
+
+                  search-form-btn:
+                        height 45px
+                        width 78px
+                        inside block-system-main 0px left , 712px right
+                        below search-form 20px
+
+                  search-form-summary:
+                        height 48px
+                        width 790px
+                        inside block-system-main 0px left ,0px right
+                        below search-form-btn 30px
+
+                  search-form-sumarry1:
+                        height ~48px
+                        width 91px
+                        inside search-form-summary 0px left
+
+                  search-form-sumarry2:
+                        height ~48px
+                        width 118px
+                        inside search-form-summary 95px left
+
+                  search-form-sumarry3:
+                        height ~48px
+                        width 116px
+                        inside search-form-summary 216px left
+
+                  search-form-sumarry4:
+                        height ~48px
+                        width 140px
+                        inside search-form-summary 337px left
+
+                  search-form-sumarry5:
+                        height ~48px
+                        width 126px
+                        inside search-form-summary 481px left
+
+                  search-form-sumarry6:
+                        height ~48px
+                        width 129px
+                        inside search-form-summary 611px left
+
+                  search-all-title-api:
+                        height 25px
+                        width 790px
+                        below search-form-summary 35px
+                        inside partly block-system-main 0px left ,0px right
+
+                  search-title-view-all:
+                        height 56px
+                        width ~50px
+                        inside partly search-all-title-api 1px right
+
+                  search-apis-containt:
+                        height 322px
+                        width 790px
+                        inside block-system-main 0px left ,0px right
+                        below search-all-title-api 35px
+
+                  search-all-title-article:
+                        height 25px
+                        width 790px
+                        below search-apis-containt 20px
+                        inside block-system-main 0px left ,0px right
+
+                  search-article-view-all:
+                        height 24px
+                        width 50px
+                        inside partly search-all-title-article 1px right
+
+                  search-article-containt:
+                        #height 750px
+                        width 790px
+                        below search-all-title-article 35px
+                        inside block-system-main 0px left,0px right
+
+                  search-article-containt1:
+                        #height 254px
+                        width 790px
+                        below search-all-title-article 35px
+                        inside block-system-main 0px left,0px right
+
+                  search-article-containt2:
+                       # height 217px
+                        width 790px
+                        below search-all-title-article 289px
+                        inside block-system-main 0px left,0px right
+
+                  search-article-containt3:
+                       # height 279px
+                        width 790px
+                        #below search-all-title-article 506px
+                        inside block-system-main 0px left,0px right
+
+                  search-all-title-howtos:
+                        height 25px
+                        width 790px
+                       # below search-article-containt 35px
+                        inside block-system-main 0px left ,0px right
+
+
+                  search-howtos-containt:
+                        height 342px
+                        width 790px
+                        below search-all-title-howtos 35px
+                        inside block-system-main 0px left,0px right
+
+                  search-all-tittle-framework:
+                       height 25px
+                       width 790px
+                       below search-howtos-containt 20px
+                       inside block-system-main 0px left , 0px right
+
+                  search-framework-containt:
+                       height 262px
+                       width 790px
+                       below search-all-tittle-framework 35px
+                       inside block-system-main 0px left ,0px right
+
+                  search-all-tittle-mashup:
+                       height 25px
+                       width 790px
+                       below search-framework-containt 20px
+                       inside block-system-main 0px left, 0px right
+
+                  search-mashup-containt:
+                       height 322px
+                       width 790px
+                       below search-all-tittle-mashup 35px
+                       inside block-system-main 0px left ,0px right
+
+                  search-all-tittle-members:
+                       height 25px
+                       width 790px
+                       below search-mashup-containt 20px
+                       inside block-system-main 0px left,0px right
+
+                  search-members-containt:
+                       height 372px
+                       width 790px
+                       below search-all-tittle-members 35px
+                       inside block-system-main 0px left,0px right
+
+                  footer:
+                        height 278px
+                        width 1366px
+
+
+    @on iPadAir_iPad_768x1024
+                  header:
+                        #height 101px
+                        width ~ 100% of screen/width
+                        #image: file
+                        above headerdiv 1px
+
+                  headerdiv:
+                        #height 46px
+                        width ~ 100% of screen/width
+                        below header 1px
+                        #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+                  top_ad:
+                        height 20px
+                        width 728px
+                        below headerdiv 68px
+
+
+                  region-sidebar-second:
+                        width 242px
+
+                  block-system-main:
+                        #height 3152px
+                        width 445px
+                        below top_ad 66px
+
+                  search-head:
+                        height 78px
+                        width 445px
+                        inside block-system-main 0px left , 0px right
+
+                  search-form:
+                        height 45px
+                        width 445px
+                        inside block-system-main 0px left , 0px right
+                        below search-head 25px
+
+                  search-form-btn:
+                        height 45px
+                        width ~79px
+                        inside block-system-main 0px left , 367px right
+                        below search-form 20px
+
+                  search-form-summary:
+                        height 106px
+                        width 445px
+                        inside block-system-main 0px left ,0px right
+                        below search-form-btn 30px
+
+                  search-form-sumarry1:
+                        height ~48px
+                        width 91px
+                        inside search-form-summary 0px left , 354px right
+
+                  search-form-sumarry2:
+                        height ~48px
+                        width 118px
+                        inside search-form-summary 95px left , 232px right
+
+                  search-form-sumarry3:
+                        height ~48px
+                        width 115px
+                        inside search-form-summary 216px left , 114px right
+
+                  search-form-sumarry4:
+                        height ~48px
+                        width 139px
+                        inside search-form-summary 0px left , 306px right
+
+                  search-form-sumarry5:
+                        height ~48px
+                        width 126px
+                        inside search-form-summary 143px left , 176px right
+
+                  search-form-sumarry6:
+                        height ~48px
+                        width 128px
+                        inside search-form-summary 273px left , 44px right
+
+                  search-all-title-api:
+                        height 25px
+                        width 445px
+                        below search-form-summary 35px
+                        inside partly block-system-main 0px left ,0px right
+
+                  search-title-view-all:
+                        height 56px
+                        width ~50px
+                        inside partly search-all-title-api 1px right
+
+                  search-apis-containt:
+                        height 482px
+                        width 445px
+                        inside block-system-main 0px left ,0px right
+                        below search-all-title-api 35px
+
+                  search-all-title-article:
+                        height 25px
+                        width 445px
+                        #below search-apis-containt 55px
+                        inside partly block-system-main 0px left ,0px right
+
+                  search-article-view-all:
+                        height 24px
+                        width 49px
+                        inside partly search-all-title-article 1px right
+
+                  search-article-containt:
+                        height 1114px
+                        width 445px
+                        below search-all-title-article 35px
+                        inside partly block-system-main 0px left,0px right
+
+                  search-article-containt1:
+                        height 342px
+                        width 445px
+                        below search-all-title-article 35px
+                        inside partly block-system-main 0px left,0px right
+
+                  search-article-containt2:
+                        height 415px
+                        width 445px
+                        below search-all-title-article 377px
+                        inside partly block-system-main 0px left,0px right
+
+                  search-article-containt3:
+                        height 357px
+                        width 445px
+                        #below search-all-title-article 792px
+                        inside partly block-system-main 0px left,0px right
+
+                  search-all-title-howtos:
+                        height 25px
+                        width 445px
+                        #below search-article-containt 69px
+                        inside partly block-system-main 0px left ,0px right
+
+
+                  search-howtos-containt:
+                        height 622px
+                        width 445px
+                        below search-all-title-howtos 35px
+                        inside partly block-system-main 0px left,0px right
+
+                  search-all-tittle-framework:
+                       height 25px
+                       width 445px
+                       below search-howtos-containt 20px
+                       inside block-system-main 0px left , 0px right
+
+                  search-framework-containt:
+                       height 322px
+                       width 445px
+                       below search-all-tittle-framework 35px
+                       inside block-system-main 0px left ,0px right
+
+                  search-all-tittle-mashup:
+                       height 25px
+                       width 445px
+                       #below search-framework-containt 55px
+                       inside block-system-main 0px left, 0px right
+
+                  search-mashup-containt:
+                       height 562px
+                       width 445px
+                       below search-all-tittle-mashup 35px
+                       inside block-system-main 0px left ,0px right
+
+                  search-all-tittle-members:
+                       height 25px
+                       width 445px
+                       below search-mashup-containt 20px
+                       inside block-system-main 0px left,0px right
+
+                  search-members-containt:
+                       height 372px
+                       width 445px
+                       below search-all-tittle-members 35px
+                       inside block-system-main 0px left,0px right
+
+                  footer:
+                        height 298px
+                        width  768px
+
+
+    @on iPhone5_iPhone_320x568
+
+                  header-mobile:
+                        #height 101px
+                        width ~ 100% of screen/width
+                         #image: file
+
+
+                  top_ad:
+                        height 20px
+                        width 280px
+                        below  header-mobile 20px
+
+
+                  region-sidebar-second:
+                        width 320px
+
+                  block-system-main:
+                        #height 3152px
+                        width 280px
+                        #below top_ad 46px
+
+                  search-head:
+                        height 60px
+                        width 280px
+                        inside block-system-main 0px left
+
+                  search-form:
+                        height 45px
+                        width 280px
+                        inside block-system-main 0px left
+                        below search-head 25px
+
+                  search-form-btn:
+                        height 45px
+                        width 280px
+                        inside block-system-main 0px left , 0px right
+                        below search-form 20px
+
+                  search-form-summary:
+                        height 159px
+                        width 280px
+                        inside block-system-main 0px left ,0px right ,225px top
+                        below search-form-btn 30px
+
+                  search-form-sumarry1:
+                        height ~48px
+                        width 92px
+                        inside search-form-summary 0px left , 188px right
+
+                  search-form-sumarry2:
+                        height ~48px
+                        width 119px
+                        inside search-form-summary 96px left , 65px right
+
+                  search-form-sumarry3:
+                        height ~48px
+                        width 116px
+                        inside search-form-summary 0px left , 164px right
+
+                  search-form-sumarry4:
+                        height ~48px
+                        width 140px
+                        inside search-form-summary 120px left , 20px right
+
+                  search-form-sumarry5:
+                        height ~48px
+                        width 127px
+                        inside search-form-summary 0px left , 153px right
+
+                  search-form-sumarry6:
+                        height ~48px
+                        width 129px
+                        inside search-form-summary 131px left , 20px right
+
+                  search-all-title-api:
+                        height 25px
+                        width 280px
+                        below search-form-summary 35px
+                        inside partly block-system-main 0px left ,0px right
+
+                  search-title-view-all:
+                        height 56px
+                        width ~50px
+                        inside partly search-all-title-api 0px right
+
+                  search-apis-containt:
+                        height 462px
+                        width 280px
+                        inside block-system-main 0px left ,0px right
+                        #below search-all-title-api 66px
+
+                  search-all-title-article:
+                        height 25px
+                        width 280px
+                        #below search-apis-containt 55px
+                        inside block-system-main 0px left ,0px right
+
+                  search-article-view-all:
+                        height 24px
+                        width 50px
+                        inside partly search-all-title-article 0px right
+
+                  search-article-containt:
+                        height 1610px
+                        width 280px
+                        below search-all-title-article 35px
+                        inside block-system-main 0px left,0px right
+
+                  search-article-containt1:
+                        height 504px
+                        width 280px
+                        below search-all-title-article 35px
+                        inside block-system-main 0px left,0px right
+
+                  search-article-containt2:
+                        height 613px
+                        width 280px
+                        #below search-all-title-article 292px
+                        inside block-system-main 0px left,0px right
+
+                  search-article-containt3:
+                        height 493px
+                        width 280px
+                        #below search-all-title-article 511px
+                        inside block-system-main 0px left,0px right
+
+                  search-all-title-howtos:
+                        height 25px
+                        width 280px
+                        #below search-article-containt 69px
+                        inside block-system-main 0px left ,0px right
+
+
+                  search-howtos-containt:
+                        height 322px
+                        width 280px
+                        below search-all-title-howtos 35px
+                        inside block-system-main 0px left,0px right
+
+                  search-all-tittle-framework:
+                       height 50px
+                       width 280px
+                       below search-howtos-containt 20px
+                       inside block-system-main 0px left , 0px right
+
+                  search-framework-containt:
+                       height 402px
+                       width 280px
+                       #below search-all-tittle-framework 35px
+                       inside block-system-main 0px left
+
+                  search-all-tittle-mashup:
+                       height 25px
+                       width 280px
+                       below search-framework-containt 20px
+                       inside block-system-main 0px left, 0px right
+
+                  search-mashup-containt:
+                       height 282px
+                       width 280px
+                       #below search-all-tittle-mashup 35px
+                       inside block-system-main 0px left ,0px right
+
+                  search-all-tittle-members:
+                       height 25px
+                       width 280px
+                       below search-mashup-containt 20px
+                       inside block-system-main 0px left,0px right
+
+                  search-members-containt:
+                       height 392px
+                       width 280px
+                       below search-all-tittle-members 35px
+                       inside block-system-main 0px left,0px right
+
+                  footer:
+                        height 697px
+                        width 320px

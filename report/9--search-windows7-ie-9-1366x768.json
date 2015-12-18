@@ -1,0 +1,1058 @@
+{
+  "testId" : "9--search-windows7-ie-9-1366x768",
+  "name" : "/Search_Windows7_IE_9_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_IE_9_1366x768",
+      "status" : "info",
+      "time" : 1450428639775,
+      "includedTags" : [ "Windows7_IE_9_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1526
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1528
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1532
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1533
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "top_ad",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1537
+            },
+            "name" : "height 90px",
+            "highlight" : [ "top_ad" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1538
+            },
+            "name" : "width 1200px",
+            "highlight" : [ "top_ad" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1539
+            },
+            "name" : "below headerdiv 21px",
+            "highlight" : [ "top_ad", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1543
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-system-main",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1547
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1548
+            },
+            "name" : "below top_ad 46px",
+            "highlight" : [ "block-system-main", "top_ad" ]
+          } ]
+        }, {
+          "name" : "search-head",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1551
+            },
+            "name" : "height 40px",
+            "highlight" : [ "search-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1552
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1553
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "search-head", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-form",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1556
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1557
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1558
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "search-form", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1559
+            },
+            "name" : "below search-head 25px",
+            "highlight" : [ "search-form", "search-head" ]
+          } ]
+        }, {
+          "name" : "search-form-btn",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1562
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-form-btn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1563
+            },
+            "name" : "width 78px",
+            "highlight" : [ "search-form-btn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1564
+            },
+            "name" : "inside block-system-main 0px left , 712px right",
+            "highlight" : [ "search-form-btn", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1565
+            },
+            "name" : "below search-form 20px",
+            "highlight" : [ "search-form-btn", "search-form" ]
+          } ]
+        }, {
+          "name" : "search-form-summary",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1568
+            },
+            "name" : "height 48px",
+            "highlight" : [ "search-form-summary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1569
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-form-summary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1570
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-form-summary", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1571
+            },
+            "name" : "below search-form-btn 30px",
+            "highlight" : [ "search-form-summary", "search-form-btn" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1574
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1575
+            },
+            "name" : "width 91px",
+            "highlight" : [ "search-form-sumarry1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1576
+            },
+            "name" : "inside search-form-summary 0px left",
+            "highlight" : [ "search-form-sumarry1", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1579
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1580
+            },
+            "name" : "width 118px",
+            "highlight" : [ "search-form-sumarry2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1581
+            },
+            "name" : "inside search-form-summary 95px left",
+            "highlight" : [ "search-form-sumarry2", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1584
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1585
+            },
+            "name" : "width 117px",
+            "highlight" : [ "search-form-sumarry3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1586
+            },
+            "name" : "inside search-form-summary 216px left",
+            "highlight" : [ "search-form-sumarry3", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1589
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1590
+            },
+            "name" : "width 140px",
+            "highlight" : [ "search-form-sumarry4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1591
+            },
+            "name" : "inside search-form-summary 337px left",
+            "highlight" : [ "search-form-sumarry4", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1594
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1595
+            },
+            "name" : "width 126px",
+            "highlight" : [ "search-form-sumarry5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1596
+            },
+            "name" : "inside search-form-summary 481px left",
+            "highlight" : [ "search-form-sumarry5", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-form-sumarry6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1599
+            },
+            "name" : "height ~48px",
+            "highlight" : [ "search-form-sumarry6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1600
+            },
+            "name" : "width 129px",
+            "highlight" : [ "search-form-sumarry6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1601
+            },
+            "name" : "inside search-form-summary 611px left",
+            "highlight" : [ "search-form-sumarry6", "search-form-summary" ]
+          } ]
+        }, {
+          "name" : "search-all-title-api",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1604
+            },
+            "name" : "height 25px",
+            "highlight" : [ "search-all-title-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1605
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-title-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1606
+            },
+            "name" : "below search-form-summary 70px",
+            "highlight" : [ "search-all-title-api", "search-form-summary" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1607
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-all-title-api", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-title-view-all",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1610
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-title-view-all" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1611
+            },
+            "name" : "width ~50px",
+            "highlight" : [ "search-title-view-all" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1612
+            },
+            "name" : "inside partly search-all-title-api 1px right",
+            "highlight" : [ "search-title-view-all", "search-all-title-api" ]
+          } ]
+        }, {
+          "name" : "search-apis-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1615
+            },
+            "name" : "height 322px",
+            "highlight" : [ "search-apis-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1616
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-apis-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1617
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-apis-containt", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1618
+            },
+            "name" : "below search-all-title-api 66px",
+            "highlight" : [ "search-apis-containt", "search-all-title-api" ]
+          } ]
+        }, {
+          "name" : "search-all-title-article",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1621
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1622
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1623
+            },
+            "name" : "below search-apis-containt 55px",
+            "highlight" : [ "search-all-title-article", "search-apis-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1624
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-all-title-article", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-article-view-all",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1627
+            },
+            "name" : "height 24px",
+            "highlight" : [ "search-article-view-all" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1628
+            },
+            "name" : "width 50px",
+            "highlight" : [ "search-article-view-all" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1629
+            },
+            "name" : "inside search-all-title-article 1px right",
+            "highlight" : [ "search-article-view-all", "search-all-title-article" ]
+          } ]
+        }, {
+          "name" : "search-article-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1633
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-article-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1634
+            },
+            "name" : "below search-all-title-article 35px",
+            "highlight" : [ "search-article-containt", "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1635
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-article-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-article-containt1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1639
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-article-containt1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1640
+            },
+            "name" : "below search-all-title-article 35px",
+            "highlight" : [ "search-article-containt1", "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1641
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-article-containt1", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-article-containt2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1645
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-article-containt2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1646
+            },
+            "name" : "below search-all-title-article 292px",
+            "highlight" : [ "search-article-containt2", "search-all-title-article" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1647
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-article-containt2", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-article-containt3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1651
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-article-containt3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1653
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-article-containt3", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-all-title-howtos",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1656
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-title-howtos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1657
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-title-howtos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1659
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-all-title-howtos", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-howtos-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1663
+            },
+            "name" : "height 382px",
+            "highlight" : [ "search-howtos-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1664
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-howtos-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1665
+            },
+            "name" : "below search-all-title-howtos 35px",
+            "highlight" : [ "search-howtos-containt", "search-all-title-howtos" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1666
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-howtos-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-all-tittle-framework",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1669
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-tittle-framework" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1670
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-tittle-framework" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1671
+            },
+            "name" : "below search-howtos-containt 55px",
+            "highlight" : [ "search-all-tittle-framework", "search-howtos-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1672
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "search-all-tittle-framework", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-framework-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1675
+            },
+            "name" : "height 262px",
+            "highlight" : [ "search-framework-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1676
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-framework-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1677
+            },
+            "name" : "below search-all-tittle-framework 35px",
+            "highlight" : [ "search-framework-containt", "search-all-tittle-framework" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1678
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-framework-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-all-tittle-mashup",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1681
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-tittle-mashup" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1682
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-tittle-mashup" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1683
+            },
+            "name" : "below search-framework-containt 55px",
+            "highlight" : [ "search-all-tittle-mashup", "search-framework-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1684
+            },
+            "name" : "inside block-system-main 0px left, 0px right",
+            "highlight" : [ "search-all-tittle-mashup", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-mashup-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1687
+            },
+            "name" : "height 322px",
+            "highlight" : [ "search-mashup-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1688
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-mashup-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1689
+            },
+            "name" : "below search-all-tittle-mashup 35px",
+            "highlight" : [ "search-mashup-containt", "search-all-tittle-mashup" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1690
+            },
+            "name" : "inside block-system-main 0px left ,0px right",
+            "highlight" : [ "search-mashup-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-all-tittle-members",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1693
+            },
+            "name" : "height 56px",
+            "highlight" : [ "search-all-tittle-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1694
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-all-tittle-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1695
+            },
+            "name" : "below search-mashup-containt 55px",
+            "highlight" : [ "search-all-tittle-members", "search-mashup-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1696
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-all-tittle-members", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-members-containt",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1699
+            },
+            "name" : "height 372px",
+            "highlight" : [ "search-members-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1700
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-members-containt" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1701
+            },
+            "name" : "below search-all-tittle-members 35px",
+            "highlight" : [ "search-members-containt", "search-all-tittle-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1702
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-members-containt", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1705
+            },
+            "name" : "height 279px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1706
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "search-article-view-all" : {
+          "area" : [ 821, 1128, 50, 24 ]
+        },
+        "footer" : {
+          "area" : [ 0, 4280, 1333, 279 ]
+        },
+        "search-all-title-article" : {
+          "area" : [ 82, 1096, 790, 56 ]
+        },
+        "top_ad" : {
+          "area" : [ 67, 169, 1200, 90 ]
+        },
+        "search-form-btn" : {
+          "area" : [ 82, 435, 78, 45 ]
+        },
+        "search-apis-containt" : {
+          "area" : [ 82, 719, 790, 322 ]
+        },
+        "search-title-view-all" : {
+          "area" : [ 822, 628, 49, 56 ]
+        },
+        "search-form" : {
+          "area" : [ 82, 370, 790, 45 ]
+        },
+        "search-howtos-containt" : {
+          "area" : [ 82, 2168, 790, 382 ]
+        },
+        "search-all-title-howtos" : {
+          "area" : [ 82, 2077, 790, 56 ]
+        },
+        "search-article-containt3" : {
+          "area" : [ 82, 1725, 790, 282 ]
+        },
+        "search-members-containt" : {
+          "area" : [ 82, 3572, 790, 372 ]
+        },
+        "search-article-containt2" : {
+          "area" : [ 82, 1444, 790, 282 ]
+        },
+        "search-all-tittle-mashup" : {
+          "area" : [ 82, 3013, 790, 56 ]
+        },
+        "search-article-containt1" : {
+          "area" : [ 82, 1187, 790, 257 ]
+        },
+        "search-mashup-containt" : {
+          "area" : [ 82, 3104, 790, 322 ]
+        },
+        "search-all-tittle-members" : {
+          "area" : [ 82, 3481, 790, 56 ]
+        },
+        "block-system-main" : {
+          "area" : [ 82, 305, 790, 3659 ]
+        },
+        "search-form-summary" : {
+          "area" : [ 82, 510, 790, 48 ]
+        },
+        "search-all-title-api" : {
+          "area" : [ 82, 628, 790, 25 ]
+        },
+        "headerdiv" : {
+          "area" : [ 82, 102, 1170, 46 ]
+        },
+        "search-all-tittle-framework" : {
+          "area" : [ 82, 2605, 790, 56 ]
+        },
+        "search-head" : {
+          "area" : [ 82, 305, 790, 40 ]
+        },
+        "search-framework-containt" : {
+          "area" : [ 82, 2696, 790, 262 ]
+        },
+        "search-article-containt" : {
+          "area" : [ 82, 1187, 790, 820 ]
+        },
+        "search-form-sumarry3" : {
+          "area" : [ 298, 510, 117, 48 ]
+        },
+        "header" : {
+          "area" : [ 82, 0, 1170, 101 ]
+        },
+        "search-form-sumarry4" : {
+          "area" : [ 419, 510, 140, 48 ]
+        },
+        "search-form-sumarry5" : {
+          "area" : [ 563, 510, 126, 48 ]
+        },
+        "search-form-sumarry6" : {
+          "area" : [ 693, 510, 129, 48 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 952, 305, 300, 2168 ]
+        },
+        "search-form-sumarry1" : {
+          "area" : [ 82, 510, 91, 48 ]
+        },
+        "search-form-sumarry2" : {
+          "area" : [ 177, 510, 118, 48 ]
+        }
+      },
+      "screenshot" : "layout-9-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
