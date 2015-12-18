@@ -1,8 +1,8 @@
 {
   "tests" : [ {
     "name" : "api_profile_Windows10_IE_11_1366x768",
-    "startedAt" : 1450355508081,
-    "endedAt" : 1450355744411,
+    "startedAt" : 1450423979102,
+    "endedAt" : 1450424198294,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -11,13 +11,13 @@
       "total" : 103
     },
     "testId" : "1-api-profile-windows10-ie-11-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 236330
+    "duration" : 219192,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows10_Chrome_42_1366x768",
-    "startedAt" : 1450355744411,
-    "endedAt" : 1450355961084,
+    "startedAt" : 1450424198295,
+    "endedAt" : 1450424352894,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -26,13 +26,13 @@
       "total" : 103
     },
     "testId" : "2-api-profile-windows10-chrome-42-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 216673
+    "duration" : 154599,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows10_Firefox_37_1366x768",
-    "startedAt" : 1450355961084,
-    "endedAt" : 1450356132579,
+    "startedAt" : 1450424352894,
+    "endedAt" : 1450424479056,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -41,13 +41,13 @@
       "total" : 103
     },
     "testId" : "3-api-profile-windows10-firefox-37-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 171495
+    "duration" : 126162,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows8.1_IE_11_1366x768",
-    "startedAt" : 1450356132579,
-    "endedAt" : 1450356423621,
+    "startedAt" : 1450424479057,
+    "endedAt" : 1450424734076,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -56,13 +56,13 @@
       "total" : 103
     },
     "testId" : "4-api-profile-windows8.1-ie-11-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 291042
+    "duration" : 255019,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows8.1_Chrome_42_1366x768",
-    "startedAt" : 1450356423621,
-    "endedAt" : 1450356582840,
+    "startedAt" : 1450424734076,
+    "endedAt" : 1450424868536,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -71,13 +71,13 @@
       "total" : 103
     },
     "testId" : "5-api-profile-windows8.1-chrome-42-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 159219
+    "duration" : 134460,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows8.1_Firefox_37_1366x768",
-    "startedAt" : 1450356582840,
-    "endedAt" : 1450356772293,
+    "startedAt" : 1450424868536,
+    "endedAt" : 1450425052660,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -86,13 +86,13 @@
       "total" : 103
     },
     "testId" : "6-api-profile-windows8.1-firefox-37-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 189453
+    "duration" : 184124,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows7_IE_11_1366x768",
-    "startedAt" : 1450356772293,
-    "endedAt" : 1450357044448,
+    "startedAt" : 1450425052661,
+    "endedAt" : 1450425211591,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -101,13 +101,13 @@
       "total" : 103
     },
     "testId" : "7-api-profile-windows7-ie-11-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 272155
+    "duration" : 158930,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows7_IE_10_1366x768",
-    "startedAt" : 1450357044449,
-    "endedAt" : 1450357241323,
+    "startedAt" : 1450425211591,
+    "endedAt" : 1450425369285,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -116,13 +116,13 @@
       "total" : 103
     },
     "testId" : "8-api-profile-windows7-ie-10-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 196874
+    "duration" : 157694,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows7_IE_9_1366x768",
-    "startedAt" : 1450357241323,
-    "endedAt" : 1450357399795,
+    "startedAt" : 1450425369286,
+    "endedAt" : 1450425511423,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -131,13 +131,13 @@
       "total" : 103
     },
     "testId" : "9-api-profile-windows7-ie-9-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 158472
+    "duration" : 142137,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows7_Chrome_42_1366x768",
-    "startedAt" : 1450357399795,
-    "endedAt" : 1450357537629,
+    "startedAt" : 1450425511423,
+    "endedAt" : 1450425668164,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -146,13 +146,13 @@
       "total" : 103
     },
     "testId" : "10-api-profile-windows7-chrome-42-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 137834
+    "duration" : 156741,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_Windows7_Firefox_37_1366x768",
-    "startedAt" : 1450357537629,
-    "endedAt" : 1450357707150,
+    "startedAt" : 1450425668164,
+    "endedAt" : 1450425800854,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -161,13 +161,13 @@
       "total" : 103
     },
     "testId" : "11-api-profile-windows7-firefox-37-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 169521
+    "duration" : 132690,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_OSXYosemite_Safari_8_1366x768",
-    "startedAt" : 1450357707151,
-    "endedAt" : 1450357849609,
+    "startedAt" : 1450425800854,
+    "endedAt" : 1450425897776,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -176,13 +176,13 @@
       "total" : 103
     },
     "testId" : "12-api-profile-osxyosemite-safari-8-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 142458
+    "duration" : 96922,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_OSXYosemite_Chrome_46_1366x768",
-    "startedAt" : 1450357849609,
-    "endedAt" : 1450357972144,
+    "startedAt" : 1450425897776,
+    "endedAt" : 1450426010491,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -191,74 +191,38 @@
       "total" : 103
     },
     "testId" : "13-api-profile-osxyosemite-chrome-46-1366x768",
-    "groups" : [ "api_profile_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 122535
+    "duration" : 112715,
+    "groups" : [ "api_profile_Desktop_1366x768" ]
   }, {
     "name" : "api_profile_iPadAir_iPad_768x1024",
-    "startedAt" : 1450357972144,
-    "endedAt" : 1450358037995,
-    "failed" : true,
+    "startedAt" : 1450426010491,
+    "endedAt" : 1450426160071,
+    "failed" : false,
     "statistic" : {
-      "passed" : 0,
-      "errors" : 1,
+      "passed" : 100,
+      "errors" : 0,
       "warnings" : 0,
-      "total" : 1
+      "total" : 100
     },
     "testId" : "14-api-profile-ipadair-ipad-768x1024",
-    "groups" : [ "api_profile_Tablet_768x1024" ],
-    "failed" : true,
-    "exceptionMessage" : "WrappedException: Wrapped org.openqa.selenium.WebDriverException: Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'\nSystem info: host: 'mac-185-44-130-20.browserstack.com', ip: '185.44.130.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'\nDriver info: driver.version: unknown\nCommand duration or timeout: 9.68 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{safari=true, language=Apache-HttpClient/4.4.1 (Java/1.8.0_60), deviceName=iPad Air, platform=MAC, desired={orientation=portrait, browserstack.ie.noFlash=false, mobile={\"browser\":\"tablet\",\"version\":\"iPad Air-8.3\"}, language=Apache-HttpClient/4.4.1 (Java/1.8.0_60), version=, deviceName=iPad Air, platform=MAC, browserstack.video=true, acceptSslCerts=false, safariIgnoreFraudWarning=true, orig_os=macyos, newCommandTimeout=300, browser=iPad, platformVersion=8.3, acceptSslCert=false, browserName=safari, deviceOrientation=PORTRAIT, platformName=iOS, device=iPad Air, 64bit=false, proxy_type=node, browserstack.debug=false}, acceptSslCerts=false, newCommandTimeout=300, browser=iPad, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=false, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, mobile={\"browser\":\"tablet\",\"version\":\"iPad Air-8.3\"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPad Air, proxy_type=node}]\nSession ID: 597a9b90982315ad14da64659fd7fa86aa392117 (/Users/taher/Desktop/gcss/test/page.test.js#326)",
-    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped org.openqa.selenium.WebDriverException: Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'\nSystem info: host: 'mac-185-44-130-20.browserstack.com', ip: '185.44.130.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'\nDriver info: driver.version: unknown\nCommand duration or timeout: 9.68 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{safari=true, language=Apache-HttpClient/4.4.1 (Java/1.8.0_60), deviceName=iPad Air, platform=MAC, desired={orientation=portrait, browserstack.ie.noFlash=false, mobile={\"browser\":\"tablet\",\"version\":\"iPad Air-8.3\"}, language=Apache-HttpClient/4.4.1 (Java/1.8.0_60), version=, deviceName=iPad Air, platform=MAC, browserstack.video=true, acceptSslCerts=false, safariIgnoreFraudWarning=true, orig_os=macyos, newCommandTimeout=300, browser=iPad, platformVersion=8.3, acceptSslCert=false, browserName=safari, deviceOrientation=PORTRAIT, platformName=iOS, device=iPad Air, 64bit=false, proxy_type=node, browserstack.debug=false}, acceptSslCerts=false, newCommandTimeout=300, browser=iPad, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=false, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, mobile={\"browser\":\"tablet\",\"version\":\"iPad Air-8.3\"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPad Air, proxy_type=node}]\nSession ID: 597a9b90982315ad14da64659fd7fa86aa392117 (/Users/taher/Desktop/gcss/test/page.test.js#326)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._Users_taher_Desktop_gcss_test_page_test_js_20._c_anonymous_16(/Users/taher/Desktop/gcss/test/page.test.js:326)\n\tat org.mozilla.javascript.gen._Users_taher_Desktop_gcss_test_page_test_js_20.call(/Users/taher/Desktop/gcss/test/page.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.openqa.selenium.WebDriverException: Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'\nSystem info: host: 'mac-185-44-130-20.browserstack.com', ip: '185.44.130.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'\nDriver info: driver.version: unknown\nCommand duration or timeout: 9.68 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{safari=true, language=Apache-HttpClient/4.4.1 (Java/1.8.0_60), deviceName=iPad Air, platform=MAC, desired={orientation=portrait, browserstack.ie.noFlash=false, mobile={\"browser\":\"tablet\",\"version\":\"iPad Air-8.3\"}, language=Apache-HttpClient/4.4.1 (Java/1.8.0_60), version=, deviceName=iPad Air, platform=MAC, browserstack.video=true, acceptSslCerts=false, safariIgnoreFraudWarning=true, orig_os=macyos, newCommandTimeout=300, browser=iPad, platformVersion=8.3, acceptSslCert=false, browserName=safari, deviceOrientation=PORTRAIT, platformName=iOS, device=iPad Air, 64bit=false, proxy_type=node, browserstack.debug=false}, acceptSslCerts=false, newCommandTimeout=300, browser=iPad, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=false, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, mobile={\"browser\":\"tablet\",\"version\":\"iPad Air-8.3\"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPad Air, proxy_type=node}]\nSession ID: 597a9b90982315ad14da64659fd7fa86aa392117\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:306)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 24 more\nCaused by: org.openqa.selenium.remote.SessionNotFoundException: Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'\nSystem info: host: 'mac-185-44-130-20.browserstack.com', ip: '185.44.130.20', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'\nDriver info: driver.version: unknown\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: driver.version: unknown\n",
-    "duration" : 65851
+    "failed" : false,
+    "duration" : 149580,
+    "groups" : [ "api_profile_Tablet_768x1024" ]
   }, {
-    "name" : "api_profile_GoogleNexus7_android_768x1024",
-    "startedAt" : 1450358037995,
-    "endedAt" : 1450358143593,
-    "failed" : true,
+    "name" : "api_profile_iPhone5S_iPhone_320x568",
+    "startedAt" : 1450426160072,
+    "endedAt" : 1450426398196,
+    "failed" : false,
     "statistic" : {
-      "passed" : 0,
-      "errors" : 1,
+      "passed" : 87,
+      "errors" : 0,
       "warnings" : 0,
-      "total" : 1
+      "total" : 87
     },
-    "testId" : "15-api-profile-googlenexus7-android-768x1024",
-    "groups" : [ "api_profile_Tablet_768x1024" ],
-    "failed" : true,
-    "exceptionMessage" : "WrappedException: Wrapped org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 748 milliseconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{language=Apache-HttpClient/4.4.1 (Java/1.8.0_60), platform=ANDROID, acceptSslCerts=true, browser=android, acceptSslCert=false, webStorageEnabled=true, browserName=android, takesScreenshot=true, javascriptEnabled=true, 64bit=false, browserstack.debug=false, applicationCacheEnabled=true, rotatable=true, browserstack.ie.noFlash=false, mobile={browser=tablet, version=Google Nexus 7-4.1-1280x800}, handlesAlerts=true, version=16, browserConnectionEnabled=true, proxy={httpProxy=10.0.2.2:45691, proxyType=manual, sslProxy=10.0.2.2:45691}, browserstack.video=true, webdriver.remote.sessionid=752c65f10c9270c04468e4f466713086301e64ab, orig_os=macmav, locationContextEnabled=true, device=Google Nexus 7, proxy_type=node}]\nSession ID: 752c65f10c9270c04468e4f466713086301e64ab\n*** Element info: {Using=xpath, value=//*[@id=\"navbar\"]/div} (<cmd>#136)",
-    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 748 milliseconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{language=Apache-HttpClient/4.4.1 (Java/1.8.0_60), platform=ANDROID, acceptSslCerts=true, browser=android, acceptSslCert=false, webStorageEnabled=true, browserName=android, takesScreenshot=true, javascriptEnabled=true, 64bit=false, browserstack.debug=false, applicationCacheEnabled=true, rotatable=true, browserstack.ie.noFlash=false, mobile={browser=tablet, version=Google Nexus 7-4.1-1280x800}, handlesAlerts=true, version=16, browserConnectionEnabled=true, proxy={httpProxy=10.0.2.2:45691, proxyType=manual, sslProxy=10.0.2.2:45691}, browserstack.video=true, webdriver.remote.sessionid=752c65f10c9270c04468e4f466713086301e64ab, orig_os=macmav, locationContextEnabled=true, device=Google Nexus 7, proxy_type=node}]\nSession ID: 752c65f10c9270c04468e4f466713086301e64ab\n*** Element info: {Using=xpath, value=//*[@id=\"navbar\"]/div} (<cmd>#136)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__18._c_checkLayout_7(<cmd>:136)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._Users_taher_Desktop_gcss_test_page_test_js_20._c_anonymous_17(/Users/taher/Desktop/gcss/test/page.test.js:346)\n\tat org.mozilla.javascript.gen._Users_taher_Desktop_gcss_test_page_test_js_20.call(/Users/taher/Desktop/gcss/test/page.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 748 milliseconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{language=Apache-HttpClient/4.4.1 (Java/1.8.0_60), platform=ANDROID, acceptSslCerts=true, browser=android, acceptSslCert=false, webStorageEnabled=true, browserName=android, takesScreenshot=true, javascriptEnabled=true, 64bit=false, browserstack.debug=false, applicationCacheEnabled=true, rotatable=true, browserstack.ie.noFlash=false, mobile={browser=tablet, version=Google Nexus 7-4.1-1280x800}, handlesAlerts=true, version=16, browserConnectionEnabled=true, proxy={httpProxy=10.0.2.2:45691, proxyType=manual, sslProxy=10.0.2.2:45691}, browserstack.video=true, webdriver.remote.sessionid=752c65f10c9270c04468e4f466713086301e64ab, orig_os=macmav, locationContextEnabled=true, device=Google Nexus 7, proxy_type=node}]\nSession ID: 752c65f10c9270c04468e4f466713086301e64ab\n*** Element info: {Using=xpath, value=//*[@id=\"navbar\"]/div}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:373)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:449)\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:336)\n\tat sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:191)\n\tat org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$3e8510f8.findElements(<generated>)\n\tat com.galenframework.page.selenium.ByChain.findElement(ByChain.java:63)\n\tat com.galenframework.page.selenium.SeleniumPage.driverFindElement(SeleniumPage.java:115)\n\tat com.galenframework.page.selenium.SeleniumPage.locatorToElement(SeleniumPage.java:129)\n\tat com.galenframework.page.selenium.SeleniumPage.getObject(SeleniumPage.java:77)\n\tat com.galenframework.page.selenium.SeleniumPage.getObject(SeleniumPage.java:86)\n\tat com.galenframework.validation.PageValidation.findPageElement(PageValidation.java:89)\n\tat com.galenframework.validation.specs.SpecValidationSize.check(SpecValidationSize.java:31)\n\tat com.galenframework.validation.specs.SpecValidationSize.check(SpecValidationSize.java:27)\n\tat com.galenframework.validation.PageValidation.check(PageValidation.java:71)\n\tat com.galenframework.validation.PageValidation.check(PageValidation.java:61)\n\tat com.galenframework.validation.SectionValidation.checkObject(SectionValidation.java:165)\n\tat com.galenframework.validation.SectionValidation.checkObjects(SectionValidation.java:75)\n\tat com.galenframework.validation.SectionValidation.checkSection(SectionValidation.java:109)\n\tat com.galenframework.validation.SectionValidation.checkPageSection(SectionValidation.java:54)\n\tat com.galenframework.validation.SectionValidation.check(SectionValidation.java:47)\n\tat com.galenframework.api.Galen.checkLayoutForPage(Galen.java:117)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:90)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:73)\n\tat com.galenframework.javascript.GalenJsApi.checkLayout(GalenJsApi.java:100)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 27 more\n",
-    "duration" : 105598
-  }, {
-    "name" : "api_profile_SamsungGalaxyS5_android_360x640",
-    "startedAt" : 1450358143593,
-    "endedAt" : 1450358254083,
-    "failed" : true,
-    "statistic" : {
-      "passed" : 32,
-      "errors" : 47,
-      "warnings" : 0,
-      "total" : 79
-    },
-    "testId" : "16-api-profile-samsunggalaxys5-android-360x640",
-    "groups" : [ "api_profile_Mobile" ],
-    "failed" : true,
-    "duration" : 110490
-  }, {
-    "name" : "api_profile_iPhone5_iPhone_320x568",
-    "startedAt" : 1450358254083,
-    "endedAt" : 1450358323604,
-    "failed" : true,
-    "statistic" : {
-      "passed" : 0,
-      "errors" : 1,
-      "warnings" : 0,
-      "total" : 1
-    },
-    "testId" : "17-api-profile-iphone5-iphone-320x568",
-    "groups" : [ "api_profile_Mobile" ],
-    "failed" : true,
-    "exceptionMessage" : "WrappedException: Wrapped org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 825 milliseconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{webStorageEnabled=true, locationContextEnabled=true, browserName=iPhone, takesScreenshot=true, javascriptEnabled=true, databaseEnabled=true, version=6.0, platform=MAC}]\nSession ID: 8cb7774aca91fc46396d25dc253bc1893e524f3a\n*** Element info: {Using=xpath, value=/html/body/div[2]} (<cmd>#136)",
-    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 825 milliseconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{webStorageEnabled=true, locationContextEnabled=true, browserName=iPhone, takesScreenshot=true, javascriptEnabled=true, databaseEnabled=true, version=6.0, platform=MAC}]\nSession ID: 8cb7774aca91fc46396d25dc253bc1893e524f3a\n*** Element info: {Using=xpath, value=/html/body/div[2]} (<cmd>#136)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__18._c_checkLayout_7(<cmd>:136)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._Users_taher_Desktop_gcss_test_page_test_js_20._c_anonymous_20(/Users/taher/Desktop/gcss/test/page.test.js:389)\n\tat org.mozilla.javascript.gen._Users_taher_Desktop_gcss_test_page_test_js_20.call(/Users/taher/Desktop/gcss/test/page.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 825 milliseconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{webStorageEnabled=true, locationContextEnabled=true, browserName=iPhone, takesScreenshot=true, javascriptEnabled=true, databaseEnabled=true, version=6.0, platform=MAC}]\nSession ID: 8cb7774aca91fc46396d25dc253bc1893e524f3a\n*** Element info: {Using=xpath, value=/html/body/div[2]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:373)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:449)\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:336)\n\tat sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:191)\n\tat org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$9613f81c.findElements(<generated>)\n\tat com.galenframework.page.selenium.ByChain.findElement(ByChain.java:63)\n\tat com.galenframework.page.selenium.SeleniumPage.driverFindElement(SeleniumPage.java:115)\n\tat com.galenframework.page.selenium.SeleniumPage.locatorToElement(SeleniumPage.java:129)\n\tat com.galenframework.page.selenium.SeleniumPage.getObject(SeleniumPage.java:77)\n\tat com.galenframework.page.selenium.SeleniumPage.getObject(SeleniumPage.java:86)\n\tat com.galenframework.validation.PageValidation.findPageElement(PageValidation.java:89)\n\tat com.galenframework.validation.specs.SpecValidationSize.check(SpecValidationSize.java:31)\n\tat com.galenframework.validation.specs.SpecValidationSize.check(SpecValidationSize.java:27)\n\tat com.galenframework.validation.PageValidation.check(PageValidation.java:71)\n\tat com.galenframework.validation.PageValidation.check(PageValidation.java:61)\n\tat com.galenframework.validation.SectionValidation.checkObject(SectionValidation.java:165)\n\tat com.galenframework.validation.SectionValidation.checkObjects(SectionValidation.java:75)\n\tat com.galenframework.validation.SectionValidation.checkSection(SectionValidation.java:109)\n\tat com.galenframework.validation.SectionValidation.checkPageSection(SectionValidation.java:54)\n\tat com.galenframework.validation.SectionValidation.check(SectionValidation.java:47)\n\tat com.galenframework.api.Galen.checkLayoutForPage(Galen.java:117)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:90)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:73)\n\tat com.galenframework.javascript.GalenJsApi.checkLayout(GalenJsApi.java:100)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 27 more\n",
-    "duration" : 69521
+    "testId" : "15-api-profile-iphone5s-iphone-320x568",
+    "failed" : false,
+    "duration" : 238124,
+    "groups" : [ "api_profile_Mobile" ]
   } ]
 }

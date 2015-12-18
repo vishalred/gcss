@@ -1,62 +1,32 @@
 {
-  "testId" : "1-api-profile-windows10-ie-11-1366x768",
-  "name" : "api_profile_Windows10_IE_11_1366x768",
+  "testId" : "15-api-profile-iphone5s-iphone-320x568",
+  "name" : "api_profile_iPhone5S_iPhone_320x568",
   "report" : {
     "nodes" : [ {
-      "name" : "Check layout: specs/new.gspec included tags: Windows10_IE_11_1366x768",
+      "name" : "Check layout: specs/new.gspec included tags: iPhone5S_iPhone_320x568",
       "status" : "info",
-      "time" : 1450424190481,
-      "includedTags" : [ "Windows10_IE_11_1366x768" ],
+      "time" : 1450426386651,
+      "includedTags" : [ "iPhone5S_iPhone_320x568" ],
       "sections" : [ {
         "name" : "Mainsection",
         "objects" : [ {
-          "name" : "header",
+          "name" : "header-mobile",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 147
+              "lineNumber" : 2543
             },
-            "name" : "width ~ 86% of screen/width",
-            "highlight" : [ "header" ]
+            "name" : "height 48px",
+            "highlight" : [ "header-mobile" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 148
+              "lineNumber" : 2544
             },
-            "name" : "above navigation 1px",
-            "highlight" : [ "header", "navigation" ]
-          } ]
-        }, {
-          "name" : "navigation",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 151
-            },
-            "name" : "width ~ 86% of screen/width",
-            "highlight" : [ "navigation" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 152
-            },
-            "name" : "below header 1px",
-            "highlight" : [ "navigation", "header" ]
-          } ]
-        }, {
-          "name" : "top-ad-wrapper",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 155
-            },
-            "name" : "below navigation 1px",
-            "highlight" : [ "top-ad-wrapper", "navigation" ]
+            "name" : "width ~ 100% of screen/width",
+            "highlight" : [ "header-mobile" ]
           } ]
         }, {
           "name" : "adzerk-top-leaderboard",
@@ -64,9 +34,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 158
+              "lineNumber" : 2547
             },
-            "name" : "inside top-ad-wrapper 75px left, 75px right, 20px top, 21px bottom",
+            "name" : "inside top-ad-wrapper 20px left, 20px right, 67px top, 21px bottom",
             "highlight" : [ "adzerk-top-leaderboard", "top-ad-wrapper" ]
           } ]
         }, {
@@ -75,9 +45,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 161
+              "lineNumber" : 2550
             },
-            "name" : "width 1170px",
+            "name" : "width 320px",
             "highlight" : [ "main-container" ]
           } ]
         }, {
@@ -86,37 +56,18 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 326
+              "lineNumber" : 2703
             },
-            "name" : "inside main-container",
+            "name" : "inside partly main-container",
             "highlight" : [ "region-sidebar-second", "main-container" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 327
+              "lineNumber" : 2704
             },
-            "name" : "width 300px",
+            "name" : "width 320px",
             "highlight" : [ "region-sidebar-second" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 328
-            },
-            "name" : "near content-section 40px right",
-            "highlight" : [ "region-sidebar-second", "content-section" ]
-          } ]
-        }, {
-          "name" : "adzerk-bottom-leaderboard",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 331
-            },
-            "name" : "inside bottom-ad-wrapper 75px left, 75px right, 21px top, 20px bottom",
-            "highlight" : [ "adzerk-bottom-leaderboard", "bottom-ad-wrapper" ]
           } ]
         }, {
           "name" : "block-block-38",
@@ -124,9 +75,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 334
+              "lineNumber" : 2707
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside partly region-sidebar-second 20px left",
             "highlight" : [ "block-block-38", "region-sidebar-second" ]
           } ]
         }, {
@@ -135,15 +86,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 337
+              "lineNumber" : 2710
             },
-            "name" : "width 300px",
+            "name" : "width 280px",
             "highlight" : [ "block-title-apiu" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 338
+              "lineNumber" : 2711
             },
             "name" : "height 60px",
             "highlight" : [ "block-title-apiu" ]
@@ -151,7 +102,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 339
+              "lineNumber" : 2712
             },
             "name" : "inside block-block-38 0px left",
             "highlight" : [ "block-title-apiu", "block-block-38" ]
@@ -162,15 +113,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 342
+              "lineNumber" : 2715
             },
-            "name" : "width 300px",
+            "name" : "width 280px",
             "highlight" : [ "apiu-wrapper" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 343
+              "lineNumber" : 2716
             },
             "name" : "inside block-block-38 0px left",
             "highlight" : [ "apiu-wrapper", "block-block-38" ]
@@ -181,15 +132,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 346
+              "lineNumber" : 2719
             },
-            "name" : "width 260px",
+            "name" : "width 240px",
             "highlight" : [ "apiu-cat" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 347
+              "lineNumber" : 2720
             },
             "name" : "inside apiu-wrapper 20px left, 24px top",
             "highlight" : [ "apiu-cat", "apiu-wrapper" ]
@@ -200,15 +151,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 350
+              "lineNumber" : 2723
             },
-            "name" : "width 260px",
+            "name" : "width 240px",
             "highlight" : [ "primary-cat" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 351
+              "lineNumber" : 2724
             },
             "name" : "inside apiu-wrapper 20px left, 59px top",
             "highlight" : [ "primary-cat", "apiu-wrapper" ]
@@ -219,18 +170,10 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 355
+              "lineNumber" : 2728
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside partly region-sidebar-second 20px left",
             "highlight" : [ "block-block-21", "region-sidebar-second" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 356
-            },
-            "name" : "near block-block-38 ~30px bottom",
-            "highlight" : [ "block-block-21", "block-block-38" ]
           } ]
         }, {
           "name" : "ad-title-sidebar-top",
@@ -238,18 +181,18 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 359
+              "lineNumber" : 2731
             },
-            "name" : "height 10px",
+            "name" : "width 280px",
             "highlight" : [ "ad-title-sidebar-top" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 360
+              "lineNumber" : 2732
             },
-            "name" : "inside block-block-21 0px left, 0px top",
-            "highlight" : [ "ad-title-sidebar-top", "block-block-21" ]
+            "name" : "inside partly region-sidebar-second 20px left",
+            "highlight" : [ "ad-title-sidebar-top", "region-sidebar-second" ]
           } ]
         }, {
           "name" : "adzerk-top-mrec",
@@ -257,17 +200,17 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 363
+              "lineNumber" : 2731
             },
-            "name" : "width 300px",
+            "name" : "width 280px",
             "highlight" : [ "adzerk-top-mrec" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 364
+              "lineNumber" : 2732
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside partly region-sidebar-second 20px left",
             "highlight" : [ "adzerk-top-mrec", "region-sidebar-second" ]
           } ]
         }, {
@@ -276,17 +219,17 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 367
+              "lineNumber" : 2735
             },
-            "name" : "width 300px",
+            "name" : "width 280px",
             "highlight" : [ "block-block-42" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 368
+              "lineNumber" : 2736
             },
-            "name" : "inside region-sidebar-second 0px left right",
+            "name" : "inside partly region-sidebar-second 20px left right",
             "highlight" : [ "block-block-42", "region-sidebar-second" ]
           } ]
         }, {
@@ -295,17 +238,17 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 371
+              "lineNumber" : 2735
             },
-            "name" : "width 300px",
+            "name" : "width 280px",
             "highlight" : [ "block-views-right-side-users-block" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 372
+              "lineNumber" : 2736
             },
-            "name" : "inside region-sidebar-second 0px left right",
+            "name" : "inside partly region-sidebar-second 20px left right",
             "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
           } ]
         }, {
@@ -314,18 +257,10 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 375
+              "lineNumber" : 2739
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside partly region-sidebar-second 20px left",
             "highlight" : [ "block-block-25", "region-sidebar-second" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 376
-            },
-            "name" : "near block-views-right-side-users-block 30px bottom",
-            "highlight" : [ "block-block-25", "block-views-right-side-users-block" ]
           } ]
         }, {
           "name" : "ad-title-sidebar-bottom",
@@ -333,18 +268,10 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 379
+              "lineNumber" : 2743
             },
             "name" : "height 10px",
             "highlight" : [ "ad-title-sidebar-bottom" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 380
-            },
-            "name" : "inside block-block-25 0px left, 0px top",
-            "highlight" : [ "ad-title-sidebar-bottom", "block-block-25" ]
           } ]
         }, {
           "name" : "adzerk-bottom-mrec",
@@ -352,17 +279,17 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 383
+              "lineNumber" : 2747
             },
-            "name" : "width 300px",
+            "name" : "width 280px",
             "highlight" : [ "adzerk-bottom-mrec" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 384
+              "lineNumber" : 2748
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside partly region-sidebar-second 20px left",
             "highlight" : [ "adzerk-bottom-mrec", "region-sidebar-second" ]
           } ]
         }, {
@@ -371,9 +298,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 388
+              "lineNumber" : 2752
             },
-            "name" : "width 1350px",
+            "name" : "width 320px",
             "highlight" : [ "footer" ]
           } ]
         } ],
@@ -385,9 +312,9 @@
               "status" : "info",
               "place" : {
                 "filePath" : "specs/new.gspec",
-                "lineNumber" : 166
+                "lineNumber" : 2555
               },
-              "name" : "width 830px",
+              "name" : "width 320px",
               "highlight" : [ "content-section" ]
             } ]
           }, {
@@ -396,15 +323,15 @@
               "status" : "info",
               "place" : {
                 "filePath" : "specs/new.gspec",
-                "lineNumber" : 171
+                "lineNumber" : 2560
               },
-              "name" : "width 830px",
+              "name" : "width 280px",
               "highlight" : [ "breadcrumb" ]
             }, {
               "status" : "info",
               "place" : {
                 "filePath" : "specs/new.gspec",
-                "lineNumber" : 172
+                "lineNumber" : 2561
               },
               "name" : "height 20px",
               "highlight" : [ "breadcrumb" ]
@@ -418,18 +345,29 @@
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 177
+                  "lineNumber" : 2566
                 },
-                "name" : "below breadcrumb 25px",
+                "name" : "below breadcrumb 40px",
                 "highlight" : [ "profile-top-left", "breadcrumb" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 178
+                  "lineNumber" : 2567
                 },
-                "name" : "width ~264px",
+                "name" : "width 280px",
                 "highlight" : [ "profile-top-left" ]
+              } ]
+            }, {
+              "name" : "profile-top-left.field-type-image",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/new.gspec",
+                  "lineNumber" : 2570
+                },
+                "name" : "width 250px",
+                "highlight" : [ "profile-top-left.field-type-image" ]
               } ]
             }, {
               "name" : "profile-top-left.node-track",
@@ -437,17 +375,9 @@
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 181
+                  "lineNumber" : 2570
                 },
-                "name" : "below profile-top-left.field-type-image 25px",
-                "highlight" : [ "profile-top-left.node-track", "profile-top-left.field-type-image" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 187
-                },
-                "name" : "width ~234px",
+                "name" : "width 250px",
                 "highlight" : [ "profile-top-left.node-track" ]
               } ]
             }, {
@@ -456,29 +386,10 @@
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 184
+                  "lineNumber" : 2570
                 },
-                "name" : "below profile-top-left.node-track 24px",
-                "highlight" : [ "profile-top-left.node-social-media", "profile-top-left.node-track" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 187
-                },
-                "name" : "width ~234px",
+                "name" : "width 250px",
                 "highlight" : [ "profile-top-left.node-social-media" ]
-              } ]
-            }, {
-              "name" : "profile-top-left.field-type-image",
-              "specs" : [ {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 187
-                },
-                "name" : "width ~234px",
-                "highlight" : [ "profile-top-left.field-type-image" ]
               } ]
             }, {
               "name" : "profile-top-right",
@@ -486,17 +397,9 @@
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 190
+                  "lineNumber" : 2573
                 },
-                "name" : "below breadcrumb 25px",
-                "highlight" : [ "profile-top-right", "breadcrumb" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 191
-                },
-                "name" : "width ~527px",
+                "name" : "width 280px",
                 "highlight" : [ "profile-top-right" ]
               } ]
             }, {
@@ -505,15 +408,15 @@
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 194
+                  "lineNumber" : 2576
                 },
-                "name" : "height 32px",
+                "name" : "height 73px",
                 "highlight" : [ "profile-top-right.node-header" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 203
+                  "lineNumber" : 2585
                 },
                 "name" : "inside profile-top-right",
                 "highlight" : [ "profile-top-right.node-header", "profile-top-right" ]
@@ -524,7 +427,7 @@
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 197
+                  "lineNumber" : 2579
                 },
                 "name" : "below profile-top-right.node-header 15px",
                 "highlight" : [ "profile-top-right.botttom-article", "profile-top-right.node-header" ]
@@ -532,7 +435,7 @@
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 203
+                  "lineNumber" : 2585
                 },
                 "name" : "inside profile-top-right",
                 "highlight" : [ "profile-top-right.botttom-article", "profile-top-right" ]
@@ -543,15 +446,15 @@
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 200
+                  "lineNumber" : 2582
                 },
-                "name" : "below profile-top-right.botttom-article 14px",
+                "name" : "below profile-top-right.botttom-article 15px",
                 "highlight" : [ "profile-top-right.intro", "profile-top-right.botttom-article" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 203
+                  "lineNumber" : 2585
                 },
                 "name" : "inside profile-top-right",
                 "highlight" : [ "profile-top-right.intro", "profile-top-right" ]
@@ -560,482 +463,442 @@
           }, {
             "name" : "API Specs",
             "objects" : [ {
-              "name" : "myTab",
+              "name" : "myTab-mobile",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 208
+                  "lineNumber" : 2590
                 },
-                "name" : "below node_header 49px",
-                "highlight" : [ "myTab", "node_header" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 209
-                },
-                "name" : "height 48px",
-                "highlight" : [ "myTab" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 210
-                },
-                "name" : "width 790px",
-                "highlight" : [ "myTab" ]
+                "name" : "width 280px",
+                "highlight" : [ "myTab-mobile" ]
               } ]
             }, {
-              "name" : "tabs-content",
+              "name" : "tabs-content-mobile",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 213
+                  "lineNumber" : 2593
                 },
-                "name" : "width 790px",
-                "highlight" : [ "tabs-content" ]
+                "name" : "width 248px",
+                "highlight" : [ "tabs-content-mobile" ]
               } ]
             }, {
-              "name" : "tabs-content.block-title",
+              "name" : "tabs-content-mobile.block-title",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 216
+                  "lineNumber" : 2596
                 },
                 "name" : "height 24px",
-                "highlight" : [ "tabs-content.block-title" ]
+                "highlight" : [ "tabs-content-mobile.block-title" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 217
+                  "lineNumber" : 2597
                 },
-                "name" : "width 790px",
-                "highlight" : [ "tabs-content.block-title" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 218
-                },
-                "name" : "below myTab 35px",
-                "highlight" : [ "tabs-content.block-title", "myTab" ]
+                "name" : "width 248px",
+                "highlight" : [ "tabs-content-mobile.block-title" ]
               } ]
             }, {
-              "name" : "tabs-content.field",
+              "name" : "tabs-content-mobile.field",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 221
+                  "lineNumber" : 2600
                 },
-                "name" : "width 790px",
-                "highlight" : [ "tabs-content.field" ]
+                "name" : "width 248px",
+                "highlight" : [ "tabs-content-mobile.field" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 222
+                  "lineNumber" : 2601
                 },
-                "name" : "height 37px",
-                "highlight" : [ "tabs-content.field" ]
+                "name" : "height 57px",
+                "highlight" : [ "tabs-content-mobile.field" ]
               } ]
             }, {
-              "name" : "tabs-content.field.label",
+              "name" : "tabs-content-mobile.field.label",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 225
+                  "lineNumber" : 2604
                 },
                 "name" : "width 240px",
-                "highlight" : [ "tabs-content.field.label" ]
+                "highlight" : [ "tabs-content-mobile.field.label" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 226
+                  "lineNumber" : 2605
                 },
                 "name" : "height 20px",
-                "highlight" : [ "tabs-content.field.label" ]
+                "highlight" : [ "tabs-content-mobile.field.label" ]
               } ]
             }, {
-              "name" : "tabs-content.field.span",
+              "name" : "tabs-content-mobile.field.span",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 229
+                  "lineNumber" : 2608
                 },
-                "name" : "width ~514px",
-                "highlight" : [ "tabs-content.field.span" ]
+                "name" : "width 248px",
+                "highlight" : [ "tabs-content-mobile.field.span" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 230
+                  "lineNumber" : 2609
                 },
                 "name" : "height 20px",
-                "highlight" : [ "tabs-content.field.span" ]
+                "highlight" : [ "tabs-content-mobile.field.span" ]
               } ]
             } ]
           }, {
             "name" : "API Followers",
             "objects" : [ {
-              "name" : "api_followers",
+              "name" : "api_followers-mobile",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 235
+                  "lineNumber" : 2614
                 },
-                "name" : "width 790px",
-                "highlight" : [ "api_followers" ]
+                "name" : "width 248px",
+                "highlight" : [ "api_followers-mobile" ]
               } ]
             }, {
-              "name" : "api_followers.block-title",
+              "name" : "api_followers-mobile.block-title",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 238
+                  "lineNumber" : 2617
                 },
-                "name" : "inside api_followers 35px top",
-                "highlight" : [ "api_followers.block-title", "api_followers" ]
+                "name" : "inside api_followers-mobile 35px top",
+                "highlight" : [ "api_followers-mobile.block-title", "api_followers-mobile" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 239
+                  "lineNumber" : 2618
                 },
                 "name" : "height 24px",
-                "highlight" : [ "api_followers.block-title" ]
+                "highlight" : [ "api_followers-mobile.block-title" ]
               } ]
             }, {
-              "name" : "api_followers.view-api-followers",
+              "name" : "api_followers-mobile.view-api-followers",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 242
+                  "lineNumber" : 2621
                 },
-                "name" : "height 70px",
-                "highlight" : [ "api_followers.view-api-followers" ]
+                "name" : "height 170px",
+                "highlight" : [ "api_followers-mobile.view-api-followers" ]
               } ]
             }, {
-              "name" : "api_followers.view-api-followers.view-header",
+              "name" : "api_followers-mobile.view-api-followers.view-header",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 245
+                  "lineNumber" : 2624
                 },
-                "name" : "inside api_followers.view-api-followers 0px right",
-                "highlight" : [ "api_followers.view-api-followers.view-header", "api_followers.view-api-followers" ]
+                "name" : "inside api_followers-mobile.view-api-followers 0px right",
+                "highlight" : [ "api_followers-mobile.view-api-followers.view-header", "api_followers-mobile.view-api-followers" ]
               } ]
             }, {
-              "name" : "api_followers.view-api-followers.view-content",
+              "name" : "api_followers-mobile.view-api-followers.view-content",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 248
+                  "lineNumber" : 2627
                 },
-                "name" : "height 50px",
-                "highlight" : [ "api_followers.view-api-followers.view-content" ]
+                "name" : "height 150px",
+                "highlight" : [ "api_followers-mobile.view-api-followers.view-content" ]
               } ]
             }, {
-              "name" : "api_followers.view-api-followers.view-footer",
+              "name" : "api_followers-mobile.view-api-followers.view-footer",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 251
+                  "lineNumber" : 2630
                 },
-                "name" : "below api_followers.view-api-followers.view-content 15px",
-                "highlight" : [ "api_followers.view-api-followers.view-footer", "api_followers.view-api-followers.view-content" ]
+                "name" : "below api_followers-mobile.view-api-followers.view-content 15px",
+                "highlight" : [ "api_followers-mobile.view-api-followers.view-footer", "api_followers-mobile.view-api-followers.view-content" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 252
+                  "lineNumber" : 2631
                 },
-                "name" : "height 56px",
-                "highlight" : [ "api_followers.view-api-followers.view-footer" ]
+                "name" : "height 55px",
+                "highlight" : [ "api_followers-mobile.view-api-followers.view-footer" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 253
+                  "lineNumber" : 2632
                 },
                 "name" : "width ~173px",
-                "highlight" : [ "api_followers.view-api-followers.view-footer" ]
+                "highlight" : [ "api_followers-mobile.view-api-followers.view-footer" ]
               } ]
             } ]
           }, {
             "name" : "API Developers",
             "objects" : [ {
-              "name" : "api_developers",
+              "name" : "api_developers-mobile",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 258
+                  "lineNumber" : 2637
                 },
-                "name" : "width 790px",
-                "highlight" : [ "api_developers" ]
+                "name" : "width 248px",
+                "highlight" : [ "api_developers-mobile" ]
               } ]
             }, {
-              "name" : "api_developers.block-title",
+              "name" : "api_developers-mobile.block-title",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 261
+                  "lineNumber" : 2640
                 },
-                "name" : "inside api_developers 35px top",
-                "highlight" : [ "api_developers.block-title", "api_developers" ]
+                "name" : "inside api_developers-mobile 35px top",
+                "highlight" : [ "api_developers-mobile.block-title", "api_developers-mobile" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 262
+                  "lineNumber" : 2641
                 },
                 "name" : "height 24px",
-                "highlight" : [ "api_developers.block-title" ]
+                "highlight" : [ "api_developers-mobile.block-title" ]
               } ]
             }, {
-              "name" : "api_developers.view-api-developers",
+              "name" : "api_developers-mobile.view-api-developers",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 265
+                  "lineNumber" : 2644
                 },
                 "name" : "height 70px",
-                "highlight" : [ "api_developers.view-api-developers" ]
+                "highlight" : [ "api_developers-mobile.view-api-developers" ]
               } ]
             }, {
-              "name" : "api_developers.view-api-developers.view-header",
+              "name" : "api_developers-mobile.view-api-developers.view-header",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 268
+                  "lineNumber" : 2647
                 },
-                "name" : "inside api_developers.view-api-developers 0px right",
-                "highlight" : [ "api_developers.view-api-developers.view-header", "api_developers.view-api-developers" ]
+                "name" : "inside api_developers-mobile.view-api-developers 0px right",
+                "highlight" : [ "api_developers-mobile.view-api-developers.view-header", "api_developers-mobile.view-api-developers" ]
               } ]
             }, {
-              "name" : "api_developers.view-api-developers.view-content",
+              "name" : "api_developers-mobile.view-api-developers.view-content",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 271
+                  "lineNumber" : 2650
                 },
                 "name" : "height 50px",
-                "highlight" : [ "api_developers.view-api-developers.view-content" ]
+                "highlight" : [ "api_developers-mobile.view-api-developers.view-content" ]
               } ]
             }, {
-              "name" : "api_developers.view-api-developers.view-footer",
+              "name" : "api_developers-mobile.view-api-developers.view-footer",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 274
+                  "lineNumber" : 2653
                 },
-                "name" : "below api_developers.view-api-developers.view-content 15px",
-                "highlight" : [ "api_developers.view-api-developers.view-footer", "api_developers.view-api-developers.view-content" ]
+                "name" : "height 55px",
+                "highlight" : [ "api_developers-mobile.view-api-developers.view-footer" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 275
-                },
-                "name" : "height 56px",
-                "highlight" : [ "api_developers.view-api-developers.view-footer" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 276
+                  "lineNumber" : 2654
                 },
                 "name" : "width ~162px",
-                "highlight" : [ "api_developers.view-api-developers.view-footer" ]
+                "highlight" : [ "api_developers-mobile.view-api-developers.view-footer" ]
               } ]
             } ]
           }, {
             "name" : "API Mashups",
             "objects" : [ {
-              "name" : "api_mashups",
+              "name" : "api_mashups-mobile",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 281
+                  "lineNumber" : 2659
                 },
-                "name" : "width 790px",
-                "highlight" : [ "api_mashups" ]
+                "name" : "width 248px",
+                "highlight" : [ "api_mashups-mobile" ]
               } ]
             }, {
-              "name" : "api_mashups.block-title",
+              "name" : "api_mashups-mobile.block-title",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 284
+                  "lineNumber" : 2662
                 },
-                "name" : "inside api_mashups 35px top",
-                "highlight" : [ "api_mashups.block-title", "api_mashups" ]
+                "name" : "inside api_mashups-mobile 35px top",
+                "highlight" : [ "api_mashups-mobile.block-title", "api_mashups-mobile" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 285
+                  "lineNumber" : 2663
                 },
                 "name" : "height 24px",
-                "highlight" : [ "api_mashups.block-title" ]
+                "highlight" : [ "api_mashups-mobile.block-title" ]
               } ]
             }, {
-              "name" : "api_mashups.view-api-mashups.view-header",
+              "name" : "api_mashups-mobile.view-api-mashups.view-header",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 288
+                  "lineNumber" : 2666
                 },
-                "name" : "inside api_mashups.view-api-mashups 0px right",
-                "highlight" : [ "api_mashups.view-api-mashups.view-header", "api_mashups.view-api-mashups" ]
+                "name" : "inside api_mashups-mobile.view-api-mashups 0px right",
+                "highlight" : [ "api_mashups-mobile.view-api-mashups.view-header", "api_mashups-mobile.view-api-mashups" ]
               } ]
             }, {
-              "name" : "api_mashups.view-api-mashups.view-footer",
+              "name" : "api_mashups-mobile.view-api-mashups.view-footer",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 291
+                  "lineNumber" : 2669
                 },
-                "name" : "below api_mashups.view-api-mashups.view-content 15px",
-                "highlight" : [ "api_mashups.view-api-mashups.view-footer", "api_mashups.view-api-mashups.view-content" ]
+                "name" : "height 55px",
+                "highlight" : [ "api_mashups-mobile.view-api-mashups.view-footer" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 292
-                },
-                "name" : "height 56px",
-                "highlight" : [ "api_mashups.view-api-mashups.view-footer" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 293
+                  "lineNumber" : 2670
                 },
                 "name" : "width ~162px",
-                "highlight" : [ "api_mashups.view-api-mashups.view-footer" ]
+                "highlight" : [ "api_mashups-mobile.view-api-mashups.view-footer" ]
               } ]
             } ]
           }, {
             "name" : "API News",
             "objects" : [ {
-              "name" : "api_news",
+              "name" : "api_news-mobile",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 298
+                  "lineNumber" : 2675
                 },
-                "name" : "width 790px",
-                "highlight" : [ "api_news" ]
+                "name" : "width 248px",
+                "highlight" : [ "api_news-mobile" ]
               } ]
             }, {
-              "name" : "api_news.block-title",
+              "name" : "api_news-mobile.block-title",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 301
+                  "lineNumber" : 2678
                 },
-                "name" : "inside api_news 35px top",
-                "highlight" : [ "api_news.block-title", "api_news" ]
+                "name" : "inside api_news-mobile 35px top",
+                "highlight" : [ "api_news-mobile.block-title", "api_news-mobile" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 302
+                  "lineNumber" : 2679
                 },
                 "name" : "height 24px",
-                "highlight" : [ "api_news.block-title" ]
+                "highlight" : [ "api_news-mobile.block-title" ]
               } ]
             }, {
-              "name" : "api_news.view-api-news.view-header",
+              "name" : "api_news-mobile.view-api-news.view-header",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 305
+                  "lineNumber" : 2682
                 },
-                "name" : "inside api_news.view-api-news 0px right",
-                "highlight" : [ "api_news.view-api-news.view-header", "api_news.view-api-news" ]
+                "name" : "inside api_news-mobile.view-api-news 0px right",
+                "highlight" : [ "api_news-mobile.view-api-news.view-header", "api_news-mobile.view-api-news" ]
               } ]
             } ]
           }, {
             "name" : "Related APIS",
             "objects" : [ {
-              "name" : "related_apis",
+              "name" : "related_apis-mobile",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 310
+                  "lineNumber" : 2687
                 },
-                "name" : "width 790px",
-                "highlight" : [ "related_apis" ]
+                "name" : "width 248px",
+                "highlight" : [ "related_apis-mobile" ]
               } ]
             }, {
-              "name" : "related_apis.block-title",
+              "name" : "related_apis-mobile.block-title",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 313
+                  "lineNumber" : 2690
                 },
-                "name" : "inside related_apis 35px top",
-                "highlight" : [ "related_apis.block-title", "related_apis" ]
+                "name" : "inside related_apis-mobile 35px top",
+                "highlight" : [ "related_apis-mobile.block-title", "related_apis-mobile" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 314
+                  "lineNumber" : 2691
                 },
                 "name" : "height 24px",
-                "highlight" : [ "related_apis.block-title" ]
+                "highlight" : [ "related_apis-mobile.block-title" ]
               } ]
             }, {
-              "name" : "related_apis.view-related-apis.view-header",
+              "name" : "related_apis-mobile.view-related-apis.view-header",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 317
+                  "lineNumber" : 2694
                 },
-                "name" : "inside related_apis.view-related-apis 0px right",
-                "highlight" : [ "related_apis.view-related-apis.view-header", "related_apis.view-related-apis" ]
+                "name" : "inside related_apis-mobile.view-related-apis 0px right",
+                "highlight" : [ "related_apis-mobile.view-related-apis.view-header", "related_apis-mobile.view-related-apis" ]
               } ]
             }, {
-              "name" : "related_apis.view-related-apis.view-content.table",
+              "name" : "related_apis-mobile.view-related-apis.view-content.table",
               "specs" : [ {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 320
+                  "lineNumber" : 2697
                 },
-                "name" : "width 790px",
-                "highlight" : [ "related_apis.view-related-apis.view-content.table" ]
+                "name" : "width 248px",
+                "highlight" : [ "related_apis-mobile.view-related-apis.view-content.table" ]
               } ]
             } ]
           } ]
@@ -1043,205 +906,190 @@
       } ],
       "objects" : {
         "block-block-25" : {
-          "area" : [ 960, 2171, 300, 301 ]
+          "area" : [ 20, 0, 280, 279 ]
         },
         "block-title-apiu" : {
-          "area" : [ 960, 305, 300, 60 ]
+          "area" : [ 20, 0, 280, 60 ]
         },
-        "related_apis" : {
-          "area" : [ 90, 2812, 790, 649 ]
+        "api_news-mobile.view-api-news" : {
+          "area" : [ 36, 129, 248, 1419 ]
         },
-        "navigation" : {
-          "area" : [ 90, 102, 1170, 46 ]
+        "api_followers-mobile.block-title" : {
+          "area" : [ 36, 35, 248, 24 ]
+        },
+        "api_followers-mobile.view-api-followers" : {
+          "area" : [ 36, 74, 248, 170 ]
+        },
+        "api_developers-mobile.view-api-developers" : {
+          "area" : [ 36, 388, 248, 70 ]
+        },
+        "api_developers-mobile.view-api-developers.view-header" : {
+          "area" : [ 36, 388, 248, 20 ]
         },
         "apiu-wrapper" : {
-          "area" : [ 960, 365, 300, 242 ]
+          "area" : [ 20, 60, 280, 258 ]
         },
-        "api_news.view-api-news" : {
-          "area" : [ 90, 2217, 790, 595 ]
+        "api_followers-mobile.view-api-followers.view-content" : {
+          "area" : [ 36, 94, 248, 150 ]
+        },
+        "api_mashups-mobile.view-api-mashups.view-header" : {
+          "area" : [ 36, 129, 248, 20 ]
+        },
+        "api_developers-mobile.view-api-developers.view-footer" : {
+          "area" : [ 36, 0, 161, 55 ]
         },
         "top-ad-wrapper" : {
-          "area" : [ 0, 149, 1350, 131 ]
+          "area" : [ 0, -67, 320, 108 ]
         },
-        "tabs-content.field.span" : {
-          "area" : [ 330, 878, 514, 20 ]
+        "related_apis-mobile.block-title" : {
+          "area" : [ 36, 35, 248, 24 ]
         },
         "apiu-cat" : {
-          "area" : [ 980, 389, 260, 20 ]
+          "area" : [ 40, 84, 240, 20 ]
         },
-        "api_followers" : {
-          "area" : [ 90, 1342, 790, 215 ]
-        },
-        "adzerk-bottom-leaderboard" : {
-          "area" : [ 75, 3522, 1200, 153 ]
+        "myTab-mobile" : {
+          "area" : [ 20, 0, 280, 5782 ]
         },
         "block-block-38" : {
-          "area" : [ 960, 305, 300, 555 ]
+          "area" : [ 20, -66, 280, 607 ]
         },
-        "api_followers.block-title" : {
-          "area" : [ 90, 1377, 790, 24 ]
+        "api_developers-mobile" : {
+          "area" : [ 36, 314, 248, 214 ]
         },
-        "api_developers" : {
-          "area" : [ 90, 1557, 790, 215 ]
+        "tabs-content-mobile.field.label" : {
+          "area" : [ 36, 75, 240, 20 ]
         },
         "adzerk-top-leaderboard" : {
-          "area" : [ 75, 169, 1200, 90 ]
+          "area" : [ 20, 0, 280, 20 ]
         },
         "content-section" : {
-          "area" : [ 90, 305, 830, 3197 ]
-        },
-        "related_apis.view-related-apis.view-content.table" : {
-          "area" : [ 90, 2906, 790, 525 ]
+          "area" : [ 0, -4366, 320, 6611 ]
         },
         "primary-cat" : {
-          "area" : [ 980, 424, 260, 128 ]
-        },
-        "tabs-content.field.label" : {
-          "area" : [ 90, 878, 240, 20 ]
-        },
-        "api_developers.block-title" : {
-          "area" : [ 90, 1592, 790, 24 ]
+          "area" : [ 40, 119, 240, 144 ]
         },
         "profile-top-right.node-header" : {
-          "area" : [ 353, 350, 527, 32 ]
-        },
-        "api_developers.view-api-developers.view-header" : {
-          "area" : [ 90, 1631, 790, 20 ]
+          "area" : [ 20, 0, 280, 73 ]
         },
         "adzerk-bottom-mrec" : {
-          "area" : [ 960, 2187, 300, 255 ]
+          "area" : [ 20, 16, 280, 233 ]
         },
         "profile-top-left.field-type-image" : {
-          "area" : [ 90, 355, 233, 192 ]
-        },
-        "node_header" : {
-          "area" : [ 90, 350, 790, 344 ]
-        },
-        "header" : {
-          "area" : [ 90, 0, 1170, 101 ]
+          "area" : [ 20, 183, 250, 192 ]
         },
         "profile-top-right" : {
-          "area" : [ 353, 350, 527, 277 ]
-        },
-        "related_apis.view-related-apis.view-header" : {
-          "area" : [ 90, 2886, 790, 20 ]
+          "area" : [ 20, 0, 280, 468 ]
         },
         "block-block-42" : {
-          "area" : [ 960, 1571, 300, 265 ]
+          "area" : [ 20, 0, 280, 265 ]
         },
-        "api_news.block-title" : {
-          "area" : [ 90, 2178, 790, 24 ]
-        },
-        "api_mashups.block-title" : {
-          "area" : [ 90, 1807, 790, 24 ]
-        },
-        "api_mashups.view-api-mashups.view-content" : {
-          "area" : [ 90, 1866, 790, 207 ]
+        "api_followers-mobile.view-api-followers.view-footer" : {
+          "area" : [ 36, 259, 173, 55 ]
         },
         "profile-top-left" : {
-          "area" : [ 90, 350, 263, 344 ]
-        },
-        "api_followers.view-api-followers.view-content" : {
-          "area" : [ 90, 1436, 790, 50 ]
-        },
-        "api_mashups.view-api-mashups.view-footer" : {
-          "area" : [ 90, 2088, 161, 56 ]
+          "area" : [ 20, 183, 280, 272 ]
         },
         "footer" : {
-          "area" : [ 0, 3695, 1350, 279 ]
+          "area" : [ 0, 309, 320, 697 ]
         },
         "adzerk-top-mrec" : {
-          "area" : [ 960, 906, 300, 605 ]
+          "area" : [ 20, 16, 280, 560 ]
         },
-        "api_followers.view-api-followers.view-header" : {
-          "area" : [ 90, 1416, 790, 20 ]
+        "api_mashups-mobile" : {
+          "area" : [ 36, 55, 248, 591 ]
         },
-        "tabs-content.block-title" : {
-          "area" : [ 90, 826, 790, 24 ]
+        "related_apis-mobile.view-related-apis.view-content.table" : {
+          "area" : [ 36, 94, 248, 1865 ]
         },
-        "tabs-content.field" : {
-          "area" : [ 90, 870, 790, 37 ]
+        "api_developers-mobile.view-api-developers.view-content" : {
+          "area" : [ 36, 408, 248, 50 ]
         },
-        "related_apis.block-title" : {
-          "area" : [ 90, 2847, 790, 24 ]
+        "api_news-mobile.block-title" : {
+          "area" : [ 36, 90, 248, 24 ]
         },
         "main-container" : {
-          "area" : [ 90, 280, 1170, 3222 ]
+          "area" : [ 0, 41, 320, 8900 ]
+        },
+        "header-mobile" : {
+          "area" : [ 0, -1, 320, 48 ]
+        },
+        "api_mashups-mobile.block-title" : {
+          "area" : [ 36, 90, 248, 24 ]
         },
         "profile-top-left.node-social-media" : {
-          "area" : [ 90, 652, 233, 0 ]
+          "area" : [ 20, 0, 250, 0 ]
         },
-        "api_followers.view-api-followers" : {
-          "area" : [ 90, 1416, 790, 70 ]
-        },
-        "api_developers.view-api-developers" : {
-          "area" : [ 90, 1631, 790, 70 ]
-        },
-        "api_developers.view-api-developers.view-content" : {
-          "area" : [ 90, 1651, 790, 50 ]
-        },
-        "bottom-ad-wrapper" : {
-          "area" : [ 0, 3501, 1350, 194 ]
+        "api_followers-mobile" : {
+          "area" : [ 36, 0, 248, 314 ]
         },
         "profile-top-left.node-track" : {
-          "area" : [ 90, 572, 233, 56 ]
+          "area" : [ 20, 400, 250, 55 ]
         },
-        "api_mashups.view-api-mashups.view-header" : {
-          "area" : [ 90, 1846, 790, 20 ]
+        "api_followers-mobile.view-api-followers.view-header" : {
+          "area" : [ 36, 74, 248, 20 ]
         },
         "ad-title-sidebar-bottom" : {
-          "area" : [ 960, 2171, 300, 10 ]
+          "area" : [ 20, 0, 280, 10 ]
         },
-        "tabs-content" : {
-          "area" : [ 90, 791, 790, 2670 ]
+        "related_apis-mobile.view-related-apis" : {
+          "area" : [ 36, 74, 248, 1915 ]
+        },
+        "api_news-mobile.view-api-news.view-header" : {
+          "area" : [ 36, 129, 248, 20 ]
+        },
+        "api_mashups-mobile.view-api-mashups" : {
+          "area" : [ 36, 129, 248, 447 ]
         },
         "ad-title-sidebar-top" : {
-          "area" : [ 960, 890, 300, 10 ]
+          "area" : [ 20, 0, 280, 10 ]
         },
         "block-views-right-side-users-block" : {
-          "area" : [ 960, 1866, 300, 275 ]
+          "area" : [ 20, 295, 280, 275 ]
         },
-        "api_followers.view-api-followers.view-footer" : {
-          "area" : [ 90, 1501, 173, 56 ]
+        "api_developers-mobile.block-title" : {
+          "area" : [ 36, 349, 248, 24 ]
         },
-        "api_mashups.view-api-mashups" : {
-          "area" : [ 90, 1846, 790, 227 ]
+        "related_apis-mobile" : {
+          "area" : [ 36, 0, 248, 1989 ]
+        },
+        "related_apis-mobile.view-related-apis.view-header" : {
+          "area" : [ 36, 74, 248, 20 ]
+        },
+        "api_mashups-mobile.view-api-mashups.view-footer" : {
+          "area" : [ 36, 0, 161, 55 ]
         },
         "profile-top-right.botttom-article" : {
-          "area" : [ 353, 397, 527, 36 ]
+          "area" : [ 20, 88, 280, 35 ]
         },
         "profile-top-right.intro" : {
-          "area" : [ 353, 447, 527, 179 ]
-        },
-        "myTab" : {
-          "area" : [ 90, 743, 790, 48 ]
-        },
-        "related_apis.view-related-apis" : {
-          "area" : [ 90, 2886, 790, 575 ]
+          "area" : [ 20, 138, 280, 330 ]
         },
         "breadcrumb" : {
-          "area" : [ 90, 305, 830, 20 ]
+          "area" : [ 20, 123, 280, 20 ]
         },
-        "api_mashups" : {
-          "area" : [ 90, 1772, 790, 372 ]
+        "tabs-content-mobile" : {
+          "area" : [ 36, -12, 248, 5492 ]
         },
-        "api_news.view-api-news.view-header" : {
-          "area" : [ 90, 2217, 790, 20 ]
+        "tabs-content-mobile.field" : {
+          "area" : [ 36, 67, 248, 57 ]
+        },
+        "tabs-content-mobile.field.span" : {
+          "area" : [ 36, 95, 248, 20 ]
+        },
+        "api_news-mobile" : {
+          "area" : [ 36, 55, 248, 1493 ]
+        },
+        "tabs-content-mobile.block-title" : {
+          "area" : [ 36, 23, 248, 24 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 960, 305, 300, 2168 ]
+          "area" : [ 0, 0, 320, 2153 ]
         },
         "block-block-21" : {
-          "area" : [ 960, 890, 300, 652 ]
-        },
-        "api_developers.view-api-developers.view-footer" : {
-          "area" : [ 90, 1716, 161, 56 ]
-        },
-        "api_news" : {
-          "area" : [ 90, 2143, 790, 669 ]
+          "area" : [ 20, 0, 280, 607 ]
         }
       },
-      "screenshot" : "layout-1-screenshot.png",
+      "screenshot" : "layout-15-screenshot.png",
       "type" : "layout"
     } ]
   }

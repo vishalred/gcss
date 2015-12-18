@@ -14,24 +14,20 @@ var key = "http://taher9:Gafe4n66LWkfXrJfLFcv@hub.browserstack.com/wd/hub";
 
 var testName = "api_profile";
 
-test(testName.concat("_Windows7_Firefox_37_1366x768"), function () {
+test(testName.concat("_iPhone5S_iPhone_320x568"), function () {
 
     var driver = createGridDriver(key, {
-        browser: "Firefox",
+        browserName: "iPhone",
         desiredCapabilities: {
-            os: 'Windows',
-            os_version: '7',
-            browser: 'Firefox',
-            browser_version: '37.0',
-            resolution: '2048x1536'//resoultion is desktop’s screen resolution
+            platform: 'MAC',
+            device: 'iPhone 5S',
+            browserName: 'iPhone'
 
         }
     });
-    // Resizing the window to 1366 X 768
-    resize(driver, "1366x768");//browser resize
 
     driver.get(path);
-    checkLayout(driver, "specs/new.gspec", ["Windows7_Firefox_37_1366x768"]);
+    checkLayout(driver, "specs/new.gspec", ["iPhone5S_iPhone_320x568"]);
     driver.quit();
 
 });
