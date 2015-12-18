@@ -1,0 +1,305 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <link rel="stylesheet" type="text/css" href="tablesorter.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="tablesorter.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "tests" : [ {
+    "name" : "Add_api_Windows10_IE_11_1366x768",
+    "startedAt" : 1450444151883,
+    "endedAt" : 1450444242436,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 74,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "1-add-api-windows10-ie-11-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 90553
+  }, {
+    "name" : "Add_api_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1450444242436,
+    "endedAt" : 1450444300085,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 74,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "2-add-api-windows10-chrome-42-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 57649
+  }, {
+    "name" : "Add_api_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1450444300085,
+    "endedAt" : 1450444379965,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 74,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "3-add-api-windows10-firefox-37-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 79880
+  }, {
+    "name" : "Add_api_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1450444379965,
+    "endedAt" : 1450444470480,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 74,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "4-add-api-windows8.1-ie-11-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 90515
+  }, {
+    "name" : "Add_api_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1450444470481,
+    "endedAt" : 1450444560388,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 72,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "5-add-api-windows8.1-chrome-42-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 89907
+  }, {
+    "name" : "Add_api_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1450444560389,
+    "endedAt" : 1450444626853,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 74,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "6-add-api-windows8.1-firefox-37-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 66464
+  }, {
+    "name" : "Add_api_Windows7_IE_11_1366x768",
+    "startedAt" : 1450444626853,
+    "endedAt" : 1450444701813,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 74,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "7-add-api-windows7-ie-11-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 74960
+  }, {
+    "name" : "Add_api_Windows7_IE_10_1366x768",
+    "startedAt" : 1450444701813,
+    "endedAt" : 1450444766992,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 74,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "8-add-api-windows7-ie-10-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 65179
+  }, {
+    "name" : "Add_api_Windows7_IE_9_1366x768",
+    "startedAt" : 1450444766993,
+    "endedAt" : 1450444821439,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 74,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "9-add-api-windows7-ie-9-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 54446
+  }, {
+    "name" : "Add_api_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1450444821439,
+    "endedAt" : 1450444868822,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 73,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 73
+    },
+    "testId" : "10-add-api-windows7-chrome-42-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 47383
+  }, {
+    "name" : "Add_api_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1450444868822,
+    "endedAt" : 1450444919716,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 74,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 74
+    },
+    "testId" : "11-add-api-windows7-firefox-37-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 50894
+  }, {
+    "name" : "Add_api_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1450444919716,
+    "endedAt" : 1450444954327,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 0
+    },
+    "testId" : "12-add-api-osxyosemite-safari-8-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 34611
+  }, {
+    "name" : "Add_api_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1450444954327,
+    "endedAt" : 1450444985842,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 0
+    },
+    "testId" : "13-add-api-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "Add_api_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 31515
+  } ]
+};
+
+        </script>
+        <script>
+            $(function () {
+                var galenReport = createGalenTestOverview();
+                galenReport.renderTestsTable("tests-table", reportData);
+                galenReport.renderGroupsTable("groups-table", reportData);
+
+                window.onhashchange = function () {
+                    galenReport.handleHash(window.location.hash.substr(1));
+                };
+
+                galenReport.handleHash(window.location.hash.substr(1));
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <div class="tests-overview">
+            <h2>Galen Test Report</h2>
+            <div class="tabs">
+                <a class="tab tab-tests" href="#tests">Tests</a>
+                <a class="tab tab-groups" href="#groups">Groups</a>
+            </div>
+            <div id="tests-table">
+            </div>
+            <div id="groups-table">
+            </div>
+
+            <script id="tests-table-tpl" type="text/x-handlebars-template">
+                <table class="tests tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Test</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Warnings</th>
+                            <th>Total</th>
+                            <th>Groups</th>
+                            <th>Started</th>
+                            <th>Duration</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each tests}}
+                        <tr data-groups="{{groups}}">
+                            <td class="suite-link">
+                                <a href="{{testId}}.html">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{statistic.passed}}</td>
+                            <td class="status failed">{{statistic.errors}}</td>
+                            <td class="status warnings">{{statistic.warnings}}</td>
+                            <td class="status total">{{statistic.total}}</td>
+                            <td class="tags">{{formatGroupsPretty groups}}</td>
+                            <td class="time">{{formatDateTime startedAt}}</td>
+                            <td class="time">{{formatDurationHumanReadable duration}}</td>
+                            <td class="progressbar">
+                                {{renderProgressBar statistic}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+            <script id="groups-table-tpl" type="text/x-handlebars-template">
+                <table class="groups tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Tests</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td class="group-link">
+                                <a href="#tests|grouped|{{name}}">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{passed}}</td>
+                            <td class="status failed">{{failed}}</td>
+                            <td class="status total">{{tests}}</td>
+                            <td class="progressbar">
+                                {{renderGroupsProgressBar this}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+        </div>
+    </body>
+</html>

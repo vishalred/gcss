@@ -1,0 +1,16 @@
+{
+  "testId" : "13-add-api-osxyosemite-chrome-46-1366x768",
+  "name" : "Add_api_OSXYosemite_Chrome_46_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: OSXYosemite_Chrome_46_1366x768",
+      "status" : "info",
+      "time" : 1450444975405,
+      "includedTags" : [ "OSXYosemite_Chrome_46_1366x768" ],
+      "sections" : [ ],
+      "objects" : { },
+      "screenshot" : "layout-13-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,744 @@
+{
+  "testId" : "1-add-api-windows10-ie-11-1366x768",
+  "name" : "Add_api_Windows10_IE_11_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows10_IE_11_1366x768",
+      "status" : "info",
+      "time" : 1450444235826,
+      "includedTags" : [ "Windows10_IE_11_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 37
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 43
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 46
+            },
+            "name" : "height 2395px",
+            "highlight" : [ "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 47
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "add-api-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 50
+            },
+            "name" : "height 40px",
+            "highlight" : [ "add-api-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 51
+            },
+            "name" : "width 830px",
+            "highlight" : [ "add-api-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 52
+            },
+            "name" : "inside main-container 0px left, 0px right",
+            "highlight" : [ "add-api-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-api-name",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 55
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-api-name" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 56
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-api-name" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 57
+            },
+            "name" : "below add-api-header 34px",
+            "highlight" : [ "form-api-name", "add-api-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 58
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "form-api-name", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-api-home-page",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 61
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-api-home-page" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 62
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-api-home-page" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 63
+            },
+            "name" : "below form-api-name 20px",
+            "highlight" : [ "form-api-home-page", "form-api-name" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 64
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-api-home-page", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-api-home-page2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 67
+            },
+            "name" : "height 100px",
+            "highlight" : [ "form-api-home-page2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 68
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-api-home-page2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 69
+            },
+            "name" : "below form-api-home-page 20px",
+            "highlight" : [ "form-api-home-page2", "form-api-home-page" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 70
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-api-home-page2", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-api-endpoint",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 73
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-api-endpoint" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 74
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-api-endpoint" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 75
+            },
+            "name" : "below form-api-home-page2 20px",
+            "highlight" : [ "form-api-endpoint", "form-api-home-page2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 76
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-api-endpoint", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-primary-category",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 79
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 80
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 81
+            },
+            "name" : "below form-api-endpoint 20px",
+            "highlight" : [ "form-primary-category", "form-api-endpoint" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 82
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-primary-category", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-secondary-category",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 85
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 86
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 87
+            },
+            "name" : "below form-primary-category 20px",
+            "highlight" : [ "form-secondary-category", "form-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 88
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-secondary-category", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-field-name-field-api-description",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 91
+            },
+            "name" : "height 124px",
+            "highlight" : [ "form-field-name-field-api-description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 92
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-name-field-api-description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 93
+            },
+            "name" : "below form-secondary-category 20px",
+            "highlight" : [ "form-field-name-field-api-description", "form-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 94
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-field-name-field-api-description", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-field-name-field-data-marshaling",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 97
+            },
+            "name" : "height 144px",
+            "highlight" : [ "form-field-name-field-data-marshaling" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 98
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-name-field-data-marshaling" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 99
+            },
+            "name" : "below form-field-name-field-api-description 20px",
+            "highlight" : [ "form-field-name-field-data-marshaling", "form-field-name-field-api-description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 100
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-field-name-field-data-marshaling", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-field-name-field-other-data-marshaling",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "height 22px",
+            "highlight" : [ "form-field-name-field-other-data-marshaling" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 104
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-name-field-other-data-marshaling" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 105
+            },
+            "name" : "below form-field-name-field-data-marshaling 20px",
+            "highlight" : [ "form-field-name-field-other-data-marshaling", "form-field-name-field-data-marshaling" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 106
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-field-name-field-other-data-marshaling", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-field-name-field-data-marshaling-options",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 109
+            },
+            "name" : "height 126px",
+            "highlight" : [ "form-field-name-field-data-marshaling-options" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 110
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-name-field-data-marshaling-options" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 111
+            },
+            "name" : "below form-field-name-field-other-data-marshaling 19px",
+            "highlight" : [ "form-field-name-field-data-marshaling-options", "form-field-name-field-other-data-marshaling" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 112
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-field-name-field-data-marshaling-options", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-field-name-field-related-to",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 115
+            },
+            "name" : "height 124px",
+            "highlight" : [ "form-field-name-field-related-to" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 116
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-name-field-related-to" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 117
+            },
+            "name" : "below form-field-name-field-data-marshaling-options 21px",
+            "highlight" : [ "form-field-name-field-related-to", "form-field-name-field-data-marshaling-options" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 118
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-field-name-field-related-to", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-field-name-field-differentiators",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 121
+            },
+            "name" : "height 124px",
+            "highlight" : [ "form-field-name-field-differentiators" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 122
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-name-field-differentiators" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 123
+            },
+            "name" : "below form-field-name-field-related-to 20px",
+            "highlight" : [ "form-field-name-field-differentiators", "form-field-name-field-related-to" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 124
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-field-name-field-differentiators", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-field-name-field-are-you-the-owner",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 127
+            },
+            "name" : "height 47px",
+            "highlight" : [ "form-field-name-field-are-you-the-owner" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 128
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-name-field-are-you-the-owner" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 129
+            },
+            "name" : "below form-field-name-field-differentiators 20px",
+            "highlight" : [ "form-field-name-field-are-you-the-owner", "form-field-name-field-differentiators" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 130
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-field-name-field-are-you-the-owner", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-field-name-field-api-authentication-model",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 133
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-field-name-field-api-authentication-model" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 134
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-field-name-field-api-authentication-model" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 135
+            },
+            "name" : "below form-field-name-field-are-you-the-owner 19px",
+            "highlight" : [ "form-field-name-field-api-authentication-model", "form-field-name-field-are-you-the-owner" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 136
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "form-field-name-field-api-authentication-model", "main-container" ]
+          } ]
+        }, {
+          "name" : "sign-up-edit",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 139
+            },
+            "name" : "height 665px",
+            "highlight" : [ "sign-up-edit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 140
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sign-up-edit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 141
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "sign-up-edit", "main-container" ]
+          } ]
+        }, {
+          "name" : "sign-up-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 145
+            },
+            "name" : "height 42px",
+            "highlight" : [ "sign-up-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 146
+            },
+            "name" : "width 788px",
+            "highlight" : [ "sign-up-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 147
+            },
+            "name" : "inside sign-up-edit 1px left ,1px right",
+            "highlight" : [ "sign-up-header", "sign-up-edit" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 149
+            },
+            "name" : "height 279px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 150
+            },
+            "name" : "width 1350px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "form-api-name" : {
+          "area" : [ 90, 379, 790, 70 ]
+        },
+        "form-field-name-field-related-to" : {
+          "area" : [ 90, 1445, 790, 124 ]
+        },
+        "form-field-name-field-differentiators" : {
+          "area" : [ 90, 1589, 790, 124 ]
+        },
+        "form-field-name-field-api-authentication-model" : {
+          "area" : [ 90, 1799, 790, 70 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2835, 1350, 279 ]
+        },
+        "sign-up-edit" : {
+          "area" : [ 90, 1889, 790, 665 ]
+        },
+        "form-field-name-field-are-you-the-owner" : {
+          "area" : [ 90, 1733, 790, 47 ]
+        },
+        "headerdiv" : {
+          "area" : [ 90, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 90, 305, 830, 2395 ]
+        },
+        "form-api-home-page2" : {
+          "area" : [ 90, 559, 790, 100 ]
+        },
+        "add-api-header" : {
+          "area" : [ 90, 305, 830, 40 ]
+        },
+        "sign-up-header" : {
+          "area" : [ 91, 1890, 788, 42 ]
+        },
+        "form-secondary-category" : {
+          "area" : [ 90, 859, 790, 70 ]
+        },
+        "form-api-endpoint" : {
+          "area" : [ 90, 679, 790, 70 ]
+        },
+        "form-primary-category" : {
+          "area" : [ 90, 769, 790, 70 ]
+        },
+        "form-api-home-page" : {
+          "area" : [ 90, 469, 790, 70 ]
+        },
+        "form-field-name-field-other-data-marshaling" : {
+          "area" : [ 90, 1257, 790, 22 ]
+        },
+        "form-field-name-field-api-description" : {
+          "area" : [ 90, 949, 790, 124 ]
+        },
+        "form-field-name-field-data-marshaling-options" : {
+          "area" : [ 90, 1298, 790, 126 ]
+        },
+        "header" : {
+          "area" : [ 90, 0, 1170, 101 ]
+        },
+        "form-field-name-field-data-marshaling" : {
+          "area" : [ 90, 1093, 790, 144 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 960, 305, 300, 2168 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
