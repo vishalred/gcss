@@ -539,7 +539,7 @@
                  width 300px
 
            main-container:
-                 height 2391px
+                 #height 2374px
                  width 830px
 
            add-api-header:
@@ -602,7 +602,7 @@
                  inside main-container 0px left ,40px right
 
            form-field-name-field-data-marshaling-options:
-                 height 126px
+                # height 109px
                  width 790px
                  below form-field-name-field-other-data-marshaling 20px
                  inside main-container 0px left ,40px right
@@ -1635,5 +1635,249 @@
            footer:
                  height 278px
                  width 1366px
+
+    @on iPadAir_iPad_768x1024
+           header:
+                 #height 101px
+                 width ~ 100% of screen/width
+                 #image: file
+                 above headerdiv 1px
+
+           headerdiv:
+                 #height 46px
+                 width ~ 100% of screen/width
+                 below header 1px
+                 #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+           region-sidebar-second:
+                 width 242px
+
+           main-container:
+                 height 2592px
+                 width 485px
+
+           add-api-header:
+                 height 39px
+                 width 485px
+                 inside main-container 0px left, 0px right
+
+           form-api-name:
+                 height 70px
+                 width 445px
+                 below add-api-header 55px
+                 inside main-container 20px left,20px right
+
+           form-api-home-page:
+                 height 70px
+                 width 445px
+                 below form-api-name 20px
+                 inside main-container 20px left ,20px right
+
+           form-api-home-page2:
+                 height 100px
+                 width 445px
+                 below form-api-home-page 20px
+                 inside main-container 20px left ,20px right
+
+           form-api-endpoint:
+                 height 70px
+                 width 445px
+                 below form-api-home-page2 20px
+                 inside main-container 20px left ,20px right
+
+           form-primary-category:
+                 height 70px
+                 width 445px
+                 below form-api-endpoint 20px
+                 inside main-container 20px left ,20px right
+
+           form-secondary-category:
+                 height 70px
+                 width 445px
+                 below form-primary-category 20px
+                 inside main-container 20px left ,20px right
+
+           form-field-name-field-api-description:
+                 height 124px
+                 width 445px
+                 below form-secondary-category 20px
+                 inside main-container 20px left ,20px right
+
+           form-field-name-field-data-marshaling:
+                 height 194px
+                 width 445px
+                 #below form-field-name-field-api-description 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-other-data-marshaling:
+                 height 21px
+                 width 445px
+                 below form-field-name-field-data-marshaling 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-data-marshaling-options:
+                 height 143px
+                 width 445px
+                 below form-field-name-field-other-data-marshaling 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-related-to:
+                 height 124px
+                 width 445px
+                 below form-field-name-field-data-marshaling-options 20px
+                 inside main-container 20px left ,20px right
+
+           form-field-name-field-differentiators:
+                 height 124px
+                 width 445px
+                 below form-field-name-field-related-to 20px
+                 inside main-container 20px left ,20px right
+
+           form-field-name-field-are-you-the-owner:
+                 height 46px
+                 width 445px
+                 below form-field-name-field-differentiators 20px
+                 inside main-container 20px left ,20px right
+
+           form-field-name-field-api-authentication-model:
+                 height 70px
+                 width 445px
+                 below form-field-name-field-are-you-the-owner 20px
+                 inside main-container 20px left ,20px right
+
+           sign-up-edit:
+                 height 777px
+                 width 472px
+                 inside partly main-container 20px left ,-7px right
+
+
+           sign-up-header:
+                 height 42px
+                 width 470px
+                 inside  sign-up-edit 1px left ,1px right
+           footer:
+                 height 298px
+                 width 768px
+
+    @on iPhone5_iPhone_320x568
+           header-mobile:
+                #height 101px
+                width ~ 100% of screen/width
+                #image: file
+                #above headerdiv 1px
+
+
+           region-sidebar-second:
+                 width 320px
+
+           main-container:
+                 height 2785px
+                 width 320px
+
+           add-api-header:
+                 height 30px
+                 width 320px
+                 inside partly main-container 0px left, 0px right
+
+           form-api-name:
+                 height 70px
+                 width 280px
+                 below add-api-header 55px
+                 inside partly main-container 20px left,20px right
+
+           form-api-home-page:
+                 height 70px
+                 width 280px
+                 below form-api-name 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-api-home-page2:
+                 height 100px
+                 width 280px
+                 below form-api-home-page 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-api-endpoint:
+                 height 70px
+                 width 280px
+                 below form-api-home-page2 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-primary-category:
+                 height 70px
+                 width 280px
+                 #below form-api-endpoint 20px
+                 inside partly  main-container 20px left ,20px right
+
+           form-secondary-category:
+                 height 70px
+                 width 280px
+                 below form-primary-category 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-api-description:
+                 height 124px
+                 width 280px
+                 below form-secondary-category 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-data-marshaling:
+                 height 262px
+                 width 280px
+                 below form-field-name-field-api-description 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-other-data-marshaling:
+                 height 22px
+                 width 280px
+                 #below form-field-name-field-data-marshaling 19px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-data-marshaling-options:
+                 height 194px
+                 width 280px
+                 below form-field-name-field-other-data-marshaling 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-related-to:
+                 height 124px
+                 width 280px
+                 below form-field-name-field-data-marshaling-options 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-differentiators:
+                 height 124px
+                 width 280px
+                 below form-field-name-field-related-to 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-are-you-the-owner:
+                 height 47px
+                 width 280px
+                 #below form-field-name-field-differentiators 20px
+                 inside partly main-container 20px left ,20px right
+
+           form-field-name-field-api-authentication-model:
+                 height 70px
+                 width 280px
+                 below form-field-name-field-are-you-the-owner 20px
+                 inside partly main-container 20px left ,20px right
+
+           sign-up-edit:
+                 height 858px
+                 width 282px
+                 inside partly main-container 20px left ,18px right
+
+
+           sign-up-header:
+                 height 42px
+                 width 280px
+                 inside sign-up-edit 1px left ,1px right
+           footer:
+                 height 697px
+                 width 320px
+
+
 
 

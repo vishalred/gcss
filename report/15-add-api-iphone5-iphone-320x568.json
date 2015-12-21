@@ -1,51 +1,24 @@
 {
-  "testId" : "5-add-api-windows8.1-chrome-42-1366x768",
-  "name" : "Add_api_Windows8.1_Chrome_42_1366x768",
+  "testId" : "15-add-api-iphone5-iphone-320x568",
+  "name" : "Add_api_iPhone5_iPhone_320x568",
   "report" : {
     "nodes" : [ {
-      "name" : "Check layout: specs/new.gspec included tags: Windows8.1_Chrome_42_1366x768",
+      "name" : "Check layout: specs/new.gspec included tags: iPhone5_iPhone_320x568",
       "status" : "info",
-      "time" : 1450683291507,
-      "includedTags" : [ "Windows8.1_Chrome_42_1366x768" ],
+      "time" : 1450683916624,
+      "includedTags" : [ "iPhone5_iPhone_320x568" ],
       "sections" : [ {
         "name" : "Mainsection",
         "objects" : [ {
-          "name" : "header",
+          "name" : "header-mobile",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 527
+              "lineNumber" : 1766
             },
-            "name" : "width ~ 86% of screen/width",
-            "highlight" : [ "header" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 529
-            },
-            "name" : "above headerdiv 1px",
-            "highlight" : [ "header", "headerdiv" ]
-          } ]
-        }, {
-          "name" : "headerdiv",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 533
-            },
-            "name" : "width ~ 86% of screen/width",
-            "highlight" : [ "headerdiv" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 534
-            },
-            "name" : "below header 1px",
-            "highlight" : [ "headerdiv", "header" ]
+            "name" : "width ~ 100% of screen/width",
+            "highlight" : [ "header-mobile" ]
           } ]
         }, {
           "name" : "region-sidebar-second",
@@ -53,9 +26,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 539
+              "lineNumber" : 1772
             },
-            "name" : "width 300px",
+            "name" : "width 320px",
             "highlight" : [ "region-sidebar-second" ]
           } ]
         }, {
@@ -64,9 +37,17 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 543
+              "lineNumber" : 1775
             },
-            "name" : "width 830px",
+            "name" : "height 2785px",
+            "highlight" : [ "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1776
+            },
+            "name" : "width 320px",
             "highlight" : [ "main-container" ]
           } ]
         }, {
@@ -75,25 +56,25 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 546
+              "lineNumber" : 1779
             },
-            "name" : "height 39px",
+            "name" : "height 30px",
             "highlight" : [ "add-api-header" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 547
+              "lineNumber" : 1780
             },
-            "name" : "width 830px",
+            "name" : "width 320px",
             "highlight" : [ "add-api-header" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 548
+              "lineNumber" : 1781
             },
-            "name" : "inside main-container 0px left, 0px right",
+            "name" : "inside partly main-container 0px left, 0px right",
             "highlight" : [ "add-api-header", "main-container" ]
           } ]
         }, {
@@ -102,7 +83,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 551
+              "lineNumber" : 1784
             },
             "name" : "height 70px",
             "highlight" : [ "form-api-name" ]
@@ -110,25 +91,25 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 552
+              "lineNumber" : 1785
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-api-name" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 553
+              "lineNumber" : 1786
             },
-            "name" : "below add-api-header 35px",
+            "name" : "below add-api-header 55px",
             "highlight" : [ "form-api-name", "add-api-header" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 554
+              "lineNumber" : 1787
             },
-            "name" : "inside main-container 0px left,40px right",
+            "name" : "inside partly main-container 20px left,20px right",
             "highlight" : [ "form-api-name", "main-container" ]
           } ]
         }, {
@@ -137,7 +118,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 557
+              "lineNumber" : 1790
             },
             "name" : "height 70px",
             "highlight" : [ "form-api-home-page" ]
@@ -145,15 +126,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 558
+              "lineNumber" : 1791
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-api-home-page" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 559
+              "lineNumber" : 1792
             },
             "name" : "below form-api-name 20px",
             "highlight" : [ "form-api-home-page", "form-api-name" ]
@@ -161,9 +142,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 560
+              "lineNumber" : 1793
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-api-home-page", "main-container" ]
           } ]
         }, {
@@ -172,7 +153,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 563
+              "lineNumber" : 1796
             },
             "name" : "height 100px",
             "highlight" : [ "form-api-home-page2" ]
@@ -180,15 +161,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 564
+              "lineNumber" : 1797
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-api-home-page2" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 565
+              "lineNumber" : 1798
             },
             "name" : "below form-api-home-page 20px",
             "highlight" : [ "form-api-home-page2", "form-api-home-page" ]
@@ -196,9 +177,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 566
+              "lineNumber" : 1799
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-api-home-page2", "main-container" ]
           } ]
         }, {
@@ -207,7 +188,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 569
+              "lineNumber" : 1802
             },
             "name" : "height 70px",
             "highlight" : [ "form-api-endpoint" ]
@@ -215,15 +196,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 570
+              "lineNumber" : 1803
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-api-endpoint" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 571
+              "lineNumber" : 1804
             },
             "name" : "below form-api-home-page2 20px",
             "highlight" : [ "form-api-endpoint", "form-api-home-page2" ]
@@ -231,9 +212,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 572
+              "lineNumber" : 1805
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-api-endpoint", "main-container" ]
           } ]
         }, {
@@ -242,7 +223,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 575
+              "lineNumber" : 1808
             },
             "name" : "height 70px",
             "highlight" : [ "form-primary-category" ]
@@ -250,25 +231,17 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 576
+              "lineNumber" : 1809
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-primary-category" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 577
+              "lineNumber" : 1811
             },
-            "name" : "below form-api-endpoint 20px",
-            "highlight" : [ "form-primary-category", "form-api-endpoint" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 578
-            },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly  main-container 20px left ,20px right",
             "highlight" : [ "form-primary-category", "main-container" ]
           } ]
         }, {
@@ -277,7 +250,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 581
+              "lineNumber" : 1814
             },
             "name" : "height 70px",
             "highlight" : [ "form-secondary-category" ]
@@ -285,15 +258,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 582
+              "lineNumber" : 1815
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-secondary-category" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 583
+              "lineNumber" : 1816
             },
             "name" : "below form-primary-category 20px",
             "highlight" : [ "form-secondary-category", "form-primary-category" ]
@@ -301,9 +274,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 584
+              "lineNumber" : 1817
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-secondary-category", "main-container" ]
           } ]
         }, {
@@ -312,7 +285,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 587
+              "lineNumber" : 1820
             },
             "name" : "height 124px",
             "highlight" : [ "form-field-name-field-api-description" ]
@@ -320,15 +293,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 588
+              "lineNumber" : 1821
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-field-name-field-api-description" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 589
+              "lineNumber" : 1822
             },
             "name" : "below form-secondary-category 20px",
             "highlight" : [ "form-field-name-field-api-description", "form-secondary-category" ]
@@ -336,9 +309,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 590
+              "lineNumber" : 1823
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-field-name-field-api-description", "main-container" ]
           } ]
         }, {
@@ -347,23 +320,23 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 593
+              "lineNumber" : 1826
             },
-            "name" : "height 143px",
+            "name" : "height 262px",
             "highlight" : [ "form-field-name-field-data-marshaling" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 594
+              "lineNumber" : 1827
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-field-name-field-data-marshaling" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 595
+              "lineNumber" : 1828
             },
             "name" : "below form-field-name-field-api-description 20px",
             "highlight" : [ "form-field-name-field-data-marshaling", "form-field-name-field-api-description" ]
@@ -371,9 +344,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 596
+              "lineNumber" : 1829
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-field-name-field-data-marshaling", "main-container" ]
           } ]
         }, {
@@ -382,33 +355,25 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 599
+              "lineNumber" : 1832
             },
-            "name" : "height 21px",
+            "name" : "height 22px",
             "highlight" : [ "form-field-name-field-other-data-marshaling" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 600
+              "lineNumber" : 1833
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-field-name-field-other-data-marshaling" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 601
+              "lineNumber" : 1835
             },
-            "name" : "below form-field-name-field-data-marshaling 20px",
-            "highlight" : [ "form-field-name-field-other-data-marshaling", "form-field-name-field-data-marshaling" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 602
-            },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-field-name-field-other-data-marshaling", "main-container" ]
           } ]
         }, {
@@ -417,15 +382,23 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 606
+              "lineNumber" : 1838
             },
-            "name" : "width 790px",
+            "name" : "height 194px",
             "highlight" : [ "form-field-name-field-data-marshaling-options" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 607
+              "lineNumber" : 1839
+            },
+            "name" : "width 280px",
+            "highlight" : [ "form-field-name-field-data-marshaling-options" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1840
             },
             "name" : "below form-field-name-field-other-data-marshaling 20px",
             "highlight" : [ "form-field-name-field-data-marshaling-options", "form-field-name-field-other-data-marshaling" ]
@@ -433,9 +406,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 608
+              "lineNumber" : 1841
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-field-name-field-data-marshaling-options", "main-container" ]
           } ]
         }, {
@@ -444,7 +417,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 611
+              "lineNumber" : 1844
             },
             "name" : "height 124px",
             "highlight" : [ "form-field-name-field-related-to" ]
@@ -452,15 +425,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 612
+              "lineNumber" : 1845
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-field-name-field-related-to" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 613
+              "lineNumber" : 1846
             },
             "name" : "below form-field-name-field-data-marshaling-options 20px",
             "highlight" : [ "form-field-name-field-related-to", "form-field-name-field-data-marshaling-options" ]
@@ -468,9 +441,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 614
+              "lineNumber" : 1847
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-field-name-field-related-to", "main-container" ]
           } ]
         }, {
@@ -479,7 +452,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 617
+              "lineNumber" : 1850
             },
             "name" : "height 124px",
             "highlight" : [ "form-field-name-field-differentiators" ]
@@ -487,15 +460,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 618
+              "lineNumber" : 1851
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-field-name-field-differentiators" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 619
+              "lineNumber" : 1852
             },
             "name" : "below form-field-name-field-related-to 20px",
             "highlight" : [ "form-field-name-field-differentiators", "form-field-name-field-related-to" ]
@@ -503,9 +476,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 620
+              "lineNumber" : 1853
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-field-name-field-differentiators", "main-container" ]
           } ]
         }, {
@@ -514,33 +487,25 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 623
+              "lineNumber" : 1856
             },
-            "name" : "height 46px",
+            "name" : "height 47px",
             "highlight" : [ "form-field-name-field-are-you-the-owner" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 624
+              "lineNumber" : 1857
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-field-name-field-are-you-the-owner" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 625
+              "lineNumber" : 1859
             },
-            "name" : "below form-field-name-field-differentiators 20px",
-            "highlight" : [ "form-field-name-field-are-you-the-owner", "form-field-name-field-differentiators" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 626
-            },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-field-name-field-are-you-the-owner", "main-container" ]
           } ]
         }, {
@@ -549,7 +514,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 629
+              "lineNumber" : 1862
             },
             "name" : "height 70px",
             "highlight" : [ "form-field-name-field-api-authentication-model" ]
@@ -557,15 +522,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 630
+              "lineNumber" : 1863
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "form-field-name-field-api-authentication-model" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 631
+              "lineNumber" : 1864
             },
             "name" : "below form-field-name-field-are-you-the-owner 20px",
             "highlight" : [ "form-field-name-field-api-authentication-model", "form-field-name-field-are-you-the-owner" ]
@@ -573,9 +538,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 632
+              "lineNumber" : 1865
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,20px right",
             "highlight" : [ "form-field-name-field-api-authentication-model", "main-container" ]
           } ]
         }, {
@@ -584,25 +549,25 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 635
+              "lineNumber" : 1868
             },
-            "name" : "height 664px",
+            "name" : "height 858px",
             "highlight" : [ "sign-up-edit" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 636
+              "lineNumber" : 1869
             },
-            "name" : "width 790px",
+            "name" : "width 282px",
             "highlight" : [ "sign-up-edit" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 637
+              "lineNumber" : 1870
             },
-            "name" : "inside main-container 0px left ,40px right",
+            "name" : "inside partly main-container 20px left ,18px right",
             "highlight" : [ "sign-up-edit", "main-container" ]
           } ]
         }, {
@@ -611,7 +576,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 641
+              "lineNumber" : 1874
             },
             "name" : "height 42px",
             "highlight" : [ "sign-up-header" ]
@@ -619,15 +584,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 642
+              "lineNumber" : 1875
             },
-            "name" : "width 788px",
+            "name" : "width 280px",
             "highlight" : [ "sign-up-header" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 643
+              "lineNumber" : 1876
             },
             "name" : "inside sign-up-edit 1px left ,1px right",
             "highlight" : [ "sign-up-header", "sign-up-edit" ]
@@ -638,90 +603,87 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 645
+              "lineNumber" : 1878
             },
-            "name" : "height 278px",
+            "name" : "height 697px",
             "highlight" : [ "footer" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 646
+              "lineNumber" : 1879
             },
-            "name" : "width 1333px",
+            "name" : "width 320px",
             "highlight" : [ "footer" ]
           } ]
         } ]
       } ],
       "objects" : {
         "form-api-name" : {
-          "area" : [ 81, 379, 790, 70 ]
+          "area" : [ 20, 85, 280, 70 ]
         },
         "form-field-name-field-related-to" : {
-          "area" : [ 81, 1443, 790, 124 ]
+          "area" : [ 20, 256, 280, 124 ]
         },
         "form-field-name-field-differentiators" : {
-          "area" : [ 81, 1587, 790, 124 ]
+          "area" : [ 20, 400, 280, 124 ]
         },
         "form-field-name-field-api-authentication-model" : {
-          "area" : [ 81, 1797, 790, 70 ]
+          "area" : [ 20, 67, 280, 70 ]
         },
         "footer" : {
-          "area" : [ 0, 2827, 1333, 278 ]
+          "area" : [ 0, 0, 320, 697 ]
         },
         "sign-up-edit" : {
-          "area" : [ 81, 1887, 790, 664 ]
+          "area" : [ 20, 157, 282, 858 ]
         },
         "form-field-name-field-are-you-the-owner" : {
-          "area" : [ 81, 1731, 790, 46 ]
-        },
-        "headerdiv" : {
-          "area" : [ 81, 102, 1170, 46 ]
+          "area" : [ 20, 0, 280, 47 ]
         },
         "main-container" : {
-          "area" : [ 81, 305, 830, 2391 ]
+          "area" : [ 0, -2785, 320, 2785 ]
         },
         "form-api-home-page2" : {
-          "area" : [ 81, 559, 790, 100 ]
+          "area" : [ 20, 265, 280, 100 ]
         },
         "add-api-header" : {
-          "area" : [ 81, 305, 830, 39 ]
+          "area" : [ 0, 0, 320, 30 ]
         },
         "sign-up-header" : {
-          "area" : [ 82, 1888, 788, 42 ]
+          "area" : [ 21, 158, 280, 42 ]
+        },
+        "header-mobile" : {
+          "area" : [ 0, -1, 320, 48 ]
         },
         "form-secondary-category" : {
-          "area" : [ 81, 859, 790, 70 ]
+          "area" : [ 20, 90, 280, 70 ]
         },
         "form-api-endpoint" : {
-          "area" : [ 81, 679, 790, 70 ]
+          "area" : [ 20, 385, 280, 70 ]
         },
         "form-primary-category" : {
-          "area" : [ 81, 769, 790, 70 ]
+          "area" : [ 20, 0, 280, 70 ]
         },
         "form-api-home-page" : {
-          "area" : [ 81, 469, 790, 70 ]
+          "area" : [ 20, 175, 280, 70 ]
         },
         "form-field-name-field-other-data-marshaling" : {
-          "area" : [ 81, 1256, 790, 21 ]
+          "area" : [ 20, 0, 280, 22 ]
         },
         "form-field-name-field-api-description" : {
-          "area" : [ 81, 949, 790, 124 ]
+          "area" : [ 20, 180, 280, 124 ]
         },
         "form-field-name-field-data-marshaling-options" : {
-          "area" : [ 81, 1297, 790, 126 ]
-        },
-        "header" : {
-          "area" : [ 81, 0, 1170, 101 ]
+          "area" : [ 20, 42, 280, 194 ]
         },
         "form-field-name-field-data-marshaling" : {
-          "area" : [ 81, 1093, 790, 143 ]
+          "area" : [ 20, 324, 280, 262 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 951, 305, 300, 2203 ]
+          "area" : [ 0, 0, 320, 2153 ]
         }
       },
-      "screenshot" : "layout-5-screenshot.png",
+      "screenshot" : "layout-15-screenshot.png",
       "type" : "layout"
     } ]
   }
