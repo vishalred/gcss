@@ -2386,12 +2386,12 @@
         = Page Content =
 
             content-section:
-                  width 485px
+                  width 320px
 
             # Individual sections specs starts here
 
             breadcrumb:
-                  width 445px
+                  width 280px
                   height 20px
 
             = Mashup Profile Header =
@@ -2400,60 +2400,49 @@
                       below breadcrumb 40px
                       width 280px
 
-                profile-top-left.node-track:
-                      below profile-top-left.field-type-image 25px
-
-                profile-top-left.submit_mashup:
-                      below profile-top-left.node-track ~25px
-
                 profile-top-left.node-social-media:
-                      below profile-top-left.submit_mashup 25px
+                      width 175px
 
-                profile-top-left.field-type-image, profile-top-left.node-track, profile-top-left.node-social-media:
+                profile-top-left.field-type-image, profile-top-left.node-track:
                       width 250px
 
                 profile-top-right:
-                      below profile-top-left 25px
-                      width 445px
+                      width 280px
 
-                profile-top-right.botttom-article:
-                      below profile-top-right.node-header 15px
-
-                profile-top-right.intro:
-                      below profile-top-right.botttom-article 15px
+                profile-top-right.node-header:
+                      height 73px
 
                 profile-top-right.node-header, profile-top-right.botttom-article, profile-top-right.intro:
-                      inside profile-top-right
+                      inside partly profile-top-right
 
             = Mashup Specs =
 
                 myTab-mobile:
-                      height 53px
-                      width 445px
+                      width 280px
 
-                tabs-content:
-                      width 445px
+                tabs-content-mobile:
+                      width 248px
 
-                tabs-content.block-title:
+                tabs-content-mobile.block-title:
                       height 24px
-                      width 445px
+                      width 248px
 
-                tabs-content.field:
-                      width 445px
+                tabs-content-mobile.field:
+                      width 248px
                       height 57px
 
-                tabs-content.field.label:
+                tabs-content-mobile.field.label:
                       width 240px
                       height 20px
 
-                tabs-content.field.span:
-                      width 289px
+                tabs-content-mobile.field.span:
+                      width 248px
                       height 20px
 
             = Mashup Followers =
 
                 mashup_followers-mobile:
-                       width 445px
+                       width 248px
 
                 mashup_followers-mobile.block-title:
                         inside mashup_followers-mobile 35px top
@@ -2477,36 +2466,35 @@
             = Mashup Mashups =
 
                 mashup_mashups-mobile:
-                       width 445px
+                       width 248px
 
                 mashup_mashups-mobile.block-title:
                         inside mashup_mashups-mobile 35px top
-                        height 24px
+                        height 48px
 
                 mashup_mashups-mobile.view-api-mashups.view-header:
                         inside mashup_mashups-mobile.view-api-mashups 0px right
 
                 mashup_mashups-mobile.view-api-mashups.view-footer:
-                        below mashup_mashups-mobile.view-api-mashups.view-content 15px
                         height ~56px
                         width ~162px
 
             = Mashup News =
 
                 mashup_news-mobile:
-                       width 445px
+                       width 248px
 
                 mashup_news-mobile.block-title:
-                        inside mashup_news 35px top
+                        inside mashup_news-mobile 35px top
                         height 24px
 
                 mashup_news-mobile.view-api-news.view-header:
-                        inside mashup_news.view-api-news 0px right
+                        inside mashup_news-mobile.view-api-news 0px right
 
             = Related APIS =
 
                 related_apis-mobile:
-                       width 445px
+                       width 248px
 
                 related_apis-mobile.block-title:
                         height 24px
@@ -2515,7 +2503,7 @@
                         inside related_apis-mobile.view-related-apis 0px right
 
                 related_apis-mobile.view-related-apis.view-content.table:
-                        width 445px
+                        width 248px
 
 
             # Individual sections specs ends here

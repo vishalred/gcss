@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: Windows10_IE_11_1366x768",
       "status" : "info",
-      "time" : 1450686876935,
+      "time" : 1450693785492,
       "includedTags" : [ "Windows10_IE_11_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -961,7 +961,7 @@
       } ],
       "objects" : {
         "block-block-25" : {
-          "area" : [ 960, 2171, 300, 301 ]
+          "area" : [ 960, 2167, 300, 301 ]
         },
         "block-title-apiu" : {
           "area" : [ 960, 305, 300, 60 ]
@@ -997,7 +997,7 @@
           "area" : [ 90, 1760, 790, 20 ]
         },
         "adzerk-bottom-leaderboard" : {
-          "area" : [ 75, 3154, 1200, 90 ]
+          "area" : [ 75, 3154, 1200, 153 ]
         },
         "block-block-38" : {
           "area" : [ 960, 305, 300, 555 ]
@@ -1024,7 +1024,7 @@
           "area" : [ 353, 350, 527, 32 ]
         },
         "adzerk-bottom-mrec" : {
-          "area" : [ 960, 2187, 300, 255 ]
+          "area" : [ 960, 2183, 300, 255 ]
         },
         "profile-top-left.field-type-image" : {
           "area" : [ 90, 355, 233, 192 ]
@@ -1045,16 +1045,16 @@
           "area" : [ 90, 652, 233, 56 ]
         },
         "block-block-42" : {
-          "area" : [ 960, 1571, 300, 265 ]
+          "area" : [ 960, 1567, 300, 265 ]
         },
         "profile-top-left" : {
           "area" : [ 90, 350, 263, 424 ]
         },
         "footer" : {
-          "area" : [ 0, 3264, 1350, 279 ]
+          "area" : [ 0, 3327, 1350, 279 ]
         },
         "adzerk-top-mrec" : {
-          "area" : [ 960, 906, 300, 605 ]
+          "area" : [ 960, 906, 300, 600 ]
         },
         "tabs-content.block-title" : {
           "area" : [ 90, 907, 790, 24 ]
@@ -1090,7 +1090,7 @@
           "area" : [ 90, 1686, 790, 758 ]
         },
         "bottom-ad-wrapper" : {
-          "area" : [ 0, 3133, 1350, 131 ]
+          "area" : [ 0, 3133, 1350, 194 ]
         },
         "profile-top-left.node-track" : {
           "area" : [ 90, 572, 233, 56 ]
@@ -1099,7 +1099,7 @@
           "area" : [ 90, 1760, 790, 684 ]
         },
         "ad-title-sidebar-bottom" : {
-          "area" : [ 960, 2171, 300, 10 ]
+          "area" : [ 960, 2167, 300, 10 ]
         },
         "mashup_news.block-title" : {
           "area" : [ 90, 1721, 790, 24 ]
@@ -1114,7 +1114,7 @@
           "area" : [ 960, 890, 300, 10 ]
         },
         "block-views-right-side-users-block" : {
-          "area" : [ 960, 1866, 300, 275 ]
+          "area" : [ 960, 1862, 300, 275 ]
         },
         "profile-top-right.botttom-article" : {
           "area" : [ 353, 397, 527, 36 ]
@@ -1138,10 +1138,10 @@
           "area" : [ 90, 1350, 790, 24 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 960, 305, 300, 2168 ]
+          "area" : [ 960, 305, 300, 2163 ]
         },
         "block-block-21" : {
-          "area" : [ 960, 890, 300, 652 ]
+          "area" : [ 960, 890, 300, 647 ]
         }
       },
       "screenshot" : "layout-1-screenshot.png",

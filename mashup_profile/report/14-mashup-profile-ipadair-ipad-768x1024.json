@@ -1,91 +1,23 @@
-<html>
-    <head>
-        <title>Galen Reports</title>
-        <link rel="stylesheet" type="text/css" href="report.css"></link>
-        <script src="jquery-1.11.2.min.js"></script>
-        <script src="handlebars-v2.0.0.js"></script>
-        <script src="galen-report.js"></script>
-        <script>
-var reportData = {
-  "testId" : "5-mashup-profile-windows8.1-chrome-42-1366x768",
-  "name" : "mashup_profile_Windows8.1_Chrome_42_1366x768",
+{
+  "testId" : "14-mashup-profile-ipadair-ipad-768x1024",
+  "name" : "mashup_profile_iPadAir_iPad_768x1024",
   "report" : {
     "nodes" : [ {
-      "name" : "Check layout: specs/new.gspec included tags: Windows8.1_Chrome_42_1366x768",
+      "name" : "Check layout: specs/new.gspec included tags: iPadAir_iPad_768x1024",
       "status" : "info",
-      "time" : 1450694455270,
-      "includedTags" : [ "Windows8.1_Chrome_42_1366x768" ],
+      "time" : 1450695472591,
+      "includedTags" : [ "iPadAir_iPad_768x1024" ],
       "sections" : [ {
         "name" : "Mainsection",
         "objects" : [ {
-          "name" : "header",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 362
-            },
-            "name" : "width ~ 86% of screen/width",
-            "highlight" : [ "header" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 363
-            },
-            "name" : "above navigation 1px",
-            "highlight" : [ "header", "navigation" ]
-          } ]
-        }, {
-          "name" : "navigation",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 366
-            },
-            "name" : "width ~ 86% of screen/width",
-            "highlight" : [ "navigation" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 367
-            },
-            "name" : "below header 1px",
-            "highlight" : [ "navigation", "header" ]
-          } ]
-        }, {
-          "name" : "top-ad-wrapper",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 370
-            },
-            "name" : "below navigation 1px",
-            "highlight" : [ "top-ad-wrapper", "navigation" ]
-          } ]
-        }, {
-          "name" : "adzerk-top-leaderboard",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 373
-            },
-            "name" : "inside top-ad-wrapper 66px left, 67px right, 20px top, 21px bottom",
-            "highlight" : [ "adzerk-top-leaderboard", "top-ad-wrapper" ]
-          } ]
-        }, {
           "name" : "main-container",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 376
+              "lineNumber" : 1749
             },
-            "name" : "width 1170px",
+            "name" : "width 768px",
             "highlight" : [ "main-container" ]
           } ]
         }, {
@@ -94,37 +26,26 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 523
+              "lineNumber" : 1889
             },
-            "name" : "inside main-container",
+            "name" : "inside partly main-container",
             "highlight" : [ "region-sidebar-second", "main-container" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 524
+              "lineNumber" : 1890
             },
-            "name" : "width 300px",
+            "name" : "width 242px",
             "highlight" : [ "region-sidebar-second" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 525
+              "lineNumber" : 1891
             },
-            "name" : "near content-section 40px right",
+            "name" : "near content-section 0px right",
             "highlight" : [ "region-sidebar-second", "content-section" ]
-          } ]
-        }, {
-          "name" : "adzerk-bottom-leaderboard",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 528
-            },
-            "name" : "inside bottom-ad-wrapper 66px left, 67px right, 21px top, 20px bottom",
-            "highlight" : [ "adzerk-bottom-leaderboard", "bottom-ad-wrapper" ]
           } ]
         }, {
           "name" : "block-block-38",
@@ -132,9 +53,9 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 531
+              "lineNumber" : 1894
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside region-sidebar-second 20px left",
             "highlight" : [ "block-block-38", "region-sidebar-second" ]
           } ]
         }, {
@@ -143,15 +64,15 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 534
+              "lineNumber" : 1897
             },
-            "name" : "width 300px",
+            "name" : "width 202px",
             "highlight" : [ "block-title-apiu" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 535
+              "lineNumber" : 1898
             },
             "name" : "height 60px",
             "highlight" : [ "block-title-apiu" ]
@@ -159,7 +80,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 536
+              "lineNumber" : 1899
             },
             "name" : "inside block-block-38 0px left",
             "highlight" : [ "block-title-apiu", "block-block-38" ]
@@ -170,15 +91,15 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 539
+              "lineNumber" : 1902
             },
-            "name" : "width 300px",
+            "name" : "width 202px",
             "highlight" : [ "apiu-wrapper" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 540
+              "lineNumber" : 1903
             },
             "name" : "inside block-block-38 0px left",
             "highlight" : [ "apiu-wrapper", "block-block-38" ]
@@ -189,15 +110,15 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 543
+              "lineNumber" : 1906
             },
-            "name" : "width 260px",
+            "name" : "width 162px",
             "highlight" : [ "apiu-cat" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 544
+              "lineNumber" : 1907
             },
             "name" : "inside apiu-wrapper 20px left, 24px top",
             "highlight" : [ "apiu-cat", "apiu-wrapper" ]
@@ -208,15 +129,15 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 547
+              "lineNumber" : 1910
             },
-            "name" : "width 260px",
+            "name" : "width 162px",
             "highlight" : [ "primary-cat" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 548
+              "lineNumber" : 1911
             },
             "name" : "inside apiu-wrapper 20px left, 59px top",
             "highlight" : [ "primary-cat", "apiu-wrapper" ]
@@ -227,15 +148,15 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 552
+              "lineNumber" : 1915
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside region-sidebar-second 20px left",
             "highlight" : [ "block-block-21", "region-sidebar-second" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 553
+              "lineNumber" : 1916
             },
             "name" : "near block-block-38 30px bottom",
             "highlight" : [ "block-block-21", "block-block-38" ]
@@ -246,18 +167,18 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 556
+              "lineNumber" : 1919
             },
-            "name" : "height 10px",
+            "name" : "width 202px",
             "highlight" : [ "ad-title-sidebar-top" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 557
+              "lineNumber" : 1920
             },
-            "name" : "inside block-block-21 0px left, 0px top",
-            "highlight" : [ "ad-title-sidebar-top", "block-block-21" ]
+            "name" : "inside region-sidebar-second 20px left",
+            "highlight" : [ "ad-title-sidebar-top", "region-sidebar-second" ]
           } ]
         }, {
           "name" : "adzerk-top-mrec",
@@ -265,17 +186,17 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 560
+              "lineNumber" : 1919
             },
-            "name" : "width 300px",
+            "name" : "width 202px",
             "highlight" : [ "adzerk-top-mrec" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 561
+              "lineNumber" : 1920
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside region-sidebar-second 20px left",
             "highlight" : [ "adzerk-top-mrec", "region-sidebar-second" ]
           } ]
         }, {
@@ -284,17 +205,17 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 564
+              "lineNumber" : 1923
             },
-            "name" : "width 300px",
+            "name" : "width 202px",
             "highlight" : [ "block-block-42" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 565
+              "lineNumber" : 1924
             },
-            "name" : "inside region-sidebar-second 0px left right",
+            "name" : "inside partly region-sidebar-second 20px left right",
             "highlight" : [ "block-block-42", "region-sidebar-second" ]
           } ]
         }, {
@@ -303,17 +224,17 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 568
+              "lineNumber" : 1923
             },
-            "name" : "width 300px",
+            "name" : "width 202px",
             "highlight" : [ "block-views-right-side-users-block" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 569
+              "lineNumber" : 1924
             },
-            "name" : "inside region-sidebar-second 0px left right",
+            "name" : "inside partly region-sidebar-second 20px left right",
             "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
           } ]
         }, {
@@ -322,15 +243,15 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 572
+              "lineNumber" : 1927
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside region-sidebar-second 20px left",
             "highlight" : [ "block-block-25", "region-sidebar-second" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 573
+              "lineNumber" : 1928
             },
             "name" : "near block-views-right-side-users-block 30px bottom",
             "highlight" : [ "block-block-25", "block-views-right-side-users-block" ]
@@ -341,7 +262,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 576
+              "lineNumber" : 1931
             },
             "name" : "height 10px",
             "highlight" : [ "ad-title-sidebar-bottom" ]
@@ -349,7 +270,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 577
+              "lineNumber" : 1932
             },
             "name" : "inside block-block-25 0px left, 0px top",
             "highlight" : [ "ad-title-sidebar-bottom", "block-block-25" ]
@@ -360,17 +281,17 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 580
+              "lineNumber" : 1935
             },
-            "name" : "width 300px",
+            "name" : "width 202px",
             "highlight" : [ "adzerk-bottom-mrec" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 581
+              "lineNumber" : 1936
             },
-            "name" : "inside region-sidebar-second 0px left",
+            "name" : "inside region-sidebar-second 20px left",
             "highlight" : [ "adzerk-bottom-mrec", "region-sidebar-second" ]
           } ]
         }, {
@@ -379,13 +300,76 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 585
+              "lineNumber" : 1940
             },
-            "name" : "width 1333px",
+            "name" : "width 768px",
             "highlight" : [ "footer" ]
           } ]
         } ],
         "sections" : [ {
+          "name" : "Header",
+          "objects" : [ {
+            "name" : "header",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/new.gspec",
+                "lineNumber" : 1735
+              },
+              "name" : "width ~ 100% of screen/width",
+              "highlight" : [ "header" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/new.gspec",
+                "lineNumber" : 1736
+              },
+              "name" : "above navigation 1px",
+              "highlight" : [ "header", "navigation" ]
+            } ]
+          }, {
+            "name" : "navigation",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/new.gspec",
+                "lineNumber" : 1739
+              },
+              "name" : "width ~ 100% of screen/width",
+              "highlight" : [ "navigation" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/new.gspec",
+                "lineNumber" : 1740
+              },
+              "name" : "below header 1px",
+              "highlight" : [ "navigation", "header" ]
+            } ]
+          }, {
+            "name" : "top-ad-wrapper",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/new.gspec",
+                "lineNumber" : 1743
+              },
+              "name" : "below navigation 1px",
+              "highlight" : [ "top-ad-wrapper", "navigation" ]
+            } ]
+          }, {
+            "name" : "adzerk-top-leaderboard",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/new.gspec",
+                "lineNumber" : 1746
+              },
+              "name" : "inside top-ad-wrapper 20px left, 20px right, 67px top, 21px bottom",
+              "highlight" : [ "adzerk-top-leaderboard", "top-ad-wrapper" ]
+            } ]
+          } ]
+        }, {
           "name" : "Page Content",
           "objects" : [ {
             "name" : "content-section",
@@ -393,9 +377,9 @@ var reportData = {
               "status" : "info",
               "place" : {
                 "filePath" : "specs/new.gspec",
-                "lineNumber" : 381
+                "lineNumber" : 1754
               },
-              "name" : "width 830px",
+              "name" : "width 485px",
               "highlight" : [ "content-section" ]
             } ]
           }, {
@@ -404,15 +388,15 @@ var reportData = {
               "status" : "info",
               "place" : {
                 "filePath" : "specs/new.gspec",
-                "lineNumber" : 386
+                "lineNumber" : 1759
               },
-              "name" : "width 830px",
+              "name" : "width 445px",
               "highlight" : [ "breadcrumb" ]
             }, {
               "status" : "info",
               "place" : {
                 "filePath" : "specs/new.gspec",
-                "lineNumber" : 387
+                "lineNumber" : 1760
               },
               "name" : "height 20px",
               "highlight" : [ "breadcrumb" ]
@@ -426,17 +410,17 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 392
+                  "lineNumber" : 1765
                 },
-                "name" : "below breadcrumb 25px",
+                "name" : "below breadcrumb 40px",
                 "highlight" : [ "profile-top-left", "breadcrumb" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 393
+                  "lineNumber" : 1766
                 },
-                "name" : "width ~264px",
+                "name" : "width 445px",
                 "highlight" : [ "profile-top-left" ]
               } ]
             }, {
@@ -445,7 +429,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 396
+                  "lineNumber" : 1769
                 },
                 "name" : "below profile-top-left.field-type-image 25px",
                 "highlight" : [ "profile-top-left.node-track", "profile-top-left.field-type-image" ]
@@ -453,9 +437,9 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 405
+                  "lineNumber" : 1778
                 },
-                "name" : "width ~234px",
+                "name" : "width 415px",
                 "highlight" : [ "profile-top-left.node-track" ]
               } ]
             }, {
@@ -464,7 +448,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 399
+                  "lineNumber" : 1772
                 },
                 "name" : "below profile-top-left.node-track ~25px",
                 "highlight" : [ "profile-top-left.submit_mashup", "profile-top-left.node-track" ]
@@ -475,7 +459,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 402
+                  "lineNumber" : 1775
                 },
                 "name" : "below profile-top-left.submit_mashup 25px",
                 "highlight" : [ "profile-top-left.node-social-media", "profile-top-left.submit_mashup" ]
@@ -483,9 +467,9 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 405
+                  "lineNumber" : 1778
                 },
-                "name" : "width ~234px",
+                "name" : "width 415px",
                 "highlight" : [ "profile-top-left.node-social-media" ]
               } ]
             }, {
@@ -494,9 +478,9 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 405
+                  "lineNumber" : 1778
                 },
-                "name" : "width ~234px",
+                "name" : "width 415px",
                 "highlight" : [ "profile-top-left.field-type-image" ]
               } ]
             }, {
@@ -505,37 +489,18 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 408
+                  "lineNumber" : 1781
                 },
-                "name" : "below breadcrumb 25px",
-                "highlight" : [ "profile-top-right", "breadcrumb" ]
+                "name" : "below profile-top-left 25px",
+                "highlight" : [ "profile-top-right", "profile-top-left" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 409
+                  "lineNumber" : 1782
                 },
-                "name" : "width ~527px",
+                "name" : "width 445px",
                 "highlight" : [ "profile-top-right" ]
-              } ]
-            }, {
-              "name" : "profile-top-right.node-header",
-              "specs" : [ {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 412
-                },
-                "name" : "height 32px",
-                "highlight" : [ "profile-top-right.node-header" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 421
-                },
-                "name" : "inside profile-top-right",
-                "highlight" : [ "profile-top-right.node-header", "profile-top-right" ]
               } ]
             }, {
               "name" : "profile-top-right.botttom-article",
@@ -543,7 +508,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 415
+                  "lineNumber" : 1785
                 },
                 "name" : "below profile-top-right.node-header 15px",
                 "highlight" : [ "profile-top-right.botttom-article", "profile-top-right.node-header" ]
@@ -551,7 +516,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 421
+                  "lineNumber" : 1791
                 },
                 "name" : "inside profile-top-right",
                 "highlight" : [ "profile-top-right.botttom-article", "profile-top-right" ]
@@ -562,7 +527,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 418
+                  "lineNumber" : 1788
                 },
                 "name" : "below profile-top-right.botttom-article 15px",
                 "highlight" : [ "profile-top-right.intro", "profile-top-right.botttom-article" ]
@@ -570,10 +535,21 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 421
+                  "lineNumber" : 1791
                 },
                 "name" : "inside profile-top-right",
                 "highlight" : [ "profile-top-right.intro", "profile-top-right" ]
+              } ]
+            }, {
+              "name" : "profile-top-right.node-header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "specs/new.gspec",
+                  "lineNumber" : 1791
+                },
+                "name" : "inside profile-top-right",
+                "highlight" : [ "profile-top-right.node-header", "profile-top-right" ]
               } ]
             } ]
           }, {
@@ -584,25 +560,17 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 426
+                  "lineNumber" : 1796
                 },
-                "name" : "below node_header 50px",
-                "highlight" : [ "myTab", "node_header" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 427
-                },
-                "name" : "height 48px",
+                "name" : "height 53px",
                 "highlight" : [ "myTab" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 428
+                  "lineNumber" : 1797
                 },
-                "name" : "width 790px",
+                "name" : "width 445px",
                 "highlight" : [ "myTab" ]
               } ]
             }, {
@@ -611,9 +579,9 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 431
+                  "lineNumber" : 1800
                 },
-                "name" : "width 790px",
+                "name" : "width 445px",
                 "highlight" : [ "tabs-content" ]
               } ]
             }, {
@@ -622,7 +590,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 434
+                  "lineNumber" : 1803
                 },
                 "name" : "height 24px",
                 "highlight" : [ "tabs-content.block-title" ]
@@ -630,18 +598,10 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 435
+                  "lineNumber" : 1804
                 },
-                "name" : "width 790px",
+                "name" : "width 445px",
                 "highlight" : [ "tabs-content.block-title" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 436
-                },
-                "name" : "below myTab 35px",
-                "highlight" : [ "tabs-content.block-title", "myTab" ]
               } ]
             }, {
               "name" : "tabs-content.field",
@@ -649,17 +609,17 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 439
+                  "lineNumber" : 1807
                 },
-                "name" : "width 790px",
+                "name" : "width 445px",
                 "highlight" : [ "tabs-content.field" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 440
+                  "lineNumber" : 1808
                 },
-                "name" : "height 37px",
+                "name" : "height 57px",
                 "highlight" : [ "tabs-content.field" ]
               } ]
             }, {
@@ -668,7 +628,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 443
+                  "lineNumber" : 1811
                 },
                 "name" : "width 240px",
                 "highlight" : [ "tabs-content.field.label" ]
@@ -676,7 +636,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 444
+                  "lineNumber" : 1812
                 },
                 "name" : "height 20px",
                 "highlight" : [ "tabs-content.field.label" ]
@@ -687,15 +647,15 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 447
+                  "lineNumber" : 1815
                 },
-                "name" : "width ~514px",
+                "name" : "width 289px",
                 "highlight" : [ "tabs-content.field.span" ]
               }, {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 448
+                  "lineNumber" : 1816
                 },
                 "name" : "height 20px",
                 "highlight" : [ "tabs-content.field.span" ]
@@ -709,9 +669,9 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 453
+                  "lineNumber" : 1821
                 },
-                "name" : "width 790px",
+                "name" : "width 445px",
                 "highlight" : [ "mashup_followers" ]
               } ]
             }, {
@@ -720,7 +680,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 456
+                  "lineNumber" : 1824
                 },
                 "name" : "inside mashup_followers 35px top",
                 "highlight" : [ "mashup_followers.block-title", "mashup_followers" ]
@@ -728,7 +688,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 457
+                  "lineNumber" : 1825
                 },
                 "name" : "height 24px",
                 "highlight" : [ "mashup_followers.block-title" ]
@@ -739,7 +699,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 460
+                  "lineNumber" : 1828
                 },
                 "name" : "height 80px",
                 "highlight" : [ "mashup_followers.view-api-followers" ]
@@ -750,7 +710,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 463
+                  "lineNumber" : 1831
                 },
                 "name" : "inside mashup_followers.view-api-followers 0px right",
                 "highlight" : [ "mashup_followers.view-api-followers.view-header", "mashup_followers.view-api-followers" ]
@@ -761,7 +721,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 466
+                  "lineNumber" : 1834
                 },
                 "name" : "height 60px",
                 "highlight" : [ "mashup_followers.view-api-followers.view-content" ]
@@ -772,7 +732,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 469
+                  "lineNumber" : 1837
                 },
                 "name" : "below mashup_followers.view-api-followers.view-content 15px",
                 "highlight" : [ "mashup_followers.view-api-followers.view-footer", "mashup_followers.view-api-followers.view-content" ]
@@ -780,7 +740,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 470
+                  "lineNumber" : 1838
                 },
                 "name" : "height ~56px",
                 "highlight" : [ "mashup_followers.view-api-followers.view-footer" ]
@@ -788,7 +748,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 471
+                  "lineNumber" : 1839
                 },
                 "name" : "width ~210px",
                 "highlight" : [ "mashup_followers.view-api-followers.view-footer" ]
@@ -802,9 +762,9 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 477
+                  "lineNumber" : 1845
                 },
-                "name" : "width 790px",
+                "name" : "width 445px",
                 "highlight" : [ "mashup_mashups" ]
               } ]
             }, {
@@ -813,7 +773,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 480
+                  "lineNumber" : 1848
                 },
                 "name" : "inside mashup_mashups 35px top",
                 "highlight" : [ "mashup_mashups.block-title", "mashup_mashups" ]
@@ -821,7 +781,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 481
+                  "lineNumber" : 1849
                 },
                 "name" : "height 24px",
                 "highlight" : [ "mashup_mashups.block-title" ]
@@ -832,7 +792,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 484
+                  "lineNumber" : 1852
                 },
                 "name" : "inside mashup_mashups.view-api-mashups 0px right",
                 "highlight" : [ "mashup_mashups.view-api-mashups.view-header", "mashup_mashups.view-api-mashups" ]
@@ -843,7 +803,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 487
+                  "lineNumber" : 1855
                 },
                 "name" : "below mashup_mashups.view-api-mashups.view-content 15px",
                 "highlight" : [ "mashup_mashups.view-api-mashups.view-footer", "mashup_mashups.view-api-mashups.view-content" ]
@@ -851,7 +811,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 488
+                  "lineNumber" : 1856
                 },
                 "name" : "height ~56px",
                 "highlight" : [ "mashup_mashups.view-api-mashups.view-footer" ]
@@ -859,7 +819,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 489
+                  "lineNumber" : 1857
                 },
                 "name" : "width ~162px",
                 "highlight" : [ "mashup_mashups.view-api-mashups.view-footer" ]
@@ -873,9 +833,9 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 494
+                  "lineNumber" : 1862
                 },
-                "name" : "width 790px",
+                "name" : "width 445px",
                 "highlight" : [ "mashup_news" ]
               } ]
             }, {
@@ -884,7 +844,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 497
+                  "lineNumber" : 1865
                 },
                 "name" : "inside mashup_news 35px top",
                 "highlight" : [ "mashup_news.block-title", "mashup_news" ]
@@ -892,7 +852,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 498
+                  "lineNumber" : 1866
                 },
                 "name" : "height 24px",
                 "highlight" : [ "mashup_news.block-title" ]
@@ -903,7 +863,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 501
+                  "lineNumber" : 1869
                 },
                 "name" : "inside mashup_news.view-api-news 0px right",
                 "highlight" : [ "mashup_news.view-api-news.view-header", "mashup_news.view-api-news" ]
@@ -917,9 +877,9 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 506
+                  "lineNumber" : 1874
                 },
-                "name" : "width 790px",
+                "name" : "width 445px",
                 "highlight" : [ "related_apis" ]
               } ]
             }, {
@@ -928,15 +888,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 509
-                },
-                "name" : "inside related_apis 35px top",
-                "highlight" : [ "related_apis.block-title", "related_apis" ]
-              }, {
-                "status" : "info",
-                "place" : {
-                  "filePath" : "specs/new.gspec",
-                  "lineNumber" : 510
+                  "lineNumber" : 1877
                 },
                 "name" : "height 24px",
                 "highlight" : [ "related_apis.block-title" ]
@@ -947,7 +899,7 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 513
+                  "lineNumber" : 1880
                 },
                 "name" : "inside related_apis.view-related-apis 0px right",
                 "highlight" : [ "related_apis.view-related-apis.view-header", "related_apis.view-related-apis" ]
@@ -958,9 +910,9 @@ var reportData = {
                 "status" : "info",
                 "place" : {
                   "filePath" : "specs/new.gspec",
-                  "lineNumber" : 516
+                  "lineNumber" : 1883
                 },
-                "name" : "width 790px",
+                "name" : "width 445px",
                 "highlight" : [ "related_apis.view-related-apis.view-content.table" ]
               } ]
             } ]
@@ -969,426 +921,182 @@ var reportData = {
       } ],
       "objects" : {
         "block-block-25" : {
-          "area" : [ 951, 2187, 300, 321 ]
+          "area" : [ 525, 624, 202, 321 ]
         },
         "block-title-apiu" : {
-          "area" : [ 951, 305, 300, 60 ]
+          "area" : [ 525, 0, 202, 60 ]
         },
         "related_apis" : {
-          "area" : [ 81, 2501, 790, 649 ]
+          "area" : [ 40, 957, 445, 1669 ]
         },
         "mashup_followers.view-api-followers" : {
-          "area" : [ 81, 1163, 790, 80 ]
+          "area" : [ 40, 359, 445, 80 ]
         },
         "navigation" : {
-          "area" : [ 81, 102, 1170, 46 ]
+          "area" : [ 0, 102, 768, 46 ]
         },
         "apiu-wrapper" : {
-          "area" : [ 951, 365, 300, 239 ]
+          "area" : [ 525, 60, 202, 297 ]
         },
         "top-ad-wrapper" : {
-          "area" : [ 0, 149, 1333, 131 ]
+          "area" : [ 0, 149, 768, 108 ]
         },
         "tabs-content.field.span" : {
-          "area" : [ 321, 958, 514, 20 ]
+          "area" : [ 40, 94, 289, 20 ]
         },
         "mashup_followers" : {
-          "area" : [ 81, 1089, 790, 224 ]
+          "area" : [ 40, 285, 445, 224 ]
         },
         "apiu-cat" : {
-          "area" : [ 971, 389, 260, 20 ]
+          "area" : [ 545, 84, 162, 20 ]
         },
         "mashup_mashups.view-api-mashups.view-content" : {
-          "area" : [ 81, 1407, 790, 207 ]
+          "area" : [ 40, 603, 445, 247 ]
         },
         "mashup_news.view-api-news.view-header" : {
-          "area" : [ 81, 1758, 790, 20 ]
-        },
-        "adzerk-bottom-leaderboard" : {
-          "area" : [ 66, 3211, 1200, 95 ]
+          "area" : [ 40, 0, 445, 20 ]
         },
         "block-block-38" : {
-          "area" : [ 951, 305, 300, 550 ]
+          "area" : [ 525, 0, 202, 646 ]
         },
         "mashup_mashups.view-api-mashups.view-footer" : {
-          "area" : [ 81, 1629, 161, 55 ]
+          "area" : [ 40, 865, 160, 55 ]
         },
         "adzerk-top-leaderboard" : {
-          "area" : [ 66, 169, 1200, 90 ]
+          "area" : [ 20, 216, 728, 20 ]
         },
         "content-section" : {
-          "area" : [ 81, 305, 830, 2885 ]
+          "area" : [ 20, -2736, 485, 4415 ]
         },
         "related_apis.view-related-apis.view-content.table" : {
-          "area" : [ 81, 2595, 790, 525 ]
+          "area" : [ 40, 59, 445, 1545 ]
         },
         "primary-cat" : {
-          "area" : [ 971, 424, 260, 125 ]
+          "area" : [ 545, 119, 162, 163 ]
         },
         "tabs-content.field.label" : {
-          "area" : [ 81, 958, 240, 20 ]
+          "area" : [ 40, 74, 240, 20 ]
         },
         "profile-top-right.node-header" : {
-          "area" : [ 344, 350, 527, 32 ]
+          "area" : [ 40, 734, 445, 73 ]
         },
         "adzerk-bottom-mrec" : {
-          "area" : [ 951, 2203, 300, 275 ]
-        },
-        "profile-top-left.field-type-image" : {
-          "area" : [ 81, 355, 233, 192 ]
-        },
-        "node_header" : {
-          "area" : [ 81, 350, 790, 423 ]
+          "area" : [ 525, 640, 202, 275 ]
         },
         "header" : {
-          "area" : [ 81, 0, 1170, 101 ]
+          "area" : [ 0, 0, 768, 101 ]
+        },
+        "profile-top-left.field-type-image" : {
+          "area" : [ 40, 357, 415, 192 ]
         },
         "profile-top-right" : {
-          "area" : [ 344, 350, 527, 185 ]
+          "area" : [ 40, 734, 445, 248 ]
         },
         "related_apis.view-related-apis.view-header" : {
-          "area" : [ 81, 2575, 790, 20 ]
+          "area" : [ 40, 39, 445, 20 ]
         },
         "profile-top-left.submit_mashup" : {
-          "area" : [ 81, 652, 233, 55 ]
+          "area" : [ 40, 654, 415, 55 ]
         },
         "block-block-42" : {
-          "area" : [ 951, 1587, 300, 265 ]
+          "area" : [ 525, 0, 202, 289 ]
         },
         "profile-top-left" : {
-          "area" : [ 81, 350, 263, 423 ]
+          "area" : [ 40, 357, 445, 352 ]
         },
         "footer" : {
-          "area" : [ 0, 3326, 1333, 278 ]
+          "area" : [ 0, 0, 768, 298 ]
         },
         "adzerk-top-mrec" : {
-          "area" : [ 951, 901, 300, 625 ]
+          "area" : [ 525, 692, 202, 405 ]
         },
         "tabs-content.block-title" : {
-          "area" : [ 81, 906, 790, 24 ]
+          "area" : [ 40, 22, 445, 24 ]
         },
         "mashup_followers.view-api-followers.view-footer" : {
-          "area" : [ 81, 1258, 211, 55 ]
+          "area" : [ 40, 454, 210, 55 ]
         },
         "mashup_mashups.view-api-mashups.view-header" : {
-          "area" : [ 81, 1387, 790, 20 ]
+          "area" : [ 40, 583, 445, 20 ]
         },
         "mashup_mashups.view-api-mashups" : {
-          "area" : [ 81, 1387, 790, 227 ]
+          "area" : [ 40, 583, 445, 267 ]
         },
         "tabs-content.field" : {
-          "area" : [ 81, 950, 790, 37 ]
+          "area" : [ 40, 66, 445, 57 ]
         },
         "related_apis.block-title" : {
-          "area" : [ 81, 2536, 790, 24 ]
+          "area" : [ 40, 0, 445, 24 ]
         },
         "main-container" : {
-          "area" : [ 81, 280, 1170, 2910 ]
+          "area" : [ 0, -2761, 768, 4440 ]
         },
         "mashup_followers.view-api-followers.view-header" : {
-          "area" : [ 81, 1163, 790, 20 ]
+          "area" : [ 40, 359, 445, 20 ]
         },
         "profile-top-left.node-social-media" : {
-          "area" : [ 81, 732, 233, 0 ]
+          "area" : [ 40, 734, 415, 0 ]
         },
         "mashup_mashups" : {
-          "area" : [ 81, 1313, 790, 371 ]
+          "area" : [ 40, 509, 445, 411 ]
         },
         "mashup_news" : {
-          "area" : [ 81, 1684, 790, 817 ]
-        },
-        "bottom-ad-wrapper" : {
-          "area" : [ 0, 3190, 1333, 136 ]
+          "area" : [ 40, 920, 445, 1031 ]
         },
         "profile-top-left.node-track" : {
-          "area" : [ 81, 572, 233, 55 ]
+          "area" : [ 40, 574, 415, 55 ]
         },
         "mashup_news.view-api-news" : {
-          "area" : [ 81, 1758, 790, 743 ]
+          "area" : [ 40, 0, 445, 957 ]
         },
         "ad-title-sidebar-bottom" : {
-          "area" : [ 951, 2187, 300, 10 ]
+          "area" : [ 525, 624, 202, 10 ]
         },
         "mashup_news.block-title" : {
-          "area" : [ 81, 1719, 790, 24 ]
+          "area" : [ 40, 955, 445, 24 ]
         },
         "mashup_followers.view-api-followers.view-content" : {
-          "area" : [ 81, 1183, 790, 60 ]
+          "area" : [ 40, 379, 445, 60 ]
         },
         "tabs-content" : {
-          "area" : [ 81, 906, 790, 2244 ]
+          "area" : [ 40, 22, 445, 3598 ]
         },
         "ad-title-sidebar-top" : {
-          "area" : [ 951, 885, 300, 10 ]
+          "area" : [ 525, 676, 202, 10 ]
         },
         "block-views-right-side-users-block" : {
-          "area" : [ 951, 1882, 300, 275 ]
+          "area" : [ 525, 319, 202, 275 ]
         },
         "profile-top-right.botttom-article" : {
-          "area" : [ 344, 397, 527, 35 ]
+          "area" : [ 40, 822, 445, 35 ]
         },
         "profile-top-right.intro" : {
-          "area" : [ 344, 447, 527, 88 ]
+          "area" : [ 40, 872, 445, 110 ]
         },
         "myTab" : {
-          "area" : [ 81, 823, 790, 48 ]
+          "area" : [ 40, 0, 445, 53 ]
         },
         "related_apis.view-related-apis" : {
-          "area" : [ 81, 2575, 790, 575 ]
+          "area" : [ 40, 39, 445, 1595 ]
         },
         "breadcrumb" : {
-          "area" : [ 81, 305, 830, 20 ]
+          "area" : [ 40, 297, 445, 20 ]
         },
         "mashup_followers.block-title" : {
-          "area" : [ 81, 1124, 790, 24 ]
+          "area" : [ 40, 320, 445, 24 ]
         },
         "mashup_mashups.block-title" : {
-          "area" : [ 81, 1348, 790, 24 ]
+          "area" : [ 40, 544, 445, 24 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 951, 305, 300, 2203 ]
+          "area" : [ 505, 0, 242, 2103 ]
         },
         "block-block-21" : {
-          "area" : [ 951, 885, 300, 672 ]
+          "area" : [ 525, 676, 202, 452 ]
         }
       },
-      "screenshot" : "layout-5-screenshot.png",
+      "screenshot" : "layout-14-screenshot.png",
       "type" : "layout"
     } ]
   }
-};
-        </script>
-        <script>
-
-            $(function () {
-                var galenReport = createGalenReport();
-                galenReport.render("main", reportData);
-            });
-        </script>
-    </head>
-    <body>
-        <script id="report-tpl" type="text/x-handlebars-template">
-            <ul class="report-nodes">
-            {{#each report.nodes}}
-                {{renderNode this}}
-            {{/each}}
-            </ul>
-        </script>
-        <script id="report-node-tpl" type="text/x-handlebars-template">
-            <li>
-                <span class="report-time">{{formatReportTime time}}</span>
-                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
-                <div class="node-name node-status-{{status}}">{{name}}</div>
-                {{#if extras}}
-                    {{renderNodeExtras extras}}
-                {{/if}}
-                {{#if stacktrace}}
-                    <div class="stacktrace">{{stacktrace}}</div>
-                {{/if}}
-                {{#if attachments}}
-                    <ul class="report-node-attachments">
-                        {{#each attachments}}
-                            <li>
-                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
-                            </li>
-                        {{/each}}
-                    </ul>
-                {{/if}}
-                <div class="node-details expand-container">
-                    {{#if nodes}}
-                        <ul class="report-nodes">
-                            {{#each nodes}}
-                                {{renderNode this}}
-                            {{/each}}
-                        </ul>
-                    {{/if}}
-                </div>
-            </li>
-        </script>
-        <script id="report-node-text-tpl" type="text/x-handlebars-template">
-            <li>
-                <div class="node-simple-text">
-                    {{name}}
-                </div>
-            </li>
-        </script>
-        <script id="report-layout-tpl" type="text/x-handlebars-template">
-            <li>
-                <span class="report-time">{{formatReportTime time}}</span>
-                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
-                <div class="node-name">{{name}}</div>
-                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
-                <div class="node-details expand-container">
-                    {{renderSublayout this}}
-                </div>
-            </li>
-        </script>
-        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
-            <div class="layout-report" data-layout-id="{{layoutId}}" data-screenshot="{{screenshot}}">
-                <ul class="layout-sections">
-                    {{#each sections}}
-                        {{renderLayoutSection this}}
-                    {{/each}}
-                </ul>
-            </div>
-        </script>
-        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
-            <li>
-                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
-                <div class="layout-details expand-container">
-                    {{#if sections}}
-                        <ul class="layout-sections">
-                        {{#each sections}}
-                            {{renderLayoutSection this}}
-                        {{/each}}
-                        </ul>
-                    {{/if}}
-                    {{#if objects}}
-                        <ul class="layout-objects">
-                            {{#each objects}}
-                                {{renderLayoutObject this}}
-                            {{/each}}
-                        </ul>
-                    {{/if}}
-                </div>
-            </li>
-        </script>
-
-        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
-            <li>
-                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
-                <ul class="layout-checks expand-container">
-                    {{#each specs}}
-                        {{renderLayoutCheck this}}
-                    {{/each}}
-                    {{#each specGroups}}
-                    <li>
-                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
-                        <ul class="layout-checks expand-container">
-                            {{#each specs}}
-                                {{renderLayoutCheck this}}
-                            {{/each}}
-                        </ul>
-                    </li>
-                    {{/each}}
-                </ul>
-            </li>
-        </script>
-        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
-            <li>
-            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
-                data-highlight-objects="{{commaSeparated highlight}}"
-                title="{{place.filePath}}#{{place.lineNumber}}"
-                >{{name}}</a>
-
-                {{#if errors}}
-                    <div class="layout-check-error-message">
-                        {{#if imageComparison}}
-                        <a class="image-comparison-link"
-                            data-actual-image="{{imageComparison.actualImage}}"
-                            data-expected-image="{{imageComparison.expectedImage}}"
-                            data-map-image="{{imageComparison.comparisonMapImage}}"
-                            href="#">Show image comparison</a>
-                        {{/if}}
-                        <div class="layout-check-error-message-text">
-                            <ul>
-                            {{#each errors}}
-                                <li>{{this}}</li>
-                            {{/each}}
-                        </ul>
-                    </div>
-                </div>
-                {{/if}}
-
-                {{#if subLayout}}
-                {{renderSublayout subLayout}}
-                {{/if}}
-            </li>
-        </script>
-        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
-            <div class="screenshot-canvas">
-                {{#if screenshot}}
-                <img src="{{screenshot}}"/>
-                {{else}}
-                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
-                {{/if}}
-                {{#each objects}}
-                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
-                    <div class="canvas-rect-wrapper">
-                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
-                    </div>
-                </div>
-                {{/each}}
-            </div>
-        </script>
-        <script id="image-comparison-tpl" type="text/x-handlebars-template">
-            <div class="image-comparison image-comparison-layout-{{layout}}">
-                <div class="actual-image">
-                    <h5>Actual</h5>
-                    <img src="{{actual}}"/>
-                </div>
-
-                <div class="expected-image">
-                    <h5>Expected</h5>
-                    <img src="{{expected}}"/>
-                </div>
-
-                <div class="comparison-map">
-                    <h5>Comparison map</h5>
-                    <img src="{{map}}"/>
-                </div>
-            </div>
-        </script>
-        <script id="node-extras-tpl" type="text/x-handlebars-template">
-            <div class="node-extras">
-                <a class="node-extras" href="#">extras</a>
-                <div class="node-extras-content">
-                    <table class="node-extras-table">
-                        <tbody>
-                        {{#each this}}
-                        <tr>
-                            <td><label>{{@key}}</label></td>
-                            {{#ifCond type 'text'}}
-                            <td>{{value}}</td>
-                            {{/ifCond}}
-                            {{#ifCond type 'link'}}
-                            <td><a href="{{value}}">{{value}}</a></td>
-                            {{/ifCond}}
-                            {{#ifCond type 'image'}}
-                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
-                            {{/ifCond}}
-                        </tr>
-                        {{/each}}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </script>
-
-
-
-        <div id="menu">
-            <ul>
-                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
-                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
-                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
-            </ul>
-        </div>
-        <h2>mashup_profile_Windows8.1_Chrome_42_1366x768</h2>
-        <div id="main"></div>
-        <div id="screen-shadow"></div>
-        <div id="popup" class="popup">
-            <div class="popup-wrapper">
-                <a class="popup-close-link" href="#">close</a>
-                <div class="popup-content"></div>
-            </div>
-        </div>
-        <div id="notification" class="notification">
-            <div class="notification-wrapper">
-                <a class="notification-close-link" href="#">close</a>
-                <div class="notification-summary"></div>
-                <div class="notification-message"></div>
-            </div>
-        </div>
-    </body>
-</html>
+}

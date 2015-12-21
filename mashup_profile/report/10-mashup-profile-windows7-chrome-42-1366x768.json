@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: Windows7_Chrome_42_1366x768",
       "status" : "info",
-      "time" : 1450688084937,
+      "time" : 1450695087449,
       "includedTags" : [ "Windows7_Chrome_42_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -961,13 +961,13 @@
       } ],
       "objects" : {
         "block-block-25" : {
-          "area" : [ 954, 2206, 300, 321 ]
+          "area" : [ 954, 2187, 300, 321 ]
         },
         "block-title-apiu" : {
           "area" : [ 954, 305, 300, 60 ]
         },
         "related_apis" : {
-          "area" : [ 84, 2435, 790, 669 ]
+          "area" : [ 84, 2501, 790, 649 ]
         },
         "mashup_followers.view-api-followers" : {
           "area" : [ 84, 1163, 790, 80 ]
@@ -997,22 +997,22 @@
           "area" : [ 84, 1758, 790, 20 ]
         },
         "adzerk-bottom-leaderboard" : {
-          "area" : [ 69, 3165, 1200, 95 ]
+          "area" : [ 69, 3211, 1200, 95 ]
         },
         "block-block-38" : {
-          "area" : [ 954, 305, 300, 569 ]
+          "area" : [ 954, 305, 300, 550 ]
         },
         "mashup_mashups.view-api-mashups.view-footer" : {
-          "area" : [ 84, 1629, 162, 55 ]
+          "area" : [ 84, 1629, 161, 55 ]
         },
         "adzerk-top-leaderboard" : {
           "area" : [ 69, 169, 1200, 90 ]
         },
         "content-section" : {
-          "area" : [ 84, 305, 830, 2839 ]
+          "area" : [ 84, 305, 830, 2885 ]
         },
         "related_apis.view-related-apis.view-content.table" : {
-          "area" : [ 84, 2529, 790, 545 ]
+          "area" : [ 84, 2595, 790, 525 ]
         },
         "primary-cat" : {
           "area" : [ 974, 424, 260, 125 ]
@@ -1024,7 +1024,7 @@
           "area" : [ 347, 350, 527, 32 ]
         },
         "adzerk-bottom-mrec" : {
-          "area" : [ 954, 2222, 300, 275 ]
+          "area" : [ 954, 2203, 300, 275 ]
         },
         "profile-top-left.field-type-image" : {
           "area" : [ 84, 355, 233, 192 ]
@@ -1039,28 +1039,28 @@
           "area" : [ 347, 350, 527, 185 ]
         },
         "related_apis.view-related-apis.view-header" : {
-          "area" : [ 84, 2509, 790, 20 ]
+          "area" : [ 84, 2575, 790, 20 ]
         },
         "profile-top-left.submit_mashup" : {
           "area" : [ 84, 652, 233, 55 ]
         },
         "block-block-42" : {
-          "area" : [ 954, 1606, 300, 265 ]
+          "area" : [ 954, 1587, 300, 265 ]
         },
         "profile-top-left" : {
           "area" : [ 84, 350, 263, 423 ]
         },
         "footer" : {
-          "area" : [ 0, 3280, 1339, 278 ]
+          "area" : [ 0, 3326, 1339, 278 ]
         },
         "adzerk-top-mrec" : {
-          "area" : [ 954, 920, 300, 625 ]
+          "area" : [ 954, 901, 300, 625 ]
         },
         "tabs-content.block-title" : {
           "area" : [ 84, 906, 790, 24 ]
         },
         "mashup_followers.view-api-followers.view-footer" : {
-          "area" : [ 84, 1258, 213, 55 ]
+          "area" : [ 84, 1258, 211, 55 ]
         },
         "mashup_mashups.view-api-mashups.view-header" : {
           "area" : [ 84, 1387, 790, 20 ]
@@ -1072,10 +1072,10 @@
           "area" : [ 84, 950, 790, 37 ]
         },
         "related_apis.block-title" : {
-          "area" : [ 84, 2470, 790, 24 ]
+          "area" : [ 84, 2536, 790, 24 ]
         },
         "main-container" : {
-          "area" : [ 84, 280, 1170, 2864 ]
+          "area" : [ 84, 280, 1170, 2910 ]
         },
         "mashup_followers.view-api-followers.view-header" : {
           "area" : [ 84, 1163, 790, 20 ]
@@ -1087,19 +1087,19 @@
           "area" : [ 84, 1313, 790, 371 ]
         },
         "mashup_news" : {
-          "area" : [ 84, 1684, 790, 751 ]
+          "area" : [ 84, 1684, 790, 817 ]
         },
         "bottom-ad-wrapper" : {
-          "area" : [ 0, 3144, 1339, 136 ]
+          "area" : [ 0, 3190, 1339, 136 ]
         },
         "profile-top-left.node-track" : {
           "area" : [ 84, 572, 233, 55 ]
         },
         "mashup_news.view-api-news" : {
-          "area" : [ 84, 1758, 790, 677 ]
+          "area" : [ 84, 1758, 790, 743 ]
         },
         "ad-title-sidebar-bottom" : {
-          "area" : [ 954, 2206, 300, 10 ]
+          "area" : [ 954, 2187, 300, 10 ]
         },
         "mashup_news.block-title" : {
           "area" : [ 84, 1719, 790, 24 ]
@@ -1108,13 +1108,13 @@
           "area" : [ 84, 1183, 790, 60 ]
         },
         "tabs-content" : {
-          "area" : [ 84, 906, 790, 2198 ]
+          "area" : [ 84, 906, 790, 2244 ]
         },
         "ad-title-sidebar-top" : {
-          "area" : [ 954, 904, 300, 10 ]
+          "area" : [ 954, 885, 300, 10 ]
         },
         "block-views-right-side-users-block" : {
-          "area" : [ 954, 1901, 300, 275 ]
+          "area" : [ 954, 1882, 300, 275 ]
         },
         "profile-top-right.botttom-article" : {
           "area" : [ 347, 397, 527, 35 ]
@@ -1126,7 +1126,7 @@
           "area" : [ 84, 823, 790, 48 ]
         },
         "related_apis.view-related-apis" : {
-          "area" : [ 84, 2509, 790, 595 ]
+          "area" : [ 84, 2575, 790, 575 ]
         },
         "breadcrumb" : {
           "area" : [ 84, 305, 830, 20 ]
@@ -1138,10 +1138,10 @@
           "area" : [ 84, 1348, 790, 24 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 954, 305, 300, 2222 ]
+          "area" : [ 954, 305, 300, 2203 ]
         },
         "block-block-21" : {
-          "area" : [ 954, 904, 300, 672 ]
+          "area" : [ 954, 885, 300, 672 ]
         }
       },
       "screenshot" : "layout-10-screenshot.png",
