@@ -1,0 +1,198 @@
+{
+  "tests" : [ {
+    "name" : "mashup_profile_Windows10_IE_11_1366x768",
+    "startedAt" : 1450686686385,
+    "endedAt" : 1450686883621,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "1-mashup-profile-windows10-ie-11-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 197236
+  }, {
+    "name" : "mashup_profile_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1450686883621,
+    "endedAt" : 1450687028425,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "2-mashup-profile-windows10-chrome-42-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 144804
+  }, {
+    "name" : "mashup_profile_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1450687028425,
+    "endedAt" : 1450687153461,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "3-mashup-profile-windows10-firefox-37-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 125036
+  }, {
+    "name" : "mashup_profile_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1450687153461,
+    "endedAt" : 1450687374257,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "4-mashup-profile-windows8.1-ie-11-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 220796
+  }, {
+    "name" : "mashup_profile_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1450687374257,
+    "endedAt" : 1450687498330,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "5-mashup-profile-windows8.1-chrome-42-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 124073
+  }, {
+    "name" : "mashup_profile_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1450687498330,
+    "endedAt" : 1450687653212,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "6-mashup-profile-windows8.1-firefox-37-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 154882
+  }, {
+    "name" : "mashup_profile_Windows7_IE_11_1366x768",
+    "startedAt" : 1450687653212,
+    "endedAt" : 1450687775811,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "7-mashup-profile-windows7-ie-11-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 122599
+  }, {
+    "name" : "mashup_profile_Windows7_IE_10_1366x768",
+    "startedAt" : 1450687775811,
+    "endedAt" : 1450687898263,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "8-mashup-profile-windows7-ie-10-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 122452
+  }, {
+    "name" : "mashup_profile_Windows7_IE_9_1366x768",
+    "startedAt" : 1450687898263,
+    "endedAt" : 1450688007813,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "9-mashup-profile-windows7-ie-9-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 109550
+  }, {
+    "name" : "mashup_profile_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1450688007813,
+    "endedAt" : 1450688092630,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "10-mashup-profile-windows7-chrome-42-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 84817
+  }, {
+    "name" : "mashup_profile_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1450688092630,
+    "endedAt" : 1450688221336,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "11-mashup-profile-windows7-firefox-37-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 128706
+  }, {
+    "name" : "mashup_profile_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1450688221337,
+    "endedAt" : 1450688409772,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "12-mashup-profile-osxyosemite-safari-8-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 188435
+  }, {
+    "name" : "mashup_profile_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1450688409773,
+    "endedAt" : 1450688497504,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 95,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 95
+    },
+    "testId" : "13-mashup-profile-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "mashup_profile_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 87731
+  } ]
+}
