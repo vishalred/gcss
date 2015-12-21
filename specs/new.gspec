@@ -1,0 +1,1485 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    region-sidebar-second css  .region-sidebar-second
+    footer css footer
+
+    main-container xpath /html/body/div[5]/div[1]/section
+    add-sdk-header  xpath  /html/body/div[5]/div[1]/section/h1
+    form-sdk-name css #block-system-main .node-form .form-type-textfield
+    sdk-field-framework id edit-field-article-related-companies
+    sdk-edit-field-resource-url id edit-field-resource-url
+    sdk-edit-field-resource-repository id edit-field-resource-repository
+    sdk-edit-field-resource-type id edit-field-resource-type
+    sdk-edit-field-api id edit-field-api
+    sdk-edit-field-article-related-languages  id edit-field-article-related-languages
+    sdk-edit-field-article-primary-category id edit-field-article-primary-category
+    sdk-edit-field-article-secondary-category  id edit-field-article-secondary-category
+    sdk-edit-body  id edit-body
+    sdk-edit-field-resource-image id edit-field-resource-image
+    sdk-edit-field-resource-yours id edit-field-resource-yours
+
+    sign-up-edit id edit-register
+    sign-up-header css #edit-register .panel-heading
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2345px
+              width 830px
+
+        add-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 34px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 22px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 665px
+              width 790px
+              below sdk-edit-field-resource-yours 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 279px
+              width 1350px
+
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2342px
+              width 830px
+
+        add-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 35px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 21px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 664px
+              width 790px
+              below sdk-edit-field-resource-yours 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2340px
+              width 830px
+
+        add-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 35px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 22px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 660px
+              width 790px
+              below sdk-edit-field-resource-yours 19px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows8.1_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2345px
+              width 830px
+
+        add-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 34px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 22px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 665px
+              width 790px
+              below sdk-edit-field-resource-yours 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 279px
+              width 1350px
+
+
+    @on Windows8.1_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2342px
+              width 830px
+
+        add-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 35px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 21px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 664px
+              width 790px
+              below sdk-edit-field-resource-yours 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows8.1_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2340px
+              width 830px
+
+        add-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 35px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 22px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 660px
+              width 790px
+              below sdk-edit-field-resource-yours 19px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows7_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2345px
+              width 830px
+
+        add-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 34px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 22px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 665px
+              width 790px
+              below sdk-edit-field-resource-yours 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_10_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2345px
+              width 830px
+
+        add-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 34px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 22px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 665px
+              width 790px
+              below sdk-edit-field-resource-yours 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_9_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2345px
+              width 830px
+
+        add-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 35px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 22px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 665px
+              width 790px
+              below sdk-edit-field-resource-yours 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 279px
+              width 1333px
+
+    @on Windows7_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2342px
+              width 830px
+
+        add-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 35px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 21px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 664px
+              width 790px
+              below sdk-edit-field-resource-yours 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 278px
+              width 1339px
+
+    @on Windows7_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2340px
+              width 830px
+
+        add-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 35px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 22px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 660px
+              width 790px
+              below sdk-edit-field-resource-yours 19px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 279px
+              width 1333px
+
+    @on OSXYosemite_Safari_8_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              height 2342px
+              width 830px
+
+        add-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left, 0px right
+
+        form-sdk-name:
+              height 70px
+              width 790px
+              below add-sdk-header 35px
+              inside main-container 0px left,40px right
+
+        sdk-field-framework:
+              height 70px
+              width 790px
+              below form-sdk-name 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-url:
+              height 75px
+              width 790px
+              below sdk-field-framework 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-repository:
+              height 75px
+              width 790px
+              below sdk-edit-field-resource-url 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-type:
+              height 70px
+              width 790px
+              below sdk-edit-field-resource-repository 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-api:
+              height 196px
+              width 790px
+              below sdk-edit-field-resource-type 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-related-languages:
+              height 70px
+              width 790px
+              below sdk-edit-field-api 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-primary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-related-languages 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              below sdk-edit-field-article-primary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-body:
+              height 268px
+              width 790px
+              below sdk-edit-field-article-secondary-category 20px
+              inside main-container 0px left,40px right
+
+        sdk-edit-field-resource-image:
+             height 164px
+             width 790px
+             below sdk-edit-body 20px
+             inside main-container 0px left, 40px right
+
+        sdk-edit-field-resource-yours:
+              height 21px
+              width 790px
+              below sdk-edit-field-resource-image 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-edit:
+              height 664px
+              width 790px
+              below sdk-edit-field-resource-yours 20px
+              inside main-container 0px left ,40px right
+
+        sign-up-header:
+              height 42px
+              width 788px
+              inside sign-up-edit 1px left ,1px right
+        footer:
+              height 278px
+              width 1366px
+
+    @on OSXYosemite_Chrome_46_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+         region-sidebar-second:
+               width 300px
+
+         main-container:
+               height 2342px
+               width 830px
+
+         add-sdk-header:
+               height 39px
+               width 830px
+               inside main-container 0px left, 0px right
+
+         form-sdk-name:
+               height 70px
+               width 790px
+               below add-sdk-header 35px
+               inside main-container 0px left,40px right
+
+         sdk-field-framework:
+               height 70px
+               width 790px
+               below form-sdk-name 20px
+               inside main-container 0px left,40px right
+
+         sdk-edit-field-resource-url:
+               height 75px
+               width 790px
+               below sdk-field-framework 20px
+               inside main-container 0px left,40px right
+
+         sdk-edit-field-resource-repository:
+               height 75px
+               width 790px
+               below sdk-edit-field-resource-url 20px
+               inside main-container 0px left,40px right
+
+         sdk-edit-field-resource-type:
+               height 70px
+               width 790px
+               below sdk-edit-field-resource-repository 20px
+               inside main-container 0px left,40px right
+
+         sdk-edit-field-api:
+               height 196px
+               width 790px
+               below sdk-edit-field-resource-type 20px
+               inside main-container 0px left,40px right
+
+         sdk-edit-field-article-related-languages:
+               height 70px
+               width 790px
+               below sdk-edit-field-api 20px
+               inside main-container 0px left,40px right
+
+         sdk-edit-field-article-primary-category:
+               height 70px
+               width 790px
+               below sdk-edit-field-article-related-languages 20px
+               inside main-container 0px left,40px right
+
+         sdk-edit-field-article-secondary-category:
+               height 70px
+               width 790px
+               below sdk-edit-field-article-primary-category 20px
+               inside main-container 0px left,40px right
+
+         sdk-edit-body:
+               height 268px
+               width 790px
+               below sdk-edit-field-article-secondary-category 20px
+               inside main-container 0px left,40px right
+
+         sdk-edit-field-resource-image:
+              height 164px
+              width 790px
+              below sdk-edit-body 20px
+              inside main-container 0px left, 40px right
+
+         sdk-edit-field-resource-yours:
+               height 21px
+               width 790px
+               below sdk-edit-field-resource-image 20px
+               inside main-container 0px left ,40px right
+
+         sign-up-edit:
+               height 664px
+               width 790px
+               below sdk-edit-field-resource-yours 20px
+               inside main-container 0px left ,40px right
+
+         sign-up-header:
+               height 42px
+               width 788px
+               inside sign-up-edit 1px left ,1px right
+         footer:
+               height 278px
+               width 1366px
+
+
+

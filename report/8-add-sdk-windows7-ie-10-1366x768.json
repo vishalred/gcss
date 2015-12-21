@@ -1,0 +1,676 @@
+{
+  "testId" : "8-add-sdk-windows7-ie-10-1366x768",
+  "name" : "add sdk_Windows7_IE_10_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_IE_10_1366x768",
+      "status" : "info",
+      "time" : 1450700830994,
+      "includedTags" : [ "Windows7_IE_10_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 815
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 817
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 821
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 822
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 827
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 830
+            },
+            "name" : "height 2345px",
+            "highlight" : [ "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 831
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "add-sdk-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 834
+            },
+            "name" : "height 40px",
+            "highlight" : [ "add-sdk-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 835
+            },
+            "name" : "width 830px",
+            "highlight" : [ "add-sdk-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 836
+            },
+            "name" : "inside main-container 0px left, 0px right",
+            "highlight" : [ "add-sdk-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "form-sdk-name",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 839
+            },
+            "name" : "height 70px",
+            "highlight" : [ "form-sdk-name" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 840
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-sdk-name" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 841
+            },
+            "name" : "below add-sdk-header 34px",
+            "highlight" : [ "form-sdk-name", "add-sdk-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 842
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "form-sdk-name", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-field-framework",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 845
+            },
+            "name" : "height 70px",
+            "highlight" : [ "sdk-field-framework" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 846
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-field-framework" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 847
+            },
+            "name" : "below form-sdk-name 20px",
+            "highlight" : [ "sdk-field-framework", "form-sdk-name" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 848
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "sdk-field-framework", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-field-resource-url",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 851
+            },
+            "name" : "height 75px",
+            "highlight" : [ "sdk-edit-field-resource-url" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 852
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-field-resource-url" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 853
+            },
+            "name" : "below sdk-field-framework 20px",
+            "highlight" : [ "sdk-edit-field-resource-url", "sdk-field-framework" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 854
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "sdk-edit-field-resource-url", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-field-resource-repository",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 857
+            },
+            "name" : "height 75px",
+            "highlight" : [ "sdk-edit-field-resource-repository" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 858
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-field-resource-repository" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 859
+            },
+            "name" : "below sdk-edit-field-resource-url 20px",
+            "highlight" : [ "sdk-edit-field-resource-repository", "sdk-edit-field-resource-url" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 860
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "sdk-edit-field-resource-repository", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-field-resource-type",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 863
+            },
+            "name" : "height 70px",
+            "highlight" : [ "sdk-edit-field-resource-type" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 864
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-field-resource-type" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 865
+            },
+            "name" : "below sdk-edit-field-resource-repository 20px",
+            "highlight" : [ "sdk-edit-field-resource-type", "sdk-edit-field-resource-repository" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 866
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "sdk-edit-field-resource-type", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-field-api",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 869
+            },
+            "name" : "height 196px",
+            "highlight" : [ "sdk-edit-field-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 870
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-field-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 871
+            },
+            "name" : "below sdk-edit-field-resource-type 20px",
+            "highlight" : [ "sdk-edit-field-api", "sdk-edit-field-resource-type" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 872
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "sdk-edit-field-api", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-field-article-related-languages",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 875
+            },
+            "name" : "height 70px",
+            "highlight" : [ "sdk-edit-field-article-related-languages" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 876
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-field-article-related-languages" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 877
+            },
+            "name" : "below sdk-edit-field-api 20px",
+            "highlight" : [ "sdk-edit-field-article-related-languages", "sdk-edit-field-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 878
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "sdk-edit-field-article-related-languages", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-field-article-primary-category",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 881
+            },
+            "name" : "height 70px",
+            "highlight" : [ "sdk-edit-field-article-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 882
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-field-article-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 883
+            },
+            "name" : "below sdk-edit-field-article-related-languages 20px",
+            "highlight" : [ "sdk-edit-field-article-primary-category", "sdk-edit-field-article-related-languages" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 884
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "sdk-edit-field-article-primary-category", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-field-article-secondary-category",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 887
+            },
+            "name" : "height 70px",
+            "highlight" : [ "sdk-edit-field-article-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 888
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-field-article-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 889
+            },
+            "name" : "below sdk-edit-field-article-primary-category 20px",
+            "highlight" : [ "sdk-edit-field-article-secondary-category", "sdk-edit-field-article-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 890
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "sdk-edit-field-article-secondary-category", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-body",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 893
+            },
+            "name" : "height 268px",
+            "highlight" : [ "sdk-edit-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 894
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 895
+            },
+            "name" : "below sdk-edit-field-article-secondary-category 20px",
+            "highlight" : [ "sdk-edit-body", "sdk-edit-field-article-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 896
+            },
+            "name" : "inside main-container 0px left,40px right",
+            "highlight" : [ "sdk-edit-body", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-field-resource-image",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 899
+            },
+            "name" : "height 164px",
+            "highlight" : [ "sdk-edit-field-resource-image" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 900
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-field-resource-image" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 901
+            },
+            "name" : "below sdk-edit-body 20px",
+            "highlight" : [ "sdk-edit-field-resource-image", "sdk-edit-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 902
+            },
+            "name" : "inside main-container 0px left, 40px right",
+            "highlight" : [ "sdk-edit-field-resource-image", "main-container" ]
+          } ]
+        }, {
+          "name" : "sdk-edit-field-resource-yours",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 905
+            },
+            "name" : "height 22px",
+            "highlight" : [ "sdk-edit-field-resource-yours" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 906
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sdk-edit-field-resource-yours" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 907
+            },
+            "name" : "below sdk-edit-field-resource-image 20px",
+            "highlight" : [ "sdk-edit-field-resource-yours", "sdk-edit-field-resource-image" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 908
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "sdk-edit-field-resource-yours", "main-container" ]
+          } ]
+        }, {
+          "name" : "sign-up-edit",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 911
+            },
+            "name" : "height 665px",
+            "highlight" : [ "sign-up-edit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 912
+            },
+            "name" : "width 790px",
+            "highlight" : [ "sign-up-edit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 913
+            },
+            "name" : "below sdk-edit-field-resource-yours 20px",
+            "highlight" : [ "sign-up-edit", "sdk-edit-field-resource-yours" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 914
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "sign-up-edit", "main-container" ]
+          } ]
+        }, {
+          "name" : "sign-up-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 917
+            },
+            "name" : "height 42px",
+            "highlight" : [ "sign-up-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 918
+            },
+            "name" : "width 788px",
+            "highlight" : [ "sign-up-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 919
+            },
+            "name" : "inside sign-up-edit 1px left ,1px right",
+            "highlight" : [ "sign-up-header", "sign-up-edit" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 921
+            },
+            "name" : "height 279px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 922
+            },
+            "name" : "width 1350px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "sdk-edit-field-resource-url" : {
+          "area" : [ 90, 559, 790, 75 ]
+        },
+        "sdk-edit-field-resource-yours" : {
+          "area" : [ 90, 1797, 790, 22 ]
+        },
+        "sdk-edit-field-article-related-languages" : {
+          "area" : [ 90, 1055, 790, 70 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2785, 1350, 279 ]
+        },
+        "sdk-field-framework" : {
+          "area" : [ 90, 469, 790, 70 ]
+        },
+        "sign-up-edit" : {
+          "area" : [ 90, 1839, 790, 665 ]
+        },
+        "sdk-edit-body" : {
+          "area" : [ 90, 1325, 790, 268 ]
+        },
+        "headerdiv" : {
+          "area" : [ 90, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 90, 305, 830, 2345 ]
+        },
+        "sdk-edit-field-api" : {
+          "area" : [ 90, 839, 790, 196 ]
+        },
+        "sdk-edit-field-resource-type" : {
+          "area" : [ 90, 749, 790, 70 ]
+        },
+        "sign-up-header" : {
+          "area" : [ 91, 1840, 788, 42 ]
+        },
+        "sdk-edit-field-resource-repository" : {
+          "area" : [ 90, 654, 790, 75 ]
+        },
+        "add-sdk-header" : {
+          "area" : [ 90, 305, 830, 40 ]
+        },
+        "header" : {
+          "area" : [ 90, 0, 1170, 101 ]
+        },
+        "sdk-edit-field-article-primary-category" : {
+          "area" : [ 90, 1145, 790, 70 ]
+        },
+        "sdk-edit-field-resource-image" : {
+          "area" : [ 90, 1613, 790, 164 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 960, 305, 300, 2163 ]
+        },
+        "form-sdk-name" : {
+          "area" : [ 90, 379, 790, 70 ]
+        },
+        "sdk-edit-field-article-secondary-category" : {
+          "area" : [ 90, 1235, 790, 70 ]
+        }
+      },
+      "screenshot" : "layout-8-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
