@@ -4,8 +4,8 @@
   "report" : {
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: Windows8.1_Chrome_42_1366x768",
-      "status" : "error",
-      "time" : 1450444554357,
+      "status" : "info",
+      "time" : 1450674589296,
       "includedTags" : [ "Windows8.1_Chrome_42_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -61,13 +61,12 @@
         }, {
           "name" : "main-container",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 542
             },
             "name" : "height 2391px",
-            "errors" : [ "\"main-container\" height is 2374px instead of 2391px" ],
             "highlight" : [ "main-container" ]
           }, {
             "status" : "info",
@@ -423,13 +422,12 @@
         }, {
           "name" : "form-field-name-field-data-marshaling-options",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 605
             },
             "name" : "height 126px",
-            "errors" : [ "\"form-field-name-field-data-marshaling-options\" height is 109px instead of 126px" ],
             "highlight" : [ "form-field-name-field-data-marshaling-options" ]
           }, {
             "status" : "info",
@@ -676,28 +674,28 @@
           "area" : [ 81, 379, 790, 70 ]
         },
         "form-field-name-field-related-to" : {
-          "area" : [ 81, 1426, 790, 124 ]
+          "area" : [ 81, 1443, 790, 124 ]
         },
         "form-field-name-field-differentiators" : {
-          "area" : [ 81, 1570, 790, 124 ]
+          "area" : [ 81, 1587, 790, 124 ]
         },
         "form-field-name-field-api-authentication-model" : {
-          "area" : [ 81, 1780, 790, 70 ]
+          "area" : [ 81, 1797, 790, 70 ]
         },
         "footer" : {
-          "area" : [ 0, 2815, 1333, 278 ]
+          "area" : [ 0, 2832, 1333, 278 ]
         },
         "sign-up-edit" : {
-          "area" : [ 81, 1870, 790, 664 ]
+          "area" : [ 81, 1887, 790, 664 ]
         },
         "form-field-name-field-are-you-the-owner" : {
-          "area" : [ 81, 1714, 790, 46 ]
+          "area" : [ 81, 1731, 790, 46 ]
         },
         "headerdiv" : {
           "area" : [ 81, 102, 1170, 46 ]
         },
         "main-container" : {
-          "area" : [ 81, 305, 830, 2374 ]
+          "area" : [ 81, 305, 830, 2391 ]
         },
         "form-api-home-page2" : {
           "area" : [ 81, 559, 790, 100 ]
@@ -706,7 +704,7 @@
           "area" : [ 81, 305, 830, 39 ]
         },
         "sign-up-header" : {
-          "area" : [ 82, 1871, 788, 42 ]
+          "area" : [ 82, 1888, 788, 42 ]
         },
         "form-secondary-category" : {
           "area" : [ 81, 859, 790, 70 ]
@@ -727,7 +725,7 @@
           "area" : [ 81, 949, 790, 124 ]
         },
         "form-field-name-field-data-marshaling-options" : {
-          "area" : [ 81, 1297, 790, 109 ]
+          "area" : [ 81, 1297, 790, 126 ]
         },
         "header" : {
           "area" : [ 81, 0, 1170, 101 ]
@@ -736,7 +734,7 @@
           "area" : [ 81, 1093, 790, 143 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 951, 305, 300, 2203 ]
+          "area" : [ 951, 305, 300, 2178 ]
         }
       },
       "screenshot" : "layout-5-screenshot.png",
