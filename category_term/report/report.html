@@ -1,0 +1,367 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <link rel="stylesheet" type="text/css" href="tablesorter.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="tablesorter.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "tests" : [ {
+    "name" : "Category_Term_Windows10_IE_11_1366x768",
+    "startedAt" : 1449577805235,
+    "endedAt" : 1449578048191,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "1-category-term-windows10-ie-11-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 242956
+  }, {
+    "name" : "Category_Term_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1449578048191,
+    "endedAt" : 1449578275587,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "2-category-term-windows10-chrome-42-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 227396
+  }, {
+    "name" : "Category_Term_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1449578275587,
+    "endedAt" : 1449578431198,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "3-category-term-windows10-firefox-37-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 155611
+  }, {
+    "name" : "Category_Term_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1449578431198,
+    "endedAt" : 1449578678971,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "4-category-term-windows8.1-ie-11-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 247773
+  }, {
+    "name" : "Category_Term_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1449578678971,
+    "endedAt" : 1449578809304,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "5-category-term-windows8.1-chrome-42-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 130333
+  }, {
+    "name" : "Category_Term_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1449578809304,
+    "endedAt" : 1449578982170,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "6-category-term-windows8.1-firefox-37-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 172866
+  }, {
+    "name" : "Category_Term_Windows7_IE_11_1366x768",
+    "startedAt" : 1449578982170,
+    "endedAt" : 1449579125958,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "7-category-term-windows7-ie-11-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 143788
+  }, {
+    "name" : "Category_Term_Windows7_IE_10_1366x768",
+    "startedAt" : 1449579125958,
+    "endedAt" : 1449579243357,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "8-category-term-windows7-ie-10-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 117399
+  }, {
+    "name" : "Category_Term_Windows7_IE_9_1366x768",
+    "startedAt" : 1449579243357,
+    "endedAt" : 1449579333935,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 112,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 112
+    },
+    "testId" : "9-category-term-windows7-ie-9-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 90578
+  }, {
+    "name" : "Category_Term_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1449579333935,
+    "endedAt" : 1449579417857,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "10-category-term-windows7-chrome-42-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 83922
+  }, {
+    "name" : "Category_Term_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1449579417857,
+    "endedAt" : 1449579517091,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "11-category-term-windows7-firefox-37-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 99234
+  }, {
+    "name" : "Category_Term_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1449579517091,
+    "endedAt" : 1449579604989,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "12-category-term-osxyosemite-safari-8-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 87898
+  }, {
+    "name" : "Category_Term_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1449579604989,
+    "endedAt" : 1449579696881,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 115,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 115
+    },
+    "testId" : "13-category-term-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "Category_Term_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 91892
+  }, {
+    "name" : "Category_Term_iPadAir_iPad_768x1024",
+    "startedAt" : 1449579696881,
+    "endedAt" : 1449579820189,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 107,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 107
+    },
+    "testId" : "14-category-term-ipadair-ipad-768x1024",
+    "groups" : [ "Category_Term_Tablet_768x1024" ],
+    "failed" : false,
+    "duration" : 123308
+  }, {
+    "name" : "Category_Term_GoogleNexus7_android_768x1024",
+    "startedAt" : 1449579820189,
+    "endedAt" : 1449580334126,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 86,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 86
+    },
+    "testId" : "15-category-term-googlenexus7-android-768x1024",
+    "groups" : [ "Category_Term_Tablet_768x1024" ],
+    "failed" : false,
+    "duration" : 513937
+  }, {
+    "name" : "Category_Term_SamsungGalaxyS5_android_360x640",
+    "startedAt" : 1449580334126,
+    "endedAt" : 1449580563667,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 79,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 79
+    },
+    "testId" : "16-category-term-samsunggalaxys5-android-360x640",
+    "groups" : [ "Category_Term_Mobile" ],
+    "failed" : false,
+    "duration" : 229541
+  }, {
+    "name" : "Category_Term_iPhone5_iPhone_320x568",
+    "startedAt" : 1449580563667,
+    "endedAt" : 1449580715334,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 0,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "17-category-term-iphone5-iphone-320x568",
+    "groups" : [ "Category_Term_Mobile" ],
+    "failed" : true,
+    "exceptionMessage" : "WrappedException: Wrapped org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.76 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.136', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{webStorageEnabled=true, locationContextEnabled=true, browserName=iPhone, takesScreenshot=true, javascriptEnabled=true, databaseEnabled=true, version=6.0, platform=MAC}]\nSession ID: cc8ebbb8af7471aa419035375b37bd2654ec2ce5\n*** Element info: {Using=xpath, value=/html/body/div[2]} (<cmd>#136)",
+    "exceptionStacktrace" : "org.mozilla.javascript.WrappedException: Wrapped org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.76 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.136', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{webStorageEnabled=true, locationContextEnabled=true, browserName=iPhone, takesScreenshot=true, javascriptEnabled=true, databaseEnabled=true, version=6.0, platform=MAC}]\nSession ID: cc8ebbb8af7471aa419035375b37bd2654ec2ce5\n*** Element info: {Using=xpath, value=/html/body/div[2]} (<cmd>#136)\n\tat org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)\n\tat org.mozilla.javascript.NativeJavaMethod.call(NativeJavaMethod.java:225)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)\n\tat org.mozilla.javascript.gen._cmd__18._c_checkLayout_7(<cmd>:136)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._Users_taher_Desktop_gcss_category_term_test_page_test_js_20._c_anonymous_20(/Users/taher/Desktop/gcss/category_term/test/page.test.js:389)\n\tat org.mozilla.javascript.gen._Users_taher_Desktop_gcss_category_term_test_page_test_js_20.call(/Users/taher/Desktop/gcss/category_term/test/page.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:31)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:581)\n\tat adapter1.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\nCaused by: org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 2.76 seconds\nBuild info: version: 'unknown', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Tahers-Macbook-Pro.local', ip: '192.168.1.136', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_60'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities [{webStorageEnabled=true, locationContextEnabled=true, browserName=iPhone, takesScreenshot=true, javascriptEnabled=true, databaseEnabled=true, version=6.0, platform=MAC}]\nSession ID: cc8ebbb8af7471aa419035375b37bd2654ec2ce5\n*** Element info: {Using=xpath, value=/html/body/div[2]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:373)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:449)\n\tat org.openqa.selenium.By$ByXPath.findElements(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:336)\n\tat sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:191)\n\tat org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$86404b8d.findElements(<generated>)\n\tat com.galenframework.page.selenium.ByChain.findElement(ByChain.java:63)\n\tat com.galenframework.page.selenium.SeleniumPage.driverFindElement(SeleniumPage.java:115)\n\tat com.galenframework.page.selenium.SeleniumPage.locatorToElement(SeleniumPage.java:129)\n\tat com.galenframework.page.selenium.SeleniumPage.getObject(SeleniumPage.java:77)\n\tat com.galenframework.page.selenium.SeleniumPage.getObject(SeleniumPage.java:86)\n\tat com.galenframework.validation.PageValidation.findPageElement(PageValidation.java:89)\n\tat com.galenframework.validation.specs.SpecValidationSize.check(SpecValidationSize.java:31)\n\tat com.galenframework.validation.specs.SpecValidationSize.check(SpecValidationSize.java:27)\n\tat com.galenframework.validation.PageValidation.check(PageValidation.java:71)\n\tat com.galenframework.validation.PageValidation.check(PageValidation.java:61)\n\tat com.galenframework.validation.SectionValidation.checkObject(SectionValidation.java:165)\n\tat com.galenframework.validation.SectionValidation.checkObjects(SectionValidation.java:75)\n\tat com.galenframework.validation.SectionValidation.checkSection(SectionValidation.java:109)\n\tat com.galenframework.validation.SectionValidation.checkPageSection(SectionValidation.java:54)\n\tat com.galenframework.validation.SectionValidation.check(SectionValidation.java:47)\n\tat com.galenframework.api.Galen.checkLayoutForPage(Galen.java:117)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:90)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:73)\n\tat com.galenframework.javascript.GalenJsApi.checkLayout(GalenJsApi.java:100)\n\tat sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:497)\n\tat org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)\n\t... 27 more\n",
+    "duration" : 151667
+  } ]
+};
+
+        </script>
+        <script>
+            $(function () {
+                var galenReport = createGalenTestOverview();
+                galenReport.renderTestsTable("tests-table", reportData);
+                galenReport.renderGroupsTable("groups-table", reportData);
+
+                window.onhashchange = function () {
+                    galenReport.handleHash(window.location.hash.substr(1));
+                };
+
+                galenReport.handleHash(window.location.hash.substr(1));
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <div class="tests-overview">
+            <h2>Galen Test Report</h2>
+            <div class="tabs">
+                <a class="tab tab-tests" href="#tests">Tests</a>
+                <a class="tab tab-groups" href="#groups">Groups</a>
+            </div>
+            <div id="tests-table">
+            </div>
+            <div id="groups-table">
+            </div>
+
+            <script id="tests-table-tpl" type="text/x-handlebars-template">
+                <table class="tests tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Test</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Warnings</th>
+                            <th>Total</th>
+                            <th>Groups</th>
+                            <th>Started</th>
+                            <th>Duration</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each tests}}
+                        <tr data-groups="{{groups}}">
+                            <td class="suite-link">
+                                <a href="{{testId}}.html">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{statistic.passed}}</td>
+                            <td class="status failed">{{statistic.errors}}</td>
+                            <td class="status warnings">{{statistic.warnings}}</td>
+                            <td class="status total">{{statistic.total}}</td>
+                            <td class="tags">{{formatGroupsPretty groups}}</td>
+                            <td class="time">{{formatDateTime startedAt}}</td>
+                            <td class="time">{{formatDurationHumanReadable duration}}</td>
+                            <td class="progressbar">
+                                {{renderProgressBar statistic}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+            <script id="groups-table-tpl" type="text/x-handlebars-template">
+                <table class="groups tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Tests</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td class="group-link">
+                                <a href="#tests|grouped|{{name}}">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{passed}}</td>
+                            <td class="status failed">{{failed}}</td>
+                            <td class="status total">{{tests}}</td>
+                            <td class="progressbar">
+                                {{renderGroupsProgressBar this}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+        </div>
+    </body>
+</html>
