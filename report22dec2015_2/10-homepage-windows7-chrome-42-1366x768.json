@@ -1,0 +1,676 @@
+{
+  "testId" : "10-homepage-windows7-chrome-42-1366x768",
+  "name" : "Homepage_Windows7_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1450775962360,
+      "includedTags" : [ "Windows7_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1271
+            },
+            "name" : "height 101px",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1272
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1274
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1277
+            },
+            "name" : "height 46px",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1278
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1279
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1283
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "view-home-page-slider",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1287
+            },
+            "name" : "width 790px",
+            "highlight" : [ "view-home-page-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1288
+            },
+            "name" : "height 358px",
+            "highlight" : [ "view-home-page-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1289
+            },
+            "name" : "below headerdiv 26px",
+            "highlight" : [ "view-home-page-slider", "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1290
+            },
+            "name" : "near block-klaviyo-lists-1-klaviyo 80px left",
+            "highlight" : [ "view-home-page-slider", "block-klaviyo-lists-1-klaviyo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1291
+            },
+            "name" : "above block-views-home-feature-images-block 20px",
+            "highlight" : [ "view-home-page-slider", "block-views-home-feature-images-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1292
+            },
+            "name" : "inside main-container 0px top, 0px left, 40px right",
+            "highlight" : [ "view-home-page-slider", "main-container" ]
+          } ]
+        }, {
+          "name" : "block-views-home-feature-images-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1295
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-views-home-feature-images-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1297
+            },
+            "name" : "below view-home-page-slider 20px",
+            "highlight" : [ "block-views-home-feature-images-block", "view-home-page-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1298
+            },
+            "name" : "inside main-container  0px left, 40px right",
+            "highlight" : [ "block-views-home-feature-images-block", "main-container" ]
+          } ]
+        }, {
+          "name" : "block-views-home-page-api-news-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1301
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1303
+            },
+            "name" : "below block-views-home-feature-images-block 0px",
+            "highlight" : [ "block-views-home-page-api-news-block", "block-views-home-feature-images-block" ]
+          } ]
+        }, {
+          "name" : "view-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1306
+            },
+            "name" : "width 790px",
+            "highlight" : [ "view-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1307
+            },
+            "name" : "height 24px",
+            "highlight" : [ "view-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1308
+            },
+            "name" : "inside block-views-home-page-api-news-block 50px top, 0px left, 0px right",
+            "highlight" : [ "view-header", "block-views-home-page-api-news-block" ]
+          } ]
+        }, {
+          "name" : "api-new-row-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1311
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1313
+            },
+            "name" : "inside block-views-home-page-api-news-block 79px top, 0px left, 0px right",
+            "highlight" : [ "api-new-row-1", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1314
+            },
+            "name" : "below view-header 5px",
+            "highlight" : [ "api-new-row-1", "view-header" ]
+          } ]
+        }, {
+          "name" : "api-new-row-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1317
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1319
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-2", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1320
+            },
+            "name" : "below api-new-row-1 0px",
+            "highlight" : [ "api-new-row-2", "api-new-row-1" ]
+          } ]
+        }, {
+          "name" : "api-new-row-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1323
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1325
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-3", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1326
+            },
+            "name" : "below api-new-row-2 0px",
+            "highlight" : [ "api-new-row-3", "api-new-row-2" ]
+          } ]
+        }, {
+          "name" : "api-new-row-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1329
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1331
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-4", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1332
+            },
+            "name" : "below api-new-row-3 0px",
+            "highlight" : [ "api-new-row-4", "api-new-row-3" ]
+          } ]
+        }, {
+          "name" : "api-new-row-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1335
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1337
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-5", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1338
+            },
+            "name" : "below api-new-row-4 0px",
+            "highlight" : [ "api-new-row-5", "api-new-row-4" ]
+          } ]
+        }, {
+          "name" : "api-new-row-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1341
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1343
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-6", "block-views-home-page-api-news-block" ]
+          } ]
+        }, {
+          "name" : "api-new-row-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1347
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1349
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-7", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1350
+            },
+            "name" : "below api-new-row-6 0px",
+            "highlight" : [ "api-new-row-7", "api-new-row-6" ]
+          } ]
+        }, {
+          "name" : "api-new-row-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1353
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1355
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-8", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1356
+            },
+            "name" : "below api-new-row-7 0px",
+            "highlight" : [ "api-new-row-8", "api-new-row-7" ]
+          } ]
+        }, {
+          "name" : "api-new-row-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1359
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-9" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1361
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-9", "block-views-home-page-api-news-block" ]
+          } ]
+        }, {
+          "name" : "api-new-row-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1365
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-10" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1367
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-10", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1368
+            },
+            "name" : "below api-new-row-9 0px",
+            "highlight" : [ "api-new-row-10", "api-new-row-9" ]
+          } ]
+        }, {
+          "name" : "block-klaviyo-lists-1-klaviyo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1371
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-klaviyo-lists-1-klaviyo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1373
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-klaviyo-lists-1-klaviyo", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-42",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1376
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-42" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1378
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-block-42", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "quicktabs-right_sidebar_api_client",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1381
+            },
+            "name" : "width 300px",
+            "highlight" : [ "quicktabs-right_sidebar_api_client" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1383
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "quicktabs-right_sidebar_api_client", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-35",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1386
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-35" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1388
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-block-35", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-views-right-side-users-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1391
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1392
+            },
+            "name" : "height 275px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1393
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1396
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1398
+            },
+            "name" : "near main-container 40px right",
+            "highlight" : [ "region-sidebar-second", "main-container" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1401
+            },
+            "name" : "width 1339px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1403
+            },
+            "name" : "below main-container 131px",
+            "highlight" : [ "footer", "main-container" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "block-block-35" : {
+          "area" : [ 954, 174, 300, 297 ]
+        },
+        "api-new-row-1" : {
+          "area" : [ 84, 867, 790, 217 ]
+        },
+        "api-new-row-2" : {
+          "area" : [ 84, 1084, 790, 250 ]
+        },
+        "quicktabs-right_sidebar_api_client" : {
+          "area" : [ 954, 1388, 300, 484 ]
+        },
+        "footer" : {
+          "area" : [ 0, 3496, 1339, 278 ]
+        },
+        "api-new-row-10" : {
+          "area" : [ 84, 3030, 790, 217 ]
+        },
+        "block-views-right-side-users-block" : {
+          "area" : [ 954, 2325, 300, 275 ]
+        },
+        "headerdiv" : {
+          "area" : [ 84, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 84, 174, 830, 3191 ]
+        },
+        "block-views-home-feature-images-block" : {
+          "area" : [ 84, 552, 790, 236 ]
+        },
+        "view-header" : {
+          "area" : [ 84, 838, 790, 24 ]
+        },
+        "api-new-row-7" : {
+          "area" : [ 84, 2307, 790, 253 ]
+        },
+        "header" : {
+          "area" : [ 84, 0, 1170, 101 ]
+        },
+        "view-home-page-slider" : {
+          "area" : [ 84, 174, 790, 358 ]
+        },
+        "api-new-row-8" : {
+          "area" : [ 84, 2560, 790, 253 ]
+        },
+        "api-new-row-9" : {
+          "area" : [ 84, 2813, 790, 217 ]
+        },
+        "api-new-row-3" : {
+          "area" : [ 84, 1334, 790, 253 ]
+        },
+        "block-block-42" : {
+          "area" : [ 954, 2030, 300, 265 ]
+        },
+        "block-klaviyo-lists-1-klaviyo" : {
+          "area" : [ 954, 501, 300, 214 ]
+        },
+        "api-new-row-4" : {
+          "area" : [ 84, 1587, 790, 253 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 954, 174, 300, 2777 ]
+        },
+        "block-views-home-page-api-news-block" : {
+          "area" : [ 84, 788, 790, 2537 ]
+        },
+        "api-new-row-5" : {
+          "area" : [ 84, 1840, 790, 217 ]
+        },
+        "api-new-row-6" : {
+          "area" : [ 84, 2057, 790, 250 ]
+        }
+      },
+      "screenshot" : "layout-10-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

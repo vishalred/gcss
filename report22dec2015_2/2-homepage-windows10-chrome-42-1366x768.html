@@ -1,0 +1,887 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "2-homepage-windows10-chrome-42-1366x768",
+  "name" : "Homepage_Windows10_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows10_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1450775372153,
+      "includedTags" : [ "Windows10_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 172
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 174
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 178
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 179
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 183
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "view-home-page-slider",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 187
+            },
+            "name" : "width 790px",
+            "highlight" : [ "view-home-page-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 189
+            },
+            "name" : "below headerdiv 26px",
+            "highlight" : [ "view-home-page-slider", "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 190
+            },
+            "name" : "near block-klaviyo-lists-1-klaviyo 80px left",
+            "highlight" : [ "view-home-page-slider", "block-klaviyo-lists-1-klaviyo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 191
+            },
+            "name" : "above block-views-home-feature-images-block 20px",
+            "highlight" : [ "view-home-page-slider", "block-views-home-feature-images-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 192
+            },
+            "name" : "inside main-container 0px top, 0px left, 40px right",
+            "highlight" : [ "view-home-page-slider", "main-container" ]
+          } ]
+        }, {
+          "name" : "block-views-home-feature-images-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 195
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-views-home-feature-images-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 197
+            },
+            "name" : "below view-home-page-slider 20px",
+            "highlight" : [ "block-views-home-feature-images-block", "view-home-page-slider" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 198
+            },
+            "name" : "inside main-container  0px left, 40px right",
+            "highlight" : [ "block-views-home-feature-images-block", "main-container" ]
+          } ]
+        }, {
+          "name" : "block-views-home-page-api-news-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 201
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 203
+            },
+            "name" : "below block-views-home-feature-images-block 0px",
+            "highlight" : [ "block-views-home-page-api-news-block", "block-views-home-feature-images-block" ]
+          } ]
+        }, {
+          "name" : "view-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 206
+            },
+            "name" : "width 790px",
+            "highlight" : [ "view-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 208
+            },
+            "name" : "inside block-views-home-page-api-news-block 50px top, 0px left, 0px right",
+            "highlight" : [ "view-header", "block-views-home-page-api-news-block" ]
+          } ]
+        }, {
+          "name" : "api-new-row-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 211
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 213
+            },
+            "name" : "inside block-views-home-page-api-news-block 79px top, 0px left, 0px right",
+            "highlight" : [ "api-new-row-1", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 214
+            },
+            "name" : "below view-header 5px",
+            "highlight" : [ "api-new-row-1", "view-header" ]
+          } ]
+        }, {
+          "name" : "api-new-row-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 217
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 219
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-2", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 220
+            },
+            "name" : "below api-new-row-1 0px",
+            "highlight" : [ "api-new-row-2", "api-new-row-1" ]
+          } ]
+        }, {
+          "name" : "api-new-row-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 223
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 225
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-3", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 226
+            },
+            "name" : "below api-new-row-2 0px",
+            "highlight" : [ "api-new-row-3", "api-new-row-2" ]
+          } ]
+        }, {
+          "name" : "api-new-row-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 229
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 231
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-4", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 232
+            },
+            "name" : "below api-new-row-3 0px",
+            "highlight" : [ "api-new-row-4", "api-new-row-3" ]
+          } ]
+        }, {
+          "name" : "api-new-row-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 235
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 237
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-5", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 238
+            },
+            "name" : "below api-new-row-4 0px",
+            "highlight" : [ "api-new-row-5", "api-new-row-4" ]
+          } ]
+        }, {
+          "name" : "api-new-row-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 241
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 243
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-6", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 244
+            },
+            "name" : "below api-new-row-5 0px",
+            "highlight" : [ "api-new-row-6", "api-new-row-5" ]
+          } ]
+        }, {
+          "name" : "api-new-row-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 247
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 249
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-7", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 250
+            },
+            "name" : "below api-new-row-6 0px",
+            "highlight" : [ "api-new-row-7", "api-new-row-6" ]
+          } ]
+        }, {
+          "name" : "api-new-row-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 253
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 255
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-8", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 256
+            },
+            "name" : "below api-new-row-7 0px",
+            "highlight" : [ "api-new-row-8", "api-new-row-7" ]
+          } ]
+        }, {
+          "name" : "api-new-row-9",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 259
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-9" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 261
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-9", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 262
+            },
+            "name" : "below api-new-row-8 0px",
+            "highlight" : [ "api-new-row-9", "api-new-row-8" ]
+          } ]
+        }, {
+          "name" : "api-new-row-10",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 265
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-new-row-10" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 267
+            },
+            "name" : "inside block-views-home-page-api-news-block 0px left, 0px right",
+            "highlight" : [ "api-new-row-10", "block-views-home-page-api-news-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 268
+            },
+            "name" : "below api-new-row-9 0px",
+            "highlight" : [ "api-new-row-10", "api-new-row-9" ]
+          } ]
+        }, {
+          "name" : "block-klaviyo-lists-1-klaviyo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 271
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-klaviyo-lists-1-klaviyo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 273
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-klaviyo-lists-1-klaviyo", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-42",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 276
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-42" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 278
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-block-42", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "quicktabs-right_sidebar_api_client",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 281
+            },
+            "name" : "width 300px",
+            "highlight" : [ "quicktabs-right_sidebar_api_client" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 283
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "quicktabs-right_sidebar_api_client", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-35",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 286
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-35" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 288
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-block-35", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-views-right-side-users-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 291
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 293
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 296
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 298
+            },
+            "name" : "near main-container 40px right",
+            "highlight" : [ "region-sidebar-second", "main-container" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 301
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "block-block-35" : {
+          "area" : [ 951, 174, 300, 297 ]
+        },
+        "api-new-row-1" : {
+          "area" : [ 81, 867, 790, 239 ]
+        },
+        "api-new-row-2" : {
+          "area" : [ 81, 1106, 790, 272 ]
+        },
+        "quicktabs-right_sidebar_api_client" : {
+          "area" : [ 951, 1369, 300, 484 ]
+        },
+        "footer" : {
+          "area" : [ 0, 3716, 1333, 278 ]
+        },
+        "api-new-row-10" : {
+          "area" : [ 81, 3228, 790, 239 ]
+        },
+        "block-views-right-side-users-block" : {
+          "area" : [ 951, 2306, 300, 275 ]
+        },
+        "headerdiv" : {
+          "area" : [ 81, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 81, 174, 830, 3411 ]
+        },
+        "block-views-home-feature-images-block" : {
+          "area" : [ 81, 552, 790, 236 ]
+        },
+        "view-header" : {
+          "area" : [ 81, 838, 790, 24 ]
+        },
+        "api-new-row-7" : {
+          "area" : [ 81, 2439, 790, 275 ]
+        },
+        "header" : {
+          "area" : [ 81, 0, 1170, 101 ]
+        },
+        "view-home-page-slider" : {
+          "area" : [ 81, 174, 790, 358 ]
+        },
+        "api-new-row-8" : {
+          "area" : [ 81, 2714, 790, 275 ]
+        },
+        "api-new-row-9" : {
+          "area" : [ 81, 2989, 790, 239 ]
+        },
+        "api-new-row-3" : {
+          "area" : [ 81, 1378, 790, 275 ]
+        },
+        "block-block-42" : {
+          "area" : [ 951, 2011, 300, 265 ]
+        },
+        "block-klaviyo-lists-1-klaviyo" : {
+          "area" : [ 951, 501, 300, 214 ]
+        },
+        "api-new-row-4" : {
+          "area" : [ 81, 1653, 790, 275 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 951, 174, 300, 2758 ]
+        },
+        "block-views-home-page-api-news-block" : {
+          "area" : [ 81, 788, 790, 2757 ]
+        },
+        "api-new-row-5" : {
+          "area" : [ 81, 1928, 790, 239 ]
+        },
+        "api-new-row-6" : {
+          "area" : [ 81, 2167, 790, 272 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" data-screenshot="{{screenshot}}">
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>Homepage_Windows10_Chrome_42_1366x768</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>
