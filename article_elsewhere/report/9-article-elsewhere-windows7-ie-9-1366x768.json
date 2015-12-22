@@ -1,20 +1,12 @@
-<html>
-    <head>
-        <title>Galen Reports</title>
-        <link rel="stylesheet" type="text/css" href="report.css"></link>
-        <script src="jquery-1.11.2.min.js"></script>
-        <script src="handlebars-v2.0.0.js"></script>
-        <script src="galen-report.js"></script>
-        <script>
-var reportData = {
-  "testId" : "13-article-elsewhere-page-on-apple-os-x-yosemite-chrome-46-1366x768",
-  "name" : "Article_Elsewhere_Page on  Apple OS X Yosemite Chrome 46 1366x768",
+{
+  "testId" : "9-article-elsewhere-windows7-ie-9-1366x768",
+  "name" : "Article_Elsewhere_Windows7_IE_9_1366x768",
   "report" : {
     "nodes" : [ {
-      "name" : "Check layout: specs/new.gspec included tags: appleOSXYosemitechrome46_1366x768",
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_IE_9_1366x768",
       "status" : "info",
-      "time" : 1449121773069,
-      "includedTags" : [ "appleOSXYosemitechrome46_1366x768" ],
+      "time" : 1449228074222,
+      "includedTags" : [ "Windows7_IE_9_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
         "objects" : [ {
@@ -23,7 +15,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 941
+              "lineNumber" : 504
             },
             "name" : "width ~ 86% of screen/width",
             "highlight" : [ "header" ]
@@ -31,7 +23,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 943
+              "lineNumber" : 506
             },
             "name" : "above navigation 1px",
             "highlight" : [ "header", "navigation" ]
@@ -42,7 +34,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 947
+              "lineNumber" : 510
             },
             "name" : "width ~ 86% of screen/width",
             "highlight" : [ "navigation" ]
@@ -50,7 +42,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 948
+              "lineNumber" : 511
             },
             "name" : "below header 1px",
             "highlight" : [ "navigation", "header" ]
@@ -61,7 +53,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 952
+              "lineNumber" : 515
             },
             "name" : "below navigation 1px",
             "highlight" : [ "top-ad-wrapper", "navigation" ]
@@ -72,9 +64,9 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 955
+              "lineNumber" : 518
             },
-            "name" : "inside top-ad-wrapper 83px left, 83px right, 20px top, 21px bottom",
+            "name" : "inside top-ad-wrapper 67px left, 66px right, 20px top, 21px bottom",
             "highlight" : [ "adzerk-top-leaderboard", "top-ad-wrapper" ]
           } ]
         }, {
@@ -83,7 +75,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 958
+              "lineNumber" : 521
             },
             "name" : "width 830px",
             "highlight" : [ "main-container" ]
@@ -94,7 +86,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 962
+              "lineNumber" : 525
             },
             "name" : "width 790px",
             "highlight" : [ "node-article-profile" ]
@@ -105,7 +97,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 965
+              "lineNumber" : 528
             },
             "name" : "width 790px",
             "highlight" : [ "article-head" ]
@@ -116,7 +108,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 969
+              "lineNumber" : 532
             },
             "name" : "width 790px",
             "highlight" : [ "article_header" ]
@@ -124,7 +116,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 970
+              "lineNumber" : 533
             },
             "name" : "height 43px",
             "highlight" : [ "article_header" ]
@@ -132,7 +124,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 971
+              "lineNumber" : 534
             },
             "name" : "inside article-head 0px left, 0px top",
             "highlight" : [ "article_header", "article-head" ]
@@ -143,7 +135,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 974
+              "lineNumber" : 537
             },
             "name" : "width ~ 274px",
             "highlight" : [ "article_footer" ]
@@ -151,7 +143,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 975
+              "lineNumber" : 538
             },
             "name" : "inside article-head 0px left, 63px top",
             "highlight" : [ "article_footer", "article-head" ]
@@ -162,7 +154,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 978
+              "lineNumber" : 541
             },
             "name" : "width 790px",
             "highlight" : [ "node-social-media" ]
@@ -170,9 +162,9 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 979
+              "lineNumber" : 542
             },
-            "name" : "inside article-head 0px left, 143px top",
+            "name" : "inside article-head 0px left, 144px top",
             "highlight" : [ "node-social-media", "article-head" ]
           } ]
         }, {
@@ -181,7 +173,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 982
+              "lineNumber" : 545
             },
             "name" : "below article-head 30px",
             "highlight" : [ "field-name-field-article-body", "article-head" ]
@@ -192,7 +184,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 985
+              "lineNumber" : 548
             },
             "name" : "width 790px",
             "highlight" : [ "original-article-content" ]
@@ -200,7 +192,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 986
+              "lineNumber" : 549
             },
             "name" : "below field-name-field-article-body 50px",
             "highlight" : [ "original-article-content", "field-name-field-article-body" ]
@@ -211,7 +203,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 988
+              "lineNumber" : 551
             },
             "name" : "below original-article-content 30px",
             "highlight" : [ "about-author", "original-article-content" ]
@@ -222,7 +214,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 991
+              "lineNumber" : 554
             },
             "name" : "inside about-author 130px left, 25px top",
             "highlight" : [ "author-comment", "about-author" ]
@@ -233,7 +225,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 994
+              "lineNumber" : 557
             },
             "name" : "below about-author 30px",
             "highlight" : [ "related-wrapper", "about-author" ]
@@ -244,7 +236,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 997
+              "lineNumber" : 560
             },
             "name" : "height 24px",
             "highlight" : [ "related-section-title" ]
@@ -252,7 +244,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 998
+              "lineNumber" : 561
             },
             "name" : "inside related-wrapper 0px left, 45px top",
             "highlight" : [ "related-section-title", "related-wrapper" ]
@@ -263,7 +255,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1001
+              "lineNumber" : 564
             },
             "name" : "width 790px",
             "highlight" : [ "related-term" ]
@@ -271,7 +263,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1002
+              "lineNumber" : 565
             },
             "name" : "inside related-wrapper 0px left, 109px top",
             "highlight" : [ "related-term", "related-wrapper" ]
@@ -282,9 +274,9 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1005
+              "lineNumber" : 568
             },
-            "name" : "inside related-wrapper 0px left, 430px top",
+            "name" : "inside related-wrapper 0px left, 432px top",
             "highlight" : [ "related-terms", "related-wrapper" ]
           } ]
         }, {
@@ -293,7 +285,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1008
+              "lineNumber" : 571
             },
             "name" : "below related-wrapper 119px",
             "highlight" : [ "comment-form", "related-wrapper" ]
@@ -304,7 +296,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1011
+              "lineNumber" : 574
             },
             "name" : "height 24px",
             "highlight" : [ "coments-title" ]
@@ -315,7 +307,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1014
+              "lineNumber" : 577
             },
             "name" : "inside comment-form 0px top",
             "highlight" : [ "comment-wrapper", "comment-form" ]
@@ -326,7 +318,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1017
+              "lineNumber" : 580
             },
             "name" : "height 45px",
             "highlight" : [ "post_comment" ]
@@ -337,9 +329,9 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1020
+              "lineNumber" : 583
             },
-            "name" : "inside bottom-ad-wrapper 83px left, 83px right, 21px top, 20px bottom",
+            "name" : "inside bottom-ad-wrapper 67px left, 66px right, 21px top, 20px bottom",
             "highlight" : [ "adzerk-bottom-leaderboard", "bottom-ad-wrapper" ]
           } ]
         }, {
@@ -348,7 +340,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1023
+              "lineNumber" : 586
             },
             "name" : "width 300px",
             "highlight" : [ "region-sidebar-second" ]
@@ -356,7 +348,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1024
+              "lineNumber" : 587
             },
             "name" : "near main-container 40px right",
             "highlight" : [ "region-sidebar-second", "main-container" ]
@@ -367,7 +359,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1027
+              "lineNumber" : 590
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "block-block-38", "region-sidebar-second" ]
@@ -378,7 +370,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1030
+              "lineNumber" : 593
             },
             "name" : "width 300px",
             "highlight" : [ "block-title-apiu" ]
@@ -386,7 +378,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1031
+              "lineNumber" : 594
             },
             "name" : "height 60px",
             "highlight" : [ "block-title-apiu" ]
@@ -394,7 +386,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1032
+              "lineNumber" : 595
             },
             "name" : "inside block-block-38 0px left",
             "highlight" : [ "block-title-apiu", "block-block-38" ]
@@ -405,7 +397,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1035
+              "lineNumber" : 598
             },
             "name" : "width 300px",
             "highlight" : [ "apiu-wrapper" ]
@@ -413,7 +405,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1036
+              "lineNumber" : 599
             },
             "name" : "inside block-block-38 0px left",
             "highlight" : [ "apiu-wrapper", "block-block-38" ]
@@ -424,7 +416,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1039
+              "lineNumber" : 602
             },
             "name" : "width 260px",
             "highlight" : [ "apiu-cat" ]
@@ -432,7 +424,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1040
+              "lineNumber" : 603
             },
             "name" : "inside apiu-wrapper 20px left, 24px top",
             "highlight" : [ "apiu-cat", "apiu-wrapper" ]
@@ -443,7 +435,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1043
+              "lineNumber" : 606
             },
             "name" : "width 260px",
             "highlight" : [ "primary-cat" ]
@@ -451,7 +443,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1044
+              "lineNumber" : 607
             },
             "name" : "inside apiu-wrapper 20px left, 59px top",
             "highlight" : [ "primary-cat", "apiu-wrapper" ]
@@ -462,7 +454,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1048
+              "lineNumber" : 611
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "block-block-21", "region-sidebar-second" ]
@@ -470,7 +462,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1049
+              "lineNumber" : 612
             },
             "name" : "near block-block-38 30px bottom",
             "highlight" : [ "block-block-21", "block-block-38" ]
@@ -481,7 +473,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1052
+              "lineNumber" : 615
             },
             "name" : "height 10px",
             "highlight" : [ "ad-title-sidebar-top" ]
@@ -489,7 +481,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1053
+              "lineNumber" : 616
             },
             "name" : "inside block-block-21 0px left, 0px top",
             "highlight" : [ "ad-title-sidebar-top", "block-block-21" ]
@@ -500,7 +492,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1056
+              "lineNumber" : 619
             },
             "name" : "width 300px",
             "highlight" : [ "adzerk-top-mrec" ]
@@ -508,7 +500,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1057
+              "lineNumber" : 620
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "adzerk-top-mrec", "region-sidebar-second" ]
@@ -519,7 +511,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1060
+              "lineNumber" : 623
             },
             "name" : "width 300px",
             "highlight" : [ "block-block-42" ]
@@ -527,7 +519,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1061
+              "lineNumber" : 624
             },
             "name" : "inside region-sidebar-second 0px left right",
             "highlight" : [ "block-block-42", "region-sidebar-second" ]
@@ -538,7 +530,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1064
+              "lineNumber" : 627
             },
             "name" : "width 300px",
             "highlight" : [ "block-views-right-side-users-block" ]
@@ -546,7 +538,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1065
+              "lineNumber" : 628
             },
             "name" : "inside region-sidebar-second 0px left right",
             "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
@@ -557,7 +549,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1068
+              "lineNumber" : 631
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "block-block-25", "region-sidebar-second" ]
@@ -565,7 +557,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1069
+              "lineNumber" : 632
             },
             "name" : "near block-views-right-side-users-block 30px bottom",
             "highlight" : [ "block-block-25", "block-views-right-side-users-block" ]
@@ -576,7 +568,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1072
+              "lineNumber" : 635
             },
             "name" : "height 10px",
             "highlight" : [ "ad-title-sidebar-bottom" ]
@@ -584,7 +576,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1073
+              "lineNumber" : 636
             },
             "name" : "inside block-block-25 0px left, 0px top",
             "highlight" : [ "ad-title-sidebar-bottom", "block-block-25" ]
@@ -595,7 +587,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1076
+              "lineNumber" : 639
             },
             "name" : "width 300px",
             "highlight" : [ "adzerk-bottom-mrec" ]
@@ -603,7 +595,7 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1077
+              "lineNumber" : 640
             },
             "name" : "inside region-sidebar-second 0px left",
             "highlight" : [ "adzerk-bottom-mrec", "region-sidebar-second" ]
@@ -614,369 +606,134 @@ var reportData = {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 1080
+              "lineNumber" : 644
             },
-            "name" : "width 1366px",
+            "name" : "width 1333px",
             "highlight" : [ "footer" ]
           } ]
         } ]
       } ],
       "objects" : {
         "block-block-25" : {
-          "area" : [ 968, 2225, 300, 321 ]
+          "area" : [ 952, 2211, 300, 301 ]
         },
         "author-comment" : {
-          "area" : [ 228, 1327, 635, 50 ]
+          "area" : [ 212, 1329, 635, 51 ]
         },
         "block-title-apiu" : {
-          "area" : [ 968, 305, 300, 60 ]
+          "area" : [ 952, 305, 300, 60 ]
         },
         "node-article-profile" : {
-          "area" : [ 98, 305, 790, 2071 ]
+          "area" : [ 82, 305, 790, 2077 ]
         },
         "footer" : {
-          "area" : [ 0, 2712, 1366, 278 ]
+          "area" : [ 0, 2735, 1333, 279 ]
         },
         "related-terms" : {
-          "area" : [ 98, 1899, 790, 22 ]
+          "area" : [ 82, 1905, 790, 22 ]
         },
         "adzerk-top-mrec" : {
-          "area" : [ 968, 939, 300, 625 ]
+          "area" : [ 952, 946, 300, 605 ]
         },
         "original-article-content" : {
-          "area" : [ 98, 1139, 790, 133 ]
+          "area" : [ 82, 1140, 790, 134 ]
         },
         "main-container" : {
-          "area" : [ 98, 305, 830, 2111 ]
+          "area" : [ 82, 305, 830, 2117 ]
         },
         "related-section-title" : {
-          "area" : [ 98, 1514, 790, 24 ]
+          "area" : [ 82, 1518, 790, 24 ]
         },
         "comment-wrapper" : {
-          "area" : [ 98, 2040, 790, 336 ]
+          "area" : [ 82, 2046, 790, 337 ]
         },
         "navigation" : {
-          "area" : [ 98, 102, 1170, 46 ]
+          "area" : [ 82, 102, 1170, 46 ]
         },
         "apiu-wrapper" : {
-          "area" : [ 968, 365, 300, 239 ]
+          "area" : [ 952, 365, 300, 242 ]
         },
         "comment-form" : {
-          "area" : [ 98, 2040, 790, 336 ]
+          "area" : [ 82, 2046, 790, 337 ]
         },
         "post_comment" : {
-          "area" : [ 98, 2331, 790, 45 ]
+          "area" : [ 82, 2337, 790, 45 ]
         },
         "top-ad-wrapper" : {
-          "area" : [ 0, 149, 1366, 131 ]
+          "area" : [ 0, 149, 1333, 131 ]
         },
         "article_header" : {
-          "area" : [ 98, 305, 790, 43 ]
+          "area" : [ 82, 305, 790, 43 ]
         },
         "apiu-cat" : {
-          "area" : [ 988, 389, 260, 20 ]
+          "area" : [ 972, 389, 260, 20 ]
         },
         "article_footer" : {
-          "area" : [ 98, 368, 274, 50 ]
+          "area" : [ 82, 368, 273, 51 ]
         },
         "bottom-ad-wrapper" : {
-          "area" : [ 0, 2576, 1366, 136 ]
+          "area" : [ 0, 2542, 1333, 194 ]
         },
         "related-wrapper" : {
-          "area" : [ 98, 1469, 790, 452 ]
+          "area" : [ 82, 1473, 790, 454 ]
         },
         "ad-title-sidebar-bottom" : {
-          "area" : [ 968, 2225, 300, 10 ]
+          "area" : [ 952, 2211, 300, 10 ]
         },
         "about-author" : {
-          "area" : [ 98, 1302, 790, 137 ]
+          "area" : [ 82, 1304, 790, 139 ]
         },
         "adzerk-bottom-leaderboard" : {
-          "area" : [ 83, 2597, 1200, 95 ]
+          "area" : [ 67, 2563, 1200, 153 ]
         },
         "block-block-38" : {
-          "area" : [ 968, 305, 300, 588 ]
+          "area" : [ 952, 305, 300, 595 ]
         },
         "ad-title-sidebar-top" : {
-          "area" : [ 968, 923, 300, 10 ]
+          "area" : [ 952, 930, 300, 10 ]
         },
         "block-views-right-side-users-block" : {
-          "area" : [ 968, 1920, 300, 275 ]
+          "area" : [ 952, 1906, 300, 275 ]
         },
         "adzerk-top-leaderboard" : {
-          "area" : [ 83, 169, 1200, 90 ]
+          "area" : [ 67, 169, 1200, 90 ]
         },
         "article-head" : {
-          "area" : [ 98, 305, 790, 183 ]
+          "area" : [ 82, 305, 790, 184 ]
         },
         "field-name-field-article-body" : {
-          "area" : [ 98, 518, 790, 571 ]
+          "area" : [ 82, 519, 790, 571 ]
         },
         "coments-title" : {
-          "area" : [ 98, 1976, 790, 24 ]
+          "area" : [ 82, 1982, 790, 24 ]
         },
         "primary-cat" : {
-          "area" : [ 988, 424, 260, 125 ]
+          "area" : [ 972, 424, 260, 128 ]
         },
         "adzerk-bottom-mrec" : {
-          "area" : [ 968, 2241, 300, 275 ]
+          "area" : [ 952, 2227, 300, 255 ]
         },
         "header" : {
-          "area" : [ 98, 0, 1170, 101 ]
+          "area" : [ 82, 0, 1170, 101 ]
         },
         "node-social-media" : {
-          "area" : [ 98, 448, 790, 40 ]
+          "area" : [ 82, 449, 790, 40 ]
         },
         "related-term" : {
-          "area" : [ 98, 1578, 790, 260 ]
+          "area" : [ 82, 1582, 790, 262 ]
         },
         "block-block-42" : {
-          "area" : [ 968, 1625, 300, 265 ]
+          "area" : [ 952, 1611, 300, 265 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 968, 305, 300, 2241 ]
+          "area" : [ 952, 305, 300, 2207 ]
         },
         "block-block-21" : {
-          "area" : [ 968, 923, 300, 672 ]
+          "area" : [ 952, 930, 300, 652 ]
         }
       },
-      "screenshot" : "layout-13-screenshot.png",
+      "screenshot" : "layout-9-screenshot.png",
       "type" : "layout"
     } ]
   }
-};
-        </script>
-        <script>
-
-            $(function () {
-                var galenReport = createGalenReport();
-                galenReport.render("main", reportData);
-            });
-        </script>
-    </head>
-    <body>
-        <script id="report-tpl" type="text/x-handlebars-template">
-            <ul class="report-nodes">
-            {{#each report.nodes}}
-                {{renderNode this}}
-            {{/each}}
-            </ul>
-        </script>
-        <script id="report-node-tpl" type="text/x-handlebars-template">
-            <li>
-                <span class="report-time">{{formatReportTime time}}</span>
-                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
-                <div class="node-name node-status-{{status}}">{{name}}</div>
-                {{#if extras}}
-                    {{renderNodeExtras extras}}
-                {{/if}}
-                {{#if stacktrace}}
-                    <div class="stacktrace">{{stacktrace}}</div>
-                {{/if}}
-                {{#if attachments}}
-                    <ul class="report-node-attachments">
-                        {{#each attachments}}
-                            <li>
-                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
-                            </li>
-                        {{/each}}
-                    </ul>
-                {{/if}}
-                <div class="node-details expand-container">
-                    {{#if nodes}}
-                        <ul class="report-nodes">
-                            {{#each nodes}}
-                                {{renderNode this}}
-                            {{/each}}
-                        </ul>
-                    {{/if}}
-                </div>
-            </li>
-        </script>
-        <script id="report-node-text-tpl" type="text/x-handlebars-template">
-            <li>
-                <div class="node-simple-text">
-                    {{name}}
-                </div>
-            </li>
-        </script>
-        <script id="report-layout-tpl" type="text/x-handlebars-template">
-            <li>
-                <span class="report-time">{{formatReportTime time}}</span>
-                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
-                <div class="node-name">{{name}}</div>
-                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
-                <div class="node-details expand-container">
-                    {{renderSublayout this}}
-                </div>
-            </li>
-        </script>
-        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
-            <div class="layout-report" data-layout-id="{{layoutId}}" data-screenshot="{{screenshot}}">
-                <ul class="layout-sections">
-                    {{#each sections}}
-                        {{renderLayoutSection this}}
-                    {{/each}}
-                </ul>
-            </div>
-        </script>
-        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
-            <li>
-                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
-                <div class="layout-details expand-container">
-                    {{#if sections}}
-                        <ul class="layout-sections">
-                        {{#each sections}}
-                            {{renderLayoutSection this}}
-                        {{/each}}
-                        </ul>
-                    {{/if}}
-                    {{#if objects}}
-                        <ul class="layout-objects">
-                            {{#each objects}}
-                                {{renderLayoutObject this}}
-                            {{/each}}
-                        </ul>
-                    {{/if}}
-                </div>
-            </li>
-        </script>
-
-        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
-            <li>
-                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
-                <ul class="layout-checks expand-container">
-                    {{#each specs}}
-                        {{renderLayoutCheck this}}
-                    {{/each}}
-                    {{#each specGroups}}
-                    <li>
-                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
-                        <ul class="layout-checks expand-container">
-                            {{#each specs}}
-                                {{renderLayoutCheck this}}
-                            {{/each}}
-                        </ul>
-                    </li>
-                    {{/each}}
-                </ul>
-            </li>
-        </script>
-        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
-            <li>
-            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
-                data-highlight-objects="{{commaSeparated highlight}}"
-                title="{{place.filePath}}#{{place.lineNumber}}"
-                >{{name}}</a>
-
-                {{#if errors}}
-                    <div class="layout-check-error-message">
-                        {{#if imageComparison}}
-                        <a class="image-comparison-link"
-                            data-actual-image="{{imageComparison.actualImage}}"
-                            data-expected-image="{{imageComparison.expectedImage}}"
-                            data-map-image="{{imageComparison.comparisonMapImage}}"
-                            href="#">Show image comparison</a>
-                        {{/if}}
-                        <div class="layout-check-error-message-text">
-                            <ul>
-                            {{#each errors}}
-                                <li>{{this}}</li>
-                            {{/each}}
-                        </ul>
-                    </div>
-                </div>
-                {{/if}}
-
-                {{#if subLayout}}
-                {{renderSublayout subLayout}}
-                {{/if}}
-            </li>
-        </script>
-        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
-            <div class="screenshot-canvas">
-                {{#if screenshot}}
-                <img src="{{screenshot}}"/>
-                {{else}}
-                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
-                {{/if}}
-                {{#each objects}}
-                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
-                    <div class="canvas-rect-wrapper">
-                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
-                    </div>
-                </div>
-                {{/each}}
-            </div>
-        </script>
-        <script id="image-comparison-tpl" type="text/x-handlebars-template">
-            <div class="image-comparison image-comparison-layout-{{layout}}">
-                <div class="actual-image">
-                    <h5>Actual</h5>
-                    <img src="{{actual}}"/>
-                </div>
-
-                <div class="expected-image">
-                    <h5>Expected</h5>
-                    <img src="{{expected}}"/>
-                </div>
-
-                <div class="comparison-map">
-                    <h5>Comparison map</h5>
-                    <img src="{{map}}"/>
-                </div>
-            </div>
-        </script>
-        <script id="node-extras-tpl" type="text/x-handlebars-template">
-            <div class="node-extras">
-                <a class="node-extras" href="#">extras</a>
-                <div class="node-extras-content">
-                    <table class="node-extras-table">
-                        <tbody>
-                        {{#each this}}
-                        <tr>
-                            <td><label>{{@key}}</label></td>
-                            {{#ifCond type 'text'}}
-                            <td>{{value}}</td>
-                            {{/ifCond}}
-                            {{#ifCond type 'link'}}
-                            <td><a href="{{value}}">{{value}}</a></td>
-                            {{/ifCond}}
-                            {{#ifCond type 'image'}}
-                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
-                            {{/ifCond}}
-                        </tr>
-                        {{/each}}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </script>
-
-
-
-        <div id="menu">
-            <ul>
-                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
-                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
-                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
-            </ul>
-        </div>
-        <h2>Article_Elsewhere_Page on  Apple OS X Yosemite Chrome 46 1366x768</h2>
-        <div id="main"></div>
-        <div id="screen-shadow"></div>
-        <div id="popup" class="popup">
-            <div class="popup-wrapper">
-                <a class="popup-close-link" href="#">close</a>
-                <div class="popup-content"></div>
-            </div>
-        </div>
-        <div id="notification" class="notification">
-            <div class="notification-wrapper">
-                <a class="notification-close-link" href="#">close</a>
-                <div class="notification-summary"></div>
-                <div class="notification-message"></div>
-            </div>
-        </div>
-    </body>
-</html>
+}

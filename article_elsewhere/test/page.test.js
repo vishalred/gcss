@@ -308,7 +308,7 @@ grouped([testName.concat("_Desktop_1366x768")], function () {
 
 // Test Group for Tablet Devices
 
-grouped([testName.concat("_Tablet_768x1024)")], function () {
+grouped([testName.concat("_Tablet_768x1024")], function () {
 
     test(testName.concat("_iPadAir_iPad_768x1024"), function () {
 

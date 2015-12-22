@@ -4,8 +4,8 @@
   "report" : {
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: Windows8.1_Firefox_37_1366x768",
-      "status" : "info",
-      "time" : 1449127538269,
+      "status" : "error",
+      "time" : 1449227754798,
       "includedTags" : [ "Windows8.1_Firefox_37_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -546,12 +546,13 @@
         }, {
           "name" : "block-block-25",
           "specs" : [ {
-            "status" : "info",
+            "status" : "error",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 484
             },
             "name" : "inside region-sidebar-second 0px left",
+            "errors" : [ "\"block-block-25\" is not completely inside" ],
             "highlight" : [ "block-block-25", "region-sidebar-second" ]
           }, {
             "status" : "info",
@@ -615,7 +616,7 @@
       } ],
       "objects" : {
         "block-block-25" : {
-          "area" : [ 953, 2231, 300, 321 ]
+          "area" : [ 953, 2207, 300, 321 ]
         },
         "author-comment" : {
           "area" : [ 213, 1329, 635, 51 ]
@@ -627,13 +628,13 @@
           "area" : [ 83, 305, 790, 2079 ]
         },
         "footer" : {
-          "area" : [ 0, 2717, 1335, 279 ]
+          "area" : [ 0, 2693, 1335, 279 ]
         },
         "related-terms" : {
           "area" : [ 83, 1904, 790, 22 ]
         },
         "adzerk-top-mrec" : {
-          "area" : [ 953, 946, 300, 625 ]
+          "area" : [ 953, 946, 300, 600 ]
         },
         "original-article-content" : {
           "area" : [ 83, 1140, 790, 134 ]
@@ -672,19 +673,19 @@
           "area" : [ 83, 368, 283, 51 ]
         },
         "bottom-ad-wrapper" : {
-          "area" : [ 0, 2582, 1335, 136 ]
+          "area" : [ 0, 2557, 1335, 136 ]
         },
         "related-wrapper" : {
           "area" : [ 83, 1473, 790, 454 ]
         },
         "ad-title-sidebar-bottom" : {
-          "area" : [ 953, 2231, 300, 10 ]
+          "area" : [ 953, 2207, 300, 10 ]
         },
         "about-author" : {
           "area" : [ 83, 1304, 790, 139 ]
         },
         "adzerk-bottom-leaderboard" : {
-          "area" : [ 68, 2603, 1200, 95 ]
+          "area" : [ 68, 2578, 1200, 95 ]
         },
         "block-block-38" : {
           "area" : [ 953, 305, 300, 595 ]
@@ -693,7 +694,7 @@
           "area" : [ 953, 930, 300, 10 ]
         },
         "block-views-right-side-users-block" : {
-          "area" : [ 953, 1926, 300, 275 ]
+          "area" : [ 953, 1902, 300, 275 ]
         },
         "adzerk-top-leaderboard" : {
           "area" : [ 68, 169, 1200, 90 ]
@@ -711,7 +712,7 @@
           "area" : [ 973, 424, 260, 128 ]
         },
         "adzerk-bottom-mrec" : {
-          "area" : [ 953, 2247, 300, 275 ]
+          "area" : [ 953, 2223, 300, 275 ]
         },
         "header" : {
           "area" : [ 83, 0, 1170, 101 ]
@@ -723,13 +724,13 @@
           "area" : [ 83, 1582, 790, 262 ]
         },
         "block-block-42" : {
-          "area" : [ 953, 1631, 300, 265 ]
+          "area" : [ 953, 1607, 300, 265 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 953, 305, 300, 2247 ]
+          "area" : [ 953, 305, 300, 2222 ]
         },
         "block-block-21" : {
-          "area" : [ 953, 930, 300, 672 ]
+          "area" : [ 953, 930, 300, 647 ]
         }
       },
       "screenshot" : "layout-6-screenshot.png",

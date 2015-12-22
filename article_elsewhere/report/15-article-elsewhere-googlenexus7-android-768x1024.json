@@ -4,8 +4,8 @@
   "report" : {
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: GoogleNexus7_android_768x1024",
-      "status" : "error",
-      "time" : 1449128475442,
+      "status" : "info",
+      "time" : 1449228915945,
       "includedTags" : [ "GoogleNexus7_android_768x1024" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -225,13 +225,12 @@
         }, {
           "name" : "comment-wrapper",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 1283
             },
-            "name" : "inside comment-form 377px top",
-            "errors" : [ "\"comment-wrapper\" is not completely inside" ],
+            "name" : "inside partly comment-form 377px top",
             "highlight" : [ "comment-wrapper", "comment-form" ]
           } ]
         }, {
@@ -267,13 +266,12 @@
         }, {
           "name" : "block-block-38",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 1293
             },
-            "name" : "inside region-sidebar-second 0px left",
-            "errors" : [ "\"block-block-38\" is not completely inside" ],
+            "name" : "inside partly region-sidebar-second 0px left",
             "highlight" : [ "block-block-38", "region-sidebar-second" ]
           } ]
         }, {
@@ -363,13 +361,12 @@
         }, {
           "name" : "block-block-21",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 1314
             },
-            "name" : "inside region-sidebar-second 0px left",
-            "errors" : [ "\"block-block-21\" is not completely inside" ],
+            "name" : "inside partly region-sidebar-second 0px left",
             "highlight" : [ "block-block-21", "region-sidebar-second" ]
           }, {
             "status" : "info",
@@ -402,13 +399,12 @@
             "name" : "width 245px",
             "highlight" : [ "adzerk-top-mrec" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 1322
             },
-            "name" : "inside region-sidebar-second 0px left",
-            "errors" : [ "\"adzerk-top-mrec\" is not completely inside" ],
+            "name" : "inside partly region-sidebar-second 0px left",
             "highlight" : [ "adzerk-top-mrec", "region-sidebar-second" ]
           } ]
         }, {
@@ -422,13 +418,12 @@
             "name" : "width 245px",
             "highlight" : [ "block-block-42" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 1326
             },
-            "name" : "inside region-sidebar-second 0px left right",
-            "errors" : [ "\"block-block-42\" is not completely inside" ],
+            "name" : "inside partly region-sidebar-second 0px left right",
             "highlight" : [ "block-block-42", "region-sidebar-second" ]
           } ]
         }, {
@@ -442,25 +437,23 @@
             "name" : "width 245px",
             "highlight" : [ "block-views-right-side-users-block" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 1330
             },
-            "name" : "inside region-sidebar-second 0px left right",
-            "errors" : [ "\"block-views-right-side-users-block\" is not completely inside" ],
+            "name" : "inside partly region-sidebar-second 0px left right",
             "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
           } ]
         }, {
           "name" : "block-block-25",
           "specs" : [ {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 1333
             },
-            "name" : "inside region-sidebar-second 0px left",
-            "errors" : [ "\"block-block-25\" is not completely inside" ],
+            "name" : "inside partly region-sidebar-second 0px left",
             "highlight" : [ "block-block-25", "region-sidebar-second" ]
           } ]
         }, {
@@ -485,13 +478,12 @@
             "name" : "width 245px",
             "highlight" : [ "adzerk-bottom-mrec" ]
           }, {
-            "status" : "error",
+            "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 1340
             },
-            "name" : "inside region-sidebar-second 0px left",
-            "errors" : [ "\"adzerk-bottom-mrec\" is not completely inside" ],
+            "name" : "inside partly region-sidebar-second 0px left",
             "highlight" : [ "adzerk-bottom-mrec", "region-sidebar-second" ]
           } ]
         }, {
