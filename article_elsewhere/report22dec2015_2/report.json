@@ -1,0 +1,228 @@
+{
+  "tests" : [ {
+    "name" : "Article_Elsewhere_Windows10_IE_11_1366x768",
+    "startedAt" : 1450784639053,
+    "endedAt" : 1450784799982,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 54,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "1-article-elsewhere-windows10-ie-11-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 160929
+  }, {
+    "name" : "Article_Elsewhere_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1450784799982,
+    "endedAt" : 1450784921325,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 58,
+      "errors" : 3,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "2-article-elsewhere-windows10-chrome-42-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 121343
+  }, {
+    "name" : "Article_Elsewhere_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1450784921325,
+    "endedAt" : 1450785001606,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 55,
+      "errors" : 6,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "3-article-elsewhere-windows10-firefox-37-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 80281
+  }, {
+    "name" : "Article_Elsewhere_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1450785001606,
+    "endedAt" : 1450785148960,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 54,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "4-article-elsewhere-windows8.1-ie-11-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 147354
+  }, {
+    "name" : "Article_Elsewhere_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1450785148960,
+    "endedAt" : 1450785244283,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 58,
+      "errors" : 3,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "5-article-elsewhere-windows8.1-chrome-42-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 95323
+  }, {
+    "name" : "Article_Elsewhere_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1450785244284,
+    "endedAt" : 1450785344035,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 55,
+      "errors" : 6,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "6-article-elsewhere-windows8.1-firefox-37-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 99751
+  }, {
+    "name" : "Article_Elsewhere_Windows7_IE_11_1366x768",
+    "startedAt" : 1450785344035,
+    "endedAt" : 1450785434558,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 54,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "7-article-elsewhere-windows7-ie-11-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 90523
+  }, {
+    "name" : "Article_Elsewhere_Windows7_IE_10_1366x768",
+    "startedAt" : 1450785434558,
+    "endedAt" : 1450785526098,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 54,
+      "errors" : 7,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "8-article-elsewhere-windows7-ie-10-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 91540
+  }, {
+    "name" : "Article_Elsewhere_Windows7_IE_9_1366x768",
+    "startedAt" : 1450785526098,
+    "endedAt" : 1450785600139,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 58,
+      "errors" : 3,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "9-article-elsewhere-windows7-ie-9-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 74041
+  }, {
+    "name" : "Article_Elsewhere_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1450785600139,
+    "endedAt" : 1450785666387,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 58,
+      "errors" : 3,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "10-article-elsewhere-windows7-chrome-42-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 66248
+  }, {
+    "name" : "Article_Elsewhere_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1450785666387,
+    "endedAt" : 1450785731916,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 56,
+      "errors" : 5,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "11-article-elsewhere-windows7-firefox-37-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 65529
+  }, {
+    "name" : "Article_Elsewhere_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1450785731916,
+    "endedAt" : 1450785801759,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 58,
+      "errors" : 3,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "12-article-elsewhere-osxyosemite-safari-8-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 69843
+  }, {
+    "name" : "Article_Elsewhere_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1450785801760,
+    "endedAt" : 1450785869203,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 58,
+      "errors" : 3,
+      "warnings" : 0,
+      "total" : 61
+    },
+    "testId" : "13-article-elsewhere-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "Article_Elsewhere_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 67443
+  }, {
+    "name" : "Article_Elsewhere_iPadAir_iPad_768x1024",
+    "startedAt" : 1450785869203,
+    "endedAt" : 1450785976279,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 54,
+      "errors" : 3,
+      "warnings" : 0,
+      "total" : 57
+    },
+    "testId" : "14-article-elsewhere-ipadair-ipad-768x1024",
+    "groups" : [ "Article_Elsewhere_Tablet_768x1024)" ],
+    "failed" : true,
+    "duration" : 107076
+  }, {
+    "name" : "Article_Elsewhere_iPhone5_iPhone_320x568",
+    "startedAt" : 1450785976279,
+    "endedAt" : 1450786085205,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 35,
+      "errors" : 11,
+      "warnings" : 0,
+      "total" : 46
+    },
+    "testId" : "15-article-elsewhere-iphone5-iphone-320x568",
+    "groups" : [ "Article_Elsewhere_Mobile" ],
+    "failed" : true,
+    "duration" : 108926
+  } ]
+}
