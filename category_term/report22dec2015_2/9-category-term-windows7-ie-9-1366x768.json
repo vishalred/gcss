@@ -1,0 +1,1243 @@
+{
+  "testId" : "9-category-term-windows7-ie-9-1366x768",
+  "name" : "Category_Term_Windows7_IE_9_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_IE_9_1366x768",
+      "status" : "info",
+      "time" : 1450788964684,
+      "includedTags" : [ "Windows7_IE_9_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1097
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1098
+            },
+            "name" : "above navigation 1px",
+            "highlight" : [ "header", "navigation" ]
+          } ]
+        }, {
+          "name" : "navigation",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1101
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "navigation" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1102
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "navigation", "header" ]
+          } ]
+        }, {
+          "name" : "top-ad-wrapper",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1105
+            },
+            "name" : "below navigation 1px",
+            "highlight" : [ "top-ad-wrapper", "navigation" ]
+          } ]
+        }, {
+          "name" : "adzerk-top-leaderboard",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1108
+            },
+            "name" : "inside top-ad-wrapper 67px left, 66px right, 20px top, 21px bottom",
+            "highlight" : [ "adzerk-top-leaderboard", "top-ad-wrapper" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1111
+            },
+            "name" : "width 1170px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "content-section",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1114
+            },
+            "name" : "width 830px",
+            "highlight" : [ "content-section" ]
+          } ]
+        }, {
+          "name" : "term-category-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1119
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-category-container" ]
+          } ]
+        }, {
+          "name" : "node-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1122
+            },
+            "name" : "below top-ad-wrapper 25px",
+            "highlight" : [ "node-header", "top-ad-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1123
+            },
+            "name" : "height 40px",
+            "highlight" : [ "node-header" ]
+          } ]
+        }, {
+          "name" : "node-track",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1126
+            },
+            "name" : "below node-header 25px",
+            "highlight" : [ "node-track", "node-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1127
+            },
+            "name" : "width 790px",
+            "highlight" : [ "node-track" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1128
+            },
+            "name" : "height 56px",
+            "highlight" : [ "node-track" ]
+          } ]
+        }, {
+          "name" : "myTab",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1131
+            },
+            "name" : "below node-track 49px",
+            "highlight" : [ "myTab", "node-track" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1132
+            },
+            "name" : "width 790px",
+            "highlight" : [ "myTab" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1133
+            },
+            "name" : "height 48px",
+            "highlight" : [ "myTab" ]
+          } ]
+        }, {
+          "name" : "term-news",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1138
+            },
+            "name" : "below myTab 35px",
+            "highlight" : [ "term-news", "myTab" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1139
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1142
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-news.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1161
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.block-title", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.view-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1145
+            },
+            "name" : "inside term-news 1px right",
+            "highlight" : [ "term-news.view-link", "term-news" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1146
+            },
+            "name" : "below term-news.block-title",
+            "highlight" : [ "term-news.view-link", "term-news.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1147
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-news.view-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1161
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.view-link", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.article-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1150
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-news.article-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1151
+            },
+            "name" : "height 36px",
+            "highlight" : [ "term-news.article-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1161
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.article-title", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1154
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-news.text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1155
+            },
+            "name" : "height 79px",
+            "highlight" : [ "term-news.text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1161
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.text", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.botttom-article-left",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1158
+            },
+            "name" : "below term-news.text 15px",
+            "highlight" : [ "term-news.botttom-article-left", "term-news.text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1161
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.botttom-article-left", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-apis",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1166
+            },
+            "name" : "below term-news 70px",
+            "highlight" : [ "term-apis", "term-news" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1167
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-apis" ]
+          } ]
+        }, {
+          "name" : "term-apis.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1170
+            },
+            "name" : "height 26px",
+            "highlight" : [ "term-apis.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1180
+            },
+            "name" : "inside term-apis",
+            "highlight" : [ "term-apis.block-title", "term-apis" ]
+          } ]
+        }, {
+          "name" : "term-apis.view-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1173
+            },
+            "name" : "inside term-apis 1px right",
+            "highlight" : [ "term-apis.view-link", "term-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1174
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-apis.view-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1180
+            },
+            "name" : "inside term-apis",
+            "highlight" : [ "term-apis.view-link", "term-apis" ]
+          } ]
+        }, {
+          "name" : "term-apis.table",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1177
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-apis.table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1180
+            },
+            "name" : "inside term-apis",
+            "highlight" : [ "term-apis.table", "term-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-apis",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1185
+            },
+            "name" : "below term-apis 55px",
+            "highlight" : [ "term-all-apis", "term-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1186
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-all-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-apis.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1189
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-all-apis.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1199
+            },
+            "name" : "inside term-all-apis",
+            "highlight" : [ "term-all-apis.block-title", "term-all-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-apis.view-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1192
+            },
+            "name" : "inside term-all-apis 1px right",
+            "highlight" : [ "term-all-apis.view-link", "term-all-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1193
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-all-apis.view-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1199
+            },
+            "name" : "inside term-all-apis",
+            "highlight" : [ "term-all-apis.view-link", "term-all-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-apis.table",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1196
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-all-apis.table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1199
+            },
+            "name" : "inside term-all-apis",
+            "highlight" : [ "term-all-apis.table", "term-all-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-mashups",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1205
+            },
+            "name" : "below term-all-apis 55px",
+            "highlight" : [ "term-all-mashups", "term-all-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1206
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-all-mashups" ]
+          } ]
+        }, {
+          "name" : "term-all-mashups.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1209
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-all-mashups.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1219
+            },
+            "name" : "inside term-all-mashups",
+            "highlight" : [ "term-all-mashups.block-title", "term-all-mashups" ]
+          } ]
+        }, {
+          "name" : "term-all-mashups.view-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1212
+            },
+            "name" : "inside term-all-mashups ~1px right",
+            "highlight" : [ "term-all-mashups.view-link", "term-all-mashups" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1213
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-all-mashups.view-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1219
+            },
+            "name" : "inside term-all-mashups",
+            "highlight" : [ "term-all-mashups.view-link", "term-all-mashups" ]
+          } ]
+        }, {
+          "name" : "term-all-mashups.table",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1216
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-all-mashups.table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1219
+            },
+            "name" : "inside term-all-mashups",
+            "highlight" : [ "term-all-mashups.table", "term-all-mashups" ]
+          } ]
+        }, {
+          "name" : "developers",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1224
+            },
+            "name" : "below term-all-mashups 55px",
+            "highlight" : [ "developers", "term-all-mashups" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1225
+            },
+            "name" : "width 790px",
+            "highlight" : [ "developers" ]
+          } ]
+        }, {
+          "name" : "developers.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1228
+            },
+            "name" : "height 26px",
+            "highlight" : [ "developers.block-title" ]
+          } ]
+        }, {
+          "name" : "developers.view-content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1231
+            },
+            "name" : "height 50px",
+            "highlight" : [ "developers.view-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1232
+            },
+            "name" : "below developers.block-title 16px",
+            "highlight" : [ "developers.view-content", "developers.block-title" ]
+          } ]
+        }, {
+          "name" : "developers.views-field-picture",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1235
+            },
+            "name" : "height 50px",
+            "highlight" : [ "developers.views-field-picture" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1236
+            },
+            "name" : "width 50px",
+            "highlight" : [ "developers.views-field-picture" ]
+          } ]
+        }, {
+          "name" : "developers.view-footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1239
+            },
+            "name" : "height 56px",
+            "highlight" : [ "developers.view-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1240
+            },
+            "name" : "below developers.view-content 15px",
+            "highlight" : [ "developers.view-footer", "developers.view-content" ]
+          } ]
+        }, {
+          "name" : "followers",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1245
+            },
+            "name" : "below developers.view-footer 34px",
+            "highlight" : [ "followers", "developers.view-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1246
+            },
+            "name" : "width 790px",
+            "highlight" : [ "followers" ]
+          } ]
+        }, {
+          "name" : "followers.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1249
+            },
+            "name" : "height 26px",
+            "highlight" : [ "followers.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1264
+            },
+            "name" : "inside followers",
+            "highlight" : [ "followers.block-title", "followers" ]
+          } ]
+        }, {
+          "name" : "followers.view-content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1252
+            },
+            "name" : "height 50px",
+            "highlight" : [ "followers.view-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1253
+            },
+            "name" : "below followers.block-title 15px",
+            "highlight" : [ "followers.view-content", "followers.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1264
+            },
+            "name" : "inside followers",
+            "highlight" : [ "followers.view-content", "followers" ]
+          } ]
+        }, {
+          "name" : "followers.views-field-picture",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1256
+            },
+            "name" : "height 50px",
+            "highlight" : [ "followers.views-field-picture" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1257
+            },
+            "name" : "width 50px",
+            "highlight" : [ "followers.views-field-picture" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1264
+            },
+            "name" : "inside followers",
+            "highlight" : [ "followers.views-field-picture", "followers" ]
+          } ]
+        }, {
+          "name" : "followers.view-footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1260
+            },
+            "name" : "height 56px",
+            "highlight" : [ "followers.view-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1261
+            },
+            "name" : "below followers.view-content 15px",
+            "highlight" : [ "followers.view-footer", "followers.view-content" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1269
+            },
+            "name" : "inside main-container",
+            "highlight" : [ "region-sidebar-second", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1270
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1271
+            },
+            "name" : "near content-section 40px right",
+            "highlight" : [ "region-sidebar-second", "content-section" ]
+          } ]
+        }, {
+          "name" : "adzerk-bottom-leaderboard",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1274
+            },
+            "name" : "inside bottom-ad-wrapper 67px left, 66px right, 21px top, 20px bottom",
+            "highlight" : [ "adzerk-bottom-leaderboard", "bottom-ad-wrapper" ]
+          } ]
+        }, {
+          "name" : "block-block-38",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1277
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "highlight" : [ "block-block-38", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-title-apiu",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1280
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-title-apiu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1281
+            },
+            "name" : "height 60px",
+            "highlight" : [ "block-title-apiu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1282
+            },
+            "name" : "inside block-block-38 0px left",
+            "highlight" : [ "block-title-apiu", "block-block-38" ]
+          } ]
+        }, {
+          "name" : "apiu-wrapper",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1285
+            },
+            "name" : "width 300px",
+            "highlight" : [ "apiu-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1286
+            },
+            "name" : "inside block-block-38 0px left",
+            "highlight" : [ "apiu-wrapper", "block-block-38" ]
+          } ]
+        }, {
+          "name" : "apiu-cat",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1289
+            },
+            "name" : "width 260px",
+            "highlight" : [ "apiu-cat" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1290
+            },
+            "name" : "inside apiu-wrapper 20px left, 24px top",
+            "highlight" : [ "apiu-cat", "apiu-wrapper" ]
+          } ]
+        }, {
+          "name" : "primary-cat",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1293
+            },
+            "name" : "width 260px",
+            "highlight" : [ "primary-cat" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1294
+            },
+            "name" : "inside apiu-wrapper 20px left, 59px top",
+            "highlight" : [ "primary-cat", "apiu-wrapper" ]
+          } ]
+        }, {
+          "name" : "block-block-21",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1298
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "highlight" : [ "block-block-21", "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1299
+            },
+            "name" : "near block-block-38 30px bottom",
+            "highlight" : [ "block-block-21", "block-block-38" ]
+          } ]
+        }, {
+          "name" : "ad-title-sidebar-top",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1302
+            },
+            "name" : "height 10px",
+            "highlight" : [ "ad-title-sidebar-top" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1303
+            },
+            "name" : "inside block-block-21 0px left, 0px top",
+            "highlight" : [ "ad-title-sidebar-top", "block-block-21" ]
+          } ]
+        }, {
+          "name" : "adzerk-top-mrec",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1306
+            },
+            "name" : "width 300px",
+            "highlight" : [ "adzerk-top-mrec" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1307
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "highlight" : [ "adzerk-top-mrec", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-42",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1310
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-42" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1311
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-block-42", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-views-right-side-users-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1314
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1315
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-25",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1318
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "highlight" : [ "block-block-25", "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1319
+            },
+            "name" : "near block-views-right-side-users-block 30px bottom",
+            "highlight" : [ "block-block-25", "block-views-right-side-users-block" ]
+          } ]
+        }, {
+          "name" : "ad-title-sidebar-bottom",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1322
+            },
+            "name" : "height 10px",
+            "highlight" : [ "ad-title-sidebar-bottom" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1323
+            },
+            "name" : "inside block-block-25 0px left, 0px top",
+            "highlight" : [ "ad-title-sidebar-bottom", "block-block-25" ]
+          } ]
+        }, {
+          "name" : "adzerk-bottom-mrec",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1326
+            },
+            "name" : "width 300px",
+            "highlight" : [ "adzerk-bottom-mrec" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1327
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "highlight" : [ "adzerk-bottom-mrec", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1331
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "block-block-25" : {
+          "area" : [ 952, 2172, 300, 301 ]
+        },
+        "term-apis.table" : {
+          "area" : [ 82, 1391, 790, 422 ]
+        },
+        "block-title-apiu" : {
+          "area" : [ 952, 305, 300, 60 ]
+        },
+        "developers" : {
+          "area" : [ 82, 2980, 790, 91 ]
+        },
+        "term-all-mashups.block-title" : {
+          "area" : [ 82, 2394, 790, 24 ]
+        },
+        "navigation" : {
+          "area" : [ 82, 102, 1170, 46 ]
+        },
+        "term-news.text" : {
+          "area" : [ 82, 654, 790, 79 ]
+        },
+        "developers.view-content" : {
+          "area" : [ 82, 3022, 790, 50 ]
+        },
+        "apiu-wrapper" : {
+          "area" : [ 952, 365, 300, 242 ]
+        },
+        "top-ad-wrapper" : {
+          "area" : [ 0, 149, 1333, 131 ]
+        },
+        "term-news" : {
+          "area" : [ 82, 558, 790, 714 ]
+        },
+        "term-all-mashups.table" : {
+          "area" : [ 82, 2443, 790, 482 ]
+        },
+        "apiu-cat" : {
+          "area" : [ 972, 389, 260, 20 ]
+        },
+        "term-news.botttom-article-left" : {
+          "area" : [ 82, 748, 421, 22 ]
+        },
+        "term-category-container" : {
+          "area" : [ 82, 305, 790, 2963 ]
+        },
+        "adzerk-bottom-leaderboard" : {
+          "area" : [ 67, 3400, 1200, 95 ]
+        },
+        "node-track" : {
+          "area" : [ 82, 370, 790, 56 ]
+        },
+        "followers.view-content" : {
+          "area" : [ 82, 3218, 790, 50 ]
+        },
+        "block-block-38" : {
+          "area" : [ 952, 305, 300, 555 ]
+        },
+        "term-news.article-title" : {
+          "area" : [ 82, 607, 790, 36 ]
+        },
+        "developers.view-footer" : {
+          "area" : [ 82, 3087, 161, 56 ]
+        },
+        "adzerk-top-leaderboard" : {
+          "area" : [ 67, 169, 1200, 90 ]
+        },
+        "content-section" : {
+          "area" : [ 82, 305, 830, 3074 ]
+        },
+        "followers" : {
+          "area" : [ 82, 3177, 790, 91 ]
+        },
+        "primary-cat" : {
+          "area" : [ 972, 424, 260, 128 ]
+        },
+        "term-all-mashups.view-link" : {
+          "area" : [ 822, 2419, 49, 24 ]
+        },
+        "adzerk-bottom-mrec" : {
+          "area" : [ 952, 2188, 300, 255 ]
+        },
+        "header" : {
+          "area" : [ 82, 0, 1170, 101 ]
+        },
+        "term-all-mashups" : {
+          "area" : [ 82, 2394, 790, 531 ]
+        },
+        "term-apis.view-link" : {
+          "area" : [ 822, 1367, 49, 24 ]
+        },
+        "block-block-42" : {
+          "area" : [ 952, 1572, 300, 265 ]
+        },
+        "term-news.block-title" : {
+          "area" : [ 82, 558, 790, 24 ]
+        },
+        "followers.block-title" : {
+          "area" : [ 82, 3177, 790, 26 ]
+        },
+        "followers.view-footer" : {
+          "area" : [ 82, 3283, 223, 56 ]
+        },
+        "term-all-apis.table" : {
+          "area" : [ 82, 1917, 790, 422 ]
+        },
+        "footer" : {
+          "area" : [ 0, 3515, 1333, 279 ]
+        },
+        "term-news.view-link" : {
+          "area" : [ 822, 583, 49, 24 ]
+        },
+        "adzerk-top-mrec" : {
+          "area" : [ 952, 906, 300, 605 ]
+        },
+        "main-container" : {
+          "area" : [ 82, 280, 1170, 3099 ]
+        },
+        "term-all-apis.block-title" : {
+          "area" : [ 82, 1868, 790, 24 ]
+        },
+        "term-all-apis.view-link" : {
+          "area" : [ 822, 1893, 49, 24 ]
+        },
+        "term-apis" : {
+          "area" : [ 82, 1342, 790, 471 ]
+        },
+        "bottom-ad-wrapper" : {
+          "area" : [ 0, 3379, 1333, 136 ]
+        },
+        "ad-title-sidebar-bottom" : {
+          "area" : [ 952, 2172, 300, 10 ]
+        },
+        "term-apis.block-title" : {
+          "area" : [ 82, 1342, 790, 26 ]
+        },
+        "node-header" : {
+          "area" : [ 82, 305, 790, 40 ]
+        },
+        "followers.views-field-picture" : {
+          "area" : [ 82, 3218, 50, 50 ]
+        },
+        "ad-title-sidebar-top" : {
+          "area" : [ 952, 890, 300, 10 ]
+        },
+        "block-views-right-side-users-block" : {
+          "area" : [ 952, 1867, 300, 275 ]
+        },
+        "developers.views-field-picture" : {
+          "area" : [ 82, 3022, 50, 50 ]
+        },
+        "myTab" : {
+          "area" : [ 82, 475, 790, 48 ]
+        },
+        "term-all-apis" : {
+          "area" : [ 82, 1868, 790, 471 ]
+        },
+        "developers.block-title" : {
+          "area" : [ 82, 2980, 790, 26 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 952, 305, 300, 2168 ]
+        },
+        "block-block-21" : {
+          "area" : [ 952, 890, 300, 652 ]
+        }
+      },
+      "screenshot" : "layout-9-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

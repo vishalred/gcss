@@ -1,0 +1,1511 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "11-category-term-windows7-firefox-37-1366x768",
+  "name" : "Category_Term_Windows7_Firefox_37_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_Firefox_37_1366x768",
+      "status" : "error",
+      "time" : 1450789130338,
+      "includedTags" : [ "Windows7_Firefox_37_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1580
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1581
+            },
+            "name" : "above navigation 1px",
+            "highlight" : [ "header", "navigation" ]
+          } ]
+        }, {
+          "name" : "navigation",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1584
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "navigation" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1585
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "navigation", "header" ]
+          } ]
+        }, {
+          "name" : "top-ad-wrapper",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1588
+            },
+            "name" : "below navigation 1px",
+            "highlight" : [ "top-ad-wrapper", "navigation" ]
+          } ]
+        }, {
+          "name" : "adzerk-top-leaderboard",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1591
+            },
+            "name" : "inside top-ad-wrapper 67px left, 66px right, 20px top, 21px bottom",
+            "highlight" : [ "adzerk-top-leaderboard", "top-ad-wrapper" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1594
+            },
+            "name" : "width 1170px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "content-section",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1597
+            },
+            "name" : "width 830px",
+            "highlight" : [ "content-section" ]
+          } ]
+        }, {
+          "name" : "term-category-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1602
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-category-container" ]
+          } ]
+        }, {
+          "name" : "node-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1605
+            },
+            "name" : "below top-ad-wrapper 25px",
+            "highlight" : [ "node-header", "top-ad-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1606
+            },
+            "name" : "height 40px",
+            "highlight" : [ "node-header" ]
+          } ]
+        }, {
+          "name" : "node-track",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1609
+            },
+            "name" : "below node-header 25px",
+            "highlight" : [ "node-track", "node-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1610
+            },
+            "name" : "width 790px",
+            "highlight" : [ "node-track" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1611
+            },
+            "name" : "height 56px",
+            "highlight" : [ "node-track" ]
+          } ]
+        }, {
+          "name" : "myTab",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1614
+            },
+            "name" : "below node-track 49px",
+            "highlight" : [ "myTab", "node-track" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1615
+            },
+            "name" : "width 790px",
+            "highlight" : [ "myTab" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1616
+            },
+            "name" : "height 48px",
+            "highlight" : [ "myTab" ]
+          } ]
+        }, {
+          "name" : "term-news",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1621
+            },
+            "name" : "below myTab 35px",
+            "highlight" : [ "term-news", "myTab" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1622
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1625
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-news.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1644
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.block-title", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.view-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1628
+            },
+            "name" : "inside term-news 0px right",
+            "highlight" : [ "term-news.view-link", "term-news" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1629
+            },
+            "name" : "below term-news.block-title",
+            "highlight" : [ "term-news.view-link", "term-news.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1630
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-news.view-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1644
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.view-link", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.article-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1633
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-news.article-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1634
+            },
+            "name" : "height 36px",
+            "highlight" : [ "term-news.article-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1644
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.article-title", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1637
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-news.text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1638
+            },
+            "name" : "height 79px",
+            "highlight" : [ "term-news.text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1644
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.text", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-news.botttom-article-left",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1641
+            },
+            "name" : "below term-news.text 15px",
+            "highlight" : [ "term-news.botttom-article-left", "term-news.text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1644
+            },
+            "name" : "inside term-news",
+            "highlight" : [ "term-news.botttom-article-left", "term-news" ]
+          } ]
+        }, {
+          "name" : "term-apis",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1649
+            },
+            "name" : "below term-news 70px",
+            "highlight" : [ "term-apis", "term-news" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1650
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-apis" ]
+          } ]
+        }, {
+          "name" : "term-apis.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1653
+            },
+            "name" : "height 26px",
+            "highlight" : [ "term-apis.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1663
+            },
+            "name" : "inside term-apis",
+            "highlight" : [ "term-apis.block-title", "term-apis" ]
+          } ]
+        }, {
+          "name" : "term-apis.view-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1656
+            },
+            "name" : "inside term-apis 0px right",
+            "highlight" : [ "term-apis.view-link", "term-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1657
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-apis.view-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1663
+            },
+            "name" : "inside term-apis",
+            "highlight" : [ "term-apis.view-link", "term-apis" ]
+          } ]
+        }, {
+          "name" : "term-apis.table",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1660
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-apis.table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1663
+            },
+            "name" : "inside term-apis",
+            "highlight" : [ "term-apis.table", "term-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-apis",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1668
+            },
+            "name" : "below term-apis 55px",
+            "highlight" : [ "term-all-apis", "term-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1669
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-all-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-apis.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1672
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-all-apis.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1682
+            },
+            "name" : "inside term-all-apis",
+            "highlight" : [ "term-all-apis.block-title", "term-all-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-apis.view-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1675
+            },
+            "name" : "inside term-all-apis 0px right",
+            "highlight" : [ "term-all-apis.view-link", "term-all-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1676
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-all-apis.view-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1682
+            },
+            "name" : "inside term-all-apis",
+            "highlight" : [ "term-all-apis.view-link", "term-all-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-apis.table",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1679
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-all-apis.table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1682
+            },
+            "name" : "inside term-all-apis",
+            "highlight" : [ "term-all-apis.table", "term-all-apis" ]
+          } ]
+        }, {
+          "name" : "term-all-mashups",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1688
+            },
+            "name" : "below term-all-apis 55px",
+            "highlight" : [ "term-all-mashups", "term-all-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1689
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-all-mashups" ]
+          } ]
+        }, {
+          "name" : "term-all-mashups.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1692
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-all-mashups.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1702
+            },
+            "name" : "inside term-all-mashups",
+            "highlight" : [ "term-all-mashups.block-title", "term-all-mashups" ]
+          } ]
+        }, {
+          "name" : "term-all-mashups.view-link",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1695
+            },
+            "name" : "inside term-all-mashups ~1px right",
+            "highlight" : [ "term-all-mashups.view-link", "term-all-mashups" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1696
+            },
+            "name" : "height 24px",
+            "highlight" : [ "term-all-mashups.view-link" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1702
+            },
+            "name" : "inside term-all-mashups",
+            "highlight" : [ "term-all-mashups.view-link", "term-all-mashups" ]
+          } ]
+        }, {
+          "name" : "term-all-mashups.table",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1699
+            },
+            "name" : "width 790px",
+            "highlight" : [ "term-all-mashups.table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1702
+            },
+            "name" : "inside term-all-mashups",
+            "highlight" : [ "term-all-mashups.table", "term-all-mashups" ]
+          } ]
+        }, {
+          "name" : "developers",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1707
+            },
+            "name" : "below term-all-mashups 55px",
+            "highlight" : [ "developers", "term-all-mashups" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1708
+            },
+            "name" : "width 790px",
+            "highlight" : [ "developers" ]
+          } ]
+        }, {
+          "name" : "developers.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1711
+            },
+            "name" : "height 26px",
+            "highlight" : [ "developers.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1726
+            },
+            "name" : "inside developers",
+            "highlight" : [ "developers.block-title", "developers" ]
+          } ]
+        }, {
+          "name" : "developers.view-content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1714
+            },
+            "name" : "height 50px",
+            "highlight" : [ "developers.view-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1715
+            },
+            "name" : "below developers.block-title 15px",
+            "highlight" : [ "developers.view-content", "developers.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1726
+            },
+            "name" : "inside developers",
+            "highlight" : [ "developers.view-content", "developers" ]
+          } ]
+        }, {
+          "name" : "developers.views-field-picture",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1718
+            },
+            "name" : "height 50px",
+            "highlight" : [ "developers.views-field-picture" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1719
+            },
+            "name" : "width 50px",
+            "highlight" : [ "developers.views-field-picture" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1726
+            },
+            "name" : "inside developers",
+            "highlight" : [ "developers.views-field-picture", "developers" ]
+          } ]
+        }, {
+          "name" : "developers.view-footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1722
+            },
+            "name" : "height 56px",
+            "highlight" : [ "developers.view-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1723
+            },
+            "name" : "below developers.view-content 15px",
+            "highlight" : [ "developers.view-footer", "developers.view-content" ]
+          } ]
+        }, {
+          "name" : "followers",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1731
+            },
+            "name" : "below developers.view-footer 35px",
+            "highlight" : [ "followers", "developers.view-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1732
+            },
+            "name" : "width 790px",
+            "highlight" : [ "followers" ]
+          } ]
+        }, {
+          "name" : "followers.block-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1735
+            },
+            "name" : "height 26px",
+            "highlight" : [ "followers.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1750
+            },
+            "name" : "inside followers",
+            "highlight" : [ "followers.block-title", "followers" ]
+          } ]
+        }, {
+          "name" : "followers.view-content",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1738
+            },
+            "name" : "height 50px",
+            "highlight" : [ "followers.view-content" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1739
+            },
+            "name" : "below followers.block-title 15px",
+            "highlight" : [ "followers.view-content", "followers.block-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1750
+            },
+            "name" : "inside followers",
+            "highlight" : [ "followers.view-content", "followers" ]
+          } ]
+        }, {
+          "name" : "followers.views-field-picture",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1742
+            },
+            "name" : "height 50px",
+            "highlight" : [ "followers.views-field-picture" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1743
+            },
+            "name" : "width 50px",
+            "highlight" : [ "followers.views-field-picture" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1750
+            },
+            "name" : "inside followers",
+            "highlight" : [ "followers.views-field-picture", "followers" ]
+          } ]
+        }, {
+          "name" : "followers.view-footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1746
+            },
+            "name" : "height 56px",
+            "highlight" : [ "followers.view-footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1747
+            },
+            "name" : "below followers.view-content 15px",
+            "highlight" : [ "followers.view-footer", "followers.view-content" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1755
+            },
+            "name" : "inside main-container",
+            "highlight" : [ "region-sidebar-second", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1756
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1757
+            },
+            "name" : "near content-section 40px right",
+            "highlight" : [ "region-sidebar-second", "content-section" ]
+          } ]
+        }, {
+          "name" : "adzerk-bottom-leaderboard",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1760
+            },
+            "name" : "inside bottom-ad-wrapper 67px left, 66px right, 21px top, 20px bottom",
+            "highlight" : [ "adzerk-bottom-leaderboard", "bottom-ad-wrapper" ]
+          } ]
+        }, {
+          "name" : "block-block-38",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1763
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "highlight" : [ "block-block-38", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-title-apiu",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1766
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-title-apiu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1767
+            },
+            "name" : "height 60px",
+            "highlight" : [ "block-title-apiu" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1768
+            },
+            "name" : "inside block-block-38 0px left",
+            "highlight" : [ "block-title-apiu", "block-block-38" ]
+          } ]
+        }, {
+          "name" : "apiu-wrapper",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1771
+            },
+            "name" : "width 300px",
+            "highlight" : [ "apiu-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1772
+            },
+            "name" : "inside block-block-38 0px left",
+            "highlight" : [ "apiu-wrapper", "block-block-38" ]
+          } ]
+        }, {
+          "name" : "apiu-cat",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1775
+            },
+            "name" : "width 260px",
+            "highlight" : [ "apiu-cat" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1776
+            },
+            "name" : "inside apiu-wrapper 20px left, 24px top",
+            "highlight" : [ "apiu-cat", "apiu-wrapper" ]
+          } ]
+        }, {
+          "name" : "primary-cat",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1779
+            },
+            "name" : "width 260px",
+            "highlight" : [ "primary-cat" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1780
+            },
+            "name" : "inside apiu-wrapper 20px left, 59px top",
+            "highlight" : [ "primary-cat", "apiu-wrapper" ]
+          } ]
+        }, {
+          "name" : "block-block-21",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1784
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "highlight" : [ "block-block-21", "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1785
+            },
+            "name" : "near block-block-38 30px bottom",
+            "highlight" : [ "block-block-21", "block-block-38" ]
+          } ]
+        }, {
+          "name" : "ad-title-sidebar-top",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1788
+            },
+            "name" : "height 10px",
+            "highlight" : [ "ad-title-sidebar-top" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1789
+            },
+            "name" : "inside block-block-21 0px left, 0px top",
+            "highlight" : [ "ad-title-sidebar-top", "block-block-21" ]
+          } ]
+        }, {
+          "name" : "adzerk-top-mrec",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1792
+            },
+            "name" : "width 300px",
+            "highlight" : [ "adzerk-top-mrec" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1793
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "highlight" : [ "adzerk-top-mrec", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-42",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1796
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-block-42" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1797
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-block-42", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-views-right-side-users-block",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1800
+            },
+            "name" : "width 300px",
+            "highlight" : [ "block-views-right-side-users-block" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1801
+            },
+            "name" : "inside region-sidebar-second 0px left right",
+            "highlight" : [ "block-views-right-side-users-block", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-block-25",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1804
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "errors" : [ "\"block-block-25\" is not completely inside" ],
+            "highlight" : [ "block-block-25", "region-sidebar-second" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1805
+            },
+            "name" : "near block-views-right-side-users-block 30px bottom",
+            "highlight" : [ "block-block-25", "block-views-right-side-users-block" ]
+          } ]
+        }, {
+          "name" : "ad-title-sidebar-bottom",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1808
+            },
+            "name" : "height 10px",
+            "highlight" : [ "ad-title-sidebar-bottom" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1809
+            },
+            "name" : "inside block-block-25 0px left, 0px top",
+            "highlight" : [ "ad-title-sidebar-bottom", "block-block-25" ]
+          } ]
+        }, {
+          "name" : "adzerk-bottom-mrec",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1812
+            },
+            "name" : "width 300px",
+            "highlight" : [ "adzerk-bottom-mrec" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1813
+            },
+            "name" : "inside region-sidebar-second 0px left",
+            "highlight" : [ "adzerk-bottom-mrec", "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1817
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "block-block-25" : {
+          "area" : [ 952, 2212, 300, 321 ]
+        },
+        "term-apis.table" : {
+          "area" : [ 82, 1383, 790, 422 ]
+        },
+        "block-title-apiu" : {
+          "area" : [ 952, 305, 300, 60 ]
+        },
+        "developers" : {
+          "area" : [ 82, 2952, 790, 91 ]
+        },
+        "term-all-mashups.block-title" : {
+          "area" : [ 82, 2376, 790, 24 ]
+        },
+        "navigation" : {
+          "area" : [ 82, 102, 1170, 46 ]
+        },
+        "term-news.text" : {
+          "area" : [ 82, 654, 790, 79 ]
+        },
+        "developers.view-content" : {
+          "area" : [ 82, 2993, 790, 50 ]
+        },
+        "apiu-wrapper" : {
+          "area" : [ 952, 365, 300, 242 ]
+        },
+        "top-ad-wrapper" : {
+          "area" : [ 0, 149, 1333, 131 ]
+        },
+        "term-news" : {
+          "area" : [ 82, 558, 790, 714 ]
+        },
+        "term-all-mashups.table" : {
+          "area" : [ 82, 2415, 790, 482 ]
+        },
+        "apiu-cat" : {
+          "area" : [ 972, 389, 260, 20 ]
+        },
+        "term-news.botttom-article-left" : {
+          "area" : [ 82, 748, 428, 22 ]
+        },
+        "term-category-container" : {
+          "area" : [ 82, 305, 790, 2935 ]
+        },
+        "adzerk-bottom-leaderboard" : {
+          "area" : [ 67, 3372, 1200, 90 ]
+        },
+        "node-track" : {
+          "area" : [ 82, 370, 790, 56 ]
+        },
+        "followers.view-content" : {
+          "area" : [ 82, 3190, 790, 50 ]
+        },
+        "block-block-38" : {
+          "area" : [ 952, 305, 300, 575 ]
+        },
+        "term-news.article-title" : {
+          "area" : [ 82, 607, 790, 36 ]
+        },
+        "developers.view-footer" : {
+          "area" : [ 82, 3058, 162, 56 ]
+        },
+        "adzerk-top-leaderboard" : {
+          "area" : [ 67, 169, 1200, 90 ]
+        },
+        "content-section" : {
+          "area" : [ 82, 305, 830, 3046 ]
+        },
+        "followers" : {
+          "area" : [ 82, 3149, 790, 91 ]
+        },
+        "primary-cat" : {
+          "area" : [ 972, 424, 260, 128 ]
+        },
+        "term-all-mashups.view-link" : {
+          "area" : [ 821, 2401, 51, 24 ]
+        },
+        "adzerk-bottom-mrec" : {
+          "area" : [ 952, 2228, 300, 275 ]
+        },
+        "header" : {
+          "area" : [ 82, 0, 1170, 101 ]
+        },
+        "term-all-mashups" : {
+          "area" : [ 82, 2376, 790, 521 ]
+        },
+        "term-apis.view-link" : {
+          "area" : [ 821, 1367, 51, 24 ]
+        },
+        "block-block-42" : {
+          "area" : [ 952, 1612, 300, 265 ]
+        },
+        "term-news.block-title" : {
+          "area" : [ 82, 558, 790, 24 ]
+        },
+        "followers.block-title" : {
+          "area" : [ 82, 3149, 790, 26 ]
+        },
+        "followers.view-footer" : {
+          "area" : [ 82, 3255, 225, 56 ]
+        },
+        "term-all-apis.table" : {
+          "area" : [ 82, 1899, 790, 422 ]
+        },
+        "footer" : {
+          "area" : [ 0, 3482, 1333, 279 ]
+        },
+        "term-news.view-link" : {
+          "area" : [ 821, 583, 51, 24 ]
+        },
+        "adzerk-top-mrec" : {
+          "area" : [ 952, 926, 300, 625 ]
+        },
+        "main-container" : {
+          "area" : [ 82, 280, 1170, 3071 ]
+        },
+        "term-all-apis.block-title" : {
+          "area" : [ 82, 1860, 790, 24 ]
+        },
+        "term-all-apis.view-link" : {
+          "area" : [ 821, 1885, 51, 24 ]
+        },
+        "term-apis" : {
+          "area" : [ 82, 1342, 790, 463 ]
+        },
+        "bottom-ad-wrapper" : {
+          "area" : [ 0, 3351, 1333, 131 ]
+        },
+        "ad-title-sidebar-bottom" : {
+          "area" : [ 952, 2212, 300, 10 ]
+        },
+        "term-apis.block-title" : {
+          "area" : [ 82, 1342, 790, 26 ]
+        },
+        "node-header" : {
+          "area" : [ 82, 305, 790, 40 ]
+        },
+        "followers.views-field-picture" : {
+          "area" : [ 82, 3190, 50, 50 ]
+        },
+        "ad-title-sidebar-top" : {
+          "area" : [ 952, 910, 300, 10 ]
+        },
+        "block-views-right-side-users-block" : {
+          "area" : [ 952, 1907, 300, 275 ]
+        },
+        "developers.views-field-picture" : {
+          "area" : [ 82, 2993, 50, 50 ]
+        },
+        "myTab" : {
+          "area" : [ 82, 475, 790, 48 ]
+        },
+        "term-all-apis" : {
+          "area" : [ 82, 1860, 790, 461 ]
+        },
+        "developers.block-title" : {
+          "area" : [ 82, 2952, 790, 26 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 952, 305, 300, 2227 ]
+        },
+        "block-block-21" : {
+          "area" : [ 952, 910, 300, 672 ]
+        }
+      },
+      "screenshot" : "layout-11-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" data-screenshot="{{screenshot}}">
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>Category_Term_Windows7_Firefox_37_1366x768</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>
