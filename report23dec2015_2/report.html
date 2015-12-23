@@ -1,0 +1,335 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <link rel="stylesheet" type="text/css" href="tablesorter.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="tablesorter.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "tests" : [ {
+    "name" : "How_to_Windows10_IE_11_1366x768",
+    "startedAt" : 1450855483860,
+    "endedAt" : 1450855605468,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "1-how-to-windows10-ie-11-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 121608
+  }, {
+    "name" : "How_to_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1450855605468,
+    "endedAt" : 1450855748778,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "2-how-to-windows10-chrome-42-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 143310
+  }, {
+    "name" : "How_to_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1450855748778,
+    "endedAt" : 1450855837507,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "3-how-to-windows10-firefox-37-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 88729
+  }, {
+    "name" : "How_to_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1450855837507,
+    "endedAt" : 1450855986949,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "4-how-to-windows8.1-ie-11-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 149442
+  }, {
+    "name" : "How_to_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1450855986949,
+    "endedAt" : 1450856128543,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "5-how-to-windows8.1-chrome-42-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 141594
+  }, {
+    "name" : "How_to_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1450856128543,
+    "endedAt" : 1450856225256,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "6-how-to-windows8.1-firefox-37-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 96713
+  }, {
+    "name" : "How_to_Windows7_IE_11_1366x768",
+    "startedAt" : 1450856225256,
+    "endedAt" : 1450856320468,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "7-how-to-windows7-ie-11-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 95212
+  }, {
+    "name" : "How_to_Windows7_IE_10_1366x768",
+    "startedAt" : 1450856320468,
+    "endedAt" : 1450856404498,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "8-how-to-windows7-ie-10-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 84030
+  }, {
+    "name" : "How_to_Windows7_IE_9_1366x768",
+    "startedAt" : 1450856404498,
+    "endedAt" : 1450856493000,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "9-how-to-windows7-ie-9-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 88502
+  }, {
+    "name" : "How_to_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1450856493000,
+    "endedAt" : 1450856590375,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 14,
+      "errors" : 26,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "10-how-to-windows7-chrome-42-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 97375
+  }, {
+    "name" : "How_to_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1450856590375,
+    "endedAt" : 1450856677562,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "11-how-to-windows7-firefox-37-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 87187
+  }, {
+    "name" : "How_to_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1450856677562,
+    "endedAt" : 1450856771045,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "12-how-to-osxyosemite-safari-8-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 93483
+  }, {
+    "name" : "How_to_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1450856771045,
+    "endedAt" : 1450856882121,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "13-how-to-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "How_to_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 111076
+  }, {
+    "name" : "How_to_iPadAir_iPad_768x1024",
+    "startedAt" : 1450856882121,
+    "endedAt" : 1450857063175,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 39,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 40
+    },
+    "testId" : "14-how-to-ipadair-ipad-768x1024",
+    "groups" : [ "How_to_Tablet_768x1024" ],
+    "failed" : true,
+    "duration" : 181054
+  }, {
+    "name" : "How_to_iPhone5_iPhone_320x568",
+    "startedAt" : 1450857063175,
+    "endedAt" : 1450857249608,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 36
+    },
+    "testId" : "15-how-to-iphone5-iphone-320x568",
+    "groups" : [ "How_to_Mobile" ],
+    "failed" : true,
+    "duration" : 186433
+  } ]
+};
+
+        </script>
+        <script>
+            $(function () {
+                var galenReport = createGalenTestOverview();
+                galenReport.renderTestsTable("tests-table", reportData);
+                galenReport.renderGroupsTable("groups-table", reportData);
+
+                window.onhashchange = function () {
+                    galenReport.handleHash(window.location.hash.substr(1));
+                };
+
+                galenReport.handleHash(window.location.hash.substr(1));
+            });
+        </script>
+    </head>
+    <body>
+
+
+        <div class="tests-overview">
+            <h2>Galen Test Report</h2>
+            <div class="tabs">
+                <a class="tab tab-tests" href="#tests">Tests</a>
+                <a class="tab tab-groups" href="#groups">Groups</a>
+            </div>
+            <div id="tests-table">
+            </div>
+            <div id="groups-table">
+            </div>
+
+            <script id="tests-table-tpl" type="text/x-handlebars-template">
+                <table class="tests tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Test</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Warnings</th>
+                            <th>Total</th>
+                            <th>Groups</th>
+                            <th>Started</th>
+                            <th>Duration</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each tests}}
+                        <tr data-groups="{{groups}}">
+                            <td class="suite-link">
+                                <a href="{{testId}}.html">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{statistic.passed}}</td>
+                            <td class="status failed">{{statistic.errors}}</td>
+                            <td class="status warnings">{{statistic.warnings}}</td>
+                            <td class="status total">{{statistic.total}}</td>
+                            <td class="tags">{{formatGroupsPretty groups}}</td>
+                            <td class="time">{{formatDateTime startedAt}}</td>
+                            <td class="time">{{formatDurationHumanReadable duration}}</td>
+                            <td class="progressbar">
+                                {{renderProgressBar statistic}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+            <script id="groups-table-tpl" type="text/x-handlebars-template">
+                <table class="groups tablesorter">
+                    <thead>
+                        <tr>
+                            <th>Group</th>
+                            <th>Passed</th>
+                            <th>Failed</th>
+                            <th>Tests</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td class="group-link">
+                                <a href="#tests|grouped|{{name}}">{{name}}</a>
+                            </td>
+                            <td class="status passed">{{passed}}</td>
+                            <td class="status failed">{{failed}}</td>
+                            <td class="status total">{{tests}}</td>
+                            <td class="progressbar">
+                                {{renderGroupsProgressBar this}}
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </tbody>
+                </table>
+            </script>
+        </div>
+    </body>
+</html>

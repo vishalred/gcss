@@ -1,0 +1,711 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <link rel="stylesheet" type="text/css" href="report.css"></link>
+        <script src="jquery-1.11.2.min.js"></script>
+        <script src="handlebars-v2.0.0.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+var reportData = {
+  "testId" : "10-how-to-windows7-chrome-42-1366x768",
+  "name" : "How_to_Windows7_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_Chrome_42_1366x768",
+      "status" : "error",
+      "time" : 1450856584338,
+      "includedTags" : [ "Windows7_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 756
+            },
+            "name" : "width ~ 86% of screen/width",
+            "errors" : [ "\"header\" width is 100% [1017px] which is not in range of 83 to 89% [844 to 905px]" ],
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 758
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 762
+            },
+            "name" : "width ~ 86% of screen/width",
+            "errors" : [ "\"headerdiv\" width is 100% [1017px] which is not in range of 83 to 89% [844 to 905px]" ],
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 763
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "azk16406",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 767
+            },
+            "name" : "height 90px",
+            "highlight" : [ "azk16406" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 768
+            },
+            "name" : "width 1200px",
+            "errors" : [ "\"azk16406\" width is 1017px instead of 1200px" ],
+            "highlight" : [ "azk16406" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 769
+            },
+            "name" : "below headerdiv 21px",
+            "highlight" : [ "azk16406", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 772
+            },
+            "name" : "width 300px",
+            "errors" : [ "\"region-sidebar-second\" width is 326px instead of 300px" ],
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "search-form-mashup",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 775
+            },
+            "name" : "height 284px",
+            "errors" : [ "\"search-form-mashup\" height is 323px instead of 284px" ],
+            "highlight" : [ "search-form-mashup" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 776
+            },
+            "name" : "width 790px",
+            "errors" : [ "\"search-form-mashup\" width is 591px instead of 790px" ],
+            "highlight" : [ "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "search-form-mashup-head",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 779
+            },
+            "name" : "height 39px",
+            "errors" : [ "\"search-form-mashup-head\" height is 78px instead of 39px" ],
+            "highlight" : [ "search-form-mashup-head" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 780
+            },
+            "name" : "width 790px",
+            "errors" : [ "\"search-form-mashup-head\" width is 591px instead of 790px" ],
+            "highlight" : [ "search-form-mashup-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 781
+            },
+            "name" : "inside search-form-mashup 0px left right",
+            "highlight" : [ "search-form-mashup-head", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "search-control",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 784
+            },
+            "name" : "height 20px",
+            "highlight" : [ "search-control" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 785
+            },
+            "name" : "width  790px",
+            "errors" : [ "\"search-control\" width is 591px instead of 790px" ],
+            "highlight" : [ "search-control" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 786
+            },
+            "name" : "inside search-form-mashup 0px left",
+            "highlight" : [ "search-control", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "search-filter-by-cat",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 789
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-filter-by-cat" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 790
+            },
+            "name" : "width ~ 253px",
+            "errors" : [ "\"search-filter-by-cat\" width is 189px which is not in range of 250 to 256px" ],
+            "highlight" : [ "search-filter-by-cat" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 791
+            },
+            "name" : "inside search-form-mashup 0px left",
+            "highlight" : [ "search-filter-by-cat", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "search-filter-by-language",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 794
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-filter-by-language" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 795
+            },
+            "name" : "width ~ 253px",
+            "errors" : [ "\"search-filter-by-language\" width is 189px which is not in range of 250 to 256px" ],
+            "highlight" : [ "search-filter-by-language" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 796
+            },
+            "name" : "inside search-form-mashup 268px left",
+            "errors" : [ "\"search-filter-by-language\" is 204px left instead of 268px" ],
+            "highlight" : [ "search-filter-by-language", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "search-filter-by-api",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 799
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-filter-by-api" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 800
+            },
+            "name" : "width ~ 253px",
+            "errors" : [ "\"search-filter-by-api\" width is 189px which is not in range of 250 to 256px" ],
+            "highlight" : [ "search-filter-by-api" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 801
+            },
+            "name" : "inside search-form-mashup 2px right",
+            "errors" : [ "\"search-filter-by-api\" is 402px right instead of 2px" ],
+            "highlight" : [ "search-filter-by-api", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "table-containt-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 805
+            },
+            "name" : "height 70px",
+            "highlight" : [ "table-containt-header" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 806
+            },
+            "name" : "width 790px",
+            "errors" : [ "\"table-containt-header\" width is 591px instead of 790px" ],
+            "highlight" : [ "table-containt-header" ]
+          } ]
+        }, {
+          "name" : "form-type-checkbox",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 809
+            },
+            "name" : "height 45px",
+            "highlight" : [ "form-type-checkbox" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 810
+            },
+            "name" : "width ~157px",
+            "errors" : [ "\"form-type-checkbox\" width is 153px which is not in range of 154 to 160px" ],
+            "highlight" : [ "form-type-checkbox" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 811
+            },
+            "name" : "inside search-form-mashup 0px left",
+            "errors" : [ "\"form-type-checkbox\" is 189px left instead of 0px" ],
+            "highlight" : [ "form-type-checkbox", "search-form-mashup" ]
+          } ]
+        }, {
+          "name" : "table-cinataint-1",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 814
+            },
+            "name" : "height 71px",
+            "errors" : [ "\"table-cinataint-1\" height is 91px instead of 71px" ],
+            "highlight" : [ "table-cinataint-1" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 815
+            },
+            "name" : "width  790px",
+            "errors" : [ "\"table-cinataint-1\" width is 591px instead of 790px" ],
+            "highlight" : [ "table-cinataint-1" ]
+          } ]
+        }, {
+          "name" : "table-cinataint-2",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 818
+            },
+            "name" : "height 71px",
+            "errors" : [ "\"table-cinataint-2\" height is 91px instead of 71px" ],
+            "highlight" : [ "table-cinataint-2" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 819
+            },
+            "name" : "width  790px",
+            "errors" : [ "\"table-cinataint-2\" width is 591px instead of 790px" ],
+            "highlight" : [ "table-cinataint-2" ]
+          } ]
+        }, {
+          "name" : "table-cinataint-3",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 822
+            },
+            "name" : "height 71px",
+            "errors" : [ "\"table-cinataint-3\" height is 91px instead of 71px" ],
+            "highlight" : [ "table-cinataint-3" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 823
+            },
+            "name" : "width  790px",
+            "errors" : [ "\"table-cinataint-3\" width is 591px instead of 790px" ],
+            "highlight" : [ "table-cinataint-3" ]
+          } ]
+        }, {
+          "name" : "block-system-main",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 826
+            },
+            "name" : "height 2287px",
+            "errors" : [ "\"block-system-main\" height is 2786px instead of 2287px" ],
+            "highlight" : [ "block-system-main" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 827
+            },
+            "name" : "width 790px",
+            "errors" : [ "\"block-system-main\" width is 591px instead of 790px" ],
+            "highlight" : [ "block-system-main" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 830
+            },
+            "name" : "height 278px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 831
+            },
+            "name" : "width 1339px",
+            "errors" : [ "\"footer\" width is 1017px instead of 1339px" ],
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "search-control" : {
+          "area" : [ 40, 498, 591, 20 ]
+        },
+        "block-system-main" : {
+          "area" : [ 40, 325, 591, 2786 ]
+        },
+        "footer" : {
+          "area" : [ 0, 3292, 1017, 278 ]
+        },
+        "table-cinataint-3" : {
+          "area" : [ 40, 809, 591, 91 ]
+        },
+        "form-type-checkbox" : {
+          "area" : [ 229, 588, 153, 45 ]
+        },
+        "search-form-mashup-head" : {
+          "area" : [ 40, 325, 591, 78 ]
+        },
+        "headerdiv" : {
+          "area" : [ 0, 102, 1017, 46 ]
+        },
+        "search-filter-by-language" : {
+          "area" : [ 244, 528, 189, 45 ]
+        },
+        "azk16406" : {
+          "area" : [ 0, 169, 1017, 90 ]
+        },
+        "search-filter-by-api" : {
+          "area" : [ 40, 588, 189, 45 ]
+        },
+        "table-containt-header" : {
+          "area" : [ 40, 648, 591, 70 ]
+        },
+        "table-cinataint-2" : {
+          "area" : [ 40, 718, 591, 91 ]
+        },
+        "header" : {
+          "area" : [ 0, 0, 1017, 101 ]
+        },
+        "table-cinataint-1" : {
+          "area" : [ 40, 718, 591, 91 ]
+        },
+        "search-filter-by-cat" : {
+          "area" : [ 40, 528, 189, 45 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 671, 305, 326, 2144 ]
+        },
+        "search-form-mashup" : {
+          "area" : [ 40, 325, 591, 323 ]
+        }
+      },
+      "screenshot" : "layout-10-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+};
+        </script>
+        <script>
+
+            $(function () {
+                var galenReport = createGalenReport();
+                galenReport.render("main", reportData);
+            });
+        </script>
+    </head>
+    <body>
+        <script id="report-tpl" type="text/x-handlebars-template">
+            <ul class="report-nodes">
+            {{#each report.nodes}}
+                {{renderNode this}}
+            {{/each}}
+            </ul>
+        </script>
+        <script id="report-node-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-{{status}} contains-children-{{hasChildElements nodes}} collapsed" href="#">{{status}}</a>
+                <div class="node-name node-status-{{status}}">{{name}}</div>
+                {{#if extras}}
+                    {{renderNodeExtras extras}}
+                {{/if}}
+                {{#if stacktrace}}
+                    <div class="stacktrace">{{stacktrace}}</div>
+                {{/if}}
+                {{#if attachments}}
+                    <ul class="report-node-attachments">
+                        {{#each attachments}}
+                            <li>
+                                <a class="icon-sprite-before node-attachment" href="{{this}}">{{this}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+                <div class="node-details expand-container">
+                    {{#if nodes}}
+                        <ul class="report-nodes">
+                            {{#each nodes}}
+                                {{renderNode this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+        <script id="report-node-text-tpl" type="text/x-handlebars-template">
+            <li>
+                <div class="node-simple-text">
+                    {{name}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-tpl" type="text/x-handlebars-template">
+            <li>
+                <span class="report-time">{{formatReportTime time}}</span>
+                <a class="expand-link node-expand-button node-status-label node-status-info contains-children-true collapsed" href="#">LAYOUT</a>
+                <div class="node-name">{{name}}</div>
+                <div class="node-horizontal-menu" data-layout-id="{{layoutId}}"><a class="layout-heatmap-link" href="#">Heat Map</a></div>
+                <div class="node-details expand-container">
+                    {{renderSublayout this}}
+                </div>
+            </li>
+        </script>
+        <script id="report-layout-sublayout-tpl" type="text/x-handlebars-template">
+            <div class="layout-report" data-layout-id="{{layoutId}}" data-screenshot="{{screenshot}}">
+                <ul class="layout-sections">
+                    {{#each sections}}
+                        {{renderLayoutSection this}}
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+        <script id="report-layout-section-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-section icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <div class="layout-details expand-container">
+                    {{#if sections}}
+                        <ul class="layout-sections">
+                        {{#each sections}}
+                            {{renderLayoutSection this}}
+                        {{/each}}
+                        </ul>
+                    {{/if}}
+                    {{#if objects}}
+                        <ul class="layout-objects">
+                            {{#each objects}}
+                                {{renderLayoutObject this}}
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
+            </li>
+        </script>
+
+        <script id="report-layout-object-tpl" type="text/x-handlebars-template">
+            <li>
+                <a class="layout-object icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                <ul class="layout-checks expand-container">
+                    {{#each specs}}
+                        {{renderLayoutCheck this}}
+                    {{/each}}
+                    {{#each specGroups}}
+                    <li>
+                        <a class="layout-specgroup icon-sprite-before expand-link contains-children-true" href="#">{{name}}</a>
+                        <ul class="layout-checks expand-container">
+                            {{#each specs}}
+                                {{renderLayoutCheck this}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+            </li>
+        </script>
+        <script id="report-layout-check-tpl" type="text/x-handlebars-template">
+            <li>
+            <a class="layout-check icon-sprite-before layout-check-status-{{status}}" href="#"
+                data-highlight-objects="{{commaSeparated highlight}}"
+                title="{{place.filePath}}#{{place.lineNumber}}"
+                >{{name}}</a>
+
+                {{#if errors}}
+                    <div class="layout-check-error-message">
+                        {{#if imageComparison}}
+                        <a class="image-comparison-link"
+                            data-actual-image="{{imageComparison.actualImage}}"
+                            data-expected-image="{{imageComparison.expectedImage}}"
+                            data-map-image="{{imageComparison.comparisonMapImage}}"
+                            href="#">Show image comparison</a>
+                        {{/if}}
+                        <div class="layout-check-error-message-text">
+                            <ul>
+                            {{#each errors}}
+                                <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+                {{/if}}
+
+                {{#if subLayout}}
+                {{renderSublayout subLayout}}
+                {{/if}}
+            </li>
+        </script>
+        <script id="screenshot-popup-tpl" type="text/x-handlebars-template">
+            <div class="screenshot-canvas">
+                {{#if screenshot}}
+                <img src="{{screenshot}}"/>
+                {{else}}
+                <div class="empty-screenshot" style="width: {{width}}; height: {{height}};"></div>
+                {{/if}}
+                {{#each objects}}
+                <div class="canvas-rect" style="left: {{area.left}}px; top: {{area.top}}px; width: {{area.width}}px; height: {{area.height}}px; {{#if drawBorder}}border-color: {{color}};{{else}}border:none;{{/if}}{{#if fillBackground}}background: {{color}};{{else}}background:none;{{/if}}">
+                    <div class="canvas-rect-wrapper">
+                        <div class="canvas-rect-hint" style="background: {{color}};">{{name}}</div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </script>
+        <script id="image-comparison-tpl" type="text/x-handlebars-template">
+            <div class="image-comparison image-comparison-layout-{{layout}}">
+                <div class="actual-image">
+                    <h5>Actual</h5>
+                    <img src="{{actual}}"/>
+                </div>
+
+                <div class="expected-image">
+                    <h5>Expected</h5>
+                    <img src="{{expected}}"/>
+                </div>
+
+                <div class="comparison-map">
+                    <h5>Comparison map</h5>
+                    <img src="{{map}}"/>
+                </div>
+            </div>
+        </script>
+        <script id="node-extras-tpl" type="text/x-handlebars-template">
+            <div class="node-extras">
+                <a class="node-extras" href="#">extras</a>
+                <div class="node-extras-content">
+                    <table class="node-extras-table">
+                        <tbody>
+                        {{#each this}}
+                        <tr>
+                            <td><label>{{@key}}</label></td>
+                            {{#ifCond type 'text'}}
+                            <td>{{value}}</td>
+                            {{/ifCond}}
+                            {{#ifCond type 'link'}}
+                            <td><a href="{{value}}">{{value}}</a></td>
+                            {{/ifCond}}
+                            {{#ifCond type 'image'}}
+                            <td><a href="{{value}}"><img src="{{value}}"/></a></td>
+                            {{/ifCond}}
+                        </tr>
+                        {{/each}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </script>
+
+
+
+        <div id="menu">
+            <ul>
+                <li><a class="menu-op-expand-all" href="#">Expand All</a></li>
+                <li><a class="menu-op-collapse-all" href="#">Collapse All</a></li>
+                <li><a class="menu-op-expand-errors" href="#">Expand Errors</a></li>
+            </ul>
+        </div>
+        <h2>How_to_Windows7_Chrome_42_1366x768</h2>
+        <div id="main"></div>
+        <div id="screen-shadow"></div>
+        <div id="popup" class="popup">
+            <div class="popup-wrapper">
+                <a class="popup-close-link" href="#">close</a>
+                <div class="popup-content"></div>
+            </div>
+        </div>
+        <div id="notification" class="notification">
+            <div class="notification-wrapper">
+                <a class="notification-close-link" href="#">close</a>
+                <div class="notification-summary"></div>
+                <div class="notification-message"></div>
+            </div>
+        </div>
+    </body>
+</html>
