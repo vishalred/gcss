@@ -329,24 +329,24 @@ grouped([testName.concat("_Tablet_768x1024")], function () {
 
     });
 
-    test(testName.concat("_GoogleNexus7_android_768x1024"), function () {
+    //test(testName.concat("_GoogleNexus7_android_768x1024"), function () {
+    //
+    //    var driver = createGridDriver(key, {
+    //        browserName: "android",
+    //        desiredCapabilities: {
+    //            platform: 'ANDROID',
+    //            device: 'Google Nexus 7',
+    //            browserName: 'android'
+    //
+    //
+    //        }
+    //    });
 
-        var driver = createGridDriver(key, {
-            browserName: "android",
-            desiredCapabilities: {
-                platform: 'ANDROID',
-                device: 'Google Nexus 7',
-                browserName: 'android'
-
-
-            }
-        });
-
-        driver.get(path);
-        checkLayout(driver, "specs/new.gspec", ["GoogleNexus7_android_768x1024"]);
-        driver.quit();
-
-    });
+    //    driver.get(path);
+    //    checkLayout(driver, "specs/new.gspec", ["GoogleNexus7_android_768x1024"]);
+    //    driver.quit();
+    //
+    //});
 
 });
 
@@ -354,24 +354,24 @@ grouped([testName.concat("_Tablet_768x1024")], function () {
 
 grouped([testName.concat("_Mobile")], function () {
 
-    test(testName.concat("_SamsungGalaxyS5_android_360x640"), function () {
-
-        var driver = createGridDriver(key, {
-            browserName: "android",
-            desiredCapabilities: {
-                platform: 'ANDROID',
-                device: 'Samsung Galaxy S5',
-                browserName: 'android'
-
-
-            }
-        });
-
-        driver.get(path);
-        checkLayout(driver, "specs/new.gspec", ["SamsungGalaxyS5_android_360x640"]);
-        driver.quit();
-
-    });
+    //test(testName.concat("_SamsungGalaxyS5_android_360x640"), function () {
+    //
+    //    var driver = createGridDriver(key, {
+    //        browserName: "android",
+    //        desiredCapabilities: {
+    //            platform: 'ANDROID',
+    //            device: 'Samsung Galaxy S5',
+    //            browserName: 'android'
+    //
+    //
+    //        }
+    //    });
+    //
+    //    driver.get(path);
+    //    checkLayout(driver, "specs/new.gspec", ["SamsungGalaxyS5_android_360x640"]);
+    //    driver.quit();
+    //
+    //});
 
     test(testName.concat("_iPhone5_iPhone_320x568"), function () {
 
@@ -379,7 +379,7 @@ grouped([testName.concat("_Mobile")], function () {
             browserName: "iPhone",
             desiredCapabilities: {
                 platform: 'MAC',
-                device: 'iPhone 5',
+                device: 'iPhone 5S',
                 browserName: 'iPhone'
 
             }
