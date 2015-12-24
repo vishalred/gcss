@@ -1,8 +1,8 @@
 {
   "tests" : [ {
     "name" : "add_how_to_Windows10_IE_11_1366x768",
-    "startedAt" : 1450943231094,
-    "endedAt" : 1450943388603,
+    "startedAt" : 1450958410205,
+    "endedAt" : 1450958528143,
     "failed" : false,
     "statistic" : {
       "passed" : 206,
@@ -11,13 +11,13 @@
       "total" : 206
     },
     "testId" : "1-add-how-to-windows10-ie-11-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 157509,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 117938
   }, {
     "name" : "add_how_to_Windows10_Chrome_42_1366x768",
-    "startedAt" : 1450943388603,
-    "endedAt" : 1450943561098,
+    "startedAt" : 1450958528144,
+    "endedAt" : 1450958673280,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -26,13 +26,13 @@
       "total" : 103
     },
     "testId" : "2-add-how-to-windows10-chrome-42-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 172495,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 145136
   }, {
     "name" : "add_how_to_Windows10_Firefox_37_1366x768",
-    "startedAt" : 1450943561098,
-    "endedAt" : 1450943725021,
+    "startedAt" : 1450958673280,
+    "endedAt" : 1450958761731,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -41,13 +41,13 @@
       "total" : 103
     },
     "testId" : "3-add-how-to-windows10-firefox-37-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 163923,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 88451
   }, {
     "name" : "add_how_to_Windows8.1_IE_11_1366x768",
-    "startedAt" : 1450943725021,
-    "endedAt" : 1450943908646,
+    "startedAt" : 1450958761731,
+    "endedAt" : 1450958919928,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -56,13 +56,13 @@
       "total" : 103
     },
     "testId" : "4-add-how-to-windows8.1-ie-11-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 183625,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 158197
   }, {
     "name" : "add_how_to_Windows8.1_Chrome_42_1366x768",
-    "startedAt" : 1450943908646,
-    "endedAt" : 1450944041373,
+    "startedAt" : 1450958919928,
+    "endedAt" : 1450959033824,
     "failed" : false,
     "statistic" : {
       "passed" : 206,
@@ -71,13 +71,13 @@
       "total" : 206
     },
     "testId" : "5-add-how-to-windows8.1-chrome-42-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 132727,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 113896
   }, {
     "name" : "add_how_to_Windows8.1_Firefox_37_1366x768",
-    "startedAt" : 1450944041373,
-    "endedAt" : 1450944167203,
+    "startedAt" : 1450959033825,
+    "endedAt" : 1450959118482,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -86,13 +86,13 @@
       "total" : 103
     },
     "testId" : "6-add-how-to-windows8.1-firefox-37-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 125830,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 84657
   }, {
     "name" : "add_how_to_Windows7_IE_11_1366x768",
-    "startedAt" : 1450944167203,
-    "endedAt" : 1450944299319,
+    "startedAt" : 1450959118482,
+    "endedAt" : 1450959199513,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -101,13 +101,13 @@
       "total" : 103
     },
     "testId" : "7-add-how-to-windows7-ie-11-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 132116,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 81031
   }, {
     "name" : "add_how_to_Windows7_IE_10_1366x768",
-    "startedAt" : 1450944299319,
-    "endedAt" : 1450944427096,
+    "startedAt" : 1450959199513,
+    "endedAt" : 1450959277272,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -116,13 +116,13 @@
       "total" : 103
     },
     "testId" : "8-add-how-to-windows7-ie-10-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 127777,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 77759
   }, {
     "name" : "add_how_to_Windows7_IE_9_1366x768",
-    "startedAt" : 1450944427096,
-    "endedAt" : 1450944561654,
+    "startedAt" : 1450959277272,
+    "endedAt" : 1450959372970,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -131,13 +131,13 @@
       "total" : 103
     },
     "testId" : "9-add-how-to-windows7-ie-9-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 134558,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 95698
   }, {
     "name" : "add_how_to_Windows7_Chrome_42_1366x768",
-    "startedAt" : 1450944561654,
-    "endedAt" : 1450944675421,
+    "startedAt" : 1450959372971,
+    "endedAt" : 1450959437990,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -146,13 +146,13 @@
       "total" : 103
     },
     "testId" : "10-add-how-to-windows7-chrome-42-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 113767,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 65019
   }, {
     "name" : "add_how_to_Windows7_Firefox_37_1366x768",
-    "startedAt" : 1450944675421,
-    "endedAt" : 1450944787911,
+    "startedAt" : 1450959437990,
+    "endedAt" : 1450959503985,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -161,13 +161,13 @@
       "total" : 103
     },
     "testId" : "11-add-how-to-windows7-firefox-37-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 112490,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 65995
   }, {
     "name" : "add_how_to_OSXYosemite_Safari_8_1366x768",
-    "startedAt" : 1450944787912,
-    "endedAt" : 1450944910325,
+    "startedAt" : 1450959503986,
+    "endedAt" : 1450959588105,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -176,13 +176,13 @@
       "total" : 103
     },
     "testId" : "12-add-how-to-osxyosemite-safari-8-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 122413,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 84119
   }, {
     "name" : "add_how_to_OSXYosemite_Chrome_46_1366x768",
-    "startedAt" : 1450944910325,
-    "endedAt" : 1450945040552,
+    "startedAt" : 1450959588105,
+    "endedAt" : 1450959685079,
     "failed" : false,
     "statistic" : {
       "passed" : 103,
@@ -191,8 +191,23 @@
       "total" : 103
     },
     "testId" : "13-add-how-to-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "add_how_to_Desktop_1366x768" ],
     "failed" : false,
-    "duration" : 130227,
-    "groups" : [ "add_how_to_Desktop_1366x768" ]
+    "duration" : 96974
+  }, {
+    "name" : "add_how_to_iPadAir_iPad_768x1024",
+    "startedAt" : 1450959685080,
+    "endedAt" : 1450959877946,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "14-add-how-to-ipadair-ipad-768x1024",
+    "groups" : [ "add_how_to_Tablet_768x1024" ],
+    "failed" : false,
+    "duration" : 192866
   } ]
 }

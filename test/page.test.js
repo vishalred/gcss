@@ -308,87 +308,87 @@ grouped([testName.concat("_Desktop_1366x768")], function () {
 
 // Test Group for Tablet Devices
 
-//grouped([testName.concat("_Tablet_768x1024")], function () {
-//
-//    test(testName.concat("_iPadAir_iPad_768x1024"), function () {
-//
-//        var driver = createGridDriver(key, {
-//            browserName: "iPad",
-//            desiredCapabilities: {
-//                platform: 'MAC',
-//                device: 'iPad Air',
-//                browserName: 'iPad'
-//
-//
-//            }
-//        });
-//
-//        driver.get(path);
-//        checkLayout(driver, "specs/new.gspec", ["iPadAir_iPad_768x1024"]);
-//        driver.quit();
-//
-//    });
-//
-//    test(testName.concat("_GoogleNexus7_android_768x1024"), function () {
-//
-//        var driver = createGridDriver(key, {
-//            browserName: "android",
-//            desiredCapabilities: {
-//                platform: 'ANDROID',
-//                device: 'Google Nexus 7',
-//                browserName: 'android'
-//
-//
-//            }
-//        });
-//
-//        driver.get(path);
-//        checkLayout(driver, "specs/new.gspec", ["GoogleNexus7_android_768x1024"]);
-//        driver.quit();
-//
-//    });
-//
-//});
-//
-//// Test Group for Mobile Devices
-//
-//grouped([testName.concat("_Mobile")], function () {
-//
-//    test(testName.concat("_SamsungGalaxyS5_android_360x640"), function () {
-//
-//        var driver = createGridDriver(key, {
-//            browserName: "android",
-//            desiredCapabilities: {
-//                platform: 'ANDROID',
-//                device: 'Samsung Galaxy S5',
-//                browserName: 'android'
-//
-//
-//            }
-//        });
-//
-//        driver.get(path);
-//        checkLayout(driver, "specs/new.gspec", ["SamsungGalaxyS5_android_360x640"]);
-//        driver.quit();
-//
-//    });
-//
-//    test(testName.concat("_iPhone5_iPhone_320x568"), function () {
-//
-//        var driver = createGridDriver(key, {
-//            browserName: "iPhone",
-//            desiredCapabilities: {
-//                platform: 'MAC',
-//                device: 'iPhone 5',
-//                browserName: 'iPhone'
-//
-//            }
-//        });
-//
-//        driver.get(path);
-//        checkLayout(driver, "specs/new.gspec", ["iPhone5_iPhone_320x568"]);
-//        driver.quit();
-//
-//    });
-//
-//});
+grouped([testName.concat("_Tablet_768x1024")], function () {
+
+    test(testName.concat("_iPadAir_iPad_768x1024"), function () {
+
+        var driver = createGridDriver(key, {
+            browserName: "iPad",
+            desiredCapabilities: {
+                platform: 'MAC',
+                device: 'iPad Air',
+                browserName: 'iPad'
+
+
+            }
+        });
+
+        driver.get(path);
+        checkLayout(driver, "specs/new.gspec", ["iPadAir_iPad_768x1024"]);
+        driver.quit();
+
+    });
+    //
+    //test(testName.concat("_GoogleNexus7_android_768x1024"), function () {
+    //
+    //    var driver = createGridDriver(key, {
+    //        browserName: "android",
+    //        desiredCapabilities: {
+    //            platform: 'ANDROID',
+    //            device: 'Google Nexus 7',
+    //            browserName: 'android'
+    //
+    //
+    //        }
+    //    });
+    //
+    //    driver.get(path);
+    //    checkLayout(driver, "specs/new.gspec", ["GoogleNexus7_android_768x1024"]);
+    //    driver.quit();
+    //
+    //});
+
+});
+
+// Test Group for Mobile Devices
+
+grouped([testName.concat("_Mobile")], function () {
+
+    //test(testName.concat("_SamsungGalaxyS5_android_360x640"), function () {
+    //
+    //    var driver = createGridDriver(key, {
+    //        browserName: "android",
+    //        desiredCapabilities: {
+    //            platform: 'ANDROID',
+    //            device: 'Samsung Galaxy S5',
+    //            browserName: 'android'
+    //
+    //
+    //        }
+    //    });
+    //
+    //    driver.get(path);
+    //    checkLayout(driver, "specs/new.gspec", ["SamsungGalaxyS5_android_360x640"]);
+    //    driver.quit();
+    //
+    //});
+    //
+    //test(testName.concat("_iPhone5_iPhone_320x568"), function () {
+    //
+    //    var driver = createGridDriver(key, {
+    //        browserName: "iPhone",
+    //        desiredCapabilities: {
+    //            platform: 'MAC',
+    //            device: 'iPhone 5',
+    //            browserName: 'iPhone'
+    //
+    //        }
+    //    });
+    //
+    //    driver.get(path);
+    //    checkLayout(driver, "specs/new.gspec", ["iPhone5_iPhone_320x568"]);
+    //    driver.quit();
+    //
+    //});
+
+});
