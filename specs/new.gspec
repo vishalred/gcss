@@ -1,0 +1,2878 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    region-sidebar-second css  .region-sidebar-second
+    footer css footer
+
+    main-container xpath /html/body/div[5]/div[1]/section
+    how-to-source-code-node-form  css #how-to-source-code-node-form .form-item-title
+    add-how-to-sdk-header  xpath  /html/body/div[5]/div[1]/section/h1
+    edit-field-source-code-url  id edit-field-source-code-url
+    edit-field-api  id  edit-field-api
+    edit-field-article-related-languages  id edit-field-article-related-languages
+    edit-field-article-primary-category id edit-field-article-primary-category
+    edit-field-article-secondary-category  id edit-field-article-secondary-category
+    summary-edit-body   id   edit-body
+    edit-field-howto-image id  edit-field-howto-image
+    edit-field-howto-source-yours  id  edit-field-howto-source-yours
+    edit-field-version  id  edit-field-version
+    edit-field-url  id edit-field-url
+    edit-field-license-type  id  edit-field-license-type
+    edit-field-license  css  #block-system-main .node-form node-how_to_source_code-form .field-name-field-license
+    edit-field-type  id  edit-field-type
+    edit-field-scope  id  edit-field-scope
+    edit-field-device-specific  id edit-field-device-specific
+    edit-field-article-related-companies  id  edit-field-article-related-companies
+    edit-field-developer-home-page  id  edit-field-developer-home-page
+    edit-field-api-home-page  id  edit-field-api-home-page
+    edit-field-listing-page  id  edit-field-listing-page
+    edit-field-listing-page-link-text  id  edit-field-listing-page-link-text
+    edit-field-listing-page-link-text  id  edit-field-listing-page-link-text
+    edit-field-repo-source-code  id  edit-field-repo-source-code
+    edit-field-docs-home-page-url  id edit-field-docs-home-page-url
+    edit-field-architectural-style  id  edit-field-architectural-style
+    edit-field-data-marshaling  id  edit-field-data-marshaling
+    edit-field-supported-request-inbound  id  edit-field-supported-request-inbound
+    edit-field-supported-response-outboun  id  edit-field-supported-response-outboun
+    edit-field-unofficial  id  edit-field-unofficial
+    edit-field-hypermedia id edit-field-hypermedia
+    edit-field-public-non-public  id  edit-field-public-non-public
+    edit-register id  edit-register
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows8.1_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows8.1_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows8.1_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows8.1_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows7_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_10_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_9_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 154px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 279px
+              width 1333px
+
+    @on Windows7_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 278px
+              width 1339px
+
+    @on Windows7_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 22px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 279px
+              width 1333px
+
+    @on OSXYosemite_Safari_8_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 278px
+              width 1366px
+
+    @on OSXYosemite_Chrome_46_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        add-how-to-sdk-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-api:
+              height 196px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left, 40px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        summary-edit-body:
+              #height 260px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-howto-source-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-version:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-license-type:
+              height 70px
+              width 790px
+              inside main-container 0px left,40px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-scope:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-device-specific:
+              height  21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page:
+              height 75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-supported-response-outboun:
+              height  70px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-unofficial:
+              height 21px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        edit-field-hypermedia:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-field-public-non-public:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+        footer:
+              height 278px
+              width 1366px
+
+

@@ -1,0 +1,198 @@
+{
+  "tests" : [ {
+    "name" : "add_how_to_Windows10_IE_11_1366x768",
+    "startedAt" : 1450943231094,
+    "endedAt" : 1450943388603,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 206,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 206
+    },
+    "testId" : "1-add-how-to-windows10-ie-11-1366x768",
+    "failed" : false,
+    "duration" : 157509,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1450943388603,
+    "endedAt" : 1450943561098,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "2-add-how-to-windows10-chrome-42-1366x768",
+    "failed" : false,
+    "duration" : 172495,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1450943561098,
+    "endedAt" : 1450943725021,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "3-add-how-to-windows10-firefox-37-1366x768",
+    "failed" : false,
+    "duration" : 163923,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1450943725021,
+    "endedAt" : 1450943908646,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "4-add-how-to-windows8.1-ie-11-1366x768",
+    "failed" : false,
+    "duration" : 183625,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1450943908646,
+    "endedAt" : 1450944041373,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 206,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 206
+    },
+    "testId" : "5-add-how-to-windows8.1-chrome-42-1366x768",
+    "failed" : false,
+    "duration" : 132727,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1450944041373,
+    "endedAt" : 1450944167203,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "6-add-how-to-windows8.1-firefox-37-1366x768",
+    "failed" : false,
+    "duration" : 125830,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows7_IE_11_1366x768",
+    "startedAt" : 1450944167203,
+    "endedAt" : 1450944299319,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "7-add-how-to-windows7-ie-11-1366x768",
+    "failed" : false,
+    "duration" : 132116,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows7_IE_10_1366x768",
+    "startedAt" : 1450944299319,
+    "endedAt" : 1450944427096,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "8-add-how-to-windows7-ie-10-1366x768",
+    "failed" : false,
+    "duration" : 127777,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows7_IE_9_1366x768",
+    "startedAt" : 1450944427096,
+    "endedAt" : 1450944561654,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "9-add-how-to-windows7-ie-9-1366x768",
+    "failed" : false,
+    "duration" : 134558,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1450944561654,
+    "endedAt" : 1450944675421,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "10-add-how-to-windows7-chrome-42-1366x768",
+    "failed" : false,
+    "duration" : 113767,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1450944675421,
+    "endedAt" : 1450944787911,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "11-add-how-to-windows7-firefox-37-1366x768",
+    "failed" : false,
+    "duration" : 112490,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1450944787912,
+    "endedAt" : 1450944910325,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "12-add-how-to-osxyosemite-safari-8-1366x768",
+    "failed" : false,
+    "duration" : 122413,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  }, {
+    "name" : "add_how_to_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1450944910325,
+    "endedAt" : 1450945040552,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 103,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 103
+    },
+    "testId" : "13-add-how-to-osxyosemite-chrome-46-1366x768",
+    "failed" : false,
+    "duration" : 130227,
+    "groups" : [ "add_how_to_Desktop_1366x768" ]
+  } ]
+}
