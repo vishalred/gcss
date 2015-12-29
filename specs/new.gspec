@@ -3064,5 +3064,185 @@
               height 298px
               width 768px
 
+    @on iPhone5_iPhone_320x568
+        header-mobile:
+                    #height 101px
+               width ~ 100% of screen/width
+                    #image: file
+
+        region-sidebar-second:
+              width 320px
+
+        main-container:
+              #height 3606px
+              width 320px
+
+        how-to-source-code-node-form:
+              height 70px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        add-how-to-sdk-header:
+              height 60px
+              width 320px
+              inside partly main-container 0px left ,0px right
+
+        edit-field-source-code-url:
+              height 75px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        edit-field-api:
+              height 196px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        edit-field-article-related-languages:
+              height 70px
+              width 280px
+              inside partly main-container 20px left, 20px right
+
+        edit-field-article-primary-category:
+              height 70px
+              width 280px
+              inside partly main-container 20px left, 20px right
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        summary-edit-body:
+              #height 260px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        edit-field-howto-image:
+              height 164px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        edit-field-howto-source-yours:
+              height 22px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        edit-field-version:
+              height 70px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        edit-field-url:
+              height 75px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        edit-field-license-type:
+              height 70px
+              width 280px
+              inside partly main-container 20px left,20px right
+
+      #  edit-field-license:
+            #  height 75px
+            #  width 100px
+             # inside main-conatainer 0px left,40px right
+
+        edit-field-type:
+              height  70px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-scope:
+              height  70px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-device-specific:
+              height  22px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-article-related-companies:
+              height  70px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-developer-home-page:
+              height  75px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-api-home-page:
+              height  100px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-listing-page:
+              height 75px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-listing-page-link-text:
+              height  70px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-repo-source-code:
+              height  75px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-docs-home-page-url:
+              height  75px
+              width 280px
+              inside main-container 20px left , 20px right
+
+        edit-field-architectural-style:
+              height  70px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-data-marshaling:
+              height  70px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-supported-request-inbound:
+              height  70px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-supported-response-outboun:
+              height  90px
+              width 280px
+              inside partly main-container 20px left , 20px right
+
+        edit-field-unofficial:
+              height 22px
+              width 280px
+              inside partly main-container 20px left , 40px right
+
+        edit-field-hypermedia:
+              height 22px
+              width 280px
+              inside partly  main-container 20px left ,40px right
+
+        edit-field-public-non-public:
+              height 22px
+              width 280px
+              inside partly main-container 20px left ,20px right
+
+        edit-register:
+              height 734px
+              width 282px
+              inside partly main-container 18px left ,20px right
+        footer:
+              height 697px
+              width 320px
 
 
