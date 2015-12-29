@@ -1,0 +1,1486 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    region-sidebar-second css  .region-sidebar-second
+    footer css footer
+
+    main-container xpath /html/body/div[5]/div[1]/section
+    how-to-source-code-node-form  css #how-to-source-code-node-form .form-item-title
+    add-mashup-header  xpath  /html/body/div[5]/div[1]/section/h1
+    edit-mashup-title  id  edit-title
+    field-mashup-company-add-more-wrapper  id  field-mashup-company-add-more-wrapper
+    edit-field-mashup-url  id edit-field-mashup-url
+    edit-field-mashup-app-type  id edit-field-mashup-app-type
+    edit-field-api  id  edit-field-api
+    edit-field-article-primary-category  id edit-field-article-primary-category
+    edit-field-article-secondary-category  id edit-field-article-secondary-category
+    edit-field-mashup-image  id  edit-field-mashup-image
+    edit-field-mashup-yours  id  edit-field-mashup-yours
+
+    mashup-description   id   edit-body
+
+    edit-register id  edit-register
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 59px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 60px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 60px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 19px
+
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows8.1_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 59px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows8.1_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 60px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows8.1_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 60px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 19px
+
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows7_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 59px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 279px
+              width 1350px
+    @on Windows7_IE_10_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 59px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_9_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 59px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 154px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 21px
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 19px
+
+        footer:
+              height 279px
+              width 1333px
+
+    @on Windows7_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 60px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 278px
+              width 1339px
+
+    @on Windows7_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 40px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 60px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 22px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 540px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 19px
+
+        footer:
+              height 279px
+              width 1333px
+
+    @on OSXYosemite_Safari_8_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 60px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on OSXYosemite_Chrome_46_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        add-mashup-header:
+              height 39px
+              width 830px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 790px
+              inside main-container 0px left ,40px right
+              below add-mashup-header 60px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 790px
+              inside main-container 0px left ,40px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 790 px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 790px
+              inside main-container 0px left ,40px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 21px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 539px
+              width 790px
+              inside main-container 0px left ,40px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on iPadAir_iPad_768x1024
+        header:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 100% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 242px
+
+        main-container:
+              #height 3606px
+              width 485px
+
+        add-mashup-header:
+              height 39px
+              width 485px
+              inside main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 445px
+              inside main-container 20px left ,20px right
+              below add-mashup-header 80px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 445px
+              inside main-container 20px left ,20px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 445px
+              inside main-container 20px left ,20px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 445px
+              inside main-container 20px left ,20px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 445px
+              inside main-container 20px left ,20px right
+              below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 445px
+              inside partly main-container 20px left ,20px right
+              #below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 445px
+              inside partly main-container 20px left ,20px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 445px
+              inside partly main-container 20px left ,20px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 445px
+              inside partly main-container 20px left ,20px right
+              below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 21px
+              width 445px
+              inside main-container 20px left ,20px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 652px
+              width 445px
+              inside main-container 20px left ,20px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 298px
+              width 768px
+
+    @on iPhone5_iPhone_320x568
+
+        header-mobile:
+                    #height 101px
+               width ~ 100% of screen/width
+                    #image: file
+
+
+        region-sidebar-second:
+              width 320px
+
+        main-container:
+              #height 3606px
+              width 320px
+
+        add-mashup-header:
+              height 30px
+              width 320px
+              inside partly main-container 0px left ,0px right
+
+        edit-mashup-title:
+              height 45px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              below add-mashup-header 80px
+
+        field-mashup-company-add-more-wrapper:
+              height 70px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              below edit-mashup-title 20px
+
+        edit-field-mashup-url:
+              height 75px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              below field-mashup-company-add-more-wrapper 20px
+
+        edit-field-mashup-app-type:
+              height 120px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              below edit-field-mashup-url 20px
+
+
+        edit-field-api:
+              height 221px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              #below edit-field-mashup-app-type 20px
+
+
+        edit-field-article-primary-category:
+              height 70px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              #below edit-field-api 20px
+
+        edit-field-article-secondary-category:
+              height 70px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              below edit-field-article-primary-category 20px
+
+        mashup-description:
+              height 124px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              below edit-field-article-secondary-category 20px
+
+        edit-field-mashup-image:
+              height 164px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              #below mashup-description 20px
+
+        edit-field-mashup-yours:
+              height 22px
+              width 280px
+              inside partly main-container 20px left ,20px right
+              below edit-field-mashup-image 20px
+
+        edit-register:
+              height 734px
+              width 282px
+              inside partly main-container 20px left ,18px right
+              below edit-field-mashup-yours 20px
+
+        footer:
+              height 697px
+              width 320px

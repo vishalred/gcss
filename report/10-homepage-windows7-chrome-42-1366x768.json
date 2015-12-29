@@ -1,0 +1,562 @@
+{
+  "testId" : "10-homepage-windows7-chrome-42-1366x768",
+  "name" : "Homepage_Windows7_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1451381992847,
+      "includedTags" : [ "Windows7_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 909
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 911
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 915
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 916
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 921
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 925
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "add-mashup-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 928
+            },
+            "name" : "height 39px",
+            "highlight" : [ "add-mashup-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 929
+            },
+            "name" : "width 830px",
+            "highlight" : [ "add-mashup-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 930
+            },
+            "name" : "inside main-container 0px left ,0px right",
+            "highlight" : [ "add-mashup-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "edit-mashup-title",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 933
+            },
+            "name" : "height 45px",
+            "highlight" : [ "edit-mashup-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 934
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-mashup-title" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 935
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "edit-mashup-title", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 936
+            },
+            "name" : "below add-mashup-header 60px",
+            "highlight" : [ "edit-mashup-title", "add-mashup-header" ]
+          } ]
+        }, {
+          "name" : "field-mashup-company-add-more-wrapper",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 939
+            },
+            "name" : "height 70px",
+            "highlight" : [ "field-mashup-company-add-more-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 940
+            },
+            "name" : "width 790px",
+            "highlight" : [ "field-mashup-company-add-more-wrapper" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 941
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "field-mashup-company-add-more-wrapper", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 942
+            },
+            "name" : "below edit-mashup-title 20px",
+            "highlight" : [ "field-mashup-company-add-more-wrapper", "edit-mashup-title" ]
+          } ]
+        }, {
+          "name" : "edit-field-mashup-url",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 945
+            },
+            "name" : "height 75px",
+            "highlight" : [ "edit-field-mashup-url" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 946
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-field-mashup-url" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 947
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "edit-field-mashup-url", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 948
+            },
+            "name" : "below field-mashup-company-add-more-wrapper 20px",
+            "highlight" : [ "edit-field-mashup-url", "field-mashup-company-add-more-wrapper" ]
+          } ]
+        }, {
+          "name" : "edit-field-mashup-app-type",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 951
+            },
+            "name" : "height 120px",
+            "highlight" : [ "edit-field-mashup-app-type" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 952
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-field-mashup-app-type" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 953
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "edit-field-mashup-app-type", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 954
+            },
+            "name" : "below edit-field-mashup-url 20px",
+            "highlight" : [ "edit-field-mashup-app-type", "edit-field-mashup-url" ]
+          } ]
+        }, {
+          "name" : "edit-field-api",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 958
+            },
+            "name" : "height 221px",
+            "highlight" : [ "edit-field-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 959
+            },
+            "name" : "width 790 px",
+            "highlight" : [ "edit-field-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 960
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "edit-field-api", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 961
+            },
+            "name" : "below edit-field-mashup-app-type 20px",
+            "highlight" : [ "edit-field-api", "edit-field-mashup-app-type" ]
+          } ]
+        }, {
+          "name" : "edit-field-article-primary-category",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 965
+            },
+            "name" : "height 70px",
+            "highlight" : [ "edit-field-article-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 966
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-field-article-primary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 967
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "edit-field-article-primary-category", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 968
+            },
+            "name" : "below edit-field-api 20px",
+            "highlight" : [ "edit-field-article-primary-category", "edit-field-api" ]
+          } ]
+        }, {
+          "name" : "edit-field-article-secondary-category",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 971
+            },
+            "name" : "height 70px",
+            "highlight" : [ "edit-field-article-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 972
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-field-article-secondary-category" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 973
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "edit-field-article-secondary-category", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 974
+            },
+            "name" : "below edit-field-article-primary-category 20px",
+            "highlight" : [ "edit-field-article-secondary-category", "edit-field-article-primary-category" ]
+          } ]
+        }, {
+          "name" : "mashup-description",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 977
+            },
+            "name" : "height 124px",
+            "highlight" : [ "mashup-description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 978
+            },
+            "name" : "width 790px",
+            "highlight" : [ "mashup-description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 979
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "mashup-description", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 980
+            },
+            "name" : "below edit-field-article-secondary-category 20px",
+            "highlight" : [ "mashup-description", "edit-field-article-secondary-category" ]
+          } ]
+        }, {
+          "name" : "edit-field-mashup-image",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 983
+            },
+            "name" : "height 164px",
+            "highlight" : [ "edit-field-mashup-image" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 984
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-field-mashup-image" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 985
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "edit-field-mashup-image", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 986
+            },
+            "name" : "below mashup-description 20px",
+            "highlight" : [ "edit-field-mashup-image", "mashup-description" ]
+          } ]
+        }, {
+          "name" : "edit-field-mashup-yours",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 989
+            },
+            "name" : "height 21px",
+            "highlight" : [ "edit-field-mashup-yours" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 990
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-field-mashup-yours" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 991
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "edit-field-mashup-yours", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 992
+            },
+            "name" : "below edit-field-mashup-image 20px",
+            "highlight" : [ "edit-field-mashup-yours", "edit-field-mashup-image" ]
+          } ]
+        }, {
+          "name" : "edit-register",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 995
+            },
+            "name" : "height 539px",
+            "highlight" : [ "edit-register" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 996
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-register" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 997
+            },
+            "name" : "inside main-container 0px left ,40px right",
+            "highlight" : [ "edit-register", "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 998
+            },
+            "name" : "below edit-field-mashup-yours 20px",
+            "highlight" : [ "edit-register", "edit-field-mashup-yours" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1001
+            },
+            "name" : "height 278px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1002
+            },
+            "name" : "width 1339px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "edit-field-mashup-yours" : {
+          "area" : [ 84, 1473, 790, 21 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2259, 1339, 278 ]
+        },
+        "add-mashup-header" : {
+          "area" : [ 84, 235, 830, 39 ]
+        },
+        "edit-register" : {
+          "area" : [ 84, 1514, 790, 539 ]
+        },
+        "edit-field-api" : {
+          "area" : [ 84, 724, 790, 221 ]
+        },
+        "headerdiv" : {
+          "area" : [ 84, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 84, 235, 830, 1963 ]
+        },
+        "edit-field-mashup-image" : {
+          "area" : [ 84, 1289, 790, 164 ]
+        },
+        "edit-mashup-title" : {
+          "area" : [ 84, 334, 790, 45 ]
+        },
+        "edit-field-mashup-app-type" : {
+          "area" : [ 84, 584, 790, 120 ]
+        },
+        "mashup-description" : {
+          "area" : [ 84, 1145, 790, 124 ]
+        },
+        "edit-field-mashup-url" : {
+          "area" : [ 84, 489, 790, 75 ]
+        },
+        "edit-field-article-primary-category" : {
+          "area" : [ 84, 965, 790, 70 ]
+        },
+        "header" : {
+          "area" : [ 84, 0, 1170, 101 ]
+        },
+        "edit-field-article-secondary-category" : {
+          "area" : [ 84, 1055, 790, 70 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 954, 235, 300, 1625 ]
+        },
+        "field-mashup-company-add-more-wrapper" : {
+          "area" : [ 84, 399, 790, 70 ]
+        }
+      },
+      "screenshot" : "layout-10-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
