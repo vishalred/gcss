@@ -373,22 +373,22 @@ grouped([testName.concat("_Mobile")], function () {
     //
     //});
     //
-    //test(testName.concat("_iPhone5_iPhone_320x568"), function () {
-    //
-    //    var driver = createGridDriver(key, {
-    //        browserName: "iPhone",
-    //        desiredCapabilities: {
-    //            platform: 'MAC',
-    //            device: 'iPhone 5',
-    //            browserName: 'iPhone'
-    //
-    //        }
-    //    });
-    //
-    //    driver.get(path);
-    //    checkLayout(driver, "specs/new.gspec", ["iPhone5_iPhone_320x568"]);
-    //    driver.quit();
-    //
-    //});
+    test(testName.concat("_iPhone5_iPhone_320x568"), function () {
+
+        var driver = createGridDriver(key, {
+            browserName: "iPhone",
+            desiredCapabilities: {
+                platform: 'MAC',
+                device: 'iPhone 5',
+                browserName: 'iPhone'
+
+            }
+        });
+
+        driver.get(path);
+        checkLayout(driver, "specs/new.gspec", ["iPhone5_iPhone_320x568"]);
+        driver.quit();
+
+    });
 
 });
