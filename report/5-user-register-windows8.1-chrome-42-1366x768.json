@@ -1,0 +1,424 @@
+{
+  "testId" : "5-user-register-windows8.1-chrome-42-1366x768",
+  "name" : "user_register_Windows8.1_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows8.1_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1451393749892,
+      "includedTags" : [ "Windows8.1_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 323
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 325
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 329
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 330
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 335
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "block-system-main",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 339
+            },
+            "name" : "width 790px",
+            "highlight" : [ "block-system-main" ]
+          } ]
+        }, {
+          "name" : "page-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 342
+            },
+            "name" : "height 33px",
+            "highlight" : [ "page-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 343
+            },
+            "name" : "width 830px",
+            "highlight" : [ "page-header" ]
+          } ]
+        }, {
+          "name" : "edit-custom-text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 346
+            },
+            "name" : "height 20px",
+            "highlight" : [ "edit-custom-text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 347
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-custom-text" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 348
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "edit-custom-text", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 349
+            },
+            "name" : "below page-header 10px",
+            "highlight" : [ "edit-custom-text", "page-header" ]
+          } ]
+        }, {
+          "name" : "username",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 352
+            },
+            "name" : "height 45px",
+            "highlight" : [ "username" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 353
+            },
+            "name" : "width 790px",
+            "highlight" : [ "username" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 354
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "username", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 355
+            },
+            "name" : "below edit-custom-text 35px",
+            "highlight" : [ "username", "edit-custom-text" ]
+          } ]
+        }, {
+          "name" : "form-item-mail",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 358
+            },
+            "name" : "height 45px",
+            "highlight" : [ "form-item-mail" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 359
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-item-mail" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 360
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "form-item-mail", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 361
+            },
+            "name" : "below username 21px",
+            "highlight" : [ "form-item-mail", "username" ]
+          } ]
+        }, {
+          "name" : "form-item-pass",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 364
+            },
+            "name" : "height 110px",
+            "highlight" : [ "form-item-pass" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 365
+            },
+            "name" : "width 790px",
+            "highlight" : [ "form-item-pass" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 366
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "form-item-pass", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 367
+            },
+            "name" : "below form-item-mail 20px",
+            "highlight" : [ "form-item-pass", "form-item-mail" ]
+          } ]
+        }, {
+          "name" : "klaviyo-newsletter-programmableweb_today",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 370
+            },
+            "name" : "height 21px",
+            "highlight" : [ "klaviyo-newsletter-programmableweb_today" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 371
+            },
+            "name" : "width 788px",
+            "highlight" : [ "klaviyo-newsletter-programmableweb_today" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 372
+            },
+            "name" : "inside block-system-main 1px left , 1px right",
+            "highlight" : [ "klaviyo-newsletter-programmableweb_today", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 373
+            },
+            "name" : "below form-item-pass 21px",
+            "highlight" : [ "klaviyo-newsletter-programmableweb_today", "form-item-pass" ]
+          } ]
+        }, {
+          "name" : "edit-field-terms-of-service",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 376
+            },
+            "name" : "height 21px",
+            "highlight" : [ "edit-field-terms-of-service" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 377
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-field-terms-of-service" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 378
+            },
+            "name" : "inside block-system-main 0px left , 0px right",
+            "highlight" : [ "edit-field-terms-of-service", "block-system-main" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 379
+            },
+            "name" : "below klaviyo-newsletter-programmableweb_today 14px",
+            "highlight" : [ "edit-field-terms-of-service", "klaviyo-newsletter-programmableweb_today" ]
+          } ]
+        }, {
+          "name" : "captcha",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 381
+            },
+            "name" : "height 154px",
+            "highlight" : [ "captcha" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 382
+            },
+            "name" : "width 320px",
+            "highlight" : [ "captcha" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 383
+            },
+            "name" : "inside block-system-main 1px left , 469px right",
+            "highlight" : [ "captcha", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "edit-submit",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 386
+            },
+            "name" : "height 45px",
+            "highlight" : [ "edit-submit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 387
+            },
+            "name" : "width 790px",
+            "highlight" : [ "edit-submit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 388
+            },
+            "name" : "inside partly block-system-main 0px left , 0px right",
+            "highlight" : [ "edit-submit", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 392
+            },
+            "name" : "height 278px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 393
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "edit-submit" : {
+          "area" : [ 81, 863, 790, 45 ]
+        },
+        "block-system-main" : {
+          "area" : [ 81, 232, 790, 676 ]
+        },
+        "page-header" : {
+          "area" : [ 81, 189, 830, 33 ]
+        },
+        "footer" : {
+          "area" : [ 0, 1193, 1333, 278 ]
+        },
+        "form-item-mail" : {
+          "area" : [ 81, 353, 790, 45 ]
+        },
+        "klaviyo-newsletter-programmableweb_today" : {
+          "area" : [ 82, 549, 788, 21 ]
+        },
+        "headerdiv" : {
+          "area" : [ 81, 102, 1170, 46 ]
+        },
+        "form-item-pass" : {
+          "area" : [ 81, 418, 790, 110 ]
+        },
+        "captcha" : {
+          "area" : [ 82, 648, 320, 154 ]
+        },
+        "header" : {
+          "area" : [ 81, 0, 1170, 101 ]
+        },
+        "edit-custom-text" : {
+          "area" : [ 81, 232, 790, 20 ]
+        },
+        "edit-field-terms-of-service" : {
+          "area" : [ 81, 584, 790, 21 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 951, 174, 300, 883 ]
+        },
+        "username" : {
+          "area" : [ 81, 287, 790, 45 ]
+        }
+      },
+      "screenshot" : "layout-5-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

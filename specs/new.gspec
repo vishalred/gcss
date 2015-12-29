@@ -1,0 +1,991 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    region-sidebar-second css  .region-sidebar-second
+    block-system-main  id  block-system-main
+    page-header xpath  /html/body/div[4]/div[1]/section/h1
+    edit-custom-text  id  edit-custom-text
+    username  css #edit-account .form-item-name
+    form-item-mail css #edit-account .form-item-mail
+    form-item-pass css #edit-account .form-item-pass
+    klaviyo-newsletter-programmableweb_today  id klaviyo-newsletter-programmableweb_today
+    edit-field-terms-of-service  id  edit-field-terms-of-service
+    captcha  id   edit-captcha-form
+    edit-submit  id  edit-submit
+    footer css footer
+
+    main-container xpath /html/body/div[5]/div[1]/section
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 9px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 139px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 22px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 22px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 10px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 21px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 21px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 10px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 22px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 22px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows8.1_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 9px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 139px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 22px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 22px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows8.1_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 10px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 21px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 21px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows8.1_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 10px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 22px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 22px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 279px
+              width 1335px
+    @on Windows7_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 9px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 139px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 22px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 22px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_10_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 9px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 139px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 22px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 22px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_9_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 10px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 139px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 22px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 22px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 13px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 279px
+              width 1333px
+
+    @on Windows7_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 10px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 21px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 21px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 278px
+              width 1339px
+
+    @on Windows7_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 10px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 22px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 22px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 279px
+              width 1333px
+
+    @on OSXYosemite_Safari_8_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 10px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 21px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 21px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on OSXYosemite_Chrome_46_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        block-system-main:
+              #height 3606px
+              width 790px
+
+        page-header:
+              height 33px
+              width 830px
+
+        edit-custom-text:
+              height 20px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below page-header 10px
+
+        username:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 21px
+              width 788px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 21px
+              width 790px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 469px right
+
+        edit-submit:
+              height 45px
+              width 790px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 278px
+              width 1366px
