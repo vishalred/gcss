@@ -989,3 +989,144 @@
         footer:
               height 278px
               width 1366px
+
+    @on iPadAir_iPad_768x1024
+        header:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 100% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 242px
+
+        block-system-main:
+              #height 3606px
+              width 445px
+
+        page-header:
+              height 66px
+              width 445px
+
+        edit-custom-text:
+              height 20px
+              width 445px
+              inside block-system-main 0px left , 0px right
+              below page-header 30px
+
+        username:
+              height 45px
+              width 445px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 445px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 445px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 21px
+              width 443px
+              inside block-system-main 1px left , 1px right
+              below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 21px
+              width 445px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 154px
+              width 320px
+              inside block-system-main 1px left , 124px right
+
+        edit-submit:
+              height 45px
+              width 445px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 298px
+              width 768px
+
+    @on iPhone5_iPhone_320x568
+        header-mobile:
+                    #height 101px
+               width ~ 100% of screen/width
+                    #image: file
+        region-sidebar-second:
+              width 320px
+
+        block-system-main:
+              #height 280px
+              width 280px
+
+        page-header:
+              height 99px
+              width 280px
+
+        edit-custom-text:
+              height 40px
+              width 280px
+              inside block-system-main 0px left , 0px right
+              below page-header 30px
+
+        username:
+              height 45px
+              width 280px
+              inside block-system-main 0px left , 0px right
+              below edit-custom-text 35px
+
+        form-item-mail:
+              height 45px
+              width 280px
+              inside block-system-main 0px left , 0px right
+              below username 21px
+
+        form-item-pass:
+              height 110px
+              width 280px
+              inside block-system-main 0px left , 0px right
+              below form-item-mail 20px
+
+        klaviyo-newsletter-programmableweb_today:
+              height 44px
+              width 278px
+              inside block-system-main 1px left , 1px right
+              #below form-item-pass 21px
+
+        edit-field-terms-of-service:
+              height 44px
+              width 280px
+              inside block-system-main 0px left , 0px right
+              below klaviyo-newsletter-programmableweb_today 14px
+        captcha:
+              height 152px
+              width 275px
+              inside block-system-main 1px left , 4px right
+
+        edit-submit:
+              height 45px
+              width 280px
+              inside partly block-system-main 0px left , 0px right
+
+
+        footer:
+              height 697px
+              width 320px

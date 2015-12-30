@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: OSXYosemite_Chrome_46_1366x768",
       "status" : "info",
-      "time" : 1451394111825,
+      "time" : 1451453696136,
       "includedTags" : [ "OSXYosemite_Chrome_46_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -384,7 +384,7 @@
           "area" : [ 98, 189, 830, 33 ]
         },
         "footer" : {
-          "area" : [ 0, 1193, 1366, 278 ]
+          "area" : [ 0, 1188, 1366, 278 ]
         },
         "form-item-mail" : {
           "area" : [ 98, 353, 790, 45 ]
