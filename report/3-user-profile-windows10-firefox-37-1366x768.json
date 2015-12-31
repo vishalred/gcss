@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: Windows10_Firefox_37_1366x768",
       "status" : "info",
-      "time" : 1451480034130,
+      "time" : 1451545528266,
       "includedTags" : [ "Windows10_Firefox_37_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -467,7 +467,7 @@
           "area" : [ 83, 305, 790, 667 ]
         },
         "footer" : {
-          "area" : [ 0, 2698, 1335, 279 ]
+          "area" : [ 0, 2673, 1335, 279 ]
         },
         "headerdiv" : {
           "area" : [ 83, 102, 1170, 46 ]
@@ -512,7 +512,7 @@
           "area" : [ 83, 943, 790, 24 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 953, 305, 300, 2227 ]
+          "area" : [ 953, 305, 300, 2203 ]
         },
         "username" : {
           "area" : [ 83, 305, 790, 40 ]

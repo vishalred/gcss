@@ -4,8 +4,8 @@
   "report" : {
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: Windows8.1_IE_11_1366x768",
-      "status" : "info",
-      "time" : 1451480134025,
+      "status" : "error",
+      "time" : 1451545599283,
       "includedTags" : [ "Windows8.1_IE_11_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -281,12 +281,13 @@
             "name" : "height 14px",
             "highlight" : [ "watchlist-table-show-right" ]
           }, {
-            "status" : "info",
+            "status" : "error",
             "place" : {
               "filePath" : "specs/new.gspec",
               "lineNumber" : 389
             },
-            "name" : "inside partly block-system-main ~624px left ,~1px right",
+            "name" : "inside partly block-system-main ~634px left ,~1px right",
+            "errors" : [ "\"watchlist-table-show-right\" is 625px left which is not in range of 632 to 636px" ],
             "highlight" : [ "watchlist-table-show-right", "block-system-main" ]
           } ]
         }, {

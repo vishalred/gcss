@@ -1,0 +1,16 @@
+{
+  "testId" : "16-user-profile-samsunggalaxys5-android-360x640",
+  "name" : "User_profile_SamsungGalaxyS5_android_360x640",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: SamsungGalaxyS5_android_360x640",
+      "status" : "info",
+      "time" : 1451541341000,
+      "includedTags" : [ "SamsungGalaxyS5_android_360x640" ],
+      "sections" : [ ],
+      "objects" : { },
+      "screenshot" : "layout-16-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -386,7 +386,7 @@
         watchlist-table-show-right:
             height 14px
             #width ~156px
-            inside partly block-system-main ~624px left ,~1px right
+            inside partly block-system-main ~634px left ,~1px right
 
         watchlist-table-block-title:
             height 24px
@@ -1302,3 +1302,193 @@
                width 1366px
 
 
+
+
+    @on iPadAir_iPad_768x1024
+         header:
+               #height 101px
+               width ~ 100% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 100% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+         region-sidebar-second:
+               width 242px
+
+         block-system-main:
+               #height 0px
+               width 445px
+
+         username:
+               height 39px
+               width 445px
+               inside block-system-main 0px left , 0px right
+
+         user-header:
+               height 170px
+               width 170px
+               inside block-system-main 0px left ,275px right
+
+         user-about:
+               height 79px
+               width ~445px
+               inside block-system-main 0px left ,0px right
+
+         social-media:
+               height 40px
+               width 445px
+               inside block-system-main 0px left , 0px right
+
+         facebook_social_sidebar:
+              inside social-media 0px left , 405px right
+
+         twitter_social_sidebar:
+              inside social-media 46px left , 359px right
+
+         linkedin_social_sidebar:
+              inside social-media 92px left ,313px right
+
+         googleplus_social_sidebar:
+              inside social-media 138px left  , 267px right
+
+         reddit_social_sidebar:
+              inside social-media 184px left ,221px right
+
+         email_social_sidebar:
+              inside social-media 230px left ,175px right
+
+         watchlist-table:
+             height 258px
+             width 445px
+             inside block-system-main 0px left ,0px right
+
+         watchlist-table-show-right:
+             height 14px
+             width ~165px
+             inside partly watchlist-table 281px left ,0px right
+
+         watchlist-table-block-title:
+             height 48px
+             width 445px
+             inside watchlist-table 0px left , 0px right
+
+         watchlist-table-content:
+             height 205px
+             width 445px
+             inside watchlist-table 0px left , 0px right
+
+         mashup-table-1:
+             height 49px
+             width 445px
+             inside partly block-system-main 0px left  ,0px right
+
+         mashup-table-2:
+             height 49px
+             width 445px
+             inside partly block-system-main 0px left  ,0px right
+
+         mashup-table-3:
+             height 48px
+             width 445px
+             inside partly block-system-main 0px left  ,0px right
+
+         footer:
+               height 298px
+               width 768px
+
+
+    @on iPhone5_iPhone_320x568
+         header-mobile:
+                    #height 101px
+               width ~ 100% of screen/width
+                    #image: file
+
+         region-sidebar-second:
+               width 320px
+
+         block-system-main:
+               #height 0px
+               width 280px
+
+         username:
+               height 30px
+               width 280px
+               inside block-system-main 0px left , 0px right
+
+         user-header:
+               height 170px
+               width 170px
+               inside block-system-main 0px left ,110px right
+
+         user-about:
+               height 99px
+               width ~280px
+               inside block-system-main 0px left ,0px right
+
+         social-media:
+               height 40px
+               width 280px
+               inside block-system-main 0px left , 0px right
+
+         facebook_social_sidebar:
+              inside social-media 0px left , 240px right
+
+         twitter_social_sidebar:
+              inside social-media 46px left , 194px right
+
+         linkedin_social_sidebar:
+              inside social-media 92px left ,148px right
+
+         googleplus_social_sidebar:
+              inside social-media 138px left  , 102px right
+
+         reddit_social_sidebar:
+              inside social-media 184px left ,56px right
+
+         email_social_sidebar:
+              inside social-media 230px left ,10px right
+
+         watchlist-table:
+             height 380px
+             width 280px
+             inside block-system-main 0px left ,0px right
+
+         watchlist-table-show-right:
+             height 14px
+             width ~165px
+             inside partly watchlist-table 115px left ,0px right
+
+         watchlist-table-block-title:
+             height 50px
+             width 280px
+             inside watchlist-table 0px left , 0px right
+
+         watchlist-table-content:
+             height 325px
+             width 280px
+             inside watchlist-table 0px left , 0px right
+
+         mashup-table-1:
+             height 49px
+             width 280px
+             inside partly block-system-main 0px left  ,0px right
+
+         mashup-table-2:
+             height 49px
+             width 280px
+             inside partly block-system-main 0px left  ,0px right
+
+         mashup-table-3:
+             height 72px
+             width 280px
+             inside partly block-system-main 0px left  ,0px right
+
+         footer:
+               height 697px
+               width 320px

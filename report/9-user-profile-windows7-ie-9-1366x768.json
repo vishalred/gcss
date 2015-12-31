@@ -5,7 +5,7 @@
     "nodes" : [ {
       "name" : "Check layout: specs/new.gspec included tags: Windows7_IE_9_1366x768",
       "status" : "info",
-      "time" : 1451480534670,
+      "time" : 1451545890063,
       "includedTags" : [ "Windows7_IE_9_1366x768" ],
       "sections" : [ {
         "name" : "Mainsection",
@@ -467,7 +467,7 @@
           "area" : [ 82, 305, 790, 667 ]
         },
         "footer" : {
-          "area" : [ 0, 2638, 1333, 279 ]
+          "area" : [ 0, 2634, 1333, 279 ]
         },
         "headerdiv" : {
           "area" : [ 82, 102, 1170, 46 ]

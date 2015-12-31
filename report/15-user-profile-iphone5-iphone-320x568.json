@@ -1,51 +1,24 @@
 {
-  "testId" : "8-user-profile-windows7-ie-10-1366x768",
-  "name" : "User_profile_Windows7_IE_10_1366x768",
+  "testId" : "15-user-profile-iphone5-iphone-320x568",
+  "name" : "User_profile_iPhone5_iPhone_320x568",
   "report" : {
     "nodes" : [ {
-      "name" : "Check layout: specs/new.gspec included tags: Windows7_IE_10_1366x768",
+      "name" : "Check layout: specs/new.gspec included tags: iPhone5_iPhone_320x568",
       "status" : "info",
-      "time" : 1451545828523,
-      "includedTags" : [ "Windows7_IE_10_1366x768" ],
+      "time" : 1451546316618,
+      "includedTags" : [ "iPhone5_iPhone_320x568" ],
       "sections" : [ {
         "name" : "Mainsection",
         "objects" : [ {
-          "name" : "header",
+          "name" : "header-mobile",
           "specs" : [ {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 717
+              "lineNumber" : 1409
             },
-            "name" : "width ~ 86% of screen/width",
-            "highlight" : [ "header" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 719
-            },
-            "name" : "above headerdiv 1px",
-            "highlight" : [ "header", "headerdiv" ]
-          } ]
-        }, {
-          "name" : "headerdiv",
-          "specs" : [ {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 723
-            },
-            "name" : "width ~ 86% of screen/width",
-            "highlight" : [ "headerdiv" ]
-          }, {
-            "status" : "info",
-            "place" : {
-              "filePath" : "specs/new.gspec",
-              "lineNumber" : 724
-            },
-            "name" : "below header 1px",
-            "highlight" : [ "headerdiv", "header" ]
+            "name" : "width ~ 100% of screen/width",
+            "highlight" : [ "header-mobile" ]
           } ]
         }, {
           "name" : "region-sidebar-second",
@@ -53,9 +26,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 729
+              "lineNumber" : 1413
             },
-            "name" : "width 300px",
+            "name" : "width 320px",
             "highlight" : [ "region-sidebar-second" ]
           } ]
         }, {
@@ -64,9 +37,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 733
+              "lineNumber" : 1417
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "block-system-main" ]
           } ]
         }, {
@@ -75,23 +48,23 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 736
+              "lineNumber" : 1420
             },
-            "name" : "height 40px",
+            "name" : "height 30px",
             "highlight" : [ "username" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 737
+              "lineNumber" : 1421
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "username" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 738
+              "lineNumber" : 1422
             },
             "name" : "inside block-system-main 0px left , 0px right",
             "highlight" : [ "username", "block-system-main" ]
@@ -102,7 +75,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 741
+              "lineNumber" : 1425
             },
             "name" : "height 170px",
             "highlight" : [ "user-header" ]
@@ -110,7 +83,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 742
+              "lineNumber" : 1426
             },
             "name" : "width 170px",
             "highlight" : [ "user-header" ]
@@ -118,9 +91,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 743
+              "lineNumber" : 1427
             },
-            "name" : "inside block-system-main 0px left ,620px right",
+            "name" : "inside block-system-main 0px left ,110px right",
             "highlight" : [ "user-header", "block-system-main" ]
           } ]
         }, {
@@ -129,25 +102,25 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 746
+              "lineNumber" : 1430
             },
-            "name" : "height 79px",
+            "name" : "height 99px",
             "highlight" : [ "user-about" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 747
+              "lineNumber" : 1431
             },
-            "name" : "width ~514px",
+            "name" : "width ~280px",
             "highlight" : [ "user-about" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 748
+              "lineNumber" : 1432
             },
-            "name" : "inside block-system-main 170px left ,106px right",
+            "name" : "inside block-system-main 0px left ,0px right",
             "highlight" : [ "user-about", "block-system-main" ]
           } ]
         }, {
@@ -156,7 +129,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 751
+              "lineNumber" : 1435
             },
             "name" : "height 40px",
             "highlight" : [ "social-media" ]
@@ -164,15 +137,15 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 752
+              "lineNumber" : 1436
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "social-media" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 753
+              "lineNumber" : 1437
             },
             "name" : "inside block-system-main 0px left , 0px right",
             "highlight" : [ "social-media", "block-system-main" ]
@@ -183,9 +156,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 756
+              "lineNumber" : 1440
             },
-            "name" : "inside social-media 0px left , 750px right",
+            "name" : "inside social-media 0px left , 240px right",
             "highlight" : [ "facebook_social_sidebar", "social-media" ]
           } ]
         }, {
@@ -194,9 +167,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 759
+              "lineNumber" : 1443
             },
-            "name" : "inside social-media 46px left , 704px right",
+            "name" : "inside social-media 46px left , 194px right",
             "highlight" : [ "twitter_social_sidebar", "social-media" ]
           } ]
         }, {
@@ -205,9 +178,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 762
+              "lineNumber" : 1446
             },
-            "name" : "inside social-media 92px left ,658px right",
+            "name" : "inside social-media 92px left ,148px right",
             "highlight" : [ "linkedin_social_sidebar", "social-media" ]
           } ]
         }, {
@@ -216,9 +189,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 765
+              "lineNumber" : 1449
             },
-            "name" : "inside social-media 138px left  , 612px right",
+            "name" : "inside social-media 138px left  , 102px right",
             "highlight" : [ "googleplus_social_sidebar", "social-media" ]
           } ]
         }, {
@@ -227,9 +200,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 768
+              "lineNumber" : 1452
             },
-            "name" : "inside social-media 184px left ,566px right",
+            "name" : "inside social-media 184px left ,56px right",
             "highlight" : [ "reddit_social_sidebar", "social-media" ]
           } ]
         }, {
@@ -238,9 +211,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 771
+              "lineNumber" : 1455
             },
-            "name" : "inside social-media 230px left ,520px right",
+            "name" : "inside social-media 230px left ,10px right",
             "highlight" : [ "email_social_sidebar", "social-media" ]
           } ]
         }, {
@@ -249,23 +222,23 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 774
+              "lineNumber" : 1458
             },
-            "name" : "height 214px",
+            "name" : "height 380px",
             "highlight" : [ "watchlist-table" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 775
+              "lineNumber" : 1459
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "watchlist-table" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 776
+              "lineNumber" : 1460
             },
             "name" : "inside block-system-main 0px left ,0px right",
             "highlight" : [ "watchlist-table", "block-system-main" ]
@@ -276,7 +249,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 779
+              "lineNumber" : 1463
             },
             "name" : "height 14px",
             "highlight" : [ "watchlist-table-show-right" ]
@@ -284,7 +257,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 780
+              "lineNumber" : 1464
             },
             "name" : "width ~165px",
             "highlight" : [ "watchlist-table-show-right" ]
@@ -292,9 +265,9 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 781
+              "lineNumber" : 1465
             },
-            "name" : "inside partly watchlist-table 625px left ,1px right",
+            "name" : "inside partly watchlist-table 115px left ,0px right",
             "highlight" : [ "watchlist-table-show-right", "watchlist-table" ]
           } ]
         }, {
@@ -303,23 +276,23 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 784
+              "lineNumber" : 1468
             },
-            "name" : "height 24px",
+            "name" : "height 50px",
             "highlight" : [ "watchlist-table-block-title" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 785
+              "lineNumber" : 1469
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "watchlist-table-block-title" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 786
+              "lineNumber" : 1470
             },
             "name" : "inside watchlist-table 0px left , 0px right",
             "highlight" : [ "watchlist-table-block-title", "watchlist-table" ]
@@ -330,23 +303,23 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 789
+              "lineNumber" : 1473
             },
-            "name" : "height 185px",
+            "name" : "height 325px",
             "highlight" : [ "watchlist-table-content" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 790
+              "lineNumber" : 1474
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "watchlist-table-content" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 791
+              "lineNumber" : 1475
             },
             "name" : "inside watchlist-table 0px left , 0px right",
             "highlight" : [ "watchlist-table-content", "watchlist-table" ]
@@ -357,7 +330,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 794
+              "lineNumber" : 1478
             },
             "name" : "height 49px",
             "highlight" : [ "mashup-table-1" ]
@@ -365,17 +338,17 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 795
+              "lineNumber" : 1479
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "mashup-table-1" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 796
+              "lineNumber" : 1480
             },
-            "name" : "inside block-system-main 0px left  ,0px right",
+            "name" : "inside partly block-system-main 0px left  ,0px right",
             "highlight" : [ "mashup-table-1", "block-system-main" ]
           } ]
         }, {
@@ -384,7 +357,7 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 799
+              "lineNumber" : 1483
             },
             "name" : "height 49px",
             "highlight" : [ "mashup-table-2" ]
@@ -392,17 +365,17 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 800
+              "lineNumber" : 1484
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "mashup-table-2" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 801
+              "lineNumber" : 1485
             },
-            "name" : "inside block-system-main 0px left  ,0px right",
+            "name" : "inside partly block-system-main 0px left  ,0px right",
             "highlight" : [ "mashup-table-2", "block-system-main" ]
           } ]
         }, {
@@ -411,25 +384,25 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 804
+              "lineNumber" : 1488
             },
-            "name" : "height 24px",
+            "name" : "height 72px",
             "highlight" : [ "mashup-table-3" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 805
+              "lineNumber" : 1489
             },
-            "name" : "width 790px",
+            "name" : "width 280px",
             "highlight" : [ "mashup-table-3" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 806
+              "lineNumber" : 1490
             },
-            "name" : "inside block-system-main 0px left  ,0px right",
+            "name" : "inside partly block-system-main 0px left  ,0px right",
             "highlight" : [ "mashup-table-3", "block-system-main" ]
           } ]
         }, {
@@ -438,90 +411,87 @@
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 809
+              "lineNumber" : 1493
             },
-            "name" : "height 279px",
+            "name" : "height 697px",
             "highlight" : [ "footer" ]
           }, {
             "status" : "info",
             "place" : {
               "filePath" : "specs/new.gspec",
-              "lineNumber" : 810
+              "lineNumber" : 1494
             },
-            "name" : "width 1350px",
+            "name" : "width 320px",
             "highlight" : [ "footer" ]
           } ]
         } ]
       } ],
       "objects" : {
         "googleplus_social_sidebar" : {
-          "area" : [ 228, 549, 40, 40 ]
+          "area" : [ 158, 338, 40, 40 ]
         },
         "watchlist-table-block-title" : {
-          "area" : [ 90, 610, 790, 24 ]
+          "area" : [ 20, 399, 280, 50 ]
         },
         "email_social_sidebar" : {
-          "area" : [ 320, 549, 40, 40 ]
+          "area" : [ 250, 338, 40, 40 ]
         },
         "block-system-main" : {
-          "area" : [ 90, 305, 790, 667 ]
+          "area" : [ 20, 0, 280, 974 ]
         },
         "footer" : {
-          "area" : [ 0, 2638, 1350, 279 ]
-        },
-        "headerdiv" : {
-          "area" : [ 90, 102, 1170, 46 ]
+          "area" : [ 0, 0, 320, 697 ]
         },
         "watchlist-table" : {
-          "area" : [ 90, 610, 790, 214 ]
+          "area" : [ 20, 399, 280, 380 ]
         },
         "facebook_social_sidebar" : {
-          "area" : [ 90, 549, 40, 40 ]
+          "area" : [ 20, 338, 40, 40 ]
         },
         "twitter_social_sidebar" : {
-          "area" : [ 136, 549, 40, 40 ]
+          "area" : [ 66, 338, 40, 40 ]
         },
         "user-about" : {
-          "area" : [ 260, 365, 514, 79 ]
+          "area" : [ 20, 225, 280, 99 ]
         },
         "watchlist-table-show-right" : {
-          "area" : [ 715, 598, 164, 14 ]
+          "area" : [ 135, 387, 165, 14 ]
+        },
+        "header-mobile" : {
+          "area" : [ 0, -1, 320, 48 ]
         },
         "linkedin_social_sidebar" : {
-          "area" : [ 182, 549, 40, 40 ]
-        },
-        "header" : {
-          "area" : [ 90, 0, 1170, 101 ]
+          "area" : [ 112, 338, 40, 40 ]
         },
         "user-header" : {
-          "area" : [ 90, 365, 170, 170 ]
+          "area" : [ 20, 51, 170, 170 ]
         },
         "mashup-table-1" : {
-          "area" : [ 90, 844, 790, 49 ]
+          "area" : [ 20, 0, 280, 49 ]
         },
         "watchlist-table-content" : {
-          "area" : [ 90, 639, 790, 185 ]
+          "area" : [ 20, 454, 280, 325 ]
         },
         "mashup-table-2" : {
-          "area" : [ 90, 893, 790, 49 ]
+          "area" : [ 20, -11, 280, 49 ]
         },
         "reddit_social_sidebar" : {
-          "area" : [ 274, 549, 40, 40 ]
+          "area" : [ 204, 338, 40, 40 ]
         },
         "mashup-table-3" : {
-          "area" : [ 90, 942, 790, 24 ]
+          "area" : [ 20, 38, 280, 72 ]
         },
         "region-sidebar-second" : {
-          "area" : [ 960, 305, 300, 2168 ]
+          "area" : [ 0, 0, 320, 2195 ]
         },
         "username" : {
-          "area" : [ 90, 305, 790, 40 ]
+          "area" : [ 20, 0, 280, 30 ]
         },
         "social-media" : {
-          "area" : [ 90, 549, 790, 40 ]
+          "area" : [ 20, 338, 280, 40 ]
         }
       },
-      "screenshot" : "layout-8-screenshot.png",
+      "screenshot" : "layout-15-screenshot.png",
       "type" : "layout"
     } ]
   }
