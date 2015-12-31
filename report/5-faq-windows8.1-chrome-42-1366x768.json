@@ -1,0 +1,676 @@
+{
+  "testId" : "5-faq-windows8.1-chrome-42-1366x768",
+  "name" : "FAQ_Windows8.1_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows8.1_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1451563762332,
+      "includedTags" : [ "Windows8.1_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 538
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 540
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 544
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 545
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 550
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 554
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "page-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 557
+            },
+            "name" : "height 78px",
+            "highlight" : [ "page-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 558
+            },
+            "name" : "width 830px",
+            "highlight" : [ "page-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 559
+            },
+            "name" : "inside main-container 0px left , 0px right",
+            "highlight" : [ "page-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "field-items",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 563
+            },
+            "name" : "width 790px",
+            "highlight" : [ "field-items" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 564
+            },
+            "name" : "inside main-container 0px left, 40px right",
+            "highlight" : [ "field-items", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-description",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 566
+            },
+            "name" : "height 88px",
+            "highlight" : [ "faq-description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 567
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-description" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 568
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-description", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-list",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 571
+            },
+            "name" : "height 570px",
+            "highlight" : [ "faq-list" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 572
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-list" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 573
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-list", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para1-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 576
+            },
+            "name" : "height 32px",
+            "highlight" : [ "faq-para1-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 577
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para1-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 578
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para1-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 581
+            },
+            "name" : "height 154px",
+            "highlight" : [ "faq-para1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 582
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 583
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para1", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para2-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 587
+            },
+            "name" : "height 32px",
+            "highlight" : [ "faq-para2-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 588
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para2-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 589
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para2-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 592
+            },
+            "name" : "height 66px",
+            "highlight" : [ "faq-para2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 593
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 594
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para2", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para3-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 597
+            },
+            "name" : "height 64px",
+            "highlight" : [ "faq-para3-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 598
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para3-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 599
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para3-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 602
+            },
+            "name" : "height 132px",
+            "highlight" : [ "faq-para3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 603
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 604
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para3", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para4-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 608
+            },
+            "name" : "height 64px",
+            "highlight" : [ "faq-para4-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 609
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para4-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 610
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para4-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 613
+            },
+            "name" : "height 66px",
+            "highlight" : [ "faq-para4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 614
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 615
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para4", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para5-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 618
+            },
+            "name" : "height 64px",
+            "highlight" : [ "faq-para5-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 619
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para5-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 620
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para5-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 623
+            },
+            "name" : "height 176px",
+            "highlight" : [ "faq-para5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 624
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 625
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para5", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para6-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 628
+            },
+            "name" : "height 64px",
+            "highlight" : [ "faq-para6-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 629
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para6-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 630
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para6-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 633
+            },
+            "name" : "height 110px",
+            "highlight" : [ "faq-para6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 634
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 635
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para6", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para7-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 638
+            },
+            "name" : "height 32px",
+            "highlight" : [ "faq-para7-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 639
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para7-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 640
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para7-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para8-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 643
+            },
+            "name" : "height 64px",
+            "highlight" : [ "faq-para8-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 644
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para8-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 645
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para8-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "faq-para8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 648
+            },
+            "name" : "height 154px",
+            "highlight" : [ "faq-para8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 649
+            },
+            "name" : "width 790px",
+            "highlight" : [ "faq-para8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 650
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "faq-para8", "main-container" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 655
+            },
+            "name" : "height 278px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 656
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "faq-list" : {
+          "area" : [ 81, 531, 790, 570 ]
+        },
+        "faq-para4-header" : {
+          "area" : [ 81, 1731, 790, 64 ]
+        },
+        "faq-para5-header" : {
+          "area" : [ 81, 1901, 790, 64 ]
+        },
+        "faq-para1" : {
+          "area" : [ 81, 1173, 790, 154 ]
+        },
+        "faq-para2" : {
+          "area" : [ 81, 1399, 790, 66 ]
+        },
+        "faq-para3" : {
+          "area" : [ 81, 1569, 790, 132 ]
+        },
+        "faq-para6-header" : {
+          "area" : [ 81, 2535, 790, 64 ]
+        },
+        "page-header" : {
+          "area" : [ 81, 305, 830, 78 ]
+        },
+        "faq-para2-header" : {
+          "area" : [ 81, 1357, 790, 32 ]
+        },
+        "faq-para3-header" : {
+          "area" : [ 81, 1495, 790, 64 ]
+        },
+        "faq-para4" : {
+          "area" : [ 81, 1805, 790, 66 ]
+        },
+        "footer" : {
+          "area" : [ 0, 7829, 1333, 278 ]
+        },
+        "faq-para5" : {
+          "area" : [ 81, 1975, 790, 176 ]
+        },
+        "faq-para6" : {
+          "area" : [ 81, 2363, 790, 110 ]
+        },
+        "headerdiv" : {
+          "area" : [ 81, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 81, 305, 830, 7388 ]
+        },
+        "faq-para8-header" : {
+          "area" : [ 81, 3509, 790, 64 ]
+        },
+        "header" : {
+          "area" : [ 81, 0, 1170, 101 ]
+        },
+        "field-items" : {
+          "area" : [ 81, 413, 790, 7240 ]
+        },
+        "faq-para1-header" : {
+          "area" : [ 81, 1131, 790, 32 ]
+        },
+        "faq-para8" : {
+          "area" : [ 81, 2835, 790, 154 ]
+        },
+        "faq-para7-header" : {
+          "area" : [ 81, 2793, 790, 32 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 951, 305, 300, 2203 ]
+        },
+        "faq-description" : {
+          "area" : [ 81, 413, 790, 88 ]
+        }
+      },
+      "screenshot" : "layout-5-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

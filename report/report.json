@@ -1,0 +1,213 @@
+{
+  "tests" : [ {
+    "name" : "FAQ_Windows10_IE_11_1366x768",
+    "startedAt" : 1451563423856,
+    "endedAt" : 1451563489869,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 65,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 65
+    },
+    "testId" : "1-faq-windows10-ie-11-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 66013
+  }, {
+    "name" : "FAQ_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1451563489869,
+    "endedAt" : 1451563570495,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 64,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 64
+    },
+    "testId" : "2-faq-windows10-chrome-42-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 80626
+  }, {
+    "name" : "FAQ_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1451563570496,
+    "endedAt" : 1451563648422,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 64,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 64
+    },
+    "testId" : "3-faq-windows10-firefox-37-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 77926
+  }, {
+    "name" : "FAQ_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1451563648422,
+    "endedAt" : 1451563717881,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 65,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 65
+    },
+    "testId" : "4-faq-windows8.1-ie-11-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 69459
+  }, {
+    "name" : "FAQ_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1451563717881,
+    "endedAt" : 1451563768041,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 64,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 64
+    },
+    "testId" : "5-faq-windows8.1-chrome-42-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 50160
+  }, {
+    "name" : "FAQ_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1451563768041,
+    "endedAt" : 1451563846773,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 64,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 64
+    },
+    "testId" : "6-faq-windows8.1-firefox-37-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 78732
+  }, {
+    "name" : "FAQ_Windows7_IE_11_1366x768",
+    "startedAt" : 1451563846774,
+    "endedAt" : 1451563912969,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 65,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 65
+    },
+    "testId" : "7-faq-windows7-ie-11-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 66195
+  }, {
+    "name" : "FAQ_Windows7_IE_10_1366x768",
+    "startedAt" : 1451563912969,
+    "endedAt" : 1451563996893,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 65,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 65
+    },
+    "testId" : "8-faq-windows7-ie-10-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 83924
+  }, {
+    "name" : "FAQ_Windows7_IE_9_1366x768",
+    "startedAt" : 1451563996894,
+    "endedAt" : 1451564071764,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 65,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 65
+    },
+    "testId" : "9-faq-windows7-ie-9-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 74870
+  }, {
+    "name" : "FAQ_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1451564071764,
+    "endedAt" : 1451564119298,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 64,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 64
+    },
+    "testId" : "10-faq-windows7-chrome-42-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 47534
+  }, {
+    "name" : "FAQ_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1451564119298,
+    "endedAt" : 1451564181382,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 64,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 64
+    },
+    "testId" : "11-faq-windows7-firefox-37-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 62084
+  }, {
+    "name" : "FAQ_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1451564181383,
+    "endedAt" : 1451564249311,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 65,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 65
+    },
+    "testId" : "12-faq-osxyosemite-safari-8-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 67928
+  }, {
+    "name" : "FAQ_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1451564249311,
+    "endedAt" : 1451564324888,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 65,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 65
+    },
+    "testId" : "13-faq-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "FAQ_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 75577
+  }, {
+    "name" : "FAQ_iPadAir_iPad_768x1024",
+    "startedAt" : 1451564324888,
+    "endedAt" : 1451564434249,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 65,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 65
+    },
+    "testId" : "14-faq-ipadair-ipad-768x1024",
+    "groups" : [ "FAQ_Tablet_768x1024" ],
+    "failed" : false,
+    "duration" : 109361
+  } ]
+}

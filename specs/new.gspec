@@ -1,0 +1,1767 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    region-sidebar-second css  .region-sidebar-second
+    footer css footer
+
+    main-container xpath /html/body/div[5]/div[1]/section
+    page-header  xpath  /html/body/div[5]/div[1]/section/h1
+    faq-description  xpath  //*[@id="node-52523"]/div/div/div/div/p[1]
+    faq-list  xpath  //*[@id="node-52523"]/div/div/div/div/ul[1]
+    faq-para1-header  xpath  //*[@id="node-52523"]/div/div/div/div/h3[1]
+    faq-para1  xpath  //*[@id="node-52523"]/div/div/div/div/p[3]
+
+    faq-para2-header  xpath  //*[@id="node-52523"]/div/div/div/div/h3[2]
+    faq-para2  xpath  //*[@id="node-52523"]/div/div/div/div/p[5]
+
+    faq-para3-header  xpath  //*[@id="node-52523"]/div/div/div/div/h3[3]
+    faq-para3  xpath  //*[@id="node-52523"]/div/div/div/div/p[7]
+
+    faq-para4-header  xpath  //*[@id="node-52523"]/div/div/div/div/h3[4]
+    faq-para4  xpath  //*[@id="node-52523"]/div/div/div/div/p[9]
+
+    faq-para5-header  xpath  //*[@id="node-52523"]/div/div/div/div/h3[5]
+    faq-para5  xpath  //*[@id="node-52523"]/div/div/div/div/p[11]
+
+    faq-para6-header  xpath  //*[@id="node-52523"]/div/div/div/div/h3[6]
+    faq-para6  xpath  //*[@id="node-52523"]/div/div/div/div/p[13]
+
+    faq-para6-header  xpath  //*[@id="node-52523"]/div/div/div/div/h3[7]
+    faq-para6  xpath  //*[@id="node-52523"]/div/div/div/div/p[15]
+
+    faq-para7-header  xpath  //*[@id="node-52523"]/div/div/div/div/h3[8]
+    faq-para7  xpath  //*[@id="node-52523"]/div/div/div/div/p[17]
+
+    faq-para8-header  xpath  //*[@id="node-52523"]/div/div/div/div/h3[9]
+    faq-para8  xpath  //*[@id="node-52523"]/div/div/div/div/p[19]
+
+    field-items   id  node-52523
+
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 79px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             height 7377px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 90px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 134px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 179px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 112px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 78px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             #height 7304px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 88px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 132px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 176px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 110px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 79px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             #height 7304px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 90px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 134px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 179px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 112px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 279px
+              width 1335px
+
+
+    @on Windows8.1_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 79px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             height 7377px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 90px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 134px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 179px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 112px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows8.1_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 78px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             #height 7304px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 88px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 132px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 176px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 110px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows8.1_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 79px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             #height 7304px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 90px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 134px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 179px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 112px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 279px
+              width 1335px
+
+
+    @on Windows7_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 79px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             height 7377px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 90px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 134px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 179px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 112px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 279px
+              width 1350px
+
+
+    @on Windows7_IE_10_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 79px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             height 7377px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 90px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 134px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 179px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 112px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_9_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 79px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             height 7377px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 90px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 134px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 179px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 112px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 279px
+              width 1333px
+
+    @on Windows7_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 78px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             #height 7304px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 88px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 132px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 176px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 110px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 278px
+              width 1339px
+
+    @on Windows7_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 79px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             #height 7304px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 90px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 134px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 67px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 179px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 112px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 157px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 279px
+              width 1333px
+
+    @on OSXYosemite_Safari_8_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 78px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             height 7304px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 88px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 132px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 176px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 110px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on OSXYosemite_Chrome_46_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 78px
+             width 830px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             height 7304px
+             width 790px
+             inside main-container 0px left, 40px right
+        faq-description:
+             height 88px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-list:
+             height 570px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para1:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para2-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para2:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para3:
+             height 132px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+        faq-para4-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para4:
+             height 66px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para5:
+             height 176px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para6:
+             height 110px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para7-header:
+             height 32px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8-header:
+             height 64px
+             width 790px
+             inside main-container 0px left , 40px right
+
+        faq-para8:
+             height 154px
+             width 790px
+             inside main-container 0px left , 40px right
+
+
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on iPadAir_iPad_768x1024
+        header:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 100% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 242px
+
+        main-container:
+              #height 3606px
+              width 485px
+
+        page-header:
+             height 137px
+             width 485px
+             inside main-container 0px left , 0px right
+
+        field-items:
+             height 11392px
+             width 445px
+             inside main-container 20px left, 20px right
+        faq-description:
+             height 154px
+             width 445px
+             inside main-container 20px left , 20px right
+
+        faq-list:
+             height 830px
+             width 445px
+             inside main-container 20px left , 20px right
+
+        faq-para1-header:
+             height 64px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para1:
+             height 264px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+
+        faq-para2-header:
+             height 64px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para2:
+             height 88px
+             width 445px
+             inside main-container 20px left , 20px right
+
+        faq-para3-header:
+             height 96px
+             width 445px
+             inside main-container 20px left , 20px right
+
+        faq-para3:
+             height 220px
+             width 445px
+             inside main-container 20px left , 20px right
+
+
+        faq-para4-header:
+             height 96px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para4:
+             height 110px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para5-header:
+             height 96px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para5:
+             height 308px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para6-header:
+             height 96px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para6:
+             height 176px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para7-header:
+             height 64px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para8-header:
+             height 96px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+        faq-para8:
+             height 264px
+             width 445px
+             inside partly main-container 20px left , 20px right
+
+
+
+        footer:
+              height 298px
+              width 768px
+
+
