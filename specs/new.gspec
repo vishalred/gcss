@@ -1,0 +1,1140 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    region-sidebar-second css  .region-sidebar-second
+    footer css footer
+
+    main-container xpath /html/body/div[5]/div[1]/section
+    page-header  css .page-header
+    paragraph1 xpath  //*[@id="node-52524"]/div/div/div/div/p[1]
+    paragraph2 xpath //*[@id="node-52524"]/div/div/div/div/p[2]
+    paragraph3 xpath  //*[@id="node-52524"]/div/div/div/div/p[3]
+    paragraph4 xpath  //*[@id="node-52524"]/div/div/div/div/p[4]
+    paragraph5 xpath  //*[@id="node-52524"]/div/div/div/div/p[5]
+
+    growth-header  xpath  //*[@id="node-52524"]/div/div/div/div/h3[1]
+    growth-slider1  xpath  //*[@id="node-52524"]/div/div/div/div/iframe[1]
+    fastest-growing-header  xpath //*[@id="node-52524"]/div/div/div/div/h3[2]
+    fastest-growing-slider1 xpath  //*[@id="node-52524"]/div/div/div/div/iframe[2]
+    fastest-growing-api-header  xpath  //*[@id="node-52524"]/div/div/div/div/h3[3]
+    fastest-growing-slider2 xpath  //*[@id="node-52524"]/div/div/div/div/iframe[3]
+    pw-esignature-header xapth //*[@id="node-52524"]/div/div/div/div/h3[4]
+    pw-esignature-slider  xapth //*[@id="node-52524"]/div/div/div/div/iframe[4]
+
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 40px
+             width 830px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 0px left, 40px right
+
+        paragraph2:
+             inside main-container 0px left, 40px right
+
+        paragraph3:
+             inside main-container 0px left, 40px right
+
+        paragraph4:
+             inside main-container 0px left, 40px right
+
+        paragraph5:
+             inside main-container 0px left, 40px right
+
+        growth-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px right
+
+        growth-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left,354px right
+
+        fastest-growing-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        fastest-growing-api-header:
+             height 64px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 39px
+             width 830px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 0px left, 40px right
+
+        paragraph2:
+             inside main-container 0px left, 40px right
+
+        paragraph3:
+             inside main-container 0px left, 40px right
+
+        paragraph4:
+             inside main-container 0px left, 40px right
+
+        paragraph5:
+             inside main-container 0px left, 40px right
+
+        growth-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px right
+
+        growth-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left,354px right
+
+        fastest-growing-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        fastest-growing-api-header:
+             height 64px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 40px
+             width 830px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 0px left, 40px right
+
+        paragraph2:
+             inside main-container 0px left, 40px right
+
+        paragraph3:
+             inside main-container 0px left, 40px right
+
+        paragraph4:
+             inside main-container 0px left, 40px right
+
+        paragraph5:
+             inside main-container 0px left, 40px right
+
+        growth-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px right
+
+        growth-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left,354px right
+
+        fastest-growing-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        fastest-growing-api-header:
+             height 64px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows8.1_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 40px
+             width 830px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 0px left, 40px right
+
+        paragraph2:
+             inside main-container 0px left, 40px right
+
+        paragraph3:
+             inside main-container 0px left, 40px right
+
+        paragraph4:
+             inside main-container 0px left, 40px right
+
+        paragraph5:
+             inside main-container 0px left, 40px right
+
+        growth-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px right
+
+        growth-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left,354px right
+
+        fastest-growing-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        fastest-growing-api-header:
+             height 64px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows8.1_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 39px
+             width 830px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 0px left, 40px right
+
+        paragraph2:
+             inside main-container 0px left, 40px right
+
+        paragraph3:
+             inside main-container 0px left, 40px right
+
+        paragraph4:
+             inside main-container 0px left, 40px right
+
+        paragraph5:
+             inside main-container 0px left, 40px right
+
+        growth-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px right
+
+        growth-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left,354px right
+
+        fastest-growing-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        fastest-growing-api-header:
+             height 64px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows8.1_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 40px
+             width 830px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 0px left, 40px right
+
+        paragraph2:
+             inside main-container 0px left, 40px right
+
+        paragraph3:
+             inside main-container 0px left, 40px right
+
+        paragraph4:
+             inside main-container 0px left, 40px right
+
+        paragraph5:
+             inside main-container 0px left, 40px right
+
+        growth-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px right
+
+        growth-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left,354px right
+
+        fastest-growing-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        fastest-growing-api-header:
+             height 64px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows7_IE_11_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+         region-sidebar-second:
+               width 300px
+
+         main-container:
+               #height 3606px
+               width 830px
+
+         page-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+         paragraph1:
+              inside main-container 0px left, 40px right
+
+         paragraph2:
+              inside main-container 0px left, 40px right
+
+         paragraph3:
+              inside main-container 0px left, 40px right
+
+         paragraph4:
+              inside main-container 0px left, 40px right
+
+         paragraph5:
+              inside main-container 0px left, 40px right
+
+         growth-header:
+              height 32px
+              width 790px
+              inside main-container 0px left, 40px right
+
+         growth-slider1:
+              height 400px
+              width 476px
+              inside main-container 0px left,354px right
+
+         fastest-growing-header:
+              height 32px
+              width 790px
+              inside main-container 0px left, 40px  right
+
+         fastest-growing-slider1:
+              height 400px
+              width 476px
+              inside main-container 0px left, 354px  right
+
+         fastest-growing-api-header:
+              height 64px
+              width 790px
+              inside main-container 0px left, 40px  right
+
+         fastest-growing-slider2:
+              height 400px
+              width 476px
+              inside main-container 0px left, 354px  right
+
+         footer:
+               height 279px
+               width 1350px
+
+    @on Windows7_IE_10_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+         region-sidebar-second:
+               width 300px
+
+         main-container:
+               #height 3606px
+               width 830px
+
+         page-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+         paragraph1:
+              inside main-container 0px left, 40px right
+
+         paragraph2:
+              inside main-container 0px left, 40px right
+
+         paragraph3:
+              inside main-container 0px left, 40px right
+
+         paragraph4:
+              inside main-container 0px left, 40px right
+
+         paragraph5:
+              inside main-container 0px left, 40px right
+
+         growth-header:
+              height 32px
+              width 790px
+              inside main-container 0px left, 40px right
+
+         growth-slider1:
+              height 400px
+              width 476px
+              inside main-container 0px left,354px right
+
+         fastest-growing-header:
+              height 32px
+              width 790px
+              inside main-container 0px left, 40px  right
+
+         fastest-growing-slider1:
+              height 400px
+              width 476px
+              inside main-container 0px left, 354px  right
+
+         fastest-growing-api-header:
+              height 64px
+              width 790px
+              inside main-container 0px left, 40px  right
+
+         fastest-growing-slider2:
+              height 400px
+              width 476px
+              inside main-container 0px left, 354px  right
+
+         footer:
+               height 279px
+               width 1350px
+
+    @on Windows7_IE_9_1366x768
+         header:
+               #height 101px
+               width ~ 86% of screen/width
+               #image: file
+               above headerdiv 1px
+
+         headerdiv:
+               #height 46px
+               width ~ 86% of screen/width
+               below header 1px
+               #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+         region-sidebar-second:
+               width 300px
+
+         main-container:
+               #height 3606px
+               width 830px
+
+         page-header:
+              height 40px
+              width 830px
+              inside main-container 0px left, 0px right
+
+         paragraph1:
+              inside main-container 0px left, 40px right
+
+         paragraph2:
+              inside main-container 0px left, 40px right
+
+         paragraph3:
+              inside main-container 0px left, 40px right
+
+         paragraph4:
+              inside main-container 0px left, 40px right
+
+         paragraph5:
+              inside main-container 0px left, 40px right
+
+         growth-header:
+              height 32px
+              width 790px
+              inside main-container 0px left, 40px right
+
+         growth-slider1:
+              height 400px
+              width 476px
+              inside main-container 0px left,354px right
+
+         fastest-growing-header:
+              height 32px
+              width 790px
+              inside main-container 0px left, 40px  right
+
+         fastest-growing-slider1:
+              height 400px
+              width 476px
+              inside main-container 0px left, 354px  right
+
+         fastest-growing-api-header:
+              height 64px
+              width 790px
+              inside main-container 0px left, 40px  right
+
+         fastest-growing-slider2:
+              height 400px
+              width 476px
+              inside main-container 0px left, 354px  right
+
+         footer:
+               height 279px
+               width 1333px
+
+    @on Windows7_Chrome_42_1366x768
+           header:
+                 #height 101px
+                 width ~ 86% of screen/width
+                 #image: file
+                 above headerdiv 1px
+
+           headerdiv:
+                 #height 46px
+                 width ~ 86% of screen/width
+                 below header 1px
+                 #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+           region-sidebar-second:
+                 width 300px
+
+           main-container:
+                 #height 3606px
+                 width 830px
+
+           page-header:
+                height 39px
+                width 830px
+                inside main-container 0px left, 0px right
+
+           paragraph1:
+                inside main-container 0px left, 40px right
+
+           paragraph2:
+                inside main-container 0px left, 40px right
+
+           paragraph3:
+                inside main-container 0px left, 40px right
+
+           paragraph4:
+                inside main-container 0px left, 40px right
+
+           paragraph5:
+                inside main-container 0px left, 40px right
+
+           growth-header:
+                height 32px
+                width 790px
+                inside main-container 0px left, 40px right
+
+           growth-slider1:
+                height 400px
+                width 476px
+                inside main-container 0px left,354px right
+
+           fastest-growing-header:
+                height 32px
+                width 790px
+                inside main-container 0px left, 40px  right
+
+           fastest-growing-slider1:
+                height 400px
+                width 476px
+                inside main-container 0px left, 354px  right
+
+           fastest-growing-api-header:
+                height 64px
+                width 790px
+                inside main-container 0px left, 40px  right
+
+           fastest-growing-slider2:
+                height 400px
+                width 476px
+                inside main-container 0px left, 354px  right
+
+           footer:
+                 height 278px
+                 width 1339px
+
+    @on Windows7_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 40px
+             width 830px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 0px left, 40px right
+
+        paragraph2:
+             inside main-container 0px left, 40px right
+
+        paragraph3:
+             inside main-container 0px left, 40px right
+
+        paragraph4:
+             inside main-container 0px left, 40px right
+
+        paragraph5:
+             inside main-container 0px left, 40px right
+
+        growth-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px right
+
+        growth-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left,354px right
+
+        fastest-growing-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        fastest-growing-api-header:
+             height 64px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        footer:
+              height 279px
+              width 1333px
+
+    @on OSXYosemite_Safari_8_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 39px
+             width 830px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 0px left, 40px right
+
+        paragraph2:
+             inside main-container 0px left, 40px right
+
+        paragraph3:
+             inside main-container 0px left, 40px right
+
+        paragraph4:
+             inside main-container 0px left, 40px right
+
+        paragraph5:
+             inside main-container 0px left, 40px right
+
+        growth-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px right
+
+        growth-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left,354px right
+
+        fastest-growing-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        fastest-growing-api-header:
+             height 64px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on OSXYosemite_Chrome_46_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        page-header:
+             height 39px
+             width 830px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 0px left, 40px right
+
+        paragraph2:
+             inside main-container 0px left, 40px right
+
+        paragraph3:
+             inside main-container 0px left, 40px right
+
+        paragraph4:
+             inside main-container 0px left, 40px right
+
+        paragraph5:
+             inside main-container 0px left, 40px right
+
+        growth-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px right
+
+        growth-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left,354px right
+
+        fastest-growing-header:
+             height 32px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        fastest-growing-api-header:
+             height 64px
+             width 790px
+             inside main-container 0px left, 40px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 476px
+             inside main-container 0px left, 354px  right
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on iPadAir_iPad_768x1024
+          header:
+                #height 101px
+                width ~ 100% of screen/width
+                #image: file
+                above headerdiv 1px
+
+          headerdiv:
+                #height 46px
+                width ~ 100% of screen/width
+                below header 1px
+                #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+          region-sidebar-second:
+                width 242px
+
+          main-container:
+                #height 3606px
+                width 485px
+
+          page-header:
+               height 98px
+               width 485px
+               inside main-container 0px left, 0px right
+
+          paragraph1:
+               inside main-container 20px left, 20px right
+
+          paragraph2:
+               inside main-container 20px left, 20px right
+
+          paragraph3:
+               inside main-container 20px left, 20px right
+
+          paragraph4:
+               inside main-container 20px left, 20px right
+
+          paragraph5:
+               inside partly main-container 20px left, 20px right
+
+          growth-header:
+               height 64px
+               width 445px
+               inside partly main-container 20px left, 20px right
+
+          growth-slider1:
+               height 400px
+               width 445px
+               inside partly main-container 20px left,20px right
+
+          fastest-growing-header:
+               height 64px
+               width 445px
+               inside partly main-container 20px left, 20px  right
+
+          fastest-growing-slider1:
+               height 400px
+               width 445px
+               inside partly main-container 20px left, 20px  right
+
+          fastest-growing-api-header:
+               height 96px
+               width 445px
+               inside partly main-container 20px left, 20px  right
+
+          fastest-growing-slider2:
+               height 400px
+               width 445px
+               inside partly main-container 20px left, 20px  right
+
+          footer:
+                height 298px
+                width 768px
+
+    @on iPhone5_iPhone_320x568
+        header-mobile:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+        region-sidebar-second:
+              width 320px
+
+        main-container:
+              #height 3606px
+              width 320px
+
+        page-header:
+             height 80px
+             width 320px
+             inside main-container 0px left, 0px right
+
+        paragraph1:
+             inside main-container 20px left, 20px right
+
+        paragraph2:
+             inside main-container 20px left, 20px right
+
+        paragraph3:
+             inside main-container 20px left, 20px right
+
+        paragraph4:
+             inside main-container 20px left, 20px right
+
+        paragraph5:
+             inside main-container 20px left, 20px right
+
+        growth-header:
+             height 64px
+             width 280px
+             inside main-container 20px left, 20px right
+
+        growth-slider1:
+             height 400px
+             width 280px
+             inside main-container 20px left,20px right
+
+        fastest-growing-header:
+             height 96px
+             width 280px
+             inside main-container 20px left, 20px  right
+
+        fastest-growing-slider1:
+             height 400px
+             width 280px
+             inside main-container 20px left, 20px  right
+
+        fastest-growing-api-header:
+             height 128px
+             width 280px
+             inside main-container 20px left, 20px  right
+
+        fastest-growing-slider2:
+             height 400px
+             width 280px
+             inside main-container 20px left, 20px  right
+
+        footer:
+              height 697px
+              width 320px

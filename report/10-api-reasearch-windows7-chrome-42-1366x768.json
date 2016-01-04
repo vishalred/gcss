@@ -1,0 +1,394 @@
+{
+  "testId" : "10-api-reasearch-windows7-chrome-42-1366x768",
+  "name" : "API-Reasearch_Windows7_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows7_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1451903901371,
+      "includedTags" : [ "Windows7_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 704
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 706
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 710
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 711
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 716
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 720
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "page-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 723
+            },
+            "name" : "height 39px",
+            "highlight" : [ "page-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 724
+            },
+            "name" : "width 830px",
+            "highlight" : [ "page-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 725
+            },
+            "name" : "inside main-container 0px left, 0px right",
+            "highlight" : [ "page-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 728
+            },
+            "name" : "inside main-container 0px left, 40px right",
+            "highlight" : [ "paragraph1", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 731
+            },
+            "name" : "inside main-container 0px left, 40px right",
+            "highlight" : [ "paragraph2", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 734
+            },
+            "name" : "inside main-container 0px left, 40px right",
+            "highlight" : [ "paragraph3", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 737
+            },
+            "name" : "inside main-container 0px left, 40px right",
+            "highlight" : [ "paragraph4", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 740
+            },
+            "name" : "inside main-container 0px left, 40px right",
+            "highlight" : [ "paragraph5", "main-container" ]
+          } ]
+        }, {
+          "name" : "growth-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 743
+            },
+            "name" : "height 32px",
+            "highlight" : [ "growth-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 744
+            },
+            "name" : "width 790px",
+            "highlight" : [ "growth-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 745
+            },
+            "name" : "inside main-container 0px left, 40px right",
+            "highlight" : [ "growth-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "growth-slider1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 748
+            },
+            "name" : "height 400px",
+            "highlight" : [ "growth-slider1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 749
+            },
+            "name" : "width 476px",
+            "highlight" : [ "growth-slider1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 750
+            },
+            "name" : "inside main-container 0px left,354px right",
+            "highlight" : [ "growth-slider1", "main-container" ]
+          } ]
+        }, {
+          "name" : "fastest-growing-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 753
+            },
+            "name" : "height 32px",
+            "highlight" : [ "fastest-growing-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 754
+            },
+            "name" : "width 790px",
+            "highlight" : [ "fastest-growing-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 755
+            },
+            "name" : "inside main-container 0px left, 40px  right",
+            "highlight" : [ "fastest-growing-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "fastest-growing-slider1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 758
+            },
+            "name" : "height 400px",
+            "highlight" : [ "fastest-growing-slider1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 759
+            },
+            "name" : "width 476px",
+            "highlight" : [ "fastest-growing-slider1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 760
+            },
+            "name" : "inside main-container 0px left, 354px  right",
+            "highlight" : [ "fastest-growing-slider1", "main-container" ]
+          } ]
+        }, {
+          "name" : "fastest-growing-api-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 763
+            },
+            "name" : "height 64px",
+            "highlight" : [ "fastest-growing-api-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 764
+            },
+            "name" : "width 790px",
+            "highlight" : [ "fastest-growing-api-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 765
+            },
+            "name" : "inside main-container 0px left, 40px  right",
+            "highlight" : [ "fastest-growing-api-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "fastest-growing-slider2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 768
+            },
+            "name" : "height 400px",
+            "highlight" : [ "fastest-growing-slider2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 769
+            },
+            "name" : "width 476px",
+            "highlight" : [ "fastest-growing-slider2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 770
+            },
+            "name" : "inside main-container 0px left, 354px  right",
+            "highlight" : [ "fastest-growing-slider2", "main-container" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 773
+            },
+            "name" : "height 278px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 774
+            },
+            "name" : "width 1339px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "fastest-growing-slider1" : {
+          "area" : [ 84, 1363, 476, 400 ]
+        },
+        "fastest-growing-api-header" : {
+          "area" : [ 84, 1800, 790, 64 ]
+        },
+        "page-header" : {
+          "area" : [ 84, 305, 830, 39 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2978, 1339, 278 ]
+        },
+        "growth-slider1" : {
+          "area" : [ 84, 862, 476, 400 ]
+        },
+        "paragraph1" : {
+          "area" : [ 84, 374, 790, 132 ]
+        },
+        "fastest-growing-header" : {
+          "area" : [ 84, 1299, 790, 32 ]
+        },
+        "paragraph3" : {
+          "area" : [ 84, 592, 790, 110 ]
+        },
+        "headerdiv" : {
+          "area" : [ 84, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 84, 305, 830, 2537 ]
+        },
+        "paragraph2" : {
+          "area" : [ 84, 516, 790, 66 ]
+        },
+        "paragraph5" : {
+          "area" : [ 84, 744, 790, 44 ]
+        },
+        "paragraph4" : {
+          "area" : [ 84, 712, 790, 22 ]
+        },
+        "header" : {
+          "area" : [ 84, 0, 1170, 101 ]
+        },
+        "growth-header" : {
+          "area" : [ 84, 798, 790, 32 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 954, 305, 300, 2178 ]
+        },
+        "fastest-growing-slider2" : {
+          "area" : [ 84, 1896, 476, 400 ]
+        }
+      },
+      "screenshot" : "layout-10-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

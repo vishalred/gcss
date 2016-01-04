@@ -1,0 +1,364 @@
+{
+  "testId" : "15-api-reasearch-iphone5-iphone-320x568",
+  "name" : "API-Reasearch_iPhone5_iPhone_320x568",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: iPhone5_iPhone_320x568",
+      "status" : "info",
+      "time" : 1451904330279,
+      "includedTags" : [ "iPhone5_iPhone_320x568" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header-mobile",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1079
+            },
+            "name" : "width ~ 100% of screen/width",
+            "highlight" : [ "header-mobile" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1082
+            },
+            "name" : "width 320px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1086
+            },
+            "name" : "width 320px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "page-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1089
+            },
+            "name" : "height 80px",
+            "highlight" : [ "page-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1090
+            },
+            "name" : "width 320px",
+            "highlight" : [ "page-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1091
+            },
+            "name" : "inside main-container 0px left, 0px right",
+            "highlight" : [ "page-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1094
+            },
+            "name" : "inside main-container 20px left, 20px right",
+            "highlight" : [ "paragraph1", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1097
+            },
+            "name" : "inside main-container 20px left, 20px right",
+            "highlight" : [ "paragraph2", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1100
+            },
+            "name" : "inside main-container 20px left, 20px right",
+            "highlight" : [ "paragraph3", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1103
+            },
+            "name" : "inside main-container 20px left, 20px right",
+            "highlight" : [ "paragraph4", "main-container" ]
+          } ]
+        }, {
+          "name" : "paragraph5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1106
+            },
+            "name" : "inside main-container 20px left, 20px right",
+            "highlight" : [ "paragraph5", "main-container" ]
+          } ]
+        }, {
+          "name" : "growth-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1109
+            },
+            "name" : "height 64px",
+            "highlight" : [ "growth-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1110
+            },
+            "name" : "width 280px",
+            "highlight" : [ "growth-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1111
+            },
+            "name" : "inside main-container 20px left, 20px right",
+            "highlight" : [ "growth-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "growth-slider1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1114
+            },
+            "name" : "height 400px",
+            "highlight" : [ "growth-slider1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1115
+            },
+            "name" : "width 280px",
+            "highlight" : [ "growth-slider1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1116
+            },
+            "name" : "inside main-container 20px left,20px right",
+            "highlight" : [ "growth-slider1", "main-container" ]
+          } ]
+        }, {
+          "name" : "fastest-growing-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1119
+            },
+            "name" : "height 96px",
+            "highlight" : [ "fastest-growing-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1120
+            },
+            "name" : "width 280px",
+            "highlight" : [ "fastest-growing-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1121
+            },
+            "name" : "inside main-container 20px left, 20px  right",
+            "highlight" : [ "fastest-growing-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "fastest-growing-slider1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1124
+            },
+            "name" : "height 400px",
+            "highlight" : [ "fastest-growing-slider1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1125
+            },
+            "name" : "width 280px",
+            "highlight" : [ "fastest-growing-slider1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1126
+            },
+            "name" : "inside main-container 20px left, 20px  right",
+            "highlight" : [ "fastest-growing-slider1", "main-container" ]
+          } ]
+        }, {
+          "name" : "fastest-growing-api-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1129
+            },
+            "name" : "height 128px",
+            "highlight" : [ "fastest-growing-api-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1130
+            },
+            "name" : "width 280px",
+            "highlight" : [ "fastest-growing-api-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1131
+            },
+            "name" : "inside main-container 20px left, 20px  right",
+            "highlight" : [ "fastest-growing-api-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "fastest-growing-slider2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1134
+            },
+            "name" : "height 400px",
+            "highlight" : [ "fastest-growing-slider2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1135
+            },
+            "name" : "width 280px",
+            "highlight" : [ "fastest-growing-slider2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1136
+            },
+            "name" : "inside main-container 20px left, 20px  right",
+            "highlight" : [ "fastest-growing-slider2", "main-container" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1139
+            },
+            "name" : "height 697px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 1140
+            },
+            "name" : "width 320px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "fastest-growing-slider1" : {
+          "area" : [ 20, 150, 280, 400 ]
+        },
+        "fastest-growing-api-header" : {
+          "area" : [ 20, 0, 280, 128 ]
+        },
+        "page-header" : {
+          "area" : [ 0, 0, 320, 80 ]
+        },
+        "footer" : {
+          "area" : [ 0, 0, 320, 697 ]
+        },
+        "growth-slider1" : {
+          "area" : [ 20, 226, 280, 400 ]
+        },
+        "paragraph1" : {
+          "area" : [ 20, 110, 280, 396 ]
+        },
+        "fastest-growing-header" : {
+          "area" : [ 20, 0, 280, 96 ]
+        },
+        "paragraph3" : {
+          "area" : [ 20, 164, 280, 308 ]
+        },
+        "main-container" : {
+          "area" : [ 0, 0, 320, 3442 ]
+        },
+        "paragraph2" : {
+          "area" : [ 20, 0, 280, 154 ]
+        },
+        "paragraph5" : {
+          "area" : [ 20, 54, 280, 44 ]
+        },
+        "paragraph4" : {
+          "area" : [ 20, 0, 280, 44 ]
+        },
+        "header-mobile" : {
+          "area" : [ 0, -1, 320, 48 ]
+        },
+        "growth-header" : {
+          "area" : [ 20, 108, 280, 64 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 0, 0, 320, 2195 ]
+        },
+        "fastest-growing-slider2" : {
+          "area" : [ 20, 182, 280, 400 ]
+        }
+      },
+      "screenshot" : "layout-15-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

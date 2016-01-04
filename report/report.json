@@ -1,0 +1,228 @@
+{
+  "tests" : [ {
+    "name" : "API-Reasearch_Windows10_IE_11_1366x768",
+    "startedAt" : 1451903073257,
+    "endedAt" : 1451903139516,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "1-api-reasearch-windows10-ie-11-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 66259
+  }, {
+    "name" : "API-Reasearch_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1451903139516,
+    "endedAt" : 1451903238737,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "2-api-reasearch-windows10-chrome-42-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 99221
+  }, {
+    "name" : "API-Reasearch_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1451903238737,
+    "endedAt" : 1451903298443,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "3-api-reasearch-windows10-firefox-37-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 59706
+  }, {
+    "name" : "API-Reasearch_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1451903298443,
+    "endedAt" : 1451903463793,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "4-api-reasearch-windows8.1-ie-11-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 165350
+  }, {
+    "name" : "API-Reasearch_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1451903463793,
+    "endedAt" : 1451903517458,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "5-api-reasearch-windows8.1-chrome-42-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 53665
+  }, {
+    "name" : "API-Reasearch_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1451903517459,
+    "endedAt" : 1451903603706,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "6-api-reasearch-windows8.1-firefox-37-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 86247
+  }, {
+    "name" : "API-Reasearch_Windows7_IE_11_1366x768",
+    "startedAt" : 1451903603706,
+    "endedAt" : 1451903679609,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "7-api-reasearch-windows7-ie-11-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 75903
+  }, {
+    "name" : "API-Reasearch_Windows7_IE_10_1366x768",
+    "startedAt" : 1451903679610,
+    "endedAt" : 1451903761772,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "8-api-reasearch-windows7-ie-10-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 82162
+  }, {
+    "name" : "API-Reasearch_Windows7_IE_9_1366x768",
+    "startedAt" : 1451903761772,
+    "endedAt" : 1451903837072,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "9-api-reasearch-windows7-ie-9-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 75300
+  }, {
+    "name" : "API-Reasearch_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1451903837072,
+    "endedAt" : 1451903907119,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "10-api-reasearch-windows7-chrome-42-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 70047
+  }, {
+    "name" : "API-Reasearch_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1451903907119,
+    "endedAt" : 1451903967597,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "11-api-reasearch-windows7-firefox-37-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 60478
+  }, {
+    "name" : "API-Reasearch_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1451903967597,
+    "endedAt" : 1451904026616,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "12-api-reasearch-osxyosemite-safari-8-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 59019
+  }, {
+    "name" : "API-Reasearch_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1451904026616,
+    "endedAt" : 1451904096149,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "13-api-reasearch-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "API-Reasearch_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 69533
+  }, {
+    "name" : "API-Reasearch_iPadAir_iPad_768x1024",
+    "startedAt" : 1451904096149,
+    "endedAt" : 1451904227422,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 34,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 34
+    },
+    "testId" : "14-api-reasearch-ipadair-ipad-768x1024",
+    "groups" : [ "API-Reasearch_Tablet_768x1024" ],
+    "failed" : false,
+    "duration" : 131273
+  }, {
+    "name" : "API-Reasearch_iPhone5_iPhone_320x568",
+    "startedAt" : 1451904227422,
+    "endedAt" : 1451904349488,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 31,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 31
+    },
+    "testId" : "15-api-reasearch-iphone5-iphone-320x568",
+    "groups" : [ "API-Reasearch_Mobile" ],
+    "failed" : false,
+    "duration" : 122066
+  } ]
+}
