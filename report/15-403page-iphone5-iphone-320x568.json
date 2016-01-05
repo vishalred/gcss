@@ -1,0 +1,172 @@
+{
+  "testId" : "15-403page-iphone5-iphone-320x568",
+  "name" : "403page_iPhone5_iPhone_320x568",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: iPhone5_iPhone_320x568",
+      "status" : "error",
+      "time" : 1451999410884,
+      "includedTags" : [ "iPhone5_iPhone_320x568" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 556
+            },
+            "name" : "width ~ 86% of screen/width",
+            "errors" : [ "\"header\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 558
+            },
+            "name" : "above headerdiv 1px",
+            "errors" : [ "\"header\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 562
+            },
+            "name" : "width ~ 86% of screen/width",
+            "errors" : [ "\"headerdiv\" is not visible on page" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 563
+            },
+            "name" : "below header 1px",
+            "errors" : [ "\"headerdiv\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 568
+            },
+            "name" : "width 320px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 572
+            },
+            "name" : "width 320px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "403-header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 575
+            },
+            "name" : "height 80px",
+            "highlight" : [ "403-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 576
+            },
+            "name" : "width 320px",
+            "highlight" : [ "403-header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 577
+            },
+            "name" : "inside main-container 0px left ,0px right",
+            "highlight" : [ "403-header", "main-container" ]
+          } ]
+        }, {
+          "name" : "403-body",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 580
+            },
+            "name" : "height 220px",
+            "highlight" : [ "403-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 581
+            },
+            "name" : "width 280px",
+            "highlight" : [ "403-body" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 582
+            },
+            "name" : "inside main-container 20px left,20px right",
+            "highlight" : [ "403-body", "main-container" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 586
+            },
+            "name" : "height 697px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 587
+            },
+            "name" : "width 320px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "footer" : {
+          "area" : [ 0, 0, 320, 697 ]
+        },
+        "403-header" : {
+          "area" : [ 0, 0, 320, 80 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 0, 0, 320, 2153 ]
+        },
+        "main-container" : {
+          "area" : [ 0, 0, 320, 340 ]
+        },
+        "403-body" : {
+          "area" : [ 20, 100, 280, 220 ]
+        }
+      },
+      "screenshot" : "layout-15-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
