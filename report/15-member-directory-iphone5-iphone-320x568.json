@@ -1,0 +1,228 @@
+{
+  "testId" : "15-member-directory-iphone5-iphone-320x568",
+  "name" : "Member Directory_iPhone5_iPhone_320x568",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: iPhone5_iPhone_320x568",
+      "status" : "info",
+      "time" : 1451987998687,
+      "includedTags" : [ "iPhone5_iPhone_320x568" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 773
+            },
+            "name" : "height 7010px",
+            "highlight" : [ "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 774
+            },
+            "name" : "width  320px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "block-system-main",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 777
+            },
+            "name" : "inside main-container 20px left, 20px right",
+            "highlight" : [ "block-system-main", "main-container" ]
+          } ]
+        }, {
+          "name" : "search-form-members",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 780
+            },
+            "name" : "height 369px",
+            "highlight" : [ "search-form-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 781
+            },
+            "name" : "width 280px",
+            "highlight" : [ "search-form-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 782
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-form-members", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-form-members-head",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 785
+            },
+            "name" : "height 234px",
+            "highlight" : [ "search-form-members-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 786
+            },
+            "name" : "width 280px",
+            "highlight" : [ "search-form-members-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 787
+            },
+            "name" : "inside block-system-main 0px left, 0px right",
+            "highlight" : [ "search-form-members-head", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "pw-search-members-form",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 790
+            },
+            "name" : "height 110px",
+            "highlight" : [ "pw-search-members-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 791
+            },
+            "name" : "width 280px",
+            "highlight" : [ "pw-search-members-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 792
+            },
+            "name" : "inside block-system-main 0px left, 0px right",
+            "highlight" : [ "pw-search-members-form", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "edit-submit",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 795
+            },
+            "name" : "height 45px",
+            "highlight" : [ "edit-submit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 796
+            },
+            "name" : "width ~280px",
+            "highlight" : [ "edit-submit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 797
+            },
+            "name" : "inside block-system-main 0px left, 0px right",
+            "highlight" : [ "edit-submit", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "member-list-table",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 800
+            },
+            "name" : "height 4291px",
+            "highlight" : [ "member-list-table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 801
+            },
+            "name" : "width 280px",
+            "highlight" : [ "member-list-table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 802
+            },
+            "name" : "inside partly block-system-main 0px left, 0px right",
+            "highlight" : [ "member-list-table", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 806
+            },
+            "name" : "height 697px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 807
+            },
+            "name" : "width 320px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "edit-submit" : {
+          "area" : [ 20, 452, 280, 45 ]
+        },
+        "block-system-main" : {
+          "area" : [ 20, 128, 280, 4720 ]
+        },
+        "footer" : {
+          "area" : [ 0, 0, 320, 697 ]
+        },
+        "search-form-members" : {
+          "area" : [ 20, 128, 280, 369 ]
+        },
+        "member-list-table" : {
+          "area" : [ 20, 0, 280, 4291 ]
+        },
+        "pw-search-members-form" : {
+          "area" : [ 20, 387, 280, 110 ]
+        },
+        "search-form-members-head" : {
+          "area" : [ 20, 128, 280, 234 ]
+        },
+        "main-container" : {
+          "area" : [ 0, 108, 320, 7010 ]
+        }
+      },
+      "screenshot" : "layout-15-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

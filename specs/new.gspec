@@ -1,0 +1,812 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[3]/div/div[1]
+    main-container  css  .main-container
+    block-system-main  id block-system-main
+    search-form-members-head css #search-form-members .head
+    search-form-members id search-form-members
+    pw-search-members-form id pw-search-members-form
+    edit-submit id  edit-submit
+    member-list-table css #block-system-main  .view-member-directory
+
+    footer css .footer
+
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4577px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 214px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 79px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4576px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 213px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 78px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4577px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 214px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 79px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 639px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows8.1_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4577px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 214px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 79px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 279px
+              width 1350px
+    @on Windows8.1_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4576px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 213px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 78px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows8.1_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4577px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 214px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 79px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 639px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows7_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4577px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 214px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 79px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_10_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4577px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 214px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 79px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 279px
+              width 1350px
+    @on Windows7_IE_9_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4577px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 214px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 79px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 279px
+              width 1333px
+
+    @on Windows7_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4576px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 213px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 78px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 278px
+              width 1339px
+
+    @on Windows7_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4577px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 214px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 79px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 639px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 279px
+              width 1333px
+
+        @on OSXYosemite_Safari_8_1366x768
+            header:
+                  #height 101px
+                  width ~ 86% of screen/width
+                  #image: file
+                  above headerdiv 1px
+
+            headerdiv:
+                  #height 46px
+                  width ~ 86% of screen/width
+                  below header 1px
+                  #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+            main-container:
+                 height 4577px
+                 width  1170px
+
+            block-system-main:
+                 inside main-container 0px left, 380px right
+
+            search-form-members:
+                 height 214px
+                 width 790px
+                 inside block-system-main 0px left,0px right
+
+            search-form-members-head:
+                 height 79px
+                 width 790px
+                 inside block-system-main 0px left, 0px right
+
+            pw-search-members-form:
+                 height 110px
+                 width 790px
+                 inside block-system-main 0px left, 0px right
+
+            edit-submit:
+                 height 45px
+                 width ~151px
+                 inside block-system-main 0px left, 640px right
+
+            member-list-table:
+                 height 4238px
+                 width 790px
+                 inside block-system-main 0px left, 0px right
+
+
+            footer:
+                  height 279px
+                  width 1350px
+
+    @on OSXYosemite_Safari_8_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4576px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 213px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 78px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on OSXYosemite_Chrome_46_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4576px
+             width  1170px
+
+        block-system-main:
+             inside main-container 0px left, 380px right
+
+        search-form-members:
+             height 213px
+             width 790px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 78px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 640px right
+
+        member-list-table:
+             height 4238px
+             width 790px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on iPadAir_iPad_768x1024
+        header:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 100% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+        main-container:
+             height 4753px
+             width  768px
+
+        block-system-main:
+             inside main-container 40px left, 283px right
+
+        search-form-members:
+             height 330px
+             width 445px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 195px
+             width 445px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 445px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~151px
+             inside block-system-main 0px left, 295px right
+
+        member-list-table:
+             height 4273px
+             width 445px
+             inside block-system-main 0px left, 0px right
+
+
+        footer:
+              height 298px
+              width 768px
+
+    @on iPhone5_iPhone_320x568
+        #header-mobile:
+                    #height 101px
+               #width ~ 100% of screen/width
+                    #image: file
+
+
+
+        main-container:
+             height 7010px
+             width  320px
+
+        block-system-main:
+             inside main-container 20px left, 20px right
+
+        search-form-members:
+             height 369px
+             width 280px
+             inside block-system-main 0px left,0px right
+
+        search-form-members-head:
+             height 234px
+             width 280px
+             inside block-system-main 0px left, 0px right
+
+        pw-search-members-form:
+             height 110px
+             width 280px
+             inside block-system-main 0px left, 0px right
+
+        edit-submit:
+             height 45px
+             width ~280px
+             inside block-system-main 0px left, 0px right
+
+        member-list-table:
+             height 4291px
+             width 280px
+             inside partly block-system-main 0px left, 0px right
+
+
+        footer:
+              height 697px
+              width 320px
+
+
+
+
+

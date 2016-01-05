@@ -1,0 +1,272 @@
+{
+  "testId" : "5-member-directory-windows8.1-chrome-42-1366x768",
+  "name" : "Member Directory_Windows8.1_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows8.1_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1451987391908,
+      "includedTags" : [ "Windows8.1_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 218
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 220
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 224
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 225
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 229
+            },
+            "name" : "height 4576px",
+            "highlight" : [ "main-container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 230
+            },
+            "name" : "width  1170px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "block-system-main",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 233
+            },
+            "name" : "inside main-container 0px left, 380px right",
+            "highlight" : [ "block-system-main", "main-container" ]
+          } ]
+        }, {
+          "name" : "search-form-members",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 236
+            },
+            "name" : "height 213px",
+            "highlight" : [ "search-form-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 237
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-form-members" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 238
+            },
+            "name" : "inside block-system-main 0px left,0px right",
+            "highlight" : [ "search-form-members", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "search-form-members-head",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 241
+            },
+            "name" : "height 78px",
+            "highlight" : [ "search-form-members-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 242
+            },
+            "name" : "width 790px",
+            "highlight" : [ "search-form-members-head" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 243
+            },
+            "name" : "inside block-system-main 0px left, 0px right",
+            "highlight" : [ "search-form-members-head", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "pw-search-members-form",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 246
+            },
+            "name" : "height 110px",
+            "highlight" : [ "pw-search-members-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 247
+            },
+            "name" : "width 790px",
+            "highlight" : [ "pw-search-members-form" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 248
+            },
+            "name" : "inside block-system-main 0px left, 0px right",
+            "highlight" : [ "pw-search-members-form", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "edit-submit",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 251
+            },
+            "name" : "height 45px",
+            "highlight" : [ "edit-submit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 252
+            },
+            "name" : "width ~151px",
+            "highlight" : [ "edit-submit" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 253
+            },
+            "name" : "inside block-system-main 0px left, 640px right",
+            "highlight" : [ "edit-submit", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "member-list-table",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 256
+            },
+            "name" : "height 4238px",
+            "highlight" : [ "member-list-table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 257
+            },
+            "name" : "width 790px",
+            "highlight" : [ "member-list-table" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 258
+            },
+            "name" : "inside block-system-main 0px left, 0px right",
+            "highlight" : [ "member-list-table", "block-system-main" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 262
+            },
+            "name" : "height 278px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 263
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "edit-submit" : {
+          "area" : [ 81, 473, 150, 45 ]
+        },
+        "block-system-main" : {
+          "area" : [ 81, 305, 790, 4511 ]
+        },
+        "footer" : {
+          "area" : [ 0, 4992, 1333, 278 ]
+        },
+        "search-form-members" : {
+          "area" : [ 81, 305, 790, 213 ]
+        },
+        "member-list-table" : {
+          "area" : [ 81, 558, 790, 4238 ]
+        },
+        "header" : {
+          "area" : [ 81, 0, 1170, 101 ]
+        },
+        "pw-search-members-form" : {
+          "area" : [ 81, 408, 790, 110 ]
+        },
+        "search-form-members-head" : {
+          "area" : [ 81, 305, 790, 78 ]
+        },
+        "headerdiv" : {
+          "area" : [ 81, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 81, 280, 1170, 4576 ]
+        }
+      },
+      "screenshot" : "layout-5-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
