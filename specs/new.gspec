@@ -1,0 +1,1214 @@
+@objects
+    header        xpath        //*[@id="navbar"]/div
+    headerdiv     xpath        //*[@id="top-menus-wrapper"]/div[1]
+    header-mobile xpath /html/body/div[2]
+    main-container  xpath  /html/body/div[5]/div[1]/section
+    region-sidebar-second css  .region-sidebar-second
+    dashboard-top  css  .dashboard-top
+    api-dashboard-logo  id  block-block-32
+    search-apis  xpath  //*[@id="block-system-main"]/article/div[5]/div[2]/div[1]
+    add-api  xpath  //*[@id="block-system-main"]/article/div[5]/div[2]/div[2]
+    become-a-member xpath  //*[@id="block-system-main"]/article/div[5]/div[2]/div[3]
+    subsscribe-to-our-newsletter  xpath  //*[@id="block-system-main"]/article/div[5]/div[2]/div[4]
+    top10-apis  css  .top10-apis
+    most-popular-apis  css  .dashboard-bottom
+    mostpopular-cat  css  .mostpopular-cat
+    api-news  css  .news
+    footer css footer
+= Mainsection =
+    @on Windows10_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 325px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1811px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1372px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows10_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 323px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        add-api:
+              height 55px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        become-a-member:
+              height 55px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        subsscribe-to-our-newsletter:
+              height 55px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        top10-apis:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1799px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1361px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows10_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 325px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1811px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1372px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows8.1_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 325px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1811px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1372px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows8.1_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 323px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        add-api:
+              height 55px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        become-a-member:
+              height 55px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        subsscribe-to-our-newsletter:
+              height 55px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        top10-apis:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1909px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1471px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 278px
+              width 1333px
+
+    @on Windows8.1_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 325px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1811px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1372px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 279px
+              width 1335px
+
+    @on Windows7_IE_11_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 325px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1811px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1372px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 279px
+              width 1350px
+    @on Windows7_IE_10_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 325px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1811px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1372px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 279px
+              width 1350px
+
+    @on Windows7_IE_9_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 325px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1811px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1372px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 279px
+              width 1333px
+
+
+
+    @on Windows7_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 325px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1811px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1372px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 279px
+              width 1333px
+
+    @on OSXYosemite_Safari_8_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 323px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 55px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 55px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 55px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1799px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1361px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on OSXYosemite_Chrome_46_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 323px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 55px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 55px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 55px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1799px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1361px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 278px
+              width 1366px
+
+    @on iPadAir_iPad_768x1024
+        header:
+              #height 101px
+              width ~ 100% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 100% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 242px
+
+        main-container:
+              #height 3606px
+              width 485px
+
+        dashboard-top:
+              height 343px
+              width 445px
+              inside main-container 20px left , 20px right
+
+        api-dashboard-logo:
+              height 162px
+              width 162px
+              inside dashboard-top 20px left ,263px right
+
+        search-apis:
+              height 45px
+              width ~222px
+              inside dashboard-top 202px left ,21px right
+
+        add-api:
+              height 55px
+              width ~222px
+              inside dashboard-top 202px left ,21px right
+
+        become-a-member:
+              height 55px
+              width ~222px
+              inside dashboard-top 202px left ,21px right
+
+        subsscribe-to-our-newsletter:
+              height 75px
+              width ~222px
+              inside dashboard-top 202px left ,21px right
+
+        top10-apis:
+              height 219px
+              width 445px
+              inside main-container 20px left , 20px right
+
+        most-popular-apis:
+              height 2443px
+              width 445px
+              inside partly main-container 20px left , 20px right
+
+        mostpopular-cat:
+              height 240px
+              width 445px
+              inside partly main-container 20px left , 20px right
+
+        api-news:
+              height 1942px
+              width 445px
+              inside partly main-container 20px left , 20px right
+
+        footer:
+              height 298px
+              width 768px
+
+
+    @on Windows7_Firefox_37_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 325px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        add-api:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        become-a-member:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 56px
+              width ~413px
+              inside dashboard-top 357px left ,20px right
+
+        top10-apis:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1811px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 220px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1372px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 279px
+              width 1333px
+
+
+    @on Windows7_Chrome_42_1366x768
+        header:
+              #height 101px
+              width ~ 86% of screen/width
+              #image: file
+              above headerdiv 1px
+
+        headerdiv:
+              #height 46px
+              width ~ 86% of screen/width
+              below header 1px
+              #image: file /Users/nishantkumar/Documents/gccs/dumps/homepage-dump/objects/headerdiv.png
+
+
+        region-sidebar-second:
+              width 300px
+
+        main-container:
+              #height 3606px
+              width 830px
+
+        dashboard-top:
+              height 323px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-dashboard-logo:
+              height 183px
+              width 300px
+              inside dashboard-top 20px left ,470px right
+
+        search-apis:
+              height 45px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        add-api:
+              height 55px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        become-a-member:
+              height 55px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        subsscribe-to-our-newsletter:
+              height 55px
+              width ~413px
+              inside dashboard-top 358px left ,19px right
+
+        top10-apis:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        most-popular-apis:
+              height 1799px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        mostpopular-cat:
+              height 219px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        api-news:
+              height 1361px
+              width 790px
+              inside main-container 0px left , 40px right
+
+        footer:
+              height 278px
+              width 1339px
+
+    @on iPhone5_iPhone_320x568
+        header-mobile:
+                    #height 101px
+               width ~ 100% of screen/width
+                    #image: file
+
+        region-sidebar-second:
+               width 320px
+
+
+        main-container:
+              #height 3606px
+              width 320px
+
+        dashboard-top:
+              height 523px
+              width 280px
+              inside main-container 20px left , 20px right
+
+        api-dashboard-logo:
+              height 240px
+              width 240px
+              inside dashboard-top 20px left ,20px right
+
+        search-apis:
+              height 45px
+              width ~240px
+              inside dashboard-top 20px left ,20px right
+
+        add-api:
+              height 0px
+              width ~240px
+              inside dashboard-top 20px left ,20px right
+
+        become-a-member:
+              height 55px
+              width ~240px
+              inside dashboard-top 20px left ,20px right
+
+        subsscribe-to-our-newsletter:
+              height 75px
+              width ~240px
+              inside dashboard-top 20px left ,20px right
+
+        top10-apis:
+              height 398px
+              width 280px
+              inside main-container 20px left , 20px right
+
+        most-popular-apis:
+              height 3452px
+              width 280px
+              inside main-container 20px left , 20px right
+
+        mostpopular-cat:
+              height 426px
+              width 280px
+              inside main-container 20px left , 20px right
+
+        api-news:
+              height 2628px
+              width 280px
+              inside main-container 20px left , 20px right
+
+        footer:
+              height 697px
+              width 320px
+

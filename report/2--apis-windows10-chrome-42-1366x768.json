@@ -1,0 +1,414 @@
+{
+  "testId" : "2--apis-windows10-chrome-42-1366x768",
+  "name" : "/apis_Windows10_Chrome_42_1366x768",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: specs/new.gspec included tags: Windows10_Chrome_42_1366x768",
+      "status" : "info",
+      "time" : 1452072346464,
+      "includedTags" : [ "Windows10_Chrome_42_1366x768" ],
+      "sections" : [ {
+        "name" : "Mainsection",
+        "objects" : [ {
+          "name" : "header",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 97
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "header" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 99
+            },
+            "name" : "above headerdiv 1px",
+            "highlight" : [ "header", "headerdiv" ]
+          } ]
+        }, {
+          "name" : "headerdiv",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 103
+            },
+            "name" : "width ~ 86% of screen/width",
+            "highlight" : [ "headerdiv" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 104
+            },
+            "name" : "below header 1px",
+            "highlight" : [ "headerdiv", "header" ]
+          } ]
+        }, {
+          "name" : "region-sidebar-second",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 109
+            },
+            "name" : "width 300px",
+            "highlight" : [ "region-sidebar-second" ]
+          } ]
+        }, {
+          "name" : "main-container",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 113
+            },
+            "name" : "width 830px",
+            "highlight" : [ "main-container" ]
+          } ]
+        }, {
+          "name" : "dashboard-top",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 116
+            },
+            "name" : "height 323px",
+            "highlight" : [ "dashboard-top" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 117
+            },
+            "name" : "width 790px",
+            "highlight" : [ "dashboard-top" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 118
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "dashboard-top", "main-container" ]
+          } ]
+        }, {
+          "name" : "api-dashboard-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 121
+            },
+            "name" : "height 183px",
+            "highlight" : [ "api-dashboard-logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 122
+            },
+            "name" : "width 300px",
+            "highlight" : [ "api-dashboard-logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 123
+            },
+            "name" : "inside dashboard-top 20px left ,470px right",
+            "highlight" : [ "api-dashboard-logo", "dashboard-top" ]
+          } ]
+        }, {
+          "name" : "search-apis",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 126
+            },
+            "name" : "height 45px",
+            "highlight" : [ "search-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 127
+            },
+            "name" : "width ~413px",
+            "highlight" : [ "search-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 128
+            },
+            "name" : "inside dashboard-top 358px left ,19px right",
+            "highlight" : [ "search-apis", "dashboard-top" ]
+          } ]
+        }, {
+          "name" : "add-api",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 131
+            },
+            "name" : "height 55px",
+            "highlight" : [ "add-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 132
+            },
+            "name" : "width ~413px",
+            "highlight" : [ "add-api" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 133
+            },
+            "name" : "inside dashboard-top 358px left ,19px right",
+            "highlight" : [ "add-api", "dashboard-top" ]
+          } ]
+        }, {
+          "name" : "become-a-member",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 136
+            },
+            "name" : "height 55px",
+            "highlight" : [ "become-a-member" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 137
+            },
+            "name" : "width ~413px",
+            "highlight" : [ "become-a-member" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 138
+            },
+            "name" : "inside dashboard-top 358px left ,19px right",
+            "highlight" : [ "become-a-member", "dashboard-top" ]
+          } ]
+        }, {
+          "name" : "subsscribe-to-our-newsletter",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 141
+            },
+            "name" : "height 55px",
+            "highlight" : [ "subsscribe-to-our-newsletter" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 142
+            },
+            "name" : "width ~413px",
+            "highlight" : [ "subsscribe-to-our-newsletter" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 143
+            },
+            "name" : "inside dashboard-top 358px left ,19px right",
+            "highlight" : [ "subsscribe-to-our-newsletter", "dashboard-top" ]
+          } ]
+        }, {
+          "name" : "top10-apis",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 146
+            },
+            "name" : "height 219px",
+            "highlight" : [ "top10-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 147
+            },
+            "name" : "width 790px",
+            "highlight" : [ "top10-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 148
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "top10-apis", "main-container" ]
+          } ]
+        }, {
+          "name" : "most-popular-apis",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 151
+            },
+            "name" : "height 1799px",
+            "highlight" : [ "most-popular-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 152
+            },
+            "name" : "width 790px",
+            "highlight" : [ "most-popular-apis" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 153
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "most-popular-apis", "main-container" ]
+          } ]
+        }, {
+          "name" : "mostpopular-cat",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 156
+            },
+            "name" : "height 219px",
+            "highlight" : [ "mostpopular-cat" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 157
+            },
+            "name" : "width 790px",
+            "highlight" : [ "mostpopular-cat" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 158
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "mostpopular-cat", "main-container" ]
+          } ]
+        }, {
+          "name" : "api-news",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 161
+            },
+            "name" : "height 1361px",
+            "highlight" : [ "api-news" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 162
+            },
+            "name" : "width 790px",
+            "highlight" : [ "api-news" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 163
+            },
+            "name" : "inside main-container 0px left , 40px right",
+            "highlight" : [ "api-news", "main-container" ]
+          } ]
+        }, {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 166
+            },
+            "name" : "height 278px",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/new.gspec",
+              "lineNumber" : 167
+            },
+            "name" : "width 1333px",
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "api-news" : {
+          "area" : [ 81, 1285, 790, 1361 ]
+        },
+        "footer" : {
+          "area" : [ 0, 2817, 1333, 278 ]
+        },
+        "top10-apis" : {
+          "area" : [ 81, 628, 790, 219 ]
+        },
+        "mostpopular-cat" : {
+          "area" : [ 81, 1066, 790, 219 ]
+        },
+        "search-apis" : {
+          "area" : [ 439, 335, 413, 45 ]
+        },
+        "subsscribe-to-our-newsletter" : {
+          "area" : [ 439, 535, 413, 55 ]
+        },
+        "headerdiv" : {
+          "area" : [ 81, 102, 1170, 46 ]
+        },
+        "main-container" : {
+          "area" : [ 81, 305, 830, 2381 ]
+        },
+        "become-a-member" : {
+          "area" : [ 439, 465, 413, 55 ]
+        },
+        "add-api" : {
+          "area" : [ 439, 395, 413, 55 ]
+        },
+        "most-popular-apis" : {
+          "area" : [ 81, 847, 790, 1799 ]
+        },
+        "header" : {
+          "area" : [ 81, 0, 1170, 101 ]
+        },
+        "api-dashboard-logo" : {
+          "area" : [ 101, 373, 300, 183 ]
+        },
+        "region-sidebar-second" : {
+          "area" : [ 951, 305, 300, 2203 ]
+        },
+        "dashboard-top" : {
+          "area" : [ 81, 305, 790, 323 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

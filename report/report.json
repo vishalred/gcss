@@ -1,0 +1,228 @@
+{
+  "tests" : [ {
+    "name" : "/apis_Windows10_IE_11_1366x768",
+    "startedAt" : 1452072171686,
+    "endedAt" : 1452072263290,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "1--apis-windows10-ie-11-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 91604
+  }, {
+    "name" : "/apis_Windows10_Chrome_42_1366x768",
+    "startedAt" : 1452072263290,
+    "endedAt" : 1452072352698,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "2--apis-windows10-chrome-42-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 89408
+  }, {
+    "name" : "/apis_Windows10_Firefox_37_1366x768",
+    "startedAt" : 1452072352698,
+    "endedAt" : 1452072420667,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "3--apis-windows10-firefox-37-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 67969
+  }, {
+    "name" : "/apis_Windows8.1_IE_11_1366x768",
+    "startedAt" : 1452072420667,
+    "endedAt" : 1452072506044,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 36,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "4--apis-windows8.1-ie-11-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : true,
+    "duration" : 85377
+  }, {
+    "name" : "/apis_Windows8.1_Chrome_42_1366x768",
+    "startedAt" : 1452072506045,
+    "endedAt" : 1452072571512,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "5--apis-windows8.1-chrome-42-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 65467
+  }, {
+    "name" : "/apis_Windows8.1_Firefox_37_1366x768",
+    "startedAt" : 1452072571512,
+    "endedAt" : 1452072624656,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "6--apis-windows8.1-firefox-37-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 53144
+  }, {
+    "name" : "/apis_Windows7_IE_11_1366x768",
+    "startedAt" : 1452072624656,
+    "endedAt" : 1452072666551,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "7--apis-windows7-ie-11-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 41895
+  }, {
+    "name" : "/apis_Windows7_IE_10_1366x768",
+    "startedAt" : 1452072666551,
+    "endedAt" : 1452072713438,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "8--apis-windows7-ie-10-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 46887
+  }, {
+    "name" : "/apis_Windows7_IE_9_1366x768",
+    "startedAt" : 1452072713438,
+    "endedAt" : 1452072761403,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "9--apis-windows7-ie-9-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 47965
+  }, {
+    "name" : "/apis_Windows7_Chrome_42_1366x768",
+    "startedAt" : 1452072761403,
+    "endedAt" : 1452072798230,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "10--apis-windows7-chrome-42-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 36827
+  }, {
+    "name" : "/apis_Windows7_Firefox_37_1366x768",
+    "startedAt" : 1452072798230,
+    "endedAt" : 1452072849734,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 76,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 76
+    },
+    "testId" : "11--apis-windows7-firefox-37-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 51504
+  }, {
+    "name" : "/apis_OSXYosemite_Safari_8_1366x768",
+    "startedAt" : 1452072849734,
+    "endedAt" : 1452072897282,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "12--apis-osxyosemite-safari-8-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 47548
+  }, {
+    "name" : "/apis_OSXYosemite_Chrome_46_1366x768",
+    "startedAt" : 1452072897282,
+    "endedAt" : 1452072936364,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "13--apis-osxyosemite-chrome-46-1366x768",
+    "groups" : [ "/apis_Desktop_1366x768" ],
+    "failed" : false,
+    "duration" : 39082
+  }, {
+    "name" : "/apis_iPadAir_iPad_768x1024",
+    "startedAt" : 1452072936364,
+    "endedAt" : 1452073026756,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 38,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 38
+    },
+    "testId" : "14--apis-ipadair-ipad-768x1024",
+    "groups" : [ "/apis_Tablet_768x1024" ],
+    "failed" : false,
+    "duration" : 90392
+  }, {
+    "name" : "/apis_iPhone5_iPhone_320x568",
+    "startedAt" : 1452073026756,
+    "endedAt" : 1452073131231,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 35,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 35
+    },
+    "testId" : "15--apis-iphone5-iphone-320x568",
+    "groups" : [ "/apis_Mobile" ],
+    "failed" : false,
+    "duration" : 104475
+  } ]
+}
