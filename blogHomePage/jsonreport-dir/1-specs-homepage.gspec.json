@@ -1,0 +1,25 @@
+{
+  "testId" : "1-specs-homepage.gspec",
+  "name" : "specs/homepage.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  specs/homepage.gspec --url http://218106108-blog-mulesoft-com.pantheonsite.io/ --size 640x480 --include mobile,all --htmlreport htmlreport-dir --testngreport testng-report.xml --jsonreport jsonreport-dir --junitreport junit-report.xml --config galen.config -Dwebdriver.chrome.driver=/home/vishal/Downloads/chromedriver",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "FileNotFoundException: specs/homepage.gspec",
+          "status" : "error",
+          "time" : 1521645757694,
+          "stacktrace" : "java.io.FileNotFoundException: specs/homepage.gspec\n\tat com.galenframework.speclang2.pagespec.PageSpecReader.read(PageSpecReader.java:43)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:68)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:59)\n\tat com.galenframework.suite.actions.GalenPageActionCheck.execute(GalenPageActionCheck.java:53)\n\tat com.galenframework.runner.GalenPageRunner.executeAction(GalenPageRunner.java:84)\n\tat com.galenframework.runner.GalenPageRunner.run(GalenPageRunner.java:76)\n\tat com.galenframework.runner.GalenBasicTestRunner.runTest(GalenBasicTestRunner.java:76)\n\tat com.galenframework.tests.GalenBasicTest.execute(GalenBasicTest.java:55)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+          "type" : "node"
+        } ],
+        "time" : 1521645757690,
+        "type" : "node"
+      } ],
+      "time" : 1521645741836,
+      "type" : "node"
+    } ]
+  }
+}

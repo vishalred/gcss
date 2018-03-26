@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec",
+    "startedAt" : 1521652441522,
+    "endedAt" : 1521652450318,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 1,
+      "warnings" : 0,
+      "total" : 2
+    },
+    "testId" : "1--home-vishal-dropbox-sites-gcss-bloghomepage-specs-homepage.spec",
+    "duration" : 8796,
+    "failed" : true
+  } ]
+}

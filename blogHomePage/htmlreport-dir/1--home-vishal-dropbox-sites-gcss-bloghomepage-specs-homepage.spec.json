@@ -1,0 +1,65 @@
+{
+  "testId" : "1--home-vishal-dropbox-sites-gcss-bloghomepage-specs-homepage.spec",
+  "name" : "/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  /home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec --url https://218106108-blog-mulesoft-com.pantheonsite.io/ --size 1500x700 --include mobile,all --htmlreport htmlreport-dir --testngreport testng-report.xml --jsonreport jsonreport-dir --junitreport junit-report.xml --config galen.config -Dwebdriver.chrome.driver=/home/vishal/Downloads/chromedriver",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: /home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec included tags: mobile,all",
+          "status" : "error",
+          "time" : 1521652450248,
+          "includedTags" : [ "mobile", "all" ],
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec",
+              "lineNumber" : 5
+            },
+            "objects" : [ {
+              "name" : "header_wrapper",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec",
+                  "lineNumber" : 7
+                },
+                "name" : "height 70px",
+                "highlight" : [ "header_wrapper" ]
+              } ]
+            }, {
+              "name" : "connect-with-us",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec",
+                  "lineNumber" : 10
+                },
+                "name" : "image file imgs/one.png, error 12px",
+                "errors" : [ "java.lang.RuntimeException: Specified area is outside for original image" ],
+                "highlight" : [ "connect-with-us" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "connect-with-us" : {
+              "area" : [ 952, 248, 297, 340 ]
+            },
+            "header_wrapper" : {
+              "area" : [ 0, 0, 1475, 70 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1521652449694,
+        "type" : "node"
+      } ],
+      "time" : 1521652441524,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results>
+    <suite name="Galen Suite">
+                <test name="/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec">
+            <class name="/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec">
+                <test-method status="FAIL" signature="/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec" name="/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec" duration-ms="8796" started-at="2018-03-21T22:44:01Z" finished-at="2018-03-21T22:44:10Z" description="">
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>

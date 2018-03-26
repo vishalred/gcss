@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="Galen Suite" tests="1">
+        <testcase class="/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec" name="/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec"
+                  time="8.796" timestamp="2018-03-21T22:44:01Z">
+                <failure type="/home/vishal/Dropbox/sites/gcss/blogHomePage/specs/homepage.spec" message="Layout errors">
+                </failure>
+        </testcase>
+    </testsuite>
+</testsuites>
